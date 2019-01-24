@@ -1,0 +1,2 @@
+# coral-translations
+Coral translations
