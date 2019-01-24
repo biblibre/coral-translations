@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-24 16:02+0100\n"
+"POT-Creation-Date: 2019-01-24 16:34+0100\n"
 "PO-Revision-Date: 2017-12-26 14:26+0300\n"
 "Last-Translator: <>\n"
 "Language-Team: CORAL Türkiye <ozhansaglik@uludag.edu.tr>\n"
@@ -18,12 +18,14 @@ msgstr ""
 
 #: install/licensing.php:9 install/licensing.php:31 install/licensing.php:104
 #: install/licensing.php:130 install/licensing.php:140
+#, fuzzy
 msgid "Licensing Module"
-msgstr ""
+msgstr "Lisanslama Modülü versiyonu"
 
 #: install/licensing.php:20
+#, fuzzy
 msgid "Licensing Database"
-msgstr ""
+msgstr "Lisanslama"
 
 #: install/licensing.php:53
 msgid "Use Terms Tool Functionality"
@@ -535,8 +537,9 @@ msgid "There was an error with the CalendarSettings Configuration."
 msgstr "Takvim Ayarları Yapılandırmasında bir hata var."
 
 #: calendar.php:109
+#, fuzzy
 msgid "Bad Query Failure: "
-msgstr ""
+msgstr "Sorgu Başarısız"
 
 #: calendar.php:116
 msgid "Upcoming License Renewals"
@@ -1429,9 +1432,6 @@ msgstr "Dosya adı kullanımda..."
 
 #~ msgid "Copyright"
 #~ msgstr "Telif hakkı"
-
-#~ msgid "Licensing Module version"
-#~ msgstr "Lisanslama Modülü versiyonu"
 
 #~ msgid "CORAL Project Website"
 #~ msgstr "CORAL Projesi Web sitesi"

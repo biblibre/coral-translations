@@ -1,16 +1,13 @@
 dest="../../coral-translations"
-for module in "organizations" "usage" "licensing" "reports" "auth" "resources" "management"; do
+for module in "organizations" "usage" "licensing" "reports" "auth" "resources" "management" "install"; do
 echo "module $module";
 cd $module
+find . -maxdepth 3 -iname '*.php' -o -iname '*.js' | grep -v "plugins" | xargs xgettext --from-code=UTF-8 locale/templates.pot
 for locale in "de_DE" "fr_FR" "tr_TR" "zh_CN" "zh_TW"; do
 echo "updating $locale"
-echo '' > messages.po
-find . -maxdepth 3 -iname '*.php' -o -iname '*.js' | grep -v "plugins" | xgettext --from-code=UTF-8 -j -f -
-msgmerge -q -N locale/$locale/LC_MESSAGES/messages.po messages.po > new.po
-mv new.po locale/$locale/LC_MESSAGES/messages.po
+msgmerge --update locale/$locale/LC_MESSAGES/messages.po locale/templates.pot
 mkdir -pv "$dest/$module/locale/$locale/LC_MESSAGES"
 cp -v locale/$locale/LC_MESSAGES/messages.po $dest/$module/locale/$locale/LC_MESSAGES/messages.po
-rm messages.po
 done
 cd ..
 done
@@ -19,14 +16,11 @@ done
 echo 'root directory';
 module="."
 dest="../coral-translations"
+find . -maxdepth 1 -iname '*.php' -o -iname '*.js' | grep -v "plugins" | xargs xgettext --from-code=UTF-8 locale/templates.pot
 for locale in "de_DE" "fr_FR" "tr_TR" "zh_CN" "zh_TW"; do
 echo "updating $locale"
-echo '' > messages.po
-find . -maxdepth 3 -iname '*.php' -o -iname '*.js' | grep -v "plugins" | xgettext --from-code=UTF-8 -j -f -
-msgmerge -q -N locale/$locale/LC_MESSAGES/messages.po messages.po > new.po
-mv new.po locale/$locale/LC_MESSAGES/messages.po
+msgmerge --update locale/$locale/LC_MESSAGES/messages.po locale/templates.pot
 mkdir -pv "$dest/$module/locale/$locale/LC_MESSAGES"
 cp -v locale/$locale/LC_MESSAGES/messages.po $dest/$module/locale/$locale/LC_MESSAGES/messages.po
-rm messages.po
 done
 

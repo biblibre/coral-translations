@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-24 16:02+0100\n"
+"POT-Creation-Date: 2019-01-24 16:34+0100\n"
 "PO-Revision-Date: 2018-01-02 08:32+0300\n"
 "Last-Translator: <>\n"
 "Language-Team: CORAL Türkiye <ozhansaglik@uludag.edu.tr>\n"
@@ -19,12 +19,14 @@ msgstr ""
 
 #: install/usage.php:9 install/usage.php:30 install/usage.php:113
 #: install/usage.php:124 install/usage.php:134
+#, fuzzy
 msgid "Usage Module"
-msgstr ""
+msgstr "Değişim Modülü"
 
 #: install/usage.php:19
+#, fuzzy
 msgid "Usage Database"
-msgstr ""
+msgstr "Kullanım İstatistikleri"
 
 #: install/usage.php:58
 msgid "Link Resolver Base URL (optional)"
@@ -812,20 +814,24 @@ msgid "Total for all Databases"
 msgstr "Tüm Veritabanları için"
 
 #: directory.php:34
+#, fuzzy
 msgid "Imports"
-msgstr ""
+msgstr "içe aktarmalar"
 
 #: directory.php:36
+#, fuzzy
 msgid "Statistics"
-msgstr ""
+msgstr "istatistikler"
 
 #: directory.php:37
+#, fuzzy
 msgid "Logins"
-msgstr ""
+msgstr "Giriş"
 
 #: directory.php:38
+#, fuzzy
 msgid "Sushi"
-msgstr ""
+msgstr "sushi"
 
 #: admin.php:2
 msgid "Administration"
@@ -1713,20 +1719,11 @@ msgstr "Özet:"
 #~ msgid "No report types are set up!"
 #~ msgstr "Rapor türleri ayarlanmadı!"
 
-#~ msgid "imports"
-#~ msgstr "içe aktarmalar"
-
 #~ msgid "titles"
 #~ msgstr "başlıklar"
 
-#~ msgid "statistics"
-#~ msgstr "istatistikler"
-
 #~ msgid "logins"
 #~ msgstr "oturum açma"
-
-#~ msgid "sushi"
-#~ msgstr "sushi"
 
 #~ msgid "Copyright"
 #~ msgstr "Telif hakkı"

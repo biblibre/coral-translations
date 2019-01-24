@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-24 16:02+0100\n"
+"POT-Creation-Date: 2019-01-24 16:34+0100\n"
 "PO-Revision-Date: 2018-03-13 11:57+0100\n"
 "Last-Translator: Paul Poulain <paul.poulain@biblibre.com>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -538,8 +538,9 @@ msgstr ""
 "Il y a eu une erreur avec la configuration de la table CalendarSettings."
 
 #: calendar.php:109
+#, fuzzy
 msgid "Bad Query Failure: "
-msgstr ""
+msgstr "Echec de demande erronée"
 
 #: calendar.php:116
 msgid "Upcoming License Renewals"

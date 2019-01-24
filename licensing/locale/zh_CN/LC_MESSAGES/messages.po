@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-24 16:02+0100\n"
+"POT-Creation-Date: 2019-01-24 16:34+0100\n"
 "PO-Revision-Date: 2016-10-23 00:08-0600\n"
 "Last-Translator: <>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -18,12 +18,14 @@ msgstr ""
 
 #: install/licensing.php:9 install/licensing.php:31 install/licensing.php:104
 #: install/licensing.php:130 install/licensing.php:140
+#, fuzzy
 msgid "Licensing Module"
-msgstr ""
+msgstr "授权模块版本"
 
 #: install/licensing.php:20
+#, fuzzy
 msgid "Licensing Database"
-msgstr ""
+msgstr "授权"
 
 #: install/licensing.php:53
 msgid "Use Terms Tool Functionality"
@@ -531,8 +533,9 @@ msgid "There was an error with the CalendarSettings Configuration."
 msgstr "CalendarSettings 配置出错。"
 
 #: calendar.php:109
+#, fuzzy
 msgid "Bad Query Failure: "
-msgstr ""
+msgstr "错误的查询失败"
 
 #: calendar.php:116
 msgid "Upcoming License Renewals"
@@ -1407,9 +1410,6 @@ msgstr "文件名称已正被使用。"
 
 #~ msgid "Copyright"
 #~ msgstr "版权所有"
-
-#~ msgid "Licensing Module version"
-#~ msgstr "授权模块版本"
 
 #~ msgid "CORAL Project Website"
 #~ msgstr "CORAL 项目网站"

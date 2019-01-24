@@ -2,18 +2,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-24 16:34+0100\n"
-"PO-Revision-Date: 2016-10-24 11:22-0600\n"
+"POT-Creation-Date: 2019-01-24 16:41+0100\n"
+"PO-Revision-Date: 2017-12-27 09:40+0300\n"
 "Last-Translator: <>\n"
-"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
-"Language: zh_CN\n"
+"Language-Team: CORAL Türkiye <ozhansaglik@uludag.edu.tr>\n"
+"Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-Basepath: ../../..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: Poedit 1.8.4\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: js/plugins/jquery.js\n"
 
@@ -28,65 +28,67 @@ msgstr ""
 
 #: report.php:74
 msgid "CORAL Usage Statistics Reporting"
-msgstr "CORAL 使用情况统计报表"
+msgstr "CORAL Kullanım İstatistikleri Raporlama"
 
 #: report.php:117 index.php:38
 msgid "Usage Reports"
-msgstr "使用报表"
+msgstr "Kullanım Raporları"
 
 #: report.php:120 index.php:41
 msgid "Powered by"
-msgstr "技术支持："
+msgstr "Tarafından destekleniyor"
 
 #: report.php:136
 msgid "Click to show information about this report"
-msgstr "单击此处可显示有关本报表的信息"
+msgstr "Bu rapor hakkındaki bilgileri görüntülemek için tıklayın"
 
 #: report.php:142
 msgid "Modify Parameters"
-msgstr "修改参数"
+msgstr "Parametreleri Düzenle"
 
 #: report.php:146
 msgid "Create New Report"
-msgstr "创建新报表"
+msgstr "Yeni Rapor Oluştur"
 
 #: report.php:187
 msgid "By Month and Resource"
-msgstr "按月和资源"
+msgstr "Ay ve Kaynağa Göre"
 
 #: report.php:190
 msgid "from an Archive"
-msgstr "来自一个存档"
+msgstr "Arşivden"
 
 #: report.php:195
 #, php-format
 msgid "Number of Successful Full-Text Article Requests %s"
-msgstr "成功的全文本文章请求数量 %s"
+msgstr "Başarılı  %s denemelerin sayısı"
 
 #: report.php:240 report.php:297
 msgid ""
 "Multiple titles with the same print ISSN (generally multiple parts) have "
 "been merged together"
-msgstr "已将多件包含相同打印 ISSN 的题名(通常为馆藏的多个部份)和并在一起"
+msgstr "Aynı basılı ISSN'ye sahip farklı başlıklar biraraya getirildi"
 
 #: report.php:247
 msgid "Key"
-msgstr "密钥"
+msgstr "Anahtar"
 
 #: report.php:252
 msgid "not been adjusted"
-msgstr "未作调整"
+msgstr "ayarlanmadı"
 
 #: report.php:252
 msgid "been adjusted manually by Electronic Resources"
-msgstr "已由电子资源进行手动调整"
+msgstr "Elektronik Kaynaklar tarafından elle düzeltildi"
 
 #: report.php:260
 #, php-format
 msgid ""
 "Programmatically flagged as outlier based on previous 12 month average. The "
 "number has %s"
-msgstr "根据之前12个月的平均值，以编程的方式被标记为离群值。该数字有%s"
+msgstr ""
+"Programlanarak önceki 12 ayın ortalamasına aykırı bir şekilde işaretlendi. "
+"Sayılar %s sahiptir."
 
 #: report.php:273 report.php:340
 #, php-format
@@ -94,25 +96,28 @@ msgid ""
 "Programmatically flagged as outlier using the following formula: Count is %d "
 "over %d%% of the previous 12 month average."
 msgstr ""
-"使用如下公式以编程的方式标记为离群值：计数是%d高于之前12个月平均值的%d%%。"
+"Programlanarak önceki 12 ayın ortalamasına aykırı bir şekilde işaretlendi. "
+"Sayım geçmiş 12 ay ortalamasının %sinden %fazla"
 
 #: report.php:295
 msgid ""
 "Programmatically flagged as outlier based on previous 12 month average. The "
 "number has not been adjusted."
-msgstr "根据之前12个月的平均值，以编程的方式标记为离群值。该数字尚未被调整。"
+msgstr ""
+"Programlanarak önceki 12 ayın ortalamasına aykırı bir şekilde işaretlendi. "
+"Sayılar düzenlenmemiştir."
 
 #: report.php:296
 msgid ""
 "Programmatically flagged as outlier based on previous 12 month average. The "
 "number has been adjusted manually by Electronic Resources."
 msgstr ""
-"根据之前12个月的平均值，以编程的方式被标记为离群值。该数字已被电子资源手动调"
-"整。"
+"Programlanarak önceki 12 ayın ortalamasına aykırı bir şekilde işaretlendi. "
+"Sayılar Elektronik Kaynaklar tarafından elle düzeltilmiştir."
 
 #: report.php:305 report.php:327
 msgid "Color Background Key"
-msgstr "颜色背景键"
+msgstr "Arkaplan Renk Anahtarı"
 
 #: templates/header.php:72
 msgid ""
@@ -120,23 +125,25 @@ msgid ""
 "JavaScript is either disabled or not supported by your browser. To use "
 "CORAL, enable JavaScript by changing your browser options, then"
 msgstr ""
-"必须启用 JavaScript 才能使用 CORAL。但是，或者您已禁用 JavaScript，或者您的浏"
-"览器不支持。若要使用 CORAL，则请更改您的浏览器选项以启用 JavaScript，并"
+"CORAL kullanmak için JavaScript etkin olmalıdır. Kullandığınız tarayıcı "
+"JavaScript desteklemiyor ya da devre dışı bırakılmış olabilir. CORAL "
+"kullanmak için tarayıcınızdan JavaScript'i etkinleştirin."
 
 #: templates/header.php:72
 msgid "try again"
-msgstr "重试"
+msgstr "tekrar deneyin"
 
 #: popup.php:66
 msgid "Frequently Asked Questions"
-msgstr "常见问题"
+msgstr "Sıkça Sorulan Sorular"
 
 #: popup.php:67
 msgid ""
 "Q. Why isn't the HTML number double the PDF number for interfaces that "
 "automatically download HTML?"
 msgstr ""
-"问：为什么在自动下载 HTML 的界面上，HTML 点击率并不是 PDF 点击率的双倍？"
+"S. Neden otomatik olarak indirilen HTML dosyalarının bulunduğu arayüzlerdeki "
+"HTML sayıları PDF sayısını ikiye katlamıyor?"
 
 #: popup.php:69
 msgid ""
@@ -144,14 +151,17 @@ msgid ""
 "of Contents browse interface, so even platforms such as ScienceDirect "
 "occasionally have higher PDF than HTML counts."
 msgstr ""
-"答：经常性的，这些站点不会从目录浏览界面自动下载 HTML，因此即便是诸如 "
-"ScienceDirect 的平台，也会偶尔有高于 HTML 计数的 PDF。"
+"C. Genellikle bu siteler İçindekiler Listesine gözatma arayüzünü kullanarak "
+"HTML dosyalarını otomatik olarak indirmez, bu nedenle ScienceDirect gibi "
+"platformlarda PDF kullanım sayısı HTML kullanım sayısından daha yüksektir. "
 
 #: popup.php:71
 msgid ""
 "Q. I thought COUNTER standards prevented double-counting of article "
 "downloads."
-msgstr "问：我以为 COUNTER 标准可阻止双计数文章下载。"
+msgstr ""
+"S. COUNTER standartlarının indirilen makalelerin mükerrer sayımını "
+"engellediğini düşünüyorum."
 
 #: popup.php:73
 msgid ""
@@ -162,17 +172,21 @@ msgid ""
 "and/or print the PDF version, this interface significantly inflates total "
 "article usage."
 msgstr ""
-"答：COUNTER 要求短时间内重复点击 HTML 或 PDF 按一次计算。但是 COUNTER 并不否"
-"认不同格式(HTML 和 PDF)的双计数。由于一些供应商自动为用户选择 HTML，且很多用"
-"户会选择保存和/或打印 PDF 版本，该界面可显著地增加文章使用总计数。"
+"C. COUNTER, kullanımları hesaplamadan önce kısa bir zaman dilimi içerisinde "
+"HTML veya PDF dosyalarının mükerrer olarak tıklanmasına ihtiyaç duyar. Fakat "
+"COUNTER, HTML ve PDF örneğinde olduğu gibi farklı formatlardaki mükerrer "
+"sayımları belirtmez. Çünkü, bazı yayıncılar kullanıcıları için HTML'yi "
+"otomatik olarak ekrana getirir ve bazı kullanıcılar da PDF formatında "
+"kaydetmeyi veya çıktı almayı sever, bu husus toplam makale kullanımını da "
+"oldukça ciddi etkiler."
 
 #: popup.php:75
 msgid ""
 "Q. Why do some Highwire Press publishers have high HTML ratios to PDFs, but "
 "some appear to have a very low ratio?"
 msgstr ""
-"问：为什么一些 Highwire Press 出版商的 HTML 对 PDF 的点击率比值更高，而另一些"
-"则非常低？"
+"S. Neden, bazı Highwire Press yayıncıları PDF'ye göre daha yüksek HTML "
+"kullanımına sahipken, bazıları düşük kullanıma sahiptir?"
 
 #: popup.php:77
 msgid ""
@@ -181,52 +195,53 @@ msgid ""
 "through the DOI registry. Because this platform includes multiple "
 "publishers, the interface impact is not consistent."
 msgstr ""
-"答：一些出版商让 Highwire 自动显示 HTML，而另一些则不会。这是因为出版商可以通"
-"过 DOI 注册表指定一个首选的链接页面。由于平台包括多个出版商，所以对界面的影响"
-"是不一致的。"
+"C. Bazı yayıncılar Highwire Platformunda otomatik HTML görüntüleyicisine "
+"sahipken bazıları sahip değildir. Bu nedenle DOI numarası aracılığıyla bazı "
+"yayıncılar sayfalarına bağlantı verebilmektedir. Highwire Platformu pek çok "
+"yayıncıyı içerisine dâhil edebilir, arayüz kullanımda çok etkili değildir."
 
 #: popup.php:85
 msgid "Invalid type!!"
-msgstr "无效的类型!!"
+msgstr "Geçersiz tür!!"
 
 #: index.php:60
 msgid "Invalid translation route!"
-msgstr "无效的翻译路线！"
+msgstr "Geçersiz çeviri yolu!"
 
 #: index.php:87
 msgid "Help"
-msgstr "帮助"
+msgstr "Yardım"
 
 #: index.php:97
 msgid "Select Report"
-msgstr "选择报表"
+msgstr "Rapor Seç"
 
 #: index.php:147
 msgid "Submit"
-msgstr "提交"
+msgstr "Gönder"
 
 #: index.php:148
 msgid "Reset"
-msgstr "重置"
+msgstr "Sıfırla"
 
 #: js/index.js:21
 msgid "Refreshing Contents..."
-msgstr "正在刷新内容..."
+msgstr "İçerik Yenileniyor..."
 
 #~ msgid "Platform Interface Notes (if available)"
-#~ msgstr "平台接口注释(如果有)"
+#~ msgstr "Platform Arayüz Notları (eğer gerekliyse)"
 
 #~ msgid "Publisher Notes (if available)"
-#~ msgstr "出版商注释(如果有)"
+#~ msgstr "Yayıncı Notları (eğer gerekliyse)"
 
 #~ msgid "Sorry, no rows were returned."
-#~ msgstr "抱歉，没有返回任何行。"
+#~ msgstr "Maalesef, hiçbir satır döndürülemedi."
 
 #~ msgid "view related titles"
-#~ msgstr "查看相关的题名"
+#~ msgstr "ilgili başlıkları görüntüle"
 
 #~ msgid "view in link resolver"
-#~ msgstr "在链接解析器中查看"
+#~ msgstr "bağlantı çözücüde görüntüle"
 
 #~ msgid ""
 #~ "Programmatically flagged as outlier using the following formula: Count is "

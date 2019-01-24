@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-24 16:02+0100\n"
+"POT-Creation-Date: 2019-01-24 16:34+0100\n"
 "PO-Revision-Date: 2016-11-03 13:22-0600\n"
 "Last-Translator: <>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -19,28 +19,34 @@ msgstr ""
 
 #: install/resources.php:9 install/resources.php:30 install/resources.php:160
 #: install/resources.php:194 install/resources.php:241
+#, fuzzy
 msgid "Resources Module"
-msgstr ""
+msgstr "資源模組版本"
 
 #: install/resources.php:19
+#, fuzzy
 msgid "Resources Database"
-msgstr ""
+msgstr "資源父級"
 
 #: install/resources.php:65
+#, fuzzy
 msgid "Default Currency"
-msgstr ""
+msgstr "編輯貨幣"
 
 #: install/resources.php:71
+#, fuzzy
 msgid "Enable Alerts"
-msgstr ""
+msgstr "啟用提醒"
 
 #: install/resources.php:77
+#, fuzzy
 msgid "Catalog URL"
-msgstr ""
+msgstr "目錄檢視"
 
 #: install/resources.php:82
+#, fuzzy
 msgid "Feedback Email Address"
-msgstr ""
+msgstr "電子郵件地址"
 
 #: install/resources.php:90
 msgid "Please set up the following options for the resources module."
@@ -320,12 +326,14 @@ msgid "Add Alert Days In Advance"
 msgstr "添加提前提醒天數"
 
 #: ajax_forms/getOrderForm.php:42
+#, fuzzy
 msgid "Clone Order"
-msgstr ""
+msgstr "訂單"
 
 #: ajax_forms/getOrderForm.php:42
+#, fuzzy
 msgid "Edit Order"
-msgstr ""
+msgstr "編輯使用者"
 
 #: ajax_forms/getOrderForm.php:49 ajax_forms/getCurrentWorkflowForm.php:34
 #: resource.php:80 summary.php:430 ajax_htmldata/getOutstandingQueue.php:21
@@ -349,8 +357,9 @@ msgid "System Number:"
 msgstr "系統號："
 
 #: ajax_forms/getOrderForm.php:83 ajax_htmldata/getOrdersDetails.php:85
+#, fuzzy
 msgid "Library Number:"
-msgstr ""
+msgstr "訂單號："
 
 #: ajax_forms/getOrderForm.php:88 summary.php:473
 #: ajax_htmldata/getOrdersDetails.php:99
@@ -708,12 +717,14 @@ msgid "+ Add another mapping"
 msgstr "+ 添加另一個對照"
 
 #: ajax_forms/getImportConfigForm.php:249 directory.php:89
+#, fuzzy
 msgid "Acquisitions"
-msgstr ""
+msgstr "採訪"
 
 #: ajax_forms/getImportConfigForm.php:250 export.php:71
+#, fuzzy
 msgid "Fund Code"
-msgstr ""
+msgstr "經費：無"
 
 #: ajax_forms/getImportConfigForm.php:251
 msgid "Cost"
@@ -725,8 +736,9 @@ msgid "Order Type"
 msgstr "訂單類型"
 
 #: ajax_forms/getImportConfigForm.php:280
+#, fuzzy
 msgid "Workflows"
-msgstr ""
+msgstr "工作流步驟"
 
 #: ajax_forms/getImportConfigForm.php:282
 msgid "Send emails when starting workflows?"
@@ -789,8 +801,9 @@ msgid "Group Name:"
 msgstr "組名稱："
 
 #: ajax_forms/getAdminUserGroupForm.php:41
+#, fuzzy
 msgid "Email Addresses:"
-msgstr ""
+msgstr "電子郵件地址："
 
 #: ajax_forms/getAdminUserGroupForm.php:46
 msgid "(use comma and a space between each email address)"
@@ -950,8 +963,9 @@ msgstr "註冊電子郵件："
 #: ajax_forms/getEbscoKbTitleImportForm.php:27
 #: ajax_forms/getEbscoKbPackageImportForm.php:80 templates/header.php:188
 #: templates/ebscoKbTitleList.php:8
+#, fuzzy
 msgid "Import"
-msgstr ""
+msgstr "輸入"
 
 #: ajax_forms/getEbscoKbTitleImportForm.php:27
 #: ajax_forms/getEbscoKbPackageImportForm.php:80
@@ -960,14 +974,16 @@ msgstr ""
 
 #: ajax_forms/getEbscoKbTitleImportForm.php:34
 #: ajax_forms/getEbscoKbPackageImportForm.php:88
+#, fuzzy
 msgid "There was a problem importing this resource"
-msgstr ""
+msgstr "資料庫出現問題："
 
 #: ajax_forms/getEbscoKbTitleImportForm.php:47
 #: ajax_forms/getEbscoKbTitleImportForm.php:50
 #: ajax_forms/getEbscoKbPackageImportForm.php:103
+#, fuzzy
 msgid "Provider"
-msgstr ""
+msgstr "供應商︰"
 
 #: ajax_forms/getNewIssueForm.php:27
 msgid "Report New Problem"
@@ -1098,16 +1114,19 @@ msgid_plural "You have %d of %d titles selected in EBSCO Kb"
 msgstr[0] ""
 
 #: ajax_forms/getEbscoKbPackageImportForm.php:194
+#, fuzzy
 msgid "All titles not available"
-msgstr ""
+msgstr "無可用的附件"
 
 #: ajax_forms/getEbscoKbPackageImportForm.php:220
+#, fuzzy
 msgid "Workflow Options"
-msgstr ""
+msgstr "工作流步驟"
 
 #: ajax_forms/getEbscoKbPackageImportForm.php:298
+#, fuzzy
 msgid "Package Resource Type"
-msgstr ""
+msgstr "資源類型"
 
 #: ajax_forms/getEbscoKbPackageImportForm.php:343
 #: templates/ebscoKbTitleList.php:57 templates/ebscoKbPackageList.php:52
@@ -1296,16 +1315,19 @@ msgid "Reminder delay (in days)"
 msgstr ""
 
 #: ajax_forms/getCurrentWorkflowForm.php:37
+#, fuzzy
 msgid "Approval/Notification group"
-msgstr ""
+msgstr "批准/通知組："
 
 #: ajax_forms/getCurrentWorkflowForm.php:39
+#, fuzzy
 msgid "Action"
-msgstr ""
+msgstr "位置："
 
 #: resource.php:76
+#, fuzzy
 msgid "Start date"
-msgstr ""
+msgstr "開始日期"
 
 #: resource.php:78
 msgid "End date"
@@ -1452,40 +1474,46 @@ msgid "Main Menu"
 msgstr "主菜單"
 
 #: templates/header.php:244
+#, fuzzy
 msgid "Organizations module"
-msgstr ""
+msgstr "組織模組"
 
 #: templates/header.php:249
+#, fuzzy
 msgid "Licensing module"
-msgstr ""
+msgstr "授權模組"
 
 #: templates/header.php:249
 msgid "Licensing"
 msgstr "授權許可"
 
 #: templates/header.php:254
+#, fuzzy
 msgid "Usage Statistics module"
-msgstr ""
+msgstr "使用統計資訊模組"
 
 #: templates/header.php:254
 msgid "Usage Statistics"
 msgstr "使用統計資訊"
 
 #: templates/header.php:259
+#, fuzzy
 msgid "Management module"
-msgstr ""
+msgstr "管理"
 
 #: templates/header.php:259
 msgid "Management"
 msgstr "管理"
 
 #: templates/ebscoKbTitleList.php:4
+#, fuzzy
 msgid "Title"
-msgstr ""
+msgstr "題名："
 
 #: templates/ebscoKbTitleList.php:5 templates/ebscoKbPackageList.php:5
+#, fuzzy
 msgid "Imported?"
-msgstr ""
+msgstr "輸入經費"
 
 #: templates/ebscoKbTitleList.php:7 ajax_htmldata/getEbscoKbTitleDetails.php:60
 msgid "ISXNs"
@@ -1496,29 +1524,34 @@ msgid "imported in Coral"
 msgstr ""
 
 #: templates/ebscoKbPackageList.php:6
+#, fuzzy
 msgid "Title Count"
-msgstr ""
+msgstr "編輯帳戶"
 
 #: templates/ebscoKbPackageList.php:7 ebsco_kb.php:175
+#, fuzzy
 msgid "Content Type"
-msgstr ""
+msgstr "備註類型"
 
 #: templates/ebscoKbPackageList.php:32
+#, fuzzy
 msgid "selected"
-msgstr ""
+msgstr "已選:"
 
 #: templates/ebscoKbPackageList.php:45
 #: ajax_htmldata/getEbscoKbTitleDetails.php:123
+#, fuzzy
 msgid "View Titles"
-msgstr ""
+msgstr "查看授權"
 
 #: templates/ebscoKbVendorList.php:5
 msgid "Packages"
 msgstr ""
 
 #: templates/ebscoKbVendorList.php:24
+#, fuzzy
 msgid "View Packages"
-msgstr ""
+msgstr "查看授權"
 
 #: ajax_processing/deleteResource.php:7
 #: ajax_processing/deleteResourceAndChildren.php:8
@@ -1564,8 +1597,9 @@ msgid "Note successfully deleted."
 msgstr "已成功刪除的備註。"
 
 #: ajax_processing/deleteOrder.php:7
+#, fuzzy
 msgid "Order successfully deleted."
-msgstr ""
+msgstr "已成功刪除的備註。"
 
 #: ajax_processing/deleteInstance.php:12
 msgid "Unable to delete  - this "
@@ -1593,8 +1627,9 @@ msgid "Importing and deduping isbnOrISSN on the following columns: "
 msgstr "在下列列中輸入和消除重復資料 isbnOrISSN："
 
 #: import.php:30
+#, fuzzy
 msgid "Preview"
-msgstr ""
+msgstr "前一年"
 
 #: import.php:57
 msgid "Columns"
@@ -1609,8 +1644,9 @@ msgid "Coral field"
 msgstr ""
 
 #: import.php:75
+#, fuzzy
 msgid "File column"
-msgstr ""
+msgstr "檔選擇"
 
 #: import.php:103
 msgid "Resources import"
@@ -1621,8 +1657,9 @@ msgid "Delimited File Import"
 msgstr "分隔的檔輸入"
 
 #: import.php:107
+#, fuzzy
 msgid "Imports history"
-msgstr ""
+msgstr "成本歷史紀錄"
 
 #: import.php:147 importFunds.php:21
 msgid "The file has been successfully uploaded."
@@ -1684,24 +1721,29 @@ msgid "Save current mapping"
 msgstr ""
 
 #: import.php:211
+#, fuzzy
 msgid "Configuration name:"
-msgstr ""
+msgstr "設定名稱"
 
 #: import.php:211
+#, fuzzy
 msgid "Save configuration"
-msgstr ""
+msgstr "保存輸入設定"
 
 #: import.php:227
+#, fuzzy
 msgid "Configuration name cannot be empty"
-msgstr ""
+msgstr "設定名稱"
 
 #: import.php:236
+#, fuzzy
 msgid "The import configuration has been successfully saved."
-msgstr ""
+msgstr "已成功刪除輸入設定。"
 
 #: import.php:236
+#, fuzzy
 msgid "The import configuration could not be saved: "
-msgstr ""
+msgstr "請選擇要上傳的輸入設定："
 
 #: import.php:794
 msgid "Organization "
@@ -1740,61 +1782,74 @@ msgid " rows "
 msgstr ""
 
 #: import.php:907
+#, fuzzy
 msgid " processed. "
-msgstr ""
+msgstr "行已被處理。"
 
 #: import.php:907
 msgid " inserted."
 msgstr ""
 
 #: import.php:908
+#, fuzzy
 msgid " parents "
-msgstr ""
+msgstr "父級："
 
 #: import.php:908
+#, fuzzy
 msgid " created. "
-msgstr ""
+msgstr "创建於："
 
 #: import.php:908 import.php:919
+#, fuzzy
 msgid " resources "
-msgstr ""
+msgstr "資源"
 
 #: import.php:908
+#, fuzzy
 msgid " attached to an existing parent."
-msgstr ""
+msgstr "個資源已被附加到一個現有父級。"
 
 #: import.php:909
+#, fuzzy
 msgid " organizations "
-msgstr ""
+msgstr "組織"
 
 #: import.php:909 import.php:920 import.php:921 import.php:922 import.php:923
 #: import.php:924
+#, fuzzy
 msgid " created"
-msgstr ""
+msgstr "创建於："
 
 #: import.php:919
+#, fuzzy
 msgid " attached to an existing organization."
-msgstr ""
+msgstr "個資源已被附加到一個現有組織。"
 
 #: import.php:920
+#, fuzzy
 msgid " resource types "
-msgstr ""
+msgstr "資源類型："
 
 #: import.php:921
+#, fuzzy
 msgid " resource formats "
-msgstr ""
+msgstr "資源格式："
 
 #: import.php:922
+#, fuzzy
 msgid " general subjects "
-msgstr ""
+msgstr "一般主題："
 
 #: import.php:923
+#, fuzzy
 msgid " aliases "
-msgstr ""
+msgstr "別名"
 
 #: import.php:924
+#, fuzzy
 msgid " notes "
-msgstr ""
+msgstr "備註"
 
 #: import.php:959
 msgid ""
@@ -1831,8 +1886,9 @@ msgid "(pipe)"
 msgstr "(管道符號)"
 
 #: import.php:973
+#, fuzzy
 msgid "tabulation"
-msgstr ""
+msgstr "資料動作"
 
 #: import.php:976
 msgid "Upload"
@@ -1845,40 +1901,48 @@ msgid ""
 msgstr ""
 
 #: dashboard_export.php:40
+#, fuzzy
 msgid "Dashboard Statistics Export"
-msgstr ""
+msgstr "使用統計資訊"
 
 #: dashboard_export.php:50 ajax_htmldata/getDashboard.php:25
+#, fuzzy
 msgid "Payment amount"
-msgstr ""
+msgstr "付款"
 
 #: directory.php:88
+#, fuzzy
 msgid "Orders"
-msgstr ""
+msgstr "訂單"
 
 #: directory.php:91 summary.php:793 resources/cataloging.php:103
 msgid "Cataloging"
 msgstr "編目"
 
 #: directory.php:92
+#, fuzzy
 msgid "Contacts"
-msgstr ""
+msgstr "連絡人："
 
 #: directory.php:93
+#, fuzzy
 msgid "Accounts"
-msgstr ""
+msgstr "帳戶"
 
 #: directory.php:94
+#, fuzzy
 msgid "Issues"
-msgstr ""
+msgstr "問題"
 
 #: directory.php:95
+#, fuzzy
 msgid "Attachments"
-msgstr ""
+msgstr "附件"
 
 #: directory.php:96
+#, fuzzy
 msgid "Workflow"
-msgstr ""
+msgstr "編輯工作流"
 
 #: pig.php:26
 msgid ""
@@ -1999,16 +2063,19 @@ msgid "Date Created"
 msgstr "建立日期"
 
 #: export.php:61
+#, fuzzy
 msgid "User Created"
-msgstr ""
+msgstr "建立日期"
 
 #: export.php:62
+#, fuzzy
 msgid "Date Updated"
-msgstr ""
+msgstr "最後更新："
 
 #: export.php:63
+#, fuzzy
 msgid "User Updated"
-msgstr ""
+msgstr "最後更新："
 
 #: export.php:64 index.php:169 ajax_htmldata/getSavedQueue.php:20
 #: ajax_htmldata/getSubmittedQueue.php:17
@@ -2017,120 +2084,147 @@ msgid "Status"
 msgstr "狀態"
 
 #: export.php:65
+#, fuzzy
 msgid "ISSN/ISBN"
-msgstr ""
+msgstr "ISSN/ISBN："
 
 #: export.php:67
+#, fuzzy
 msgid "Alt URL"
-msgstr ""
+msgstr "備用 URL："
 
 #: export.php:70
+#, fuzzy
 msgid "Fund Name"
-msgstr ""
+msgstr "經費："
 
 #: export.php:72
+#, fuzzy
 msgid "Tax excluded"
-msgstr ""
+msgstr "不含稅"
 
 #: export.php:73
+#, fuzzy
 msgid "Rate"
-msgstr ""
+msgstr "稅率"
 
 #: export.php:74
+#, fuzzy
 msgid "Tax included"
-msgstr ""
+msgstr "含稅"
 
 #: export.php:77 ajax_htmldata/getAcquisitionsDetails.php:118
 msgid "Details"
 msgstr "詳細資訊"
 
 #: export.php:79
+#, fuzzy
 msgid "Cost Note"
-msgstr ""
+msgstr "編輯備註"
 
 #: export.php:82
+#, fuzzy
 msgid "Parent Record"
-msgstr ""
+msgstr "父紀錄"
 
 #: export.php:83
+#, fuzzy
 msgid "Child Record"
-msgstr ""
+msgstr "子紀錄"
 
 #: export.php:85
+#, fuzzy
 msgid "Order Number"
-msgstr ""
+msgstr "訂單號："
 
 #: export.php:86
+#, fuzzy
 msgid "System Number"
-msgstr ""
+msgstr "系統號："
 
 #: export.php:87
+#, fuzzy
 msgid "Purchasing Sites"
-msgstr ""
+msgstr "採購網站："
 
 #: export.php:89
+#, fuzzy
 msgid "Current Sub End"
-msgstr ""
+msgstr "當前訂閱結束："
 
 #: export.php:90
+#, fuzzy
 msgid "Subscription Alert Enabled"
-msgstr ""
+msgstr "過期提醒已啟用"
 
 #: export.php:91
+#, fuzzy
 msgid "License Names"
-msgstr ""
+msgstr "授權狀態"
 
 #: export.php:93
+#, fuzzy
 msgid "Authorized Sites"
-msgstr ""
+msgstr "授權網站："
 
 #: export.php:94
+#, fuzzy
 msgid "Administering Sites"
-msgstr ""
+msgstr "管理網站："
 
 #: export.php:98
+#, fuzzy
 msgid "Simultaneous User Limit"
-msgstr ""
+msgstr "並發使用者限制："
 
 #: export.php:99
+#, fuzzy
 msgid "Coverage"
-msgstr ""
+msgstr "覆蓋範圍："
 
 #: export.php:100
+#, fuzzy
 msgid "Username"
-msgstr ""
+msgstr "使用者名："
 
 #: export.php:101
+#, fuzzy
 msgid "Password"
-msgstr ""
+msgstr "密碼："
 
 #: export.php:104
 msgid "Catalog Record Set Identifier"
 msgstr ""
 
 #: export.php:105
+#, fuzzy
 msgid "Catalog Record Source URL"
-msgstr ""
+msgstr "存取資源 URL"
 
 #: export.php:106
+#, fuzzy
 msgid "Catalog Records Available"
-msgstr ""
+msgstr "# 條紀錄可用："
 
 #: export.php:107
+#, fuzzy
 msgid "Catalog Records Loaded"
-msgstr ""
+msgstr "# 條紀錄已上傳："
 
 #: export.php:108
+#, fuzzy
 msgid "OCLC Holdings Updated"
-msgstr ""
+msgstr "OCLC 館藏"
 
 #: export.php:111
+#, fuzzy
 msgid "Resource Record Export"
-msgstr ""
+msgstr "資源輸入"
 
 #: export.php:113
+#, fuzzy
 msgid "All Resource Records"
-msgstr ""
+msgstr "一般資源欄位"
 
 #: user.php:95
 msgid ""
@@ -2141,8 +2235,9 @@ msgstr ""
 "remoteAuthVariableName"
 
 #: dashboard_menu.php:8
+#, fuzzy
 msgid "Statistics"
-msgstr ""
+msgstr "取得統計資訊"
 
 #: dashboard_menu.php:9
 msgid "Yearly costs"
@@ -2411,12 +2506,14 @@ msgid "remove note"
 msgstr "移除備註"
 
 #: importHistory.php:9
+#, fuzzy
 msgid "Import detail"
-msgstr ""
+msgstr "輸入選項"
 
 #: importHistory.php:57
+#, fuzzy
 msgid "Import history"
-msgstr ""
+msgstr "成本歷史紀錄"
 
 #: dashboard_yearly_costs.php:3 dashboard.php:3
 msgid "Dashboard"
@@ -2427,12 +2524,14 @@ msgid "Dashboard: yearly costs"
 msgstr ""
 
 #: dashboard_yearly_costs.php:24 dashboard.php:25
+#, fuzzy
 msgid "Resource type"
-msgstr ""
+msgstr "資源類型"
 
 #: dashboard_yearly_costs.php:36 dashboard.php:37
+#, fuzzy
 msgid "Acquisition type"
-msgstr ""
+msgstr "採訪類型"
 
 #: dashboard_yearly_costs.php:58
 msgid "Year (start)"
@@ -2443,25 +2542,29 @@ msgid "Year (end)"
 msgstr ""
 
 #: dashboard_yearly_costs.php:64 dashboard.php:64
+#, fuzzy
 msgid "Group By"
-msgstr ""
+msgstr "組："
 
 #: dashboard_yearly_costs.php:66 dashboard.php:66
+#, fuzzy
 msgid "Resource"
-msgstr ""
+msgstr "資源"
 
 #: dashboard_yearly_costs.php:70 ajax_htmldata/getDashboardYearlyCosts.php:32
 #: dashboard.php:70
+#, fuzzy
 msgid "Library Number"
-msgstr ""
+msgstr "訂單號："
 
 #: dashboard_yearly_costs.php:76 dashboard.php:76
 msgid "Display"
 msgstr ""
 
 #: dashboard_yearly_costs.php:78 dashboard.php:78
+#, fuzzy
 msgid "Export"
-msgstr ""
+msgstr "輸入"
 
 #: importFunds.php:53
 msgid "rows have been processed."
@@ -2493,16 +2596,19 @@ msgid "go!"
 msgstr "搜尋！"
 
 #: index.php:76
+#, fuzzy
 msgid "Publisher (contains)"
-msgstr ""
+msgstr "名稱 (包含)"
 
 #: index.php:86
+#, fuzzy
 msgid "Platform (contains)"
-msgstr ""
+msgstr "名稱 (包含)"
 
 #: index.php:96
+#, fuzzy
 msgid "Provider (contains)"
-msgstr ""
+msgstr "注釋(包含)"
 
 #: index.php:107
 msgid "ISBN/ISSN"
@@ -2556,8 +2662,9 @@ msgid "Purchase Site"
 msgstr "購買網站"
 
 #: index.php:590 ajax_htmldata/getOutstandingQueue.php:23
+#, fuzzy
 msgid "Workflow Step"
-msgstr ""
+msgstr "工作流步驟"
 
 #: index.php:615
 msgid "Parent"
@@ -2576,16 +2683,19 @@ msgid "EBSCO Knowledge Base Search"
 msgstr ""
 
 #: ebsco_kb.php:80
+#, fuzzy
 msgid "Search For"
-msgstr ""
+msgstr "查詢"
 
 #: ebsco_kb.php:121
+#, fuzzy
 msgid "contains"
-msgstr ""
+msgstr "連絡人"
 
 #: ebsco_kb.php:137
+#, fuzzy
 msgid "Selection"
-msgstr ""
+msgstr "選擇檔"
 
 #: js/queue.js:45 js/queue.js:93
 msgid "Refreshing..."
@@ -2857,8 +2967,9 @@ msgid "Do you really want to delete this resource?"
 msgstr "您確認要刪除此資源嗎？"
 
 #: js/resource.js:870
+#, fuzzy
 msgid "Do you really want to delete this order?"
-msgstr ""
+msgstr "您確認要刪除該使用者嗎？"
 
 #: js/resource.js:885
 msgid "Do you really want to delete this resource and all its children?"
@@ -2879,8 +2990,9 @@ msgid ""
 msgstr "警告！您將要移除任何已開始和已完成的步驟。您確認要繼續嗎？"
 
 #: js/resource.js:988
+#, fuzzy
 msgid "hide archived workflows"
-msgstr ""
+msgstr "隱藏已歸檔的連絡人"
 
 #: js/resource.js:991 ajax_htmldata/getWorkflowDetails.php:164
 msgid "display archived workflows"
@@ -2940,8 +3052,9 @@ msgid "There are no organization level downtimes."
 msgstr "沒有組織層級的停機時間。"
 
 #: ajax_htmldata/getDowntimeList.php:87
+#, fuzzy
 msgid "There are no order level downtimes."
-msgstr ""
+msgstr "沒有資源層級的停機時間。"
 
 #: ajax_htmldata/getAdminCurrencyDisplay.php:25
 #: ajax_htmldata/getAdminWorkflowDisplay.php:51
@@ -2987,8 +3100,9 @@ msgid "Workflow Setup"
 msgstr "工作流設定"
 
 #: ajax_htmldata/getAdminWorkflowDisplay.php:52
+#, fuzzy
 msgid "duplicate"
-msgstr ""
+msgstr "一個重複的"
 
 #: ajax_htmldata/getAdminWorkflowDisplay.php:67
 msgid "add workflow"
@@ -3047,8 +3161,9 @@ msgid "add new attachment"
 msgstr "添加新附件"
 
 #: ajax_htmldata/getOrdersDetails.php:41 ajax_htmldata/getOrdersDetails.php:42
+#, fuzzy
 msgid "remove order"
-msgstr ""
+msgstr "移除備註"
 
 #: ajax_htmldata/getOrdersDetails.php:76
 msgid "catalog view"
@@ -3059,8 +3174,9 @@ msgid "Purchasing Sites:"
 msgstr "採購網站："
 
 #: ajax_htmldata/getOrdersDetails.php:115
+#, fuzzy
 msgid "create new order"
-msgstr ""
+msgstr "建立日期或在此之後建立："
 
 #: ajax_htmldata/getOrdersDetails.php:116
 msgid "clone order"
@@ -3072,20 +3188,23 @@ msgid ""
 msgstr ""
 
 #: ajax_htmldata/getOrdersDetails.php:120
+#, fuzzy
 msgid "create an order"
-msgstr ""
+msgstr "建立日期或在此之後建立："
 
 #: ajax_htmldata/getAdminEbscoKbConfigDisplay.php:1
+#, fuzzy
 msgid "EBSCO Knowledge Base Configuration"
-msgstr ""
+msgstr "選擇設定"
 
 #: ajax_htmldata/getAdminEbscoKbConfigDisplay.php:7
 msgid "Enable EBSCO Knowledge Base"
 msgstr ""
 
 #: ajax_htmldata/getSearchEbscoKb.php:8
+#, fuzzy
 msgid "Please enter a search term."
-msgstr ""
+msgstr "錯誤 - 請輸入一個值"
 
 #: ajax_htmldata/getSearchEbscoKb.php:24
 msgid "No results found."
@@ -3100,8 +3219,9 @@ msgid "of"
 msgstr ""
 
 #: ajax_htmldata/getSearchEbscoKb.php:67
+#, fuzzy
 msgid "selected)"
-msgstr ""
+msgstr "已選:"
 
 #: ajax_htmldata/getSearchEbscoKb.php:75
 msgid "Title list from"
@@ -3116,8 +3236,9 @@ msgid "to"
 msgstr ""
 
 #: ajax_htmldata/getSearchEbscoKb.php:82
+#, fuzzy
 msgid "results"
-msgstr ""
+msgstr "結果"
 
 #: ajax_htmldata/getAccountDetails.php:14
 msgid "Resource Specific:"
@@ -3191,20 +3312,23 @@ msgid "There are no organization level issues."
 msgstr "沒有組織層級的問題。"
 
 #: ajax_htmldata/getIssuesList.php:110
+#, fuzzy
 msgid "There are no order level issues."
-msgstr ""
+msgstr "沒有資源層級的問題。"
 
 #: ajax_htmldata/getEbscoKbTitleDetails.php:16
 msgid "EBSCO Kb Title Details"
 msgstr ""
 
 #: ajax_htmldata/getEbscoKbTitleDetails.php:34
+#, fuzzy
 msgid "Publication Type"
-msgstr ""
+msgstr "身份驗證類型"
 
 #: ajax_htmldata/getEbscoKbTitleDetails.php:38
+#, fuzzy
 msgid "Edition"
-msgstr ""
+msgstr "編輯"
 
 #: ajax_htmldata/getEbscoKbTitleDetails.php:42
 msgid "Peer Reviewed"
@@ -3231,16 +3355,18 @@ msgid "Show all packages"
 msgstr ""
 
 #: ajax_htmldata/getEbscoKbTitleDetails.php:109
+#, fuzzy
 msgid "Selected in EBSCO Kb"
-msgstr ""
+msgstr "已選:"
 
 #: ajax_htmldata/getEbscoKbTitleDetails.php:111
 msgid "Not selected in EBSCO Kb"
 msgstr ""
 
 #: ajax_htmldata/getEbscoKbTitleDetails.php:128
+#, fuzzy
 msgid "import package"
-msgstr ""
+msgstr "輸入"
 
 #: ajax_htmldata/getEbscoKbTitleDetails.php:134
 msgid "Vendor"
@@ -3255,8 +3381,9 @@ msgid "Embargo"
 msgstr ""
 
 #: ajax_htmldata/getEbscoKbTitleDetails.php:140
+#, fuzzy
 msgid "Resource Url"
-msgstr ""
+msgstr "資源 URL"
 
 #: ajax_htmldata/getSubmittedQueue.php:5
 msgid "Submitted Requests"
@@ -3377,13 +3504,15 @@ msgid "Delete"
 msgstr "刪除"
 
 #: ajax_htmldata/getWorkflowDetails.php:51
+#, fuzzy
 msgid "Workflow archived on"
-msgstr ""
+msgstr "工作流重新開機于"
 
 #: ajax_htmldata/getWorkflowDetails.php:51
 #: ajax_htmldata/getWorkflowDetails.php:130
+#, fuzzy
 msgid "Current workflow"
-msgstr ""
+msgstr "重新開機工作流"
 
 #: ajax_htmldata/getWorkflowDetails.php:78
 msgid "mark complete"
@@ -3404,12 +3533,14 @@ msgid "restart workflow"
 msgstr "重新開機工作流"
 
 #: ajax_htmldata/getWorkflowDetails.php:128
+#, fuzzy
 msgid "Select a workflow to restart"
-msgstr ""
+msgstr "工作流重新開機于"
 
 #: ajax_htmldata/getWorkflowDetails.php:165
+#, fuzzy
 msgid "edit the current workflow"
-msgstr ""
+msgstr "未進入工作流。"
 
 #: ajax_htmldata/getWorkflowDetails.php:167
 msgid "mark entire workflow complete"
@@ -3420,12 +3551,14 @@ msgid "The following are archived contacts:"
 msgstr "以下是已歸檔的連絡人："
 
 #: ajax_htmldata/getContactDetails.php:37
+#, fuzzy
 msgid "Order Specific:"
-msgstr ""
+msgstr "特定于資源："
 
 #: ajax_htmldata/getContactDetails.php:41
+#, fuzzy
 msgid "No Order Specific Contacts"
-msgstr ""
+msgstr "無特定資源的連絡人"
 
 #: ajax_htmldata/getContactDetails.php:70
 msgid "edit contact"
@@ -3573,8 +3706,9 @@ msgid "No payment information available"
 msgstr "無可用的付款資訊"
 
 #: ajax_htmldata/getAcquisitionsDetails.php:201
+#, fuzzy
 msgid "edit license"
-msgstr ""
+msgstr "授權"
 
 #: ajax_htmldata/getAcquisitionsDetails.php:232
 msgid "View License"
@@ -3621,8 +3755,9 @@ msgid "view archived downtime"
 msgstr "查看已歸檔的停機時間"
 
 #: dashboard.php:10
+#, fuzzy
 msgid "Dashboard: Statistics"
-msgstr ""
+msgstr "使用統計資訊"
 
 #: setuser.php:44
 msgid ""
@@ -3741,9 +3876,6 @@ msgstr "LDAP 連線故障或已逾時。 請檢查 configuration.ini 驗證設�
 #~ msgid "Dec"
 #~ msgstr "十二月"
 
-#~ msgid "Previous year"
-#~ msgstr "前一年"
-
 #~ msgid "Previous month"
 #~ msgstr "上個月"
 
@@ -3758,9 +3890,6 @@ msgstr "LDAP 連線故障或已逾時。 請檢查 configuration.ini 驗證設�
 
 #~ msgid "Choose date"
 #~ msgstr "選擇日期"
-
-#~ msgid "There was a problem with the database: "
-#~ msgstr "資料庫出現問題："
 
 #~ msgid "Could not connect to "
 #~ msgstr "無法連接到"
@@ -3783,9 +3912,6 @@ msgstr "LDAP 連線故障或已逾時。 請檢查 configuration.ini 驗證設�
 #~ msgid "Resource ID: "
 #~ msgstr "資源 ID："
 
-#~ msgid "ISSN/ISBN: "
-#~ msgstr "ISSN/ISBN："
-
 #~ msgid "Routing Step: "
 #~ msgstr "傳閱步驟："
 
@@ -3795,17 +3921,11 @@ msgstr "LDAP 連線故障或已逾時。 請檢查 configuration.ini 驗證設�
 #~ msgid "Creator: "
 #~ msgstr "作者："
 
-#~ msgid "Resource Format: "
-#~ msgstr "資源格式："
-
 #~ msgid "Acquisition Type: "
 #~ msgstr "採訪類型："
 
 #~ msgid "Note contains: "
 #~ msgstr "註釋包括："
-
-#~ msgid "Created on or after: "
-#~ msgstr "建立日期或在此之後建立："
 
 #~ msgid "Created between: "
 #~ msgstr "建立日期介於："
@@ -3816,20 +3936,8 @@ msgstr "LDAP 連線故障或已逾時。 請檢查 configuration.ini 驗證設�
 #~ msgid "Starts with: "
 #~ msgstr "開始字母："
 
-#~ msgid "Fund: none"
-#~ msgstr "經費：無"
-
-#~ msgid "Fund: "
-#~ msgstr "經費："
-
 #~ msgid "Resource Type: none"
 #~ msgstr "資源類型：無"
-
-#~ msgid "Resource Type: "
-#~ msgstr "資源類型："
-
-#~ msgid "General Subject: "
-#~ msgstr "一般主題："
 
 #~ msgid "Detailed Subject: "
 #~ msgstr "詳細的主題："
@@ -3870,29 +3978,11 @@ msgstr "LDAP 連線故障或已逾時。 請檢查 configuration.ini 驗證設�
 #~ msgid "Cataloging Status: "
 #~ msgstr "編目狀態："
 
-#~ msgid "Email Address:"
-#~ msgstr "電子郵件地址："
-
 #~ msgid "Edit Acquisitions Information"
 #~ msgstr "編輯採訪資訊"
 
-#~ msgid "organization"
-#~ msgstr "組織"
-
-#~ msgid "No Resource Specific Contacts"
-#~ msgstr "無特定資源的連絡人"
-
-#~ msgid "There are no resource level downtimes."
-#~ msgstr "沒有資源層級的停機時間。"
-
-#~ msgid "There are no resource level issues."
-#~ msgstr "沒有資源層級的問題。"
-
 #~ msgid "Routing Step"
 #~ msgstr "傳遞步驟"
-
-#~ msgid " rows have been processed. "
-#~ msgstr "行已被處理。"
 
 #~ msgid " rows have been inserted."
 #~ msgstr "行已被插入。"
@@ -3900,14 +3990,8 @@ msgstr "LDAP 連線故障或已逾時。 請檢查 configuration.ini 驗證設�
 #~ msgid " parents have been created. "
 #~ msgstr "父級已被建立。"
 
-#~ msgid " resources have been attached to an existing parent."
-#~ msgstr "個資源已被附加到一個現有父級。"
-
 #~ msgid " organizations have been created"
 #~ msgstr "個組織已被建立"
-
-#~ msgid " resources have been attached to an existing organization."
-#~ msgstr "個資源已被附加到一個現有組織。"
 
 #~ msgid " resource types have been created"
 #~ msgstr "個資源類型已被建立"
@@ -3927,23 +4011,8 @@ msgstr "LDAP 連線故障或已逾時。 請檢查 configuration.ini 驗證設�
 #~ msgid "product"
 #~ msgstr "產品"
 
-#~ msgid "acquisitions"
-#~ msgstr "採訪"
-
 #~ msgid "access"
 #~ msgstr "訪問"
-
-#~ msgid "contacts"
-#~ msgstr "連絡人"
-
-#~ msgid "issues"
-#~ msgstr "問題"
-
-#~ msgid "accounts"
-#~ msgstr "帳戶"
-
-#~ msgid "attachments"
-#~ msgstr "附件"
 
 #~ msgid "routing"
 #~ msgstr "傳閱"
@@ -3953,9 +4022,6 @@ msgstr "LDAP 連線故障或已逾時。 請檢查 configuration.ini 驗證設�
 
 #~ msgid "Copyright"
 #~ msgstr "版權所有"
-
-#~ msgid "Resources Module version"
-#~ msgstr "資源模組版本"
 
 #~ msgid "CORAL Project Website"
 #~ msgstr "CORAL 專案網站"

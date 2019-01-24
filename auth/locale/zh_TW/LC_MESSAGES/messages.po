@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-24 16:02+0100\n"
+"POT-Creation-Date: 2019-01-24 16:34+0100\n"
 "PO-Revision-Date: 2016-08-22 16:06-0600\n"
 "Last-Translator: <>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -17,8 +17,9 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 
 #: install/auth.php:9
+#, fuzzy
 msgid "Authentication Module"
-msgstr ""
+msgstr "eRM 身份驗證"
 
 #: install/auth.php:20
 msgid "Auth Database"
@@ -45,8 +46,9 @@ msgid "Bind Account"
 msgstr ""
 
 #: install/auth.php:111
+#, fuzzy
 msgid "Bind Password"
-msgstr ""
+msgstr "密碼"
 
 #: install/auth.php:116
 msgid "Confirm Bind Password"
@@ -69,8 +71,9 @@ msgid "Your Bind Password is empty."
 msgstr ""
 
 #: install/auth.php:163
+#, fuzzy
 msgid "Your Bind Passwords do not match."
-msgstr ""
+msgstr "密碼不對應"
 
 #: install/auth.php:168
 msgid "LDAP Host is required for LDAP"

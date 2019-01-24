@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Coral\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-24 16:02+0100\n"
+"POT-Creation-Date: 2019-01-24 16:34+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: BSZ - Abteilung Bibliothekssysteme\n"
 "Language-Team: \n"
@@ -347,8 +347,9 @@ msgid "System Number:"
 msgstr "Systemnummer:"
 
 #: ajax_forms/getOrderForm.php:83 ajax_htmldata/getOrdersDetails.php:85
+#, fuzzy
 msgid "Library Number:"
-msgstr ""
+msgstr "Bestellnummer:"
 
 #: ajax_forms/getOrderForm.php:88 summary.php:473
 #: ajax_htmldata/getOrdersDetails.php:99
@@ -790,8 +791,9 @@ msgid "Group Name:"
 msgstr "Gruppenname:"
 
 #: ajax_forms/getAdminUserGroupForm.php:41
+#, fuzzy
 msgid "Email Addresses:"
-msgstr ""
+msgstr "E-Mail-Adresse:"
 
 #: ajax_forms/getAdminUserGroupForm.php:46
 msgid "(use comma and a space between each email address)"
@@ -1319,12 +1321,14 @@ msgid "Action"
 msgstr "Aktion"
 
 #: resource.php:76
+#, fuzzy
 msgid "Start date"
-msgstr ""
+msgstr "Startdatum"
 
 #: resource.php:78
+#, fuzzy
 msgid "End date"
-msgstr ""
+msgstr "Jahr (Ende)"
 
 #: resource.php:97
 msgid "Success!"
@@ -1635,8 +1639,9 @@ msgid "Coral field"
 msgstr ""
 
 #: import.php:75
+#, fuzzy
 msgid "File column"
-msgstr ""
+msgstr "Dateiauswahl"
 
 #: import.php:103
 msgid "Resources import"
@@ -1647,8 +1652,9 @@ msgid "Delimited File Import"
 msgstr "CSV-Dateien importieren"
 
 #: import.php:107
+#, fuzzy
 msgid "Imports history"
-msgstr ""
+msgstr "Import-Historie"
 
 #: import.php:147 importFunds.php:21
 msgid "The file has been successfully uploaded."
@@ -1715,24 +1721,29 @@ msgid "Save current mapping"
 msgstr ""
 
 #: import.php:211
+#, fuzzy
 msgid "Configuration name:"
-msgstr ""
+msgstr "Konfigurationsname"
 
 #: import.php:211
+#, fuzzy
 msgid "Save configuration"
-msgstr ""
+msgstr "Import-Konfiguration speichern"
 
 #: import.php:227
+#, fuzzy
 msgid "Configuration name cannot be empty"
-msgstr ""
+msgstr "Konfigurationsname"
 
 #: import.php:236
+#, fuzzy
 msgid "The import configuration has been successfully saved."
-msgstr ""
+msgstr "Importkonfiguration erfolgreich gelöscht."
 
 #: import.php:236
+#, fuzzy
 msgid "The import configuration could not be saved: "
-msgstr ""
+msgstr "Bitte wählen Sie Importkonfiguration für das Laden: "
 
 #: import.php:794
 msgid "Organization "
@@ -1771,61 +1782,74 @@ msgid " rows "
 msgstr ""
 
 #: import.php:907
+#, fuzzy
 msgid " processed. "
-msgstr ""
+msgstr "Zeilen wurden verarbeitet. "
 
 #: import.php:907
 msgid " inserted."
 msgstr ""
 
 #: import.php:908
+#, fuzzy
 msgid " parents "
-msgstr ""
+msgstr "Übergeordnete:"
 
 #: import.php:908
+#, fuzzy
 msgid " created. "
-msgstr ""
+msgstr "Angelegt:"
 
 #: import.php:908 import.php:919
+#, fuzzy
 msgid " resources "
-msgstr ""
+msgstr "Ressourcen"
 
 #: import.php:908
+#, fuzzy
 msgid " attached to an existing parent."
-msgstr ""
+msgstr " Ressourcen wurden an eine existierende Organisation angehängt."
 
 #: import.php:909
+#, fuzzy
 msgid " organizations "
-msgstr ""
+msgstr "Organisationen"
 
 #: import.php:909 import.php:920 import.php:921 import.php:922 import.php:923
 #: import.php:924
+#, fuzzy
 msgid " created"
-msgstr ""
+msgstr "Angelegt:"
 
 #: import.php:919
+#, fuzzy
 msgid " attached to an existing organization."
-msgstr ""
+msgstr " Ressourcen wurden an eine existierende Organisation angehängt."
 
 #: import.php:920
+#, fuzzy
 msgid " resource types "
-msgstr ""
+msgstr "Art der Ressource"
 
 #: import.php:921
+#, fuzzy
 msgid " resource formats "
-msgstr ""
+msgstr "Format der Ressource: "
 
 #: import.php:922
+#, fuzzy
 msgid " general subjects "
-msgstr ""
+msgstr "Allgemeines Fachgebiet: "
 
 #: import.php:923
+#, fuzzy
 msgid " aliases "
-msgstr ""
+msgstr "Aliase"
 
 #: import.php:924
+#, fuzzy
 msgid " notes "
-msgstr ""
+msgstr "Notizen"
 
 #: import.php:959
 msgid ""
@@ -1914,8 +1938,9 @@ msgid "Attachments"
 msgstr "Anhänge"
 
 #: directory.php:96
+#, fuzzy
 msgid "Workflow"
-msgstr ""
+msgstr "Workflows"
 
 #: pig.php:26
 msgid ""
@@ -2489,8 +2514,9 @@ msgstr "Ressource"
 
 #: dashboard_yearly_costs.php:70 ajax_htmldata/getDashboardYearlyCosts.php:32
 #: dashboard.php:70
+#, fuzzy
 msgid "Library Number"
-msgstr ""
+msgstr "Bestellnummer"
 
 #: dashboard_yearly_costs.php:76 dashboard.php:76
 msgid "Display"
@@ -3287,8 +3313,9 @@ msgid "Contributors"
 msgstr "Beitragende"
 
 #: ajax_htmldata/getEbscoKbTitleDetails.php:96
+#, fuzzy
 msgid "Show all packages"
-msgstr ""
+msgstr "Zeige Pakete"
 
 #: ajax_htmldata/getEbscoKbTitleDetails.php:109
 msgid "Selected in EBSCO Kb"
@@ -3402,8 +3429,9 @@ msgid "import funds"
 msgstr "Etats importieren"
 
 #: ajax_htmldata/getDashboard.php:26
+#, fuzzy
 msgid "Library number"
-msgstr ""
+msgstr "Bestellnummer"
 
 #: ajax_htmldata/getWorkflowDetails.php:15
 msgid ""
@@ -3697,9 +3725,6 @@ msgstr ""
 "Die LDAP-Verbindung funktioniert nicht oder ist in Timeout gelaufen. Bitte "
 "überprüfen Sie die Einstellungen in configuration.ini."
 
-#~ msgid "Email Address:"
-#~ msgstr "E-Mail-Adresse:"
-
 #~ msgid "Error: unexpected fgets() fail"
 #~ msgstr "Fehler: Unerwarteter fgets()-Fehler"
 
@@ -3726,9 +3751,6 @@ msgstr ""
 
 #~ msgid "Start year"
 #~ msgstr "Jahr (Beginn)"
-
-#~ msgid "End year"
-#~ msgstr "Jahr (Ende)"
 
 #~ msgid "Group by"
 #~ msgstr "Gruppieren nach"
@@ -3771,9 +3793,6 @@ msgstr ""
 #~ msgid "Creator: "
 #~ msgstr "Urheber: "
 
-#~ msgid "Resource Format: "
-#~ msgstr "Format der Ressource: "
-
 #~ msgid "Acquisition Type: "
 #~ msgstr "Erwerbungsart: "
 
@@ -3803,9 +3822,6 @@ msgstr ""
 
 #~ msgid "Resource Type: "
 #~ msgstr "Art der Ressource: "
-
-#~ msgid "General Subject: "
-#~ msgstr "Allgemeines Fachgebiet: "
 
 #~ msgid "Detailed Subject: "
 #~ msgstr "Genaues Fachgebiet: "
@@ -3855,17 +3871,11 @@ msgstr ""
 #~ msgid "Provider name contains: "
 #~ msgstr "Anbietername (enthält): "
 
-#~ msgid " rows have been processed. "
-#~ msgstr "Zeilen wurden verarbeitet. "
-
 #~ msgid " rows have been inserted."
 #~ msgstr "Zeilen wurden eingefügt."
 
 #~ msgid " organizations have been created"
 #~ msgstr "Organisationen wurden hinzugefügt"
-
-#~ msgid " resources have been attached to an existing organization."
-#~ msgstr " Ressourcen wurden an eine existierende Organisation angehängt."
 
 #~ msgid " resource types have been created"
 #~ msgstr " Resourcetypen wurden angelegt"

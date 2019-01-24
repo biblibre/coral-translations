@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-24 16:02+0100\n"
+"POT-Creation-Date: 2019-01-24 16:34+0100\n"
 "PO-Revision-Date: 2018-03-13 17:21+0100\n"
 "Last-Translator: Paul Poulain <paul.poulain@biblibre.com>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -818,8 +818,9 @@ msgid "Total for all Databases"
 msgstr "Total de toutes les bases de données"
 
 #: directory.php:34
+#, fuzzy
 msgid "Imports"
-msgstr ""
+msgstr "Importations"
 
 #: directory.php:36
 msgid "Statistics"
@@ -830,8 +831,9 @@ msgid "Logins"
 msgstr "Connexions"
 
 #: directory.php:38
+#, fuzzy
 msgid "Sushi"
-msgstr ""
+msgstr "sushi"
 
 #: admin.php:2
 msgid "Administration"
@@ -1738,17 +1740,11 @@ msgstr "Résumé :"
 #~ msgid "Could not connect to "
 #~ msgstr "Impossible de se connecter à "
 
-#~ msgid "imports"
-#~ msgstr "Importations"
-
 #~ msgid "titles"
 #~ msgstr "Titres"
 
 #~ msgid "logins"
 #~ msgstr "Connexions"
-
-#~ msgid "sushi"
-#~ msgstr "sushi"
 
 #~ msgid "Copyright"
 #~ msgstr "Copyright"

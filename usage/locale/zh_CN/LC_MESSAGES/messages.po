@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-24 16:02+0100\n"
+"POT-Creation-Date: 2019-01-24 16:34+0100\n"
 "PO-Revision-Date: 2016-10-23 00:31-0600\n"
 "Last-Translator: <>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -18,12 +18,14 @@ msgstr ""
 
 #: install/usage.php:9 install/usage.php:30 install/usage.php:113
 #: install/usage.php:124 install/usage.php:134
+#, fuzzy
 msgid "Usage Module"
-msgstr ""
+msgstr "更改模块"
 
 #: install/usage.php:19
+#, fuzzy
 msgid "Usage Database"
-msgstr ""
+msgstr "使用统计信息"
 
 #: install/usage.php:58
 msgid "Link Resolver Base URL (optional)"
@@ -805,20 +807,24 @@ msgid "Total for all Databases"
 msgstr "所有数据库总计"
 
 #: directory.php:34
+#, fuzzy
 msgid "Imports"
-msgstr ""
+msgstr "导入"
 
 #: directory.php:36
+#, fuzzy
 msgid "Statistics"
-msgstr ""
+msgstr "统计数据"
 
 #: directory.php:37
+#, fuzzy
 msgid "Logins"
-msgstr ""
+msgstr "登录"
 
 #: directory.php:38
+#, fuzzy
 msgid "Sushi"
-msgstr ""
+msgstr "SUSHI"
 
 #: admin.php:2
 msgid "Administration"
@@ -1683,20 +1689,11 @@ msgstr "摘要："
 #~ msgid "No report types are set up!"
 #~ msgstr "未设置报表类型！"
 
-#~ msgid "imports"
-#~ msgstr "导入"
-
 #~ msgid "titles"
 #~ msgstr "题名"
 
-#~ msgid "statistics"
-#~ msgstr "统计数据"
-
 #~ msgid "logins"
 #~ msgstr "登录"
-
-#~ msgid "sushi"
-#~ msgstr "SUSHI"
 
 #~ msgid "Copyright"
 #~ msgstr "版权所有"

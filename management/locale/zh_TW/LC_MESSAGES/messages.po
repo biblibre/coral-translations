@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-24 16:02+0100\n"
+"POT-Creation-Date: 2019-01-24 16:34+0100\n"
 "PO-Revision-Date: 2016-10-23 00:29-0600\n"
 "Last-Translator: <>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -21,8 +21,9 @@ msgid "Management Module"
 msgstr "管理模組"
 
 #: install/management.php:19
+#, fuzzy
 msgid "Management Database"
-msgstr ""
+msgstr "管理"
 
 #: compare.php:22
 msgid "Expression Comparison"

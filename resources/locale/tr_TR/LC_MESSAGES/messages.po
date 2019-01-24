@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-24 16:02+0100\n"
+"POT-Creation-Date: 2019-01-24 16:34+0100\n"
 "PO-Revision-Date: 2018-01-05 09:33+0300\n"
 "Last-Translator: <>\n"
 "Language-Team: Coral Türkiye <ozhansaglik@uludag.edu.tr>\n"
@@ -19,28 +19,34 @@ msgstr ""
 
 #: install/resources.php:9 install/resources.php:30 install/resources.php:160
 #: install/resources.php:194 install/resources.php:241
+#, fuzzy
 msgid "Resources Module"
-msgstr ""
+msgstr "Kaynakları Modülü versiyonu"
 
 #: install/resources.php:19
+#, fuzzy
 msgid "Resources Database"
-msgstr ""
+msgstr "Ana Kaynaklar"
 
 #: install/resources.php:65
+#, fuzzy
 msgid "Default Currency"
-msgstr ""
+msgstr "Para birimi Düzenle"
 
 #: install/resources.php:71
+#, fuzzy
 msgid "Enable Alerts"
-msgstr ""
+msgstr "Uyarıları Etkinleştir"
 
 #: install/resources.php:77
+#, fuzzy
 msgid "Catalog URL"
-msgstr ""
+msgstr "Katalog Görünümü"
 
 #: install/resources.php:82
+#, fuzzy
 msgid "Feedback Email Address"
-msgstr ""
+msgstr "E-posta Adresi"
 
 #: install/resources.php:90
 msgid "Please set up the following options for the resources module."
@@ -320,12 +326,14 @@ msgid "Add Alert Days In Advance"
 msgstr "Önceden Uyarı Günlerini Ekle"
 
 #: ajax_forms/getOrderForm.php:42
+#, fuzzy
 msgid "Clone Order"
-msgstr ""
+msgstr "Sipariş"
 
 #: ajax_forms/getOrderForm.php:42
+#, fuzzy
 msgid "Edit Order"
-msgstr ""
+msgstr "Kullanıcı Düzenleme"
 
 #: ajax_forms/getOrderForm.php:49 ajax_forms/getCurrentWorkflowForm.php:34
 #: resource.php:80 summary.php:430 ajax_htmldata/getOutstandingQueue.php:21
@@ -349,8 +357,9 @@ msgid "System Number:"
 msgstr "Sistem Numarası:"
 
 #: ajax_forms/getOrderForm.php:83 ajax_htmldata/getOrdersDetails.php:85
+#, fuzzy
 msgid "Library Number:"
-msgstr ""
+msgstr "Sipariş Numarası:"
 
 #: ajax_forms/getOrderForm.php:88 summary.php:473
 #: ajax_htmldata/getOrdersDetails.php:99
@@ -709,12 +718,14 @@ msgid "+ Add another mapping"
 msgstr "+ Başka bir eşleme ekle"
 
 #: ajax_forms/getImportConfigForm.php:249 directory.php:89
+#, fuzzy
 msgid "Acquisitions"
-msgstr ""
+msgstr "sağlamalar"
 
 #: ajax_forms/getImportConfigForm.php:250 export.php:71
+#, fuzzy
 msgid "Fund Code"
-msgstr ""
+msgstr "Sermaye: yok"
 
 #: ajax_forms/getImportConfigForm.php:251
 msgid "Cost"
@@ -726,8 +737,9 @@ msgid "Order Type"
 msgstr "Sipariş Türü"
 
 #: ajax_forms/getImportConfigForm.php:280
+#, fuzzy
 msgid "Workflows"
-msgstr ""
+msgstr "İş Akışı Adımları"
 
 #: ajax_forms/getImportConfigForm.php:282
 msgid "Send emails when starting workflows?"
@@ -790,8 +802,9 @@ msgid "Group Name:"
 msgstr "Grup Adı:"
 
 #: ajax_forms/getAdminUserGroupForm.php:41
+#, fuzzy
 msgid "Email Addresses:"
-msgstr ""
+msgstr "E-posta Adresi:"
 
 #: ajax_forms/getAdminUserGroupForm.php:46
 msgid "(use comma and a space between each email address)"
@@ -954,8 +967,9 @@ msgstr "Kayıtlı e-posta:"
 #: ajax_forms/getEbscoKbTitleImportForm.php:27
 #: ajax_forms/getEbscoKbPackageImportForm.php:80 templates/header.php:188
 #: templates/ebscoKbTitleList.php:8
+#, fuzzy
 msgid "Import"
-msgstr ""
+msgstr "İçe aktar"
 
 #: ajax_forms/getEbscoKbTitleImportForm.php:27
 #: ajax_forms/getEbscoKbPackageImportForm.php:80
@@ -964,14 +978,16 @@ msgstr ""
 
 #: ajax_forms/getEbscoKbTitleImportForm.php:34
 #: ajax_forms/getEbscoKbPackageImportForm.php:88
+#, fuzzy
 msgid "There was a problem importing this resource"
-msgstr ""
+msgstr "Veritabanıyla ilgili bir sorun oluştu."
 
 #: ajax_forms/getEbscoKbTitleImportForm.php:47
 #: ajax_forms/getEbscoKbTitleImportForm.php:50
 #: ajax_forms/getEbscoKbPackageImportForm.php:103
+#, fuzzy
 msgid "Provider"
-msgstr ""
+msgstr "Sağlayıcı:"
 
 #: ajax_forms/getNewIssueForm.php:27
 msgid "Report New Problem"
@@ -1103,16 +1119,19 @@ msgid_plural "You have %d of %d titles selected in EBSCO Kb"
 msgstr[0] ""
 
 #: ajax_forms/getEbscoKbPackageImportForm.php:194
+#, fuzzy
 msgid "All titles not available"
-msgstr ""
+msgstr "ek yok"
 
 #: ajax_forms/getEbscoKbPackageImportForm.php:220
+#, fuzzy
 msgid "Workflow Options"
-msgstr ""
+msgstr "İş Akışı Adımları"
 
 #: ajax_forms/getEbscoKbPackageImportForm.php:298
+#, fuzzy
 msgid "Package Resource Type"
-msgstr ""
+msgstr "Kaynak Türü"
 
 #: ajax_forms/getEbscoKbPackageImportForm.php:343
 #: templates/ebscoKbTitleList.php:57 templates/ebscoKbPackageList.php:52
@@ -1303,16 +1322,19 @@ msgid "Reminder delay (in days)"
 msgstr ""
 
 #: ajax_forms/getCurrentWorkflowForm.php:37
+#, fuzzy
 msgid "Approval/Notification group"
-msgstr ""
+msgstr "Onay/Bildirim Grubu:"
 
 #: ajax_forms/getCurrentWorkflowForm.php:39
+#, fuzzy
 msgid "Action"
-msgstr ""
+msgstr "Yer:"
 
 #: resource.php:76
+#, fuzzy
 msgid "Start date"
-msgstr ""
+msgstr "Başlangıc Tarihi"
 
 #: resource.php:78
 msgid "End date"
@@ -1460,40 +1482,46 @@ msgid "Main Menu"
 msgstr "Ana Menü"
 
 #: templates/header.php:244
+#, fuzzy
 msgid "Organizations module"
-msgstr ""
+msgstr "Yayıncı Modülü"
 
 #: templates/header.php:249
+#, fuzzy
 msgid "Licensing module"
-msgstr ""
+msgstr "Lisanslama Modülü"
 
 #: templates/header.php:249
 msgid "Licensing"
 msgstr "Lisanslama"
 
 #: templates/header.php:254
+#, fuzzy
 msgid "Usage Statistics module"
-msgstr ""
+msgstr "Kullanım İstatistikleri Modülü"
 
 #: templates/header.php:254
 msgid "Usage Statistics"
 msgstr "Kullanım İstatistikleri"
 
 #: templates/header.php:259
+#, fuzzy
 msgid "Management module"
-msgstr ""
+msgstr "Yönetim"
 
 #: templates/header.php:259
 msgid "Management"
 msgstr "Yönetim"
 
 #: templates/ebscoKbTitleList.php:4
+#, fuzzy
 msgid "Title"
-msgstr ""
+msgstr "Başlık:"
 
 #: templates/ebscoKbTitleList.php:5 templates/ebscoKbPackageList.php:5
+#, fuzzy
 msgid "Imported?"
-msgstr ""
+msgstr "Sermaye bilgilerini içe aktar"
 
 #: templates/ebscoKbTitleList.php:7 ajax_htmldata/getEbscoKbTitleDetails.php:60
 msgid "ISXNs"
@@ -1504,29 +1532,34 @@ msgid "imported in Coral"
 msgstr ""
 
 #: templates/ebscoKbPackageList.php:6
+#, fuzzy
 msgid "Title Count"
-msgstr ""
+msgstr "Hesabı Düzenle"
 
 #: templates/ebscoKbPackageList.php:7 ebsco_kb.php:175
+#, fuzzy
 msgid "Content Type"
-msgstr ""
+msgstr "Not Türü"
 
 #: templates/ebscoKbPackageList.php:32
+#, fuzzy
 msgid "selected"
-msgstr ""
+msgstr "Seçildi:"
 
 #: templates/ebscoKbPackageList.php:45
 #: ajax_htmldata/getEbscoKbTitleDetails.php:123
+#, fuzzy
 msgid "View Titles"
-msgstr ""
+msgstr "Lisansı İncele"
 
 #: templates/ebscoKbVendorList.php:5
 msgid "Packages"
 msgstr ""
 
 #: templates/ebscoKbVendorList.php:24
+#, fuzzy
 msgid "View Packages"
-msgstr ""
+msgstr "Lisansı İncele"
 
 #: ajax_processing/deleteResource.php:7
 #: ajax_processing/deleteResourceAndChildren.php:8
@@ -1574,8 +1607,9 @@ msgid "Note successfully deleted."
 msgstr "Not başarıyla silindi."
 
 #: ajax_processing/deleteOrder.php:7
+#, fuzzy
 msgid "Order successfully deleted."
-msgstr ""
+msgstr "Not başarıyla silindi."
 
 #: ajax_processing/deleteInstance.php:12
 msgid "Unable to delete  - this "
@@ -1605,8 +1639,9 @@ msgid "Importing and deduping isbnOrISSN on the following columns: "
 msgstr "Sonraki satırlarda ISBN veya ISSN'leri aktarın veya çıkarın:"
 
 #: import.php:30
+#, fuzzy
 msgid "Preview"
-msgstr ""
+msgstr "Önceki yıl"
 
 #: import.php:57
 msgid "Columns"
@@ -1621,8 +1656,9 @@ msgid "Coral field"
 msgstr ""
 
 #: import.php:75
+#, fuzzy
 msgid "File column"
-msgstr ""
+msgstr "Dosya seçimi"
 
 #: import.php:103
 msgid "Resources import"
@@ -1633,8 +1669,9 @@ msgid "Delimited File Import"
 msgstr "Sınırlandırılmış dosyaları içe aktarma"
 
 #: import.php:107
+#, fuzzy
 msgid "Imports history"
-msgstr ""
+msgstr "Maliyet Geçmişi"
 
 #: import.php:147 importFunds.php:21
 msgid "The file has been successfully uploaded."
@@ -1700,24 +1737,29 @@ msgid "Save current mapping"
 msgstr ""
 
 #: import.php:211
+#, fuzzy
 msgid "Configuration name:"
-msgstr ""
+msgstr "Yapılandırma Adı"
 
 #: import.php:211
+#, fuzzy
 msgid "Save configuration"
-msgstr ""
+msgstr "İçe Aktarma Yapılandırmasını Kaydet"
 
 #: import.php:227
+#, fuzzy
 msgid "Configuration name cannot be empty"
-msgstr ""
+msgstr "Yapılandırma Adı"
 
 #: import.php:236
+#, fuzzy
 msgid "The import configuration has been successfully saved."
-msgstr ""
+msgstr "İçe aktarma ayarları başarıyla silindi."
 
 #: import.php:236
+#, fuzzy
 msgid "The import configuration could not be saved: "
-msgstr ""
+msgstr "Yüklenecek içe aktarma ayarlarını seçiniz:"
 
 #: import.php:794
 msgid "Organization "
@@ -1756,61 +1798,74 @@ msgid " rows "
 msgstr ""
 
 #: import.php:907
+#, fuzzy
 msgid " processed. "
-msgstr ""
+msgstr "Satırlar işleniyor."
 
 #: import.php:907
 msgid " inserted."
 msgstr ""
 
 #: import.php:908
+#, fuzzy
 msgid " parents "
-msgstr ""
+msgstr "Üst öge:"
 
 #: import.php:908
+#, fuzzy
 msgid " created. "
-msgstr ""
+msgstr "Oluşturuldu:"
 
 #: import.php:908 import.php:919
+#, fuzzy
 msgid " resources "
-msgstr ""
+msgstr "Kaynaklar"
 
 #: import.php:908
+#, fuzzy
 msgid " attached to an existing parent."
-msgstr ""
+msgstr "Kaynaklar mevcut üst ögeyle ilişkilendirildi."
 
 #: import.php:909
+#, fuzzy
 msgid " organizations "
-msgstr ""
+msgstr "yayıncı"
 
 #: import.php:909 import.php:920 import.php:921 import.php:922 import.php:923
 #: import.php:924
+#, fuzzy
 msgid " created"
-msgstr ""
+msgstr "Oluşturuldu:"
 
 #: import.php:919
+#, fuzzy
 msgid " attached to an existing organization."
-msgstr ""
+msgstr "Kaynaklar mevcut yayıncıyla ilişkilendirildi."
 
 #: import.php:920
+#, fuzzy
 msgid " resource types "
-msgstr ""
+msgstr "Kaynak Türü"
 
 #: import.php:921
+#, fuzzy
 msgid " resource formats "
-msgstr ""
+msgstr "Kaynak Biçimi"
 
 #: import.php:922
+#, fuzzy
 msgid " general subjects "
-msgstr ""
+msgstr "Genel Konu:"
 
 #: import.php:923
+#, fuzzy
 msgid " aliases "
-msgstr ""
+msgstr "Takma adlar"
 
 #: import.php:924
+#, fuzzy
 msgid " notes "
-msgstr ""
+msgstr "Notlar"
 
 #: import.php:959
 msgid ""
@@ -1849,8 +1904,9 @@ msgid "(pipe)"
 msgstr "(boru)"
 
 #: import.php:973
+#, fuzzy
 msgid "tabulation"
-msgstr ""
+msgstr "Veri işlemi"
 
 #: import.php:976
 msgid "Upload"
@@ -1863,40 +1919,48 @@ msgid ""
 msgstr ""
 
 #: dashboard_export.php:40
+#, fuzzy
 msgid "Dashboard Statistics Export"
-msgstr ""
+msgstr "Kullanım İstatistikleri"
 
 #: dashboard_export.php:50 ajax_htmldata/getDashboard.php:25
+#, fuzzy
 msgid "Payment amount"
-msgstr ""
+msgstr "Ödeme"
 
 #: directory.php:88
+#, fuzzy
 msgid "Orders"
-msgstr ""
+msgstr "Sipariş"
 
 #: directory.php:91 summary.php:793 resources/cataloging.php:103
 msgid "Cataloging"
 msgstr "Kataloglama"
 
 #: directory.php:92
+#, fuzzy
 msgid "Contacts"
-msgstr ""
+msgstr "Muhatap:"
 
 #: directory.php:93
+#, fuzzy
 msgid "Accounts"
-msgstr ""
+msgstr "hesaplar"
 
 #: directory.php:94
+#, fuzzy
 msgid "Issues"
-msgstr ""
+msgstr "sorunlar"
 
 #: directory.php:95
+#, fuzzy
 msgid "Attachments"
-msgstr ""
+msgstr "ekler"
 
 #: directory.php:96
+#, fuzzy
 msgid "Workflow"
-msgstr ""
+msgstr "İş Akışını Düzenle"
 
 #: pig.php:26
 msgid ""
@@ -2017,16 +2081,19 @@ msgid "Date Created"
 msgstr "Oluşturulan Tarih"
 
 #: export.php:61
+#, fuzzy
 msgid "User Created"
-msgstr ""
+msgstr "Oluşturulan Tarih"
 
 #: export.php:62
+#, fuzzy
 msgid "Date Updated"
-msgstr ""
+msgstr "Son Güncelleme:"
 
 #: export.php:63
+#, fuzzy
 msgid "User Updated"
-msgstr ""
+msgstr "Son Güncelleme:"
 
 #: export.php:64 index.php:169 ajax_htmldata/getSavedQueue.php:20
 #: ajax_htmldata/getSubmittedQueue.php:17
@@ -2035,120 +2102,147 @@ msgid "Status"
 msgstr "Durum"
 
 #: export.php:65
+#, fuzzy
 msgid "ISSN/ISBN"
-msgstr ""
+msgstr "ISSN/ISBN："
 
 #: export.php:67
+#, fuzzy
 msgid "Alt URL"
-msgstr ""
+msgstr "Alternatif URL:"
 
 #: export.php:70
+#, fuzzy
 msgid "Fund Name"
-msgstr ""
+msgstr "Sermaye"
 
 #: export.php:72
+#, fuzzy
 msgid "Tax excluded"
-msgstr ""
+msgstr "Vergi Hariç"
 
 #: export.php:73
+#, fuzzy
 msgid "Rate"
-msgstr ""
+msgstr "Vergi Oranı"
 
 #: export.php:74
+#, fuzzy
 msgid "Tax included"
-msgstr ""
+msgstr "Vergi Dâhil"
 
 #: export.php:77 ajax_htmldata/getAcquisitionsDetails.php:118
 msgid "Details"
 msgstr "Ayrıntılar"
 
 #: export.php:79
+#, fuzzy
 msgid "Cost Note"
-msgstr ""
+msgstr "Not Düzenle"
 
 #: export.php:82
+#, fuzzy
 msgid "Parent Record"
-msgstr ""
+msgstr "Üst Kayıt(lar)"
 
 #: export.php:83
+#, fuzzy
 msgid "Child Record"
-msgstr ""
+msgstr "Alt Kayıt(lar)"
 
 #: export.php:85
+#, fuzzy
 msgid "Order Number"
-msgstr ""
+msgstr "Sipariş Numarası:"
 
 #: export.php:86
+#, fuzzy
 msgid "System Number"
-msgstr ""
+msgstr "Sistem Numarası:"
 
 #: export.php:87
+#, fuzzy
 msgid "Purchasing Sites"
-msgstr ""
+msgstr "Satın Alma Alanları"
 
 #: export.php:89
+#, fuzzy
 msgid "Current Sub End"
-msgstr ""
+msgstr "Mevcut Abn. Bitişi:"
 
 #: export.php:90
+#, fuzzy
 msgid "Subscription Alert Enabled"
-msgstr ""
+msgstr "Bitiş Tarihi Uyarısı Etkin"
 
 #: export.php:91
+#, fuzzy
 msgid "License Names"
-msgstr ""
+msgstr "Lisans Durumu"
 
 #: export.php:93
+#, fuzzy
 msgid "Authorized Sites"
-msgstr ""
+msgstr "Yetkili Alanlar"
 
 #: export.php:94
+#, fuzzy
 msgid "Administering Sites"
-msgstr ""
+msgstr "Yönetim Alanları"
 
 #: export.php:98
+#, fuzzy
 msgid "Simultaneous User Limit"
-msgstr ""
+msgstr "Eşzamanlı Kullanıcı Limiti:"
 
 #: export.php:99
+#, fuzzy
 msgid "Coverage"
-msgstr ""
+msgstr "Kapsam:"
 
 #: export.php:100
+#, fuzzy
 msgid "Username"
-msgstr ""
+msgstr "Kullanıcı adı:"
 
 #: export.php:101
+#, fuzzy
 msgid "Password"
-msgstr ""
+msgstr "Şifre"
 
 #: export.php:104
 msgid "Catalog Record Set Identifier"
 msgstr ""
 
 #: export.php:105
+#, fuzzy
 msgid "Catalog Record Source URL"
-msgstr ""
+msgstr "Kaynak URL'sini Görüntüle"
 
 #: export.php:106
+#, fuzzy
 msgid "Catalog Records Available"
-msgstr ""
+msgstr "# Kayıtlar Mevcut"
 
 #: export.php:107
+#, fuzzy
 msgid "Catalog Records Loaded"
-msgstr ""
+msgstr "# Kayıtlar Yükleniyor"
 
 #: export.php:108
+#, fuzzy
 msgid "OCLC Holdings Updated"
-msgstr ""
+msgstr "OCLC Abonelikleri"
 
 #: export.php:111
+#, fuzzy
 msgid "Resource Record Export"
-msgstr ""
+msgstr "Kaynakları içe aktar"
 
 #: export.php:113
+#, fuzzy
 msgid "All Resource Records"
-msgstr ""
+msgstr "Genel Kaynak Alanları"
 
 #: user.php:95
 msgid ""
@@ -2159,8 +2253,9 @@ msgstr ""
 "içerisindeki remoteAuthVariableName kontrol edin"
 
 #: dashboard_menu.php:8
+#, fuzzy
 msgid "Statistics"
-msgstr ""
+msgstr "İstatisistik Al"
 
 #: dashboard_menu.php:9
 msgid "Yearly costs"
@@ -2429,12 +2524,14 @@ msgid "remove note"
 msgstr "not kaldır"
 
 #: importHistory.php:9
+#, fuzzy
 msgid "Import detail"
-msgstr ""
+msgstr "İçe aktarma ayarları"
 
 #: importHistory.php:57
+#, fuzzy
 msgid "Import history"
-msgstr ""
+msgstr "Maliyet Geçmişi"
 
 #: dashboard_yearly_costs.php:3 dashboard.php:3
 msgid "Dashboard"
@@ -2445,12 +2542,14 @@ msgid "Dashboard: yearly costs"
 msgstr ""
 
 #: dashboard_yearly_costs.php:24 dashboard.php:25
+#, fuzzy
 msgid "Resource type"
-msgstr ""
+msgstr "Kaynak Türü"
 
 #: dashboard_yearly_costs.php:36 dashboard.php:37
+#, fuzzy
 msgid "Acquisition type"
-msgstr ""
+msgstr "Sağlama Türü"
 
 #: dashboard_yearly_costs.php:58
 msgid "Year (start)"
@@ -2461,25 +2560,29 @@ msgid "Year (end)"
 msgstr ""
 
 #: dashboard_yearly_costs.php:64 dashboard.php:64
+#, fuzzy
 msgid "Group By"
-msgstr ""
+msgstr "Grup:"
 
 #: dashboard_yearly_costs.php:66 dashboard.php:66
+#, fuzzy
 msgid "Resource"
-msgstr ""
+msgstr "Kaynaklar"
 
 #: dashboard_yearly_costs.php:70 ajax_htmldata/getDashboardYearlyCosts.php:32
 #: dashboard.php:70
+#, fuzzy
 msgid "Library Number"
-msgstr ""
+msgstr "Sipariş Numarası:"
 
 #: dashboard_yearly_costs.php:76 dashboard.php:76
 msgid "Display"
 msgstr ""
 
 #: dashboard_yearly_costs.php:78 dashboard.php:78
+#, fuzzy
 msgid "Export"
-msgstr ""
+msgstr "İçe aktar"
 
 #: importFunds.php:53
 msgid "rows have been processed."
@@ -2511,16 +2614,19 @@ msgid "go!"
 msgstr "çalıştır!"
 
 #: index.php:76
+#, fuzzy
 msgid "Publisher (contains)"
-msgstr ""
+msgstr "Ad (içerir)"
 
 #: index.php:86
+#, fuzzy
 msgid "Platform (contains)"
-msgstr ""
+msgstr "Ad (içerir)"
 
 #: index.php:96
+#, fuzzy
 msgid "Provider (contains)"
-msgstr ""
+msgstr "Not (içeriyor)"
 
 #: index.php:107
 msgid "ISBN/ISSN"
@@ -2574,8 +2680,9 @@ msgid "Purchase Site"
 msgstr "Satın Alma Alanı"
 
 #: index.php:590 ajax_htmldata/getOutstandingQueue.php:23
+#, fuzzy
 msgid "Workflow Step"
-msgstr ""
+msgstr "İş Akışı Adımları"
 
 #: index.php:615
 msgid "Parent"
@@ -2594,16 +2701,19 @@ msgid "EBSCO Knowledge Base Search"
 msgstr ""
 
 #: ebsco_kb.php:80
+#, fuzzy
 msgid "Search For"
-msgstr ""
+msgstr "Ara"
 
 #: ebsco_kb.php:121
+#, fuzzy
 msgid "contains"
-msgstr ""
+msgstr "muhataplar"
 
 #: ebsco_kb.php:137
+#, fuzzy
 msgid "Selection"
-msgstr ""
+msgstr "Dosya Seç"
 
 #: js/queue.js:45 js/queue.js:93
 msgid "Refreshing..."
@@ -2879,8 +2989,9 @@ msgid "Do you really want to delete this resource?"
 msgstr "Bu kaynağı silmek istediğinizden emin misiniz?"
 
 #: js/resource.js:870
+#, fuzzy
 msgid "Do you really want to delete this order?"
-msgstr ""
+msgstr "Bu kullanıcıyı silmek istediğinizden emin misiniz?"
 
 #: js/resource.js:885
 msgid "Do you really want to delete this resource and all its children?"
@@ -2903,8 +3014,9 @@ msgstr ""
 "istediğinizden emin misiniz?"
 
 #: js/resource.js:988
+#, fuzzy
 msgid "hide archived workflows"
-msgstr ""
+msgstr "Arşivlenen aracıları gizle"
 
 #: js/resource.js:991 ajax_htmldata/getWorkflowDetails.php:164
 msgid "display archived workflows"
@@ -2966,8 +3078,9 @@ msgid "There are no organization level downtimes."
 msgstr "Kurumsal düzeyde arıza yok."
 
 #: ajax_htmldata/getDowntimeList.php:87
+#, fuzzy
 msgid "There are no order level downtimes."
-msgstr ""
+msgstr "Kaynak düzeyinde arıza yok."
 
 #: ajax_htmldata/getAdminCurrencyDisplay.php:25
 #: ajax_htmldata/getAdminWorkflowDisplay.php:51
@@ -3013,8 +3126,9 @@ msgid "Workflow Setup"
 msgstr "İş Akışı Yükle"
 
 #: ajax_htmldata/getAdminWorkflowDisplay.php:52
+#, fuzzy
 msgid "duplicate"
-msgstr ""
+msgstr "Mükerrer "
 
 #: ajax_htmldata/getAdminWorkflowDisplay.php:67
 msgid "add workflow"
@@ -3073,8 +3187,9 @@ msgid "add new attachment"
 msgstr "yeni ek ekle"
 
 #: ajax_htmldata/getOrdersDetails.php:41 ajax_htmldata/getOrdersDetails.php:42
+#, fuzzy
 msgid "remove order"
-msgstr ""
+msgstr "not kaldır"
 
 #: ajax_htmldata/getOrdersDetails.php:76
 msgid "catalog view"
@@ -3085,8 +3200,9 @@ msgid "Purchasing Sites:"
 msgstr "Satın Alma Alanları"
 
 #: ajax_htmldata/getOrdersDetails.php:115
+#, fuzzy
 msgid "create new order"
-msgstr ""
+msgstr "Ardından veya sonra oluşturuldu:"
 
 #: ajax_htmldata/getOrdersDetails.php:116
 msgid "clone order"
@@ -3098,20 +3214,23 @@ msgid ""
 msgstr ""
 
 #: ajax_htmldata/getOrdersDetails.php:120
+#, fuzzy
 msgid "create an order"
-msgstr ""
+msgstr "Ardından veya sonra oluşturuldu:"
 
 #: ajax_htmldata/getAdminEbscoKbConfigDisplay.php:1
+#, fuzzy
 msgid "EBSCO Knowledge Base Configuration"
-msgstr ""
+msgstr "Aayarları Seç:"
 
 #: ajax_htmldata/getAdminEbscoKbConfigDisplay.php:7
 msgid "Enable EBSCO Knowledge Base"
 msgstr ""
 
 #: ajax_htmldata/getSearchEbscoKb.php:8
+#, fuzzy
 msgid "Please enter a search term."
-msgstr ""
+msgstr "Hata - Lütfen değer giriniz"
 
 #: ajax_htmldata/getSearchEbscoKb.php:24
 msgid "No results found."
@@ -3126,8 +3245,9 @@ msgid "of"
 msgstr ""
 
 #: ajax_htmldata/getSearchEbscoKb.php:67
+#, fuzzy
 msgid "selected)"
-msgstr ""
+msgstr "Seçildi:"
 
 #: ajax_htmldata/getSearchEbscoKb.php:75
 msgid "Title list from"
@@ -3142,8 +3262,9 @@ msgid "to"
 msgstr ""
 
 #: ajax_htmldata/getSearchEbscoKb.php:82
+#, fuzzy
 msgid "results"
-msgstr ""
+msgstr "Sonuçlar"
 
 #: ajax_htmldata/getAccountDetails.php:14
 msgid "Resource Specific:"
@@ -3217,20 +3338,23 @@ msgid "There are no organization level issues."
 msgstr "Yayıncı düzeyinde sorunlar yok."
 
 #: ajax_htmldata/getIssuesList.php:110
+#, fuzzy
 msgid "There are no order level issues."
-msgstr ""
+msgstr "Kaynak düzeyinde sorunlar yok"
 
 #: ajax_htmldata/getEbscoKbTitleDetails.php:16
 msgid "EBSCO Kb Title Details"
 msgstr ""
 
 #: ajax_htmldata/getEbscoKbTitleDetails.php:34
+#, fuzzy
 msgid "Publication Type"
-msgstr ""
+msgstr "Doğrulama Türü"
 
 #: ajax_htmldata/getEbscoKbTitleDetails.php:38
+#, fuzzy
 msgid "Edition"
-msgstr ""
+msgstr "Düzenle"
 
 #: ajax_htmldata/getEbscoKbTitleDetails.php:42
 msgid "Peer Reviewed"
@@ -3257,16 +3381,18 @@ msgid "Show all packages"
 msgstr ""
 
 #: ajax_htmldata/getEbscoKbTitleDetails.php:109
+#, fuzzy
 msgid "Selected in EBSCO Kb"
-msgstr ""
+msgstr "Seçildi:"
 
 #: ajax_htmldata/getEbscoKbTitleDetails.php:111
 msgid "Not selected in EBSCO Kb"
 msgstr ""
 
 #: ajax_htmldata/getEbscoKbTitleDetails.php:128
+#, fuzzy
 msgid "import package"
-msgstr ""
+msgstr "İçe aktar"
 
 #: ajax_htmldata/getEbscoKbTitleDetails.php:134
 msgid "Vendor"
@@ -3281,8 +3407,9 @@ msgid "Embargo"
 msgstr ""
 
 #: ajax_htmldata/getEbscoKbTitleDetails.php:140
+#, fuzzy
 msgid "Resource Url"
-msgstr ""
+msgstr "Kaynak URL"
 
 #: ajax_htmldata/getSubmittedQueue.php:5
 msgid "Submitted Requests"
@@ -3407,13 +3534,15 @@ msgid "Delete"
 msgstr "Sil"
 
 #: ajax_htmldata/getWorkflowDetails.php:51
+#, fuzzy
 msgid "Workflow archived on"
-msgstr ""
+msgstr "İş akışı yeniden başlatıldı"
 
 #: ajax_htmldata/getWorkflowDetails.php:51
 #: ajax_htmldata/getWorkflowDetails.php:130
+#, fuzzy
 msgid "Current workflow"
-msgstr ""
+msgstr "iş akışını yeniden başlat"
 
 #: ajax_htmldata/getWorkflowDetails.php:78
 msgid "mark complete"
@@ -3434,12 +3563,14 @@ msgid "restart workflow"
 msgstr "iş akışını yeniden başlat"
 
 #: ajax_htmldata/getWorkflowDetails.php:128
+#, fuzzy
 msgid "Select a workflow to restart"
-msgstr ""
+msgstr "İş akışı yeniden başlatıldı"
 
 #: ajax_htmldata/getWorkflowDetails.php:165
+#, fuzzy
 msgid "edit the current workflow"
-msgstr ""
+msgstr "İş akışına girilmedi."
 
 #: ajax_htmldata/getWorkflowDetails.php:167
 msgid "mark entire workflow complete"
@@ -3450,12 +3581,14 @@ msgid "The following are archived contacts:"
 msgstr "Arşivlenmiş iletişim bilgileri şunlardır:"
 
 #: ajax_htmldata/getContactDetails.php:37
+#, fuzzy
 msgid "Order Specific:"
-msgstr ""
+msgstr "Kaynağa Özgü"
 
 #: ajax_htmldata/getContactDetails.php:41
+#, fuzzy
 msgid "No Order Specific Contacts"
-msgstr ""
+msgstr "Kaynağa Özgü Muhatap mevcut değil"
 
 #: ajax_htmldata/getContactDetails.php:70
 msgid "edit contact"
@@ -3603,8 +3736,9 @@ msgid "No payment information available"
 msgstr "Ödeme bilgisi yok"
 
 #: ajax_htmldata/getAcquisitionsDetails.php:201
+#, fuzzy
 msgid "edit license"
-msgstr ""
+msgstr "lisans"
 
 #: ajax_htmldata/getAcquisitionsDetails.php:232
 msgid "View License"
@@ -3651,8 +3785,9 @@ msgid "view archived downtime"
 msgstr "arşivlenen arızaları görüntüle"
 
 #: dashboard.php:10
+#, fuzzy
 msgid "Dashboard: Statistics"
-msgstr ""
+msgstr "Kullanım İstatistikleri"
 
 #: setuser.php:44
 msgid ""
@@ -3773,9 +3908,6 @@ msgstr ""
 #~ msgid "Dec"
 #~ msgstr "Ara"
 
-#~ msgid "Previous year"
-#~ msgstr "Önceki yıl"
-
 #~ msgid "Previous month"
 #~ msgstr "Önceki ay"
 
@@ -3790,9 +3922,6 @@ msgstr ""
 
 #~ msgid "Choose date"
 #~ msgstr "Tarih seçiniz"
-
-#~ msgid "There was a problem with the database: "
-#~ msgstr "Veritabanıyla ilgili bir sorun oluştu."
 
 #~ msgid "Could not connect to "
 #~ msgstr "Bağlanamadı"
@@ -3815,9 +3944,6 @@ msgstr ""
 #~ msgid "Resource ID: "
 #~ msgstr "Kaynak ID:"
 
-#~ msgid "ISSN/ISBN: "
-#~ msgstr "ISSN/ISBN："
-
 #~ msgid "Routing Step: "
 #~ msgstr "Yönlendirme Adımı:"
 
@@ -3827,17 +3953,11 @@ msgstr ""
 #~ msgid "Creator: "
 #~ msgstr "Oluşturan:"
 
-#~ msgid "Resource Format: "
-#~ msgstr "Kaynak Biçimi"
-
 #~ msgid "Acquisition Type: "
 #~ msgstr "Sağlama Türü"
 
 #~ msgid "Note contains: "
 #~ msgstr "Not içerir:"
-
-#~ msgid "Created on or after: "
-#~ msgstr "Ardından veya sonra oluşturuldu:"
 
 #~ msgid "Created between: "
 #~ msgstr "Arasında oluşturuldu:"
@@ -3848,20 +3968,8 @@ msgstr ""
 #~ msgid "Starts with: "
 #~ msgstr "Şununla başlıyor:"
 
-#~ msgid "Fund: none"
-#~ msgstr "Sermaye: yok"
-
-#~ msgid "Fund: "
-#~ msgstr "Sermaye"
-
 #~ msgid "Resource Type: none"
 #~ msgstr "Kaynak Türü: yok"
-
-#~ msgid "Resource Type: "
-#~ msgstr "Kaynak Türü"
-
-#~ msgid "General Subject: "
-#~ msgstr "Genel Konu:"
 
 #~ msgid "Detailed Subject: "
 #~ msgstr "Ayrıntılı Konu:"
@@ -3902,29 +4010,11 @@ msgstr ""
 #~ msgid "Cataloging Status: "
 #~ msgstr "Kataloglama Durumu:"
 
-#~ msgid "Email Address:"
-#~ msgstr "E-posta Adresi:"
-
 #~ msgid "Edit Acquisitions Information"
 #~ msgstr "Sağlama Bilgilerini Düzenle"
 
-#~ msgid "organization"
-#~ msgstr "yayıncı"
-
-#~ msgid "No Resource Specific Contacts"
-#~ msgstr "Kaynağa Özgü Muhatap mevcut değil"
-
-#~ msgid "There are no resource level downtimes."
-#~ msgstr "Kaynak düzeyinde arıza yok."
-
-#~ msgid "There are no resource level issues."
-#~ msgstr "Kaynak düzeyinde sorunlar yok"
-
 #~ msgid "Routing Step"
 #~ msgstr "Yönlendirme Adımı:"
-
-#~ msgid " rows have been processed. "
-#~ msgstr "Satırlar işleniyor."
 
 #~ msgid " rows have been inserted."
 #~ msgstr "Satırlar eklendi."
@@ -3932,14 +4022,8 @@ msgstr ""
 #~ msgid " parents have been created. "
 #~ msgstr "Üst ögeler oluşturuldu."
 
-#~ msgid " resources have been attached to an existing parent."
-#~ msgstr "Kaynaklar mevcut üst ögeyle ilişkilendirildi."
-
 #~ msgid " organizations have been created"
 #~ msgstr "Yayıncılar oluşturuldu"
-
-#~ msgid " resources have been attached to an existing organization."
-#~ msgstr "Kaynaklar mevcut yayıncıyla ilişkilendirildi."
 
 #~ msgid " resource types have been created"
 #~ msgstr "Kaynak türleri oluşturuldu"
@@ -3959,23 +4043,8 @@ msgstr ""
 #~ msgid "product"
 #~ msgstr "ürün"
 
-#~ msgid "acquisitions"
-#~ msgstr "sağlamalar"
-
 #~ msgid "access"
 #~ msgstr "erişim"
-
-#~ msgid "contacts"
-#~ msgstr "muhataplar"
-
-#~ msgid "issues"
-#~ msgstr "sorunlar"
-
-#~ msgid "accounts"
-#~ msgstr "hesaplar"
-
-#~ msgid "attachments"
-#~ msgstr "ekler"
 
 #~ msgid "routing"
 #~ msgstr "yönlendirme"
@@ -3985,9 +4054,6 @@ msgstr ""
 
 #~ msgid "Copyright"
 #~ msgstr "Telif Hakkı"
-
-#~ msgid "Resources Module version"
-#~ msgstr "Kaynakları Modülü versiyonu"
 
 #~ msgid "CORAL Project Website"
 #~ msgstr "CORAL Projesi Websitesi"

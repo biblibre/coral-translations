@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-24 16:02+0100\n"
+"POT-Creation-Date: 2019-01-24 16:34+0100\n"
 "PO-Revision-Date: 2018-06-19 15:49+0200\n"
 "Last-Translator: Paul Poulain <paul.poulain@biblibre.com>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -349,8 +349,9 @@ msgid "System Number:"
 msgstr "Numéro système&nbsp;:"
 
 #: ajax_forms/getOrderForm.php:83 ajax_htmldata/getOrdersDetails.php:85
+#, fuzzy
 msgid "Library Number:"
-msgstr ""
+msgstr "Numéro de commande&nbsp;:"
 
 #: ajax_forms/getOrderForm.php:88 summary.php:473
 #: ajax_htmldata/getOrdersDetails.php:99
@@ -791,8 +792,9 @@ msgid "Group Name:"
 msgstr "Nom du groupe&nbsp;:"
 
 #: ajax_forms/getAdminUserGroupForm.php:41
+#, fuzzy
 msgid "Email Addresses:"
-msgstr ""
+msgstr "Email&nbsp;:"
 
 #: ajax_forms/getAdminUserGroupForm.php:46
 msgid "(use comma and a space between each email address)"
@@ -1321,12 +1323,14 @@ msgid "Action"
 msgstr "Action"
 
 #: resource.php:76
+#, fuzzy
 msgid "Start date"
-msgstr ""
+msgstr "Date de début"
 
 #: resource.php:78
+#, fuzzy
 msgid "End date"
-msgstr ""
+msgstr "Année fin"
 
 #: resource.php:97
 msgid "Success!"
@@ -1634,8 +1638,9 @@ msgid "Coral field"
 msgstr ""
 
 #: import.php:75
+#, fuzzy
 msgid "File column"
-msgstr ""
+msgstr "Sélection du fichier"
 
 #: import.php:103
 msgid "Resources import"
@@ -1646,8 +1651,9 @@ msgid "Delimited File Import"
 msgstr "Importer un fichier délimité"
 
 #: import.php:107
+#, fuzzy
 msgid "Imports history"
-msgstr ""
+msgstr "Historique d'import"
 
 #: import.php:147 importFunds.php:21
 msgid "The file has been successfully uploaded."
@@ -1717,24 +1723,29 @@ msgid "Save current mapping"
 msgstr ""
 
 #: import.php:211
+#, fuzzy
 msgid "Configuration name:"
-msgstr ""
+msgstr "Nom de la configuration"
 
 #: import.php:211
+#, fuzzy
 msgid "Save configuration"
-msgstr ""
+msgstr "Enregistrer la configuration importée"
 
 #: import.php:227
+#, fuzzy
 msgid "Configuration name cannot be empty"
-msgstr ""
+msgstr "Nom de la configuration"
 
 #: import.php:236
+#, fuzzy
 msgid "The import configuration has been successfully saved."
-msgstr ""
+msgstr "La configuration importée a été supprimée avec succès."
 
 #: import.php:236
+#, fuzzy
 msgid "The import configuration could not be saved: "
-msgstr ""
+msgstr "Veuillez sélectionner la configuration importée à charger&nbsp;: "
 
 #: import.php:794
 msgid "Organization "
@@ -1773,61 +1784,74 @@ msgid " rows "
 msgstr ""
 
 #: import.php:907
+#, fuzzy
 msgid " processed. "
-msgstr ""
+msgstr " lignes ont été traitées. "
 
 #: import.php:907
 msgid " inserted."
 msgstr ""
 
 #: import.php:908
+#, fuzzy
 msgid " parents "
-msgstr ""
+msgstr "Parents&nbsp;:"
 
 #: import.php:908
+#, fuzzy
 msgid " created. "
-msgstr ""
+msgstr "Créée le&nbsp;:"
 
 #: import.php:908 import.php:919
+#, fuzzy
 msgid " resources "
-msgstr ""
+msgstr "Ressources"
 
 #: import.php:908
+#, fuzzy
 msgid " attached to an existing parent."
-msgstr ""
+msgstr " ressources ont été rattachées à une ressource principale existante."
 
 #: import.php:909
+#, fuzzy
 msgid " organizations "
-msgstr ""
+msgstr "organisation"
 
 #: import.php:909 import.php:920 import.php:921 import.php:922 import.php:923
 #: import.php:924
+#, fuzzy
 msgid " created"
-msgstr ""
+msgstr "Créée le&nbsp;:"
 
 #: import.php:919
+#, fuzzy
 msgid " attached to an existing organization."
-msgstr ""
+msgstr " ressources ont été rattachées à une organisation existante."
 
 #: import.php:920
+#, fuzzy
 msgid " resource types "
-msgstr ""
+msgstr "Type de ressource"
 
 #: import.php:921
+#, fuzzy
 msgid " resource formats "
-msgstr ""
+msgstr "Format de ressource&nbsp;:"
 
 #: import.php:922
+#, fuzzy
 msgid " general subjects "
-msgstr ""
+msgstr "Sugjet général&nbsp;:"
 
 #: import.php:923
+#, fuzzy
 msgid " aliases "
-msgstr ""
+msgstr "Alias"
 
 #: import.php:924
+#, fuzzy
 msgid " notes "
-msgstr ""
+msgstr "Notes"
 
 #: import.php:959
 msgid ""
@@ -1915,8 +1939,9 @@ msgid "Attachments"
 msgstr "Pièces jointes"
 
 #: directory.php:96
+#, fuzzy
 msgid "Workflow"
-msgstr ""
+msgstr "Workflow"
 
 #: pig.php:26
 msgid ""
@@ -2491,8 +2516,9 @@ msgstr "Ressource"
 
 #: dashboard_yearly_costs.php:70 ajax_htmldata/getDashboardYearlyCosts.php:32
 #: dashboard.php:70
+#, fuzzy
 msgid "Library Number"
-msgstr ""
+msgstr "Numéro de commande"
 
 #: dashboard_yearly_costs.php:76 dashboard.php:76
 msgid "Display"
@@ -3283,8 +3309,9 @@ msgid "Contributors"
 msgstr "Contributeurs"
 
 #: ajax_htmldata/getEbscoKbTitleDetails.php:96
+#, fuzzy
 msgid "Show all packages"
-msgstr ""
+msgstr "Voir bouquets"
 
 #: ajax_htmldata/getEbscoKbTitleDetails.php:109
 msgid "Selected in EBSCO Kb"
@@ -3398,8 +3425,9 @@ msgid "import funds"
 msgstr "Importer des fonds"
 
 #: ajax_htmldata/getDashboard.php:26
+#, fuzzy
 msgid "Library number"
-msgstr ""
+msgstr "Numéro de commande"
 
 #: ajax_htmldata/getWorkflowDetails.php:15
 msgid ""
@@ -3693,9 +3721,6 @@ msgstr ""
 "La connexion LDAP ne fonctionne pas ou a expiré. Merci de vérifier les "
 "paramètres du fichier configuration.ini."
 
-#~ msgid "Email Address:"
-#~ msgstr "Email&nbsp;:"
-
 #~ msgid "Error: unexpected fgets() fail"
 #~ msgstr "Erreur&nbsp;: échec inattendu de fgets()"
 
@@ -3722,9 +3747,6 @@ msgstr ""
 
 #~ msgid "Start year"
 #~ msgstr "Année début"
-
-#~ msgid "End year"
-#~ msgstr "Année fin"
 
 #~ msgid "Group by"
 #~ msgstr "Groupé par"
@@ -3767,9 +3789,6 @@ msgstr ""
 #~ msgid "Creator: "
 #~ msgstr "Créé par&nbsp;:"
 
-#~ msgid "Resource Format: "
-#~ msgstr "Format de ressource&nbsp;:"
-
 #~ msgid "Acquisition Type: "
 #~ msgstr "Type d'acquisition&nbsp;:"
 
@@ -3799,9 +3818,6 @@ msgstr ""
 
 #~ msgid "Resource Type: "
 #~ msgstr "Type de ressource&nbsp;:"
-
-#~ msgid "General Subject: "
-#~ msgstr "Sugjet général&nbsp;:"
 
 #~ msgid "Detailed Subject: "
 #~ msgstr "Sujet spécifique&nbsp;:"
@@ -3989,9 +4005,6 @@ msgstr ""
 #~ msgid "Edit Acquisitions Information"
 #~ msgstr "Modifier les informations d'acquisition"
 
-#~ msgid "organization"
-#~ msgstr "organisation"
-
 #~ msgid "No Resource Specific Contacts"
 #~ msgstr "Aucun contact n'est rattaché à des ressources spécifiques"
 
@@ -4004,24 +4017,14 @@ msgstr ""
 #~ msgid "Routing Step"
 #~ msgstr "Étape de routage"
 
-#~ msgid " rows have been processed. "
-#~ msgstr " lignes ont été traitées. "
-
 #~ msgid " rows have been inserted."
 #~ msgstr " lignes ont été ajoutées."
 
 #~ msgid " parents have been created. "
 #~ msgstr " principales ont été créées. "
 
-#~ msgid " resources have been attached to an existing parent."
-#~ msgstr ""
-#~ " ressources ont été rattachées à une ressource principale existante."
-
 #~ msgid " organizations have been created"
 #~ msgstr " organisations ont été créées"
-
-#~ msgid " resources have been attached to an existing organization."
-#~ msgstr " ressources ont été rattachées à une organisation existante."
 
 #~ msgid " resource types have been created"
 #~ msgstr " types de ressource ont été créés"

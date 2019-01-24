@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-24 16:02+0100\n"
+"POT-Creation-Date: 2019-01-24 16:34+0100\n"
 "PO-Revision-Date: 2016-11-21 11:21-0700\n"
 "Last-Translator: <>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -19,12 +19,14 @@ msgstr ""
 #: install/organizations.php:9 install/organizations.php:36
 #: install/organizations.php:100 install/organizations.php:119
 #: install/organizations.php:144
+#, fuzzy
 msgid "Organizations Module"
-msgstr ""
+msgstr "組織角色"
 
 #: install/organizations.php:25
+#, fuzzy
 msgid "Organizations Database"
-msgstr ""
+msgstr "組織名稱"
 
 #: ajax_htmldata.php:194 ajax_htmldata.php:350 ajax_htmldata.php:438
 #: ajax_htmldata.php:573 ajax_htmldata.php:806 ajax_forms.php:991
