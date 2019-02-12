@@ -3,30 +3,29 @@ msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-24 16:34+0100\n"
-"PO-Revision-Date: 2016-11-21 11:20-0700\n"
-"Last-Translator: <>\n"
+"PO-Revision-Date: 2019-02-05 17:38+0000\n"
+"Last-Translator: Xiaoyan Song <xsong9@ncsu.edu>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.8\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.8.11\n"
 "X-Poedit-Basepath: ../../..\n"
 "X-Poedit-SearchPath-0: .\n"
+"X-POOTLE-MTIME: 1549388307.432881\n"
 
 #: install/organizations.php:9 install/organizations.php:36
 #: install/organizations.php:100 install/organizations.php:119
 #: install/organizations.php:144
-#, fuzzy
 msgid "Organizations Module"
-msgstr "组织角色"
+msgstr "组织模块"
 
 #: install/organizations.php:25
-#, fuzzy
 msgid "Organizations Database"
-msgstr "组织名称"
+msgstr "组织数据库"
 
 #: ajax_htmldata.php:194 ajax_htmldata.php:350 ajax_htmldata.php:438
 #: ajax_htmldata.php:573 ajax_htmldata.php:806 ajax_forms.php:991
@@ -77,7 +76,7 @@ msgstr "注释："
 
 #: ajax_htmldata.php:268
 msgid "ILS:"
-msgstr ""
+msgstr "集成图书馆系统"
 
 #: ajax_htmldata.php:279
 msgid "Created:"
@@ -628,7 +627,7 @@ msgstr "名称："
 
 #: ajax_forms.php:78
 msgid "Check if this vendor already exists in"
-msgstr ""
+msgstr "查看该供应商是否已经存在"
 
 #: ajax_forms.php:84 ajax_forms.php:98
 msgid "Parent:"
@@ -971,15 +970,15 @@ msgstr "该组织已经存在！"
 
 #: js/forms/organizationSubmitForm.js:72
 msgid "This vendor does not exist in the ILS."
-msgstr ""
+msgstr "该供应商不在集成图书馆系统里。"
 
 #: js/forms/organizationSubmitForm.js:76
 msgid "This vendor exists in the ILS."
-msgstr ""
+msgstr "该供应商在集成图书馆系统里。"
 
 #: js/forms/organizationSubmitForm.js:79
 msgid "Something went wrong: "
-msgstr ""
+msgstr "某个地方出错了："
 
 #: js/common.js:63
 msgid "No match!"

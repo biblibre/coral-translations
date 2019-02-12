@@ -3,18 +3,19 @@ msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-24 16:34+0100\n"
-"PO-Revision-Date: 2018-03-12 17:18+0100\n"
-"Last-Translator: Paul Poulain <paul.poulain@biblibre.com>\n"
+"PO-Revision-Date: 2019-02-11 08:42+0000\n"
+"Last-Translator: lrault <laurence.rault@biblibre.com>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Pootle 2.8\n"
 "X-Poedit-Basepath: ../../..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.8.7.1\n"
 "X-Poedit-SearchPath-0: .\n"
+"X-POOTLE-MTIME: 1549874548.654755\n"
 
 #: install/organizations.php:9 install/organizations.php:36
 #: install/organizations.php:100 install/organizations.php:119
@@ -179,7 +180,7 @@ msgstr "Modifier cette connexion externe"
 
 #: ajax_htmldata.php:574
 msgid "remove external login"
-msgstr "Supprimer cette connexion externe"
+msgstr "Supprimer le login d'accès"
 
 #: ajax_htmldata.php:583 summary.php:453
 msgid "Login URL:"
@@ -207,7 +208,7 @@ msgstr "Aucune connexion externe"
 
 #: ajax_htmldata.php:645
 msgid "add new external login"
-msgstr "Ajouter une nouvelle connexion externe"
+msgstr "Ajouter un nouveau login d'accès"
 
 #: ajax_htmldata.php:662
 msgid "Issues/Problems"
@@ -572,11 +573,11 @@ msgstr "Ajouter un nouveau type d'alias"
 
 #: admin.php:91
 msgid "External Login Type"
-msgstr "Type de connexion externe"
+msgstr "Type de login d'accès"
 
 #: admin.php:92
 msgid "add new external login type"
-msgstr "Ajouter un nouveau type de connexion externe"
+msgstr "Ajouter un nouveau type de login d'accès"
 
 #: admin.php:102
 msgid "Issue Type"
@@ -637,7 +638,7 @@ msgstr "Vérifie si ce fournisseur existe déjà dans"
 
 #: ajax_forms.php:84 ajax_forms.php:98
 msgid "Parent:"
-msgstr "Type principal&nbsp;:"
+msgstr "Organisation parente&nbsp;:"
 
 #: ajax_forms.php:161 ajax_forms.php:238 ajax_forms.php:432 ajax_forms.php:536
 #: ajax_forms.php:695 ajax_forms.php:863 ajax_forms.php:950
@@ -695,7 +696,7 @@ msgstr "Email du compte local&nbsp;:"
 
 #: ajax_forms.php:512
 msgid "Username:"
-msgstr "Nom d'utilisateur&nbsp;:"
+msgstr "Identifiant&nbsp;:"
 
 #: ajax_forms.php:598
 msgid "Report New Problem"
@@ -871,7 +872,7 @@ msgstr "Dernière mise à jour&nbsp;:"
 
 #: summary.php:438
 msgid "External Logins"
-msgstr "Connexions externes"
+msgstr "Logins externes"
 
 #: summary.php:549
 msgid "Date Added"
@@ -986,7 +987,7 @@ msgstr "Ce fournisseur existe dans le SIGB."
 
 #: js/forms/organizationSubmitForm.js:79
 msgid "Something went wrong: "
-msgstr ""
+msgstr "Quelque chose s'est mal passé&nbsp;:"
 
 #: js/common.js:63
 msgid "No match!"

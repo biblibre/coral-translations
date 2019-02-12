@@ -3,41 +3,40 @@ msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-24 16:34+0100\n"
-"PO-Revision-Date: 2016-10-23 00:31-0600\n"
-"Last-Translator: <>\n"
+"PO-Revision-Date: 2019-02-05 17:30+0000\n"
+"Last-Translator: Xiaoyan Song <xsong9@ncsu.edu>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.8\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.8.11\n"
 "X-Poedit-KeywordsList: watchString\n"
 "X-Poedit-SearchPath-0: .\n"
+"X-POOTLE-MTIME: 1549387802.835577\n"
 
 #: install/usage.php:9 install/usage.php:30 install/usage.php:113
 #: install/usage.php:124 install/usage.php:134
-#, fuzzy
 msgid "Usage Module"
-msgstr "更改模块"
+msgstr "使用统一模块"
 
 #: install/usage.php:19
-#, fuzzy
 msgid "Usage Database"
-msgstr "使用统计信息"
+msgstr "使用统计数据库"
 
 #: install/usage.php:58
 msgid "Link Resolver Base URL (optional)"
-msgstr ""
+msgstr "链接解析器基础链接（可选）"
 
 #: install/usage.php:63
 msgid "Use Outlier Flagging Feature"
-msgstr ""
+msgstr "使用个例标记功能"
 
 #: install/usage.php:71
 msgid "Please set up the following options for the Usage module."
-msgstr ""
+msgstr "请为使用统计模块设置下面的选项"
 
 #: ajax_htmldata.php:47
 msgid "Import History for "
@@ -807,22 +806,18 @@ msgid "Total for all Databases"
 msgstr "所有数据库总计"
 
 #: directory.php:34
-#, fuzzy
 msgid "Imports"
-msgstr "导入"
+msgstr "输入"
 
 #: directory.php:36
-#, fuzzy
 msgid "Statistics"
 msgstr "统计数据"
 
 #: directory.php:37
-#, fuzzy
 msgid "Logins"
 msgstr "登录"
 
 #: directory.php:38
-#, fuzzy
 msgid "Sushi"
 msgstr "SUSHI"
 

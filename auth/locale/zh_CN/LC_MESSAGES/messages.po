@@ -3,97 +3,95 @@ msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-24 16:34+0100\n"
-"PO-Revision-Date: 2016-08-22 16:01-0600\n"
-"Last-Translator: <>\n"
+"PO-Revision-Date: 2019-02-06 19:49+0000\n"
+"Last-Translator: Xiaoyan Song <xsong9@ncsu.edu>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.8\n"
 "X-Poedit-Basepath: ../../..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.8.8\n"
 "X-Poedit-SearchPath-0: .\n"
+"X-POOTLE-MTIME: 1549482564.982185\n"
 
 #: install/auth.php:9
-#, fuzzy
 msgid "Authentication Module"
-msgstr "eRM 身份验证"
+msgstr "身份验证模块"
 
 #: install/auth.php:20
 msgid "Auth Database"
-msgstr ""
+msgstr "身份验证数据库"
 
 #: install/auth.php:31
 msgid "Auth Module Installation"
-msgstr ""
+msgstr "身份验证模块安装"
 
 #: install/auth.php:87
 msgid "Host"
-msgstr ""
+msgstr "服务器"
 
 #: install/auth.php:92
 msgid "Port"
-msgstr ""
+msgstr "端口"
 
 #: install/auth.php:99
 msgid "Base DN"
-msgstr ""
+msgstr "基础域名"
 
 #: install/auth.php:104
 msgid "Bind Account"
-msgstr ""
+msgstr "用户名"
 
 #: install/auth.php:111
-#, fuzzy
 msgid "Bind Password"
 msgstr "密码"
 
 #: install/auth.php:116
 msgid "Confirm Bind Password"
-msgstr ""
+msgstr "确认密码"
 
 #: install/auth.php:125
 msgid "First Name"
-msgstr ""
+msgstr "名"
 
 #: install/auth.php:130
 msgid "Last Name"
-msgstr ""
+msgstr "姓"
 
 #: install/auth.php:137
 msgid "Search Key"
-msgstr ""
+msgstr "搜索关键词"
 
 #: install/auth.php:158
 msgid "Your Bind Password is empty."
-msgstr ""
+msgstr "您的密码是空的。"
 
 #: install/auth.php:163
-#, fuzzy
 msgid "Your Bind Passwords do not match."
 msgstr "密码不匹配"
 
 #: install/auth.php:168
 msgid "LDAP Host is required for LDAP"
-msgstr ""
+msgstr "需要LDAP服务器"
 
 #: install/auth.php:173
 msgid "LDAP Search Key is required for LDAP"
-msgstr ""
+msgstr "LDAP需要搜索关键词"
 
 #: install/auth.php:178
 msgid "LDAP Base DN is required for LDAP"
-msgstr ""
+msgstr "需要LDAP基础域名"
 
 #: install/auth.php:207
 msgid "Sorry but your password needs to be at least 8 characters long"
-msgstr ""
+msgstr "很抱歉，密码必须至少8个字符长"
 
 #: install/auth.php:214
 msgid "Default Admin Password"
-msgstr ""
+msgstr "默认管理员密码"
 
 #: install/auth.php:218
 #, php-format
@@ -101,27 +99,27 @@ msgid ""
 "You have chosen not to use LDAP. In order for the auth module to "
 "authenticate your admin user (you chose: '<b>%s</b>') you will need to "
 "provide a default password."
-msgstr ""
+msgstr "您已选择不用LDAP。想用该模块验证您的管理员用户（您选择了 '<b>%s</b>')，您需要提供一个默认的密码。"
 
 #: install/auth.php:289
 msgid "Set up your <span class='highlight'>.htaccess</span> file"
-msgstr ""
+msgstr "设置您的 <span class='highlight'>.htaccess</span> 文件"
 
 #: install/auth.php:290
 msgid ""
 "Remove the <span class='highlight'>/auth/install/</span> directory for "
 "security purposes"
-msgstr ""
+msgstr "为安全起见，删除 <span class='highlight'>/auth/install/</span>目录"
 
 #: install/auth.php:291
 msgid ""
 "Set up your users on the <a href='auth/admin.php'>admin screen</a>.  You may "
 "log in initially with coral/admin."
-msgstr ""
+msgstr "在 <a href='auth/admin.php'>admin screen</a>设置用户。您可以用coral/admin进行初始登陆。"
 
 #: install/auth.php:310 install/auth.php:336 install/auth.php:348
 msgid "Auth Module"
-msgstr ""
+msgstr "验证模块"
 
 #: ajax_htmldata.php:53
 msgid "edit password or admin status"

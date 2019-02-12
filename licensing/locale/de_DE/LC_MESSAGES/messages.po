@@ -3,16 +3,18 @@ msgstr ""
 "Project-Id-Version: Coral\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-24 16:34+0100\n"
-"PO-Revision-Date: \n"
-"Last-Translator: BSZ - Abteilung Bibliothekssysteme\n"
+"PO-Revision-Date: 2019-01-29 10:14+0000\n"
+"Last-Translator: ClaireGravely <claire.gravely@bsz-bw.de>\n"
 "Language-Team: \n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.8\n"
 "Language-Abteilung: BSZ - Abteilung Bibliothekssysteme\n"
-"X-Generator: Poedit 1.8.11\n"
 "X-Poedit-SourceCharset: UTF-8\n"
+"X-POOTLE-MTIME: 1548756877.710730\n"
 
 #: install/licensing.php:9 install/licensing.php:31 install/licensing.php:104
 #: install/licensing.php:130 install/licensing.php:140
@@ -534,9 +536,8 @@ msgid "There was an error with the CalendarSettings Configuration."
 msgstr "Es trat ein Fehler bei der Konfiguration von CalenderSettings auf."
 
 #: calendar.php:109
-#, fuzzy
 msgid "Bad Query Failure: "
-msgstr "Fehlerhafte Abfrage"
+msgstr "Fehlerhafte Abfrage: "
 
 #: calendar.php:116
 msgid "Upcoming License Renewals"
@@ -608,7 +609,7 @@ msgstr "Fehler: "
 
 #: onix_import.php:312
 msgid "File selection"
-msgstr "Auswahl Datei"
+msgstr "Dateiauswahl"
 
 #: onix_import.php:313
 msgid "XML File"

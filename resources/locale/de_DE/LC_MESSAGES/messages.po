@@ -3,17 +3,18 @@ msgstr ""
 "Project-Id-Version: Coral\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-24 16:34+0100\n"
-"PO-Revision-Date: \n"
-"Last-Translator: BSZ - Abteilung Bibliothekssysteme\n"
+"PO-Revision-Date: 2019-02-08 08:26+0000\n"
+"Last-Translator: kfischer <katrin.fischer@bsz-bw.de>\n"
 "Language-Team: \n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language-Abteilung: BSZ - Abteilung Bibliothekssysteme\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: Pootle 2.8\n"
+"Language-Abteilung: BSZ - Abteilung Bibliothekssysteme\n"
 "X-Poedit-SourceCharset: UTF-8\n"
+"X-POOTLE-MTIME: 1549614411.132654\n"
 
 #: install/resources.php:9 install/resources.php:30 install/resources.php:160
 #: install/resources.php:194 install/resources.php:241
@@ -130,7 +131,7 @@ msgstr "Notizen"
 #: ajax_forms/getEbscoKbTitleImportForm.php:115
 #: ajax_forms/getEbscoKbPackageImportForm.php:332
 msgid "Include any additional information"
-msgstr "Jede weitere Information berücksichtigen"
+msgstr "Zusätzliche Informationen"
 
 #: ajax_forms/getNewResourceForm.php:286
 #: ajax_forms/getEbscoKbTitleImportForm.php:127
@@ -347,9 +348,8 @@ msgid "System Number:"
 msgstr "Systemnummer:"
 
 #: ajax_forms/getOrderForm.php:83 ajax_htmldata/getOrdersDetails.php:85
-#, fuzzy
 msgid "Library Number:"
-msgstr "Bestellnummer:"
+msgstr "Bibliotheksnummer:"
 
 #: ajax_forms/getOrderForm.php:88 summary.php:473
 #: ajax_htmldata/getOrdersDetails.php:99
@@ -791,13 +791,12 @@ msgid "Group Name:"
 msgstr "Gruppenname:"
 
 #: ajax_forms/getAdminUserGroupForm.php:41
-#, fuzzy
 msgid "Email Addresses:"
-msgstr "E-Mail-Adresse:"
+msgstr "E-Mail-Adressen:"
 
 #: ajax_forms/getAdminUserGroupForm.php:46
 msgid "(use comma and a space between each email address)"
-msgstr ""
+msgstr "(verwenden Sie Komma und Leerzeichen zwischen den E-Mail-Adressen)"
 
 #: ajax_forms/getAdminUserGroupForm.php:59
 msgid "Assigned Users"
@@ -1321,14 +1320,12 @@ msgid "Action"
 msgstr "Aktion"
 
 #: resource.php:76
-#, fuzzy
 msgid "Start date"
-msgstr "Startdatum"
+msgstr "Beginn"
 
 #: resource.php:78
-#, fuzzy
 msgid "End date"
-msgstr "Jahr (Ende)"
+msgstr "Ende"
 
 #: resource.php:97
 msgid "Success!"
@@ -1636,12 +1633,11 @@ msgstr "Mapping"
 
 #: import.php:75
 msgid "Coral field"
-msgstr ""
+msgstr "CORAL-Feld"
 
 #: import.php:75
-#, fuzzy
 msgid "File column"
-msgstr "Dateiauswahl"
+msgstr "Dateispalte"
 
 #: import.php:103
 msgid "Resources import"
@@ -1652,9 +1648,8 @@ msgid "Delimited File Import"
 msgstr "CSV-Dateien importieren"
 
 #: import.php:107
-#, fuzzy
 msgid "Imports history"
-msgstr "Import-Historie"
+msgstr "Importhistorie"
 
 #: import.php:147 importFunds.php:21
 msgid "The file has been successfully uploaded."
@@ -1718,32 +1713,27 @@ msgstr "Spalten in der CSV-Datei auswählen:"
 
 #: import.php:210
 msgid "Save current mapping"
-msgstr ""
+msgstr "Akutelles Mapping speichern"
 
 #: import.php:211
-#, fuzzy
 msgid "Configuration name:"
-msgstr "Konfigurationsname"
+msgstr "Konfigurationsname:"
 
 #: import.php:211
-#, fuzzy
 msgid "Save configuration"
-msgstr "Import-Konfiguration speichern"
+msgstr "Konfiguration speichern"
 
 #: import.php:227
-#, fuzzy
 msgid "Configuration name cannot be empty"
-msgstr "Konfigurationsname"
+msgstr "Konfigurationsname kann nicht leer sein"
 
 #: import.php:236
-#, fuzzy
 msgid "The import configuration has been successfully saved."
-msgstr "Importkonfiguration erfolgreich gelöscht."
+msgstr "Importkonfiguration wurde gespeichert."
 
 #: import.php:236
-#, fuzzy
 msgid "The import configuration could not be saved: "
-msgstr "Bitte wählen Sie Importkonfiguration für das Laden: "
+msgstr "Die Importkonfiguration konnte nicht gespeichert werden. "
 
 #: import.php:794
 msgid "Organization "
@@ -1771,85 +1761,72 @@ msgstr "Treffer"
 
 #: import.php:906
 msgid "have been"
-msgstr ""
+msgstr "wurden"
 
 #: import.php:906
 msgid "will be"
-msgstr ""
+msgstr "werden"
 
 #: import.php:907
 msgid " rows "
-msgstr ""
+msgstr " Zeilen "
 
 #: import.php:907
-#, fuzzy
 msgid " processed. "
-msgstr "Zeilen wurden verarbeitet. "
+msgstr " bearbeitet. "
 
 #: import.php:907
 msgid " inserted."
-msgstr ""
+msgstr " angelegt."
 
 #: import.php:908
-#, fuzzy
 msgid " parents "
-msgstr "Übergeordnete:"
+msgstr " übergeordnete Datensätze "
 
 #: import.php:908
-#, fuzzy
 msgid " created. "
-msgstr "Angelegt:"
+msgstr " angelegt "
 
 #: import.php:908 import.php:919
-#, fuzzy
 msgid " resources "
-msgstr "Ressourcen"
+msgstr " Ressourcen "
 
 #: import.php:908
-#, fuzzy
 msgid " attached to an existing parent."
-msgstr " Ressourcen wurden an eine existierende Organisation angehängt."
+msgstr " an einen existierenden übergeordneten Datensatz angehängt."
 
 #: import.php:909
-#, fuzzy
 msgid " organizations "
-msgstr "Organisationen"
+msgstr " Organisationen "
 
 #: import.php:909 import.php:920 import.php:921 import.php:922 import.php:923
 #: import.php:924
-#, fuzzy
 msgid " created"
-msgstr "Angelegt:"
+msgstr " angelegt"
 
 #: import.php:919
-#, fuzzy
 msgid " attached to an existing organization."
-msgstr " Ressourcen wurden an eine existierende Organisation angehängt."
+msgstr " an eine existierende Organisation angehängt."
 
 #: import.php:920
-#, fuzzy
 msgid " resource types "
-msgstr "Art der Ressource"
+msgstr " Ressourcearten "
 
 #: import.php:921
-#, fuzzy
 msgid " resource formats "
-msgstr "Format der Ressource: "
+msgstr " Ressourcenformate "
 
 #: import.php:922
-#, fuzzy
 msgid " general subjects "
-msgstr "Allgemeines Fachgebiet: "
+msgstr " allgemeine Fachgebiete "
 
 #: import.php:923
-#, fuzzy
 msgid " aliases "
-msgstr "Aliase"
+msgstr " Alias "
 
 #: import.php:924
-#, fuzzy
 msgid " notes "
-msgstr "Notizen"
+msgstr " Notizen "
 
 #: import.php:959
 msgid ""
@@ -1938,15 +1915,17 @@ msgid "Attachments"
 msgstr "Anhänge"
 
 #: directory.php:96
-#, fuzzy
 msgid "Workflow"
-msgstr "Workflows"
+msgstr "Workflow"
 
 #: pig.php:26
 msgid ""
 "Public Interface Generator is not enabled on this Coral installation. Please "
 "edit configuration.ini if you want to enable it."
 msgstr ""
+"Public Interface Generator ist Ihrer Coral-Installation nicht aktualisiert. "
+"Bitte bearbeiten Sie die configuration.ini, wenn Sie die Funktion aktivieren "
+"möchten."
 
 #: admin.php:26 admin.php:41
 msgid "Administration"
@@ -2478,7 +2457,7 @@ msgstr "Importdetails"
 
 #: importHistory.php:57
 msgid "Import history"
-msgstr "Import-Historie"
+msgstr "Importhistorie"
 
 #: dashboard_yearly_costs.php:3 dashboard.php:3
 msgid "Dashboard"
@@ -2514,9 +2493,8 @@ msgstr "Ressource"
 
 #: dashboard_yearly_costs.php:70 ajax_htmldata/getDashboardYearlyCosts.php:32
 #: dashboard.php:70
-#, fuzzy
 msgid "Library Number"
-msgstr "Bestellnummer"
+msgstr "Bibliotheksnummer"
 
 #: dashboard_yearly_costs.php:76 dashboard.php:76
 msgid "Display"
@@ -3313,9 +3291,8 @@ msgid "Contributors"
 msgstr "Beitragende"
 
 #: ajax_htmldata/getEbscoKbTitleDetails.php:96
-#, fuzzy
 msgid "Show all packages"
-msgstr "Zeige Pakete"
+msgstr "Zeige alle Pakete"
 
 #: ajax_htmldata/getEbscoKbTitleDetails.php:109
 msgid "Selected in EBSCO Kb"
@@ -3429,9 +3406,8 @@ msgid "import funds"
 msgstr "Etats importieren"
 
 #: ajax_htmldata/getDashboard.php:26
-#, fuzzy
 msgid "Library number"
-msgstr "Bestellnummer"
+msgstr "Bibliotheksnummer"
 
 #: ajax_htmldata/getWorkflowDetails.php:15
 msgid ""

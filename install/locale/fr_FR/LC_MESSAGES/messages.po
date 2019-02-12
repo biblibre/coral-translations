@@ -8,26 +8,28 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-24 16:41+0100\n"
-"PO-Revision-Date: 2019-01-24 16:43+0100\n"
-"Last-Translator: Admin User Coral <coral@coral.local>\n"
+"PO-Revision-Date: 2019-01-25 15:27+0000\n"
+"Last-Translator: Matthias Meusburger <matthias.meusburger@biblibre.com>\n"
 "Language-Team: French\n"
-"Language: fr\n"
+"Language: fr_FR\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Pootle 2.8\n"
+"X-POOTLE-MTIME: 1548430029.097415\n"
 
 #: providers/upgrade_helper.php:19
 msgid "Incremental Upgrade"
-msgstr ""
+msgstr "Mise à jour incrémentale"
 
 #: providers/upgrade_helper.php:30
 msgid "Incremental Upgrade: "
-msgstr ""
+msgstr "Mise à jour incrémentale&nbsp;:"
 
 #: providers/have_default_coral_admin_user.php:6
 msgid "Default Coral Admin User Configured"
-msgstr ""
+msgstr "L'administrateur par défaut de Coral a été configuré"
 
 #: providers/have_default_coral_admin_user.php:16
 msgid "Have default user"
@@ -64,26 +66,28 @@ msgstr ""
 #: providers/get_db_connection.php:48
 msgid "Unfortunately, although we could find the database, access was denied."
 msgstr ""
+"Malheureusement, bien que la base de données ait été trouvée, l'accès a été "
+"refusé."
 
 #: providers/get_db_connection.php:49 providers/get_db_connection.php:54
 msgid "Please review your settings."
-msgstr ""
+msgstr "Merci de corriger vos paramètres."
 
 #: providers/get_db_connection.php:53
 msgid "Unfortunately we could not connect to the host."
-msgstr ""
+msgstr "Malheureusement, nous n'avons pas pu nous connecter à la machine."
 
 #: providers/have_default_db_user.php:6
 msgid "Default Database User Configured"
-msgstr ""
+msgstr "L'utilisateur par défaut de la base de données a été configuré"
 
 #: providers/have_default_db_user.php:18
 msgid "Configure Default Database User"
-msgstr ""
+msgstr "Configurer l'utilisateur par défaut de la base de données"
 
 #: providers/have_default_db_user.php:55
 msgid "Sorry the username is limited to 16 characters."
-msgstr ""
+msgstr "Le nom d'utilisateur est limité à 16 caractères."
 
 #: providers/have_default_db_user.php:64
 #, php-format
@@ -91,6 +95,8 @@ msgid ""
 "Sorry, we do not allow the characters '%s' in passwords. Please use a "
 "different password."
 msgstr ""
+"Désolé, mais nous n'autorisons pas les caractères '%s' dans les mots de "
+"passe. Merci d'utiliser un mot de passe différent."
 
 #: providers/have_default_db_user.php:82
 msgid ""
@@ -100,6 +106,13 @@ msgid ""
 "will need to grant SELECT, INSERT, UPDATE and DELETE to this user on all the "
 "coral databases used in this install."
 msgstr ""
+"Durant l'installation et les mises à jour, Coral a besoin de plus de "
+"privilèges sur la base de données que pendant l'utilisation quotidienne. Si "
+"Coral en a le droit, il va automatiquement créer un utilisateur avec les "
+"privilèges appropriés, basé sur ces informations. Dans le cas contraire, "
+"vous devrez accorder les droits SELECT, INSERT, UPDATE et DELETE à cet "
+"utilisateur sur toutes les base de données Coral utilisées dans cette "
+"installation."
 
 #: providers/have_default_db_user.php:140
 #, php-format

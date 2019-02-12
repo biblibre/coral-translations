@@ -3,18 +3,19 @@ msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-24 16:34+0100\n"
-"PO-Revision-Date: 2018-03-13 11:57+0100\n"
-"Last-Translator: Paul Poulain <paul.poulain@biblibre.com>\n"
+"PO-Revision-Date: 2019-01-25 14:16+0000\n"
+"Last-Translator: Matthias Meusburger <matthias.meusburger@biblibre.com>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Pootle 2.8\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: ../../..\n"
-"X-Generator: Poedit 1.8.7.1\n"
 "X-Poedit-SearchPath-0: .\n"
+"X-POOTLE-MTIME: 1548425801.567483\n"
 
 #: install/licensing.php:9 install/licensing.php:31 install/licensing.php:104
 #: install/licensing.php:130 install/licensing.php:140
@@ -538,9 +539,8 @@ msgstr ""
 "Il y a eu une erreur avec la configuration de la table CalendarSettings."
 
 #: calendar.php:109
-#, fuzzy
 msgid "Bad Query Failure: "
-msgstr "Echec de demande erronée"
+msgstr "Échec de requête erronée&nbsp;:"
 
 #: calendar.php:116
 msgid "Upcoming License Renewals"

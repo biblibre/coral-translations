@@ -8,14 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-24 17:17+0100\n"
-"PO-Revision-Date: 2019-01-30 10:23+0100\n"
-"Last-Translator: Admin User Coral <help@coral-erm.org>\n"
+"PO-Revision-Date: 2019-02-01 16:22+0000\n"
+"Last-Translator: Jon <jon.mcgowan@ptfs-europe.com>\n"
 "Language-Team: English (British)\n"
 "Language: en_GB\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.8\n"
+"X-POOTLE-MTIME: 1549038154.944114\n"
 
 #: install/resources.php:9 install/resources.php:30 install/resources.php:160
 #: install/resources.php:194 install/resources.php:241
@@ -36,7 +38,7 @@ msgstr "Enable Alerts"
 
 #: install/resources.php:77
 msgid "Catalog URL"
-msgstr "Catalog URL"
+msgstr "Catalogue URL"
 
 #: install/resources.php:82
 msgid "Feedback Email Address"
@@ -365,7 +367,7 @@ msgstr "Current Sub End:"
 #: ajax_forms/getImportConfigForm.php:202
 #: ajax_forms/getImportConfigForm.php:329 import.php:126
 msgid "Organization"
-msgstr "Organization"
+msgstr "Organisation"
 
 #: ajax_forms/getOrderForm.php:111
 msgid "Enable Alert"
@@ -655,21 +657,21 @@ msgstr "+ Add another note set"
 
 #: ajax_forms/getImportConfigForm.php:186
 msgid "Organization Sets"
-msgstr "Organization Sets"
+msgstr "Organisation Sets"
 
 #: ajax_forms/getImportConfigForm.php:190
 #: ajax_forms/getImportConfigForm.php:202
 #: ajax_forms/getImportConfigForm.php:329 admin.php:85
 msgid "Organization Role"
-msgstr "Organization Role"
+msgstr "Organisation Role"
 
 #: ajax_forms/getImportConfigForm.php:209
 msgid "+ Add another organization set"
-msgstr "+ Add another organization set"
+msgstr "+ Add another organisation set"
 
 #: ajax_forms/getImportConfigForm.php:214
 msgid "Organization Name Mapping"
-msgstr "Organization Name Mapping"
+msgstr "Organisation Name Mapping"
 
 #: ajax_forms/getImportConfigForm.php:215
 msgid ""
@@ -681,12 +683,12 @@ msgid ""
 "created. Each column that is added to an Organization set above is checked "
 "against the complete list of mappings that you create. "
 msgstr ""
-"Use these mappings to normalize different variations of an organization’s "
+"Use these mappings to normalise different variations of an organisation’s "
 "name to a single value. For example, you could have a publisher with three "
 "variations of their name across your import file: PublisherHouse, "
-"PublisherH, and PH. You could create a mapping for each one and normalize "
-"them all to PublisherHouse, to prevent duplicate organizations from being "
-"created. Each column that is added to an Organization set above is checked "
+"PublisherH, and PH. You could create a mapping for each one and normalise "
+"them all to PublisherHouse, to prevent duplicate organisations from being "
+"created. Each column that is added to an Organisation set above is checked "
 "against the complete list of mappings that you create. "
 
 #: ajax_forms/getImportConfigForm.php:215
@@ -699,7 +701,7 @@ msgstr " are supported for these mappings."
 
 #: ajax_forms/getImportConfigForm.php:219
 msgid "Organization Name"
-msgstr "Organization Name"
+msgstr "Organisation Name"
 
 #: ajax_forms/getImportConfigForm.php:220
 msgid "Will Be Mapped To"
@@ -893,7 +895,7 @@ msgstr "Coverage:"
 
 #: ajax_forms/getAccessForm.php:166
 msgid "Authorized Site(s)"
-msgstr "Authorized Site(s)"
+msgstr "Authorised Site(s)"
 
 #: ajax_forms/getAccessForm.php:211
 msgid "Administering Site(s)"
@@ -934,7 +936,7 @@ msgstr ""
 "across multiple columns, add additional sets using the +Add another links. "
 "Use the Dedupe on this column option for ISBN/ISSN sets to ignore any "
 "duplicate values that might occur across those columns. The Alias Types, "
-"Note Types, and Organization Roles that you can assign to your mapped "
+"Note Types, and Organisation Roles that you can assign to your mapped "
 "columns can be configured on the Admin page."
 
 #: ajax_forms/getAccountForm.php:17
@@ -986,7 +988,7 @@ msgstr "* required fields"
 #: ajax_forms/getNewIssueForm.php:32 ajax_forms/getUpdateProductForm.php:244
 #: ajax_htmldata/getOrdersDetails.php:50 ajax_htmldata/getContactDetails.php:85
 msgid "Organization:"
-msgstr "Organization:"
+msgstr "Organisation:"
 
 #: ajax_forms/getNewIssueForm.php:39
 msgid "Contact:"
@@ -1046,7 +1048,7 @@ msgstr "day(s)"
 msgid ""
 "Opening an issue requires a resource to be associated with an organization."
 msgstr ""
-"Opening an issue requires a resource to be associated with an organization."
+"Opening an issue requires a resource to be associated with an organisation."
 
 #: ajax_forms/getAdminWorkflowForm.php:42
 msgid "Edit Workflow"
@@ -1164,8 +1166,8 @@ msgid ""
 "Creating downtime requires an organization or a resource to be associated "
 "with an organization."
 msgstr ""
-"Creating downtime requires an organization or a resource to be associated "
-"with an organization."
+"Creating downtime requires an organisation or a resource to be associated "
+"with an organisation."
 
 #: ajax_forms/getImportSaveCfgForm.php:6
 msgid "Save Import Configuration"
@@ -1274,7 +1276,7 @@ msgstr "remove Issn/Isbn"
 #: ajax_forms/getUpdateProductForm.php:235 templates/header.php:244
 #: admin.php:86 export.php:68
 msgid "Organizations"
-msgstr "Organizations"
+msgstr "Organisations"
 
 #: ajax_forms/getUpdateProductForm.php:243
 msgid "Role:"
@@ -1282,11 +1284,11 @@ msgstr "Role:"
 
 #: ajax_forms/getUpdateProductForm.php:266
 msgid "add organization"
-msgstr "add organization"
+msgstr "add organisation"
 
 #: ajax_forms/getUpdateProductForm.php:306
 msgid "remove organization"
-msgstr "remove organization"
+msgstr "remove organisation"
 
 #: ajax_forms/getUpdateProductForm.php:328 export.php:81
 msgid "Aliases"
@@ -1467,7 +1469,7 @@ msgstr "Main Menu"
 
 #: templates/header.php:244
 msgid "Organizations module"
-msgstr "Organizations module"
+msgstr "Organisations module"
 
 #: templates/header.php:249
 msgid "Licensing module"
@@ -1686,7 +1688,7 @@ msgstr ""
 "columns, add additional sets using the +Add another links. Use the Dedupe on "
 "this column option for ISBN/ISSN sets to ignore any duplicate values that "
 "might occur across those columns. The Alias Types, Note Types, and "
-"Organization Roles that you can assign to your mapped columns can be "
+"Organisation Roles that you can assign to your mapped columns can be "
 "configured on the Admin page."
 
 #: import.php:180
@@ -1727,7 +1729,7 @@ msgstr "The import configuration could not be saved: "
 
 #: import.php:794
 msgid "Organization "
-msgstr "Organization "
+msgstr "Organisation "
 
 #: import.php:794
 msgid " could not be added."
@@ -1735,7 +1737,7 @@ msgstr " could not be added."
 
 #: import.php:807 import.php:833
 msgid "Error: more than one organization is called "
-msgstr "Error: more than one organization is called "
+msgstr "Error: more than one organisation is called "
 
 #: import.php:807
 msgid ". Please consider deduping."
@@ -1787,7 +1789,7 @@ msgstr " attached to an existing parent."
 
 #: import.php:909
 msgid " organizations "
-msgstr " organizations "
+msgstr " organisations "
 
 #: import.php:909 import.php:920 import.php:921 import.php:922 import.php:923
 #: import.php:924
@@ -1796,7 +1798,7 @@ msgstr " created"
 
 #: import.php:919
 msgid " attached to an existing organization."
-msgstr " attached to an existing organization."
+msgstr " attached to an existing organisation."
 
 #: import.php:920
 msgid " resource types "
@@ -1884,7 +1886,7 @@ msgstr "Orders"
 
 #: directory.php:91 summary.php:793 resources/cataloging.php:103
 msgid "Cataloging"
-msgstr "Cataloging"
+msgstr "Cataloguing"
 
 #: directory.php:92
 msgid "Contacts"
@@ -1949,15 +1951,15 @@ msgstr "Authentication Type"
 
 #: admin.php:63 index.php:471
 msgid "Authorized Site"
-msgstr "Authorized Site"
+msgstr "Authorised Site"
 
 #: admin.php:64 export.php:103 resources/cataloging_edit.php:58 index.php:563
 msgid "Cataloging Status"
-msgstr "Cataloging Status"
+msgstr "Cataloguing Status"
 
 #: admin.php:65 export.php:102 resources/cataloging_edit.php:51
 msgid "Cataloging Type"
-msgstr "Cataloging Type"
+msgstr "Cataloguing Type"
 
 #: admin.php:66
 msgid "Contact Role"
@@ -2110,7 +2112,7 @@ msgstr "License Names"
 
 #: export.php:93
 msgid "Authorized Sites"
-msgstr "Authorized Sites"
+msgstr "Authorised Sites"
 
 #: export.php:94
 msgid "Administering Sites"
@@ -2134,19 +2136,19 @@ msgstr "Password"
 
 #: export.php:104
 msgid "Catalog Record Set Identifier"
-msgstr "Catalog Record Set Identifier"
+msgstr "Catalogue Record Set Identifier"
 
 #: export.php:105
 msgid "Catalog Record Source URL"
-msgstr "Catalog Record Source URL"
+msgstr "Catalogue Record Source URL"
 
 #: export.php:106
 msgid "Catalog Records Available"
-msgstr "Catalog Records Available"
+msgstr "Catalogue Records Available"
 
 #: export.php:107
 msgid "Catalog Records Loaded"
-msgstr "Catalog Records Loaded"
+msgstr "Catalogue Records Loaded"
 
 #: export.php:108
 msgid "OCLC Holdings Updated"
@@ -2206,7 +2208,7 @@ msgstr "Aliases:"
 
 #: summary.php:326 ajax_htmldata/getProductDetails.php:249
 msgid "Organizations:"
-msgstr "Organizations:"
+msgstr "Organisations:"
 
 #: summary.php:347 ajax_htmldata/getProductDetails.php:270
 msgid "Resource URL:"
@@ -2222,7 +2224,7 @@ msgstr "Purchasing Site:"
 
 #: summary.php:465 ajax_htmldata/getAccessDetails.php:52
 msgid "Authorized Sites:"
-msgstr "Authorized Sites:"
+msgstr "Authorised Sites:"
 
 #: summary.php:482 ajax_htmldata/getOrdersDetails.php:108
 msgid "Expiration Alert Enabled"
@@ -2322,11 +2324,11 @@ msgstr "Identifier:"
 
 #: summary.php:813 resources/cataloging.php:128
 msgid "Cataloging Type:"
-msgstr "Cataloging Type:"
+msgstr "Cataloguing Type:"
 
 #: summary.php:821 resources/cataloging.php:136
 msgid "Cataloging Status:"
-msgstr "Cataloging Status:"
+msgstr "Cataloguing Status:"
 
 #: summary.php:827 resources/cataloging.php:142
 msgid "# Records Available:"
@@ -2350,15 +2352,15 @@ msgstr "No"
 
 #: summary.php:846 resources/cataloging.php:159
 msgid "No cataloging information available."
-msgstr "No cataloging information available."
+msgstr "No cataloguing information available."
 
 #: summary.php:890
 msgid "Additional Cataloging Notes"
-msgstr "Additional Cataloging Notes"
+msgstr "Additional Cataloguing Notes"
 
 #: resources/cataloging_edit.php:18
 msgid "Edit Cataloging"
-msgstr "Edit Cataloging"
+msgstr "Edit Cataloguing"
 
 #: resources/cataloging_edit.php:27
 msgid "Record Set"
@@ -2407,7 +2409,7 @@ msgstr "Number of Records Loaded"
 
 #: resources/cataloging.php:165
 msgid "edit cataloging details"
-msgstr "edit cataloging details"
+msgstr "edit cataloguing details"
 
 #: resources/cataloging.php:209 ajax_htmldata/getProductDetails.php:435
 #: ajax_htmldata/getAccessDetails.php:161
@@ -2780,15 +2782,15 @@ msgstr "Error - Parent is not found.  Please use the Autocomplete."
 
 #: js/forms/resourceUpdateForm.js:310
 msgid "Error - Organization is not found.  Please use the Autocomplete."
-msgstr "Error - Organization is not found.  Please use the Autocomplete."
+msgstr "Error - Organisation is not found.  Please use the Autocomplete."
 
 #: js/forms/resourceUpdateForm.js:325
 msgid "remove this organization"
-msgstr "remove this organization"
+msgstr "remove this organisation"
 
 #: js/forms/resourceUpdateForm.js:395
 msgid "Error - Organization is not found.  Please use Autocomplete."
-msgstr "Error - Organization is not found.  Please use Autocomplete."
+msgstr "Error - Organisation is not found.  Please use Autocomplete."
 
 #: js/common.js:67
 msgid "No match!"
@@ -2855,7 +2857,7 @@ msgid ""
 "Opening an issue requires a resource to be associated with an organization. "
 "Please contact your IT department."
 msgstr ""
-"Opening an issue requires a resource to be associated with an organization. "
+"Opening an issue requires a resource to be associated with an organisation. "
 "Please contact your IT department."
 
 #: js/resource.js:526
@@ -2872,7 +2874,7 @@ msgstr "A body must be entered to continue."
 
 #: js/resource.js:549
 msgid "An issue must be associated with an organization or resource(s)."
-msgstr "An issue must be associated with an organization or resource(s)."
+msgstr "An issue must be associated with an organisation or resource(s)."
 
 #: js/resource.js:796
 msgid "Do you really want to delete this contact?"
@@ -2971,11 +2973,11 @@ msgstr "Linked issue:"
 
 #: ajax_htmldata/getDowntimeList.php:56 ajax_htmldata/getIssuesList.php:73
 msgid "Organizational"
-msgstr "Organizational"
+msgstr "Organisational"
 
 #: ajax_htmldata/getDowntimeList.php:70
 msgid "There are no organization level downtimes."
-msgstr "There are no organization level downtimes."
+msgstr "There are no organisation level downtimes."
 
 #: ajax_htmldata/getDowntimeList.php:87
 msgid "There are no order level downtimes."
@@ -3090,7 +3092,7 @@ msgstr "remove order"
 
 #: ajax_htmldata/getOrdersDetails.php:76
 msgid "catalog view"
-msgstr "catalog view"
+msgstr "catalogue view"
 
 #: ajax_htmldata/getOrdersDetails.php:92
 msgid "Purchasing Sites:"
@@ -3186,7 +3188,7 @@ msgstr "remove account"
 
 #: ajax_htmldata/getAccountDetails.php:59
 msgid "Visit Account in Organizations Module"
-msgstr "Visit Account in Organizations Module"
+msgstr "Visit Account in Organisations Module"
 
 #: ajax_htmldata/getAccountDetails.php:67
 msgid "Visit Login URL"
@@ -3227,7 +3229,7 @@ msgstr "Contact(s):"
 
 #: ajax_htmldata/getIssuesList.php:92
 msgid "There are no organization level issues."
-msgstr "There are no organization level issues."
+msgstr "There are no organisation level issues."
 
 #: ajax_htmldata/getIssuesList.php:110
 msgid "There are no order level issues."
@@ -3479,7 +3481,7 @@ msgstr "remove contact"
 
 #: ajax_htmldata/getContactDetails.php:86
 msgid "Visit Contact in Organizations Module"
-msgstr "Visit Contact in Organizations Module"
+msgstr "Visit Contact in Organisations Module"
 
 #: ajax_htmldata/getContactDetails.php:94
 msgid "No longer valid:"
@@ -3580,7 +3582,7 @@ msgstr "Print View"
 
 #: ajax_htmldata/getRightPanel.php:44
 msgid "Catalog View"
-msgstr "Catalog View"
+msgstr "Catalogue View"
 
 #: ajax_htmldata/getRightPanel.php:52
 msgid "Parent Record(s)"
@@ -3592,7 +3594,7 @@ msgstr "Child Record(s)"
 
 #: ajax_htmldata/getRightPanel.php:85
 msgid "Organizations Module"
-msgstr "Organizations Module"
+msgstr "Organisations Module"
 
 #: ajax_htmldata/getRightPanel.php:101
 msgid "Licensing Module"
