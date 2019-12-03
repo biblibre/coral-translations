@@ -1,5 +1,5 @@
 dest="../../coral-translations"
-languages="de_DE en_GB fr_FR tr_TR zh_CN zh_TW"
+languages="de_DE en_GB es fr_FR tr_TR zh_CN zh_TW"
 for module in "organizations" "usage" "licensing" "reports" "auth" "resources" "management" "install"; do
 echo "module $module";
 cd $module
