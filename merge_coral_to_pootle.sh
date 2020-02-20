@@ -5,12 +5,12 @@ for module in "organizations" "usage" "licensing" "reports" "auth" "resources" "
 echo "module $module";
 for locale in $languages; do
 echo "updating $locale"
-msgmerge $module/locale/$locale/LC_MESSAGES/messages.po $dest/$module/$locale/LC_MESSAGES/messages.po -o $dest/$module/$locale/LC_MESSAGES/messages.po
+msgmerge $dest/$module/$locale/LC_MESSAGES/messages.po $module/locale/$locale/LC_MESSAGES/messages.po -o $dest/$module/$locale/LC_MESSAGES/messages.po
 done
 done
 #Root dir
 echo 'root directory';
 for locale in $languages; do
 echo "updating $locale"
-msgmerge locale/$locale/LC_MESSAGES/messages.po $dest/root/$locale/LC_MESSAGES/messages.po -o $dest/root/$locale/LC_MESSAGES/messages.po
+msgmerge $dest/root/$locale/LC_MESSAGES/messages.po $dest/root/$locale/LC_MESSAGES/messages.po -o $dest/root/$locale/LC_MESSAGES/messages.po
 done
