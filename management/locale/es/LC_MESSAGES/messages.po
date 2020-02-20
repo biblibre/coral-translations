@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Coral\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-24 17:17+0100\n"
+"POT-Creation-Date: 2020-02-20 11:04+0100\n"
 "PO-Revision-Date: 2019-12-03 14:33+0100\n"
 "Last-Translator: Admin User Coral <coral@coral.local>\n"
 "Language-Team: Spanish\n"
@@ -38,8 +38,8 @@ msgstr ""
 msgid "Limit by Qualifier:"
 msgstr ""
 
-#: in_progress.php:23 templates/header.php:211 templates/header.php:234
-#: templates/header.php:250 index.php:23
+#: in_progress.php:23 templates/header.php:215 templates/header.php:238
+#: templates/header.php:254 index.php:23
 msgid "Home"
 msgstr ""
 
@@ -56,17 +56,14 @@ msgstr ""
 msgid "Loading..."
 msgstr ""
 
-#: ajax_htmldata.php:48 ajax_htmldata.php:156 ajax_htmldata.php:236
-#: ajax_htmldata.php:319 ajax_htmldata.php:1258 ajax_htmldata.php:1328
+#: ajax_htmldata.php:48 ajax_htmldata.php:156 ajax_htmldata.php:1258
 #: ajax_forms.php:611 ajax_forms.php:880
 msgid "edit"
 msgstr ""
 
-#: ajax_htmldata.php:48 ajax_htmldata.php:157 ajax_htmldata.php:236
-#: ajax_htmldata.php:319 ajax_htmldata.php:1258 ajax_htmldata.php:1329
-#: ajax_htmldata.php:1383 ajax_htmldata.php:1424 ajax_htmldata.php:1467
-#: ajax_forms.php:612 ajax_forms.php:881 ajax_forms.php:966
-#: js/forms/attachmentForm.js:84
+#: ajax_htmldata.php:48 ajax_htmldata.php:157 ajax_htmldata.php:1258
+#: ajax_htmldata.php:1424 ajax_htmldata.php:1467 ajax_forms.php:612
+#: ajax_forms.php:881 ajax_forms.php:966 js/forms/attachmentForm.js:88
 msgid "remove"
 msgstr ""
 
@@ -114,7 +111,7 @@ msgid "Notes"
 msgstr ""
 
 #: ajax_htmldata.php:189
-msgid "add new note"
+msgid "add note"
 msgstr ""
 
 #: ajax_htmldata.php:198 ajax_htmldata.php:267 ajax_forms.php:562
@@ -141,6 +138,18 @@ msgstr ""
 msgid "less"
 msgstr ""
 
+#: ajax_htmldata.php:236 ajax_htmldata.php:319 ajax_htmldata.php:977
+#: ajax_htmldata.php:1328 ajax_htmldata.php:1382 ajax_forms.php:1093
+#: ajax_forms.php:1102 ajax_forms.php:1136 ajax_forms.php:1219
+#: ajax_forms.php:1264 js/forms/licenseForm.js:330
+msgid "Edit"
+msgstr ""
+
+#: ajax_htmldata.php:236 ajax_htmldata.php:319 ajax_htmldata.php:977
+#: ajax_htmldata.php:1329 ajax_htmldata.php:1383
+msgid "Remove"
+msgstr ""
+
 #: ajax_htmldata.php:268
 msgid "Details"
 msgstr ""
@@ -154,7 +163,7 @@ msgid "view attachment "
 msgstr ""
 
 #: ajax_htmldata.php:334
-msgid "add new attachment"
+msgid "add attachment"
 msgstr ""
 
 #: ajax_htmldata.php:418
@@ -292,14 +301,6 @@ msgstr ""
 msgid "view expressions"
 msgstr ""
 
-#: ajax_htmldata.php:977 ajax_htmldata.php:1094
-msgid "edit document"
-msgstr ""
-
-#: ajax_htmldata.php:977 ajax_htmldata.php:1094
-msgid "remove document"
-msgstr ""
-
 #: ajax_htmldata.php:987 ajax_htmldata.php:989
 msgid "This document has "
 msgstr ""
@@ -348,6 +349,14 @@ msgstr ""
 
 #: ajax_htmldata.php:1073
 msgid "add signatures"
+msgstr ""
+
+#: ajax_htmldata.php:1094
+msgid "edit document"
+msgstr ""
+
+#: ajax_htmldata.php:1094
+msgid "remove document"
 msgstr ""
 
 #: ajax_htmldata.php:1132
@@ -415,24 +424,23 @@ msgstr ""
 msgid "Terms Tool Update Email"
 msgstr ""
 
-#: ajax_htmldata.php:1382 ajax_htmldata.php:1423 ajax_htmldata.php:1466
-#: ajax_forms.php:1102
-msgid "update"
-msgstr ""
-
 #: ajax_htmldata.php:1413 ajax_forms.php:1230 ajax_forms.php:1231
 msgid "Expression Type"
+msgstr ""
+
+#: ajax_htmldata.php:1423 ajax_htmldata.php:1466
+msgid "update"
 msgstr ""
 
 #: ajax_htmldata.php:1453 ajax_forms.php:1277
 msgid "For Expression Type"
 msgstr ""
 
-#: ajax_htmldata.php:1570 ajax_processing.php:1330 ajax_forms.php:1325
+#: ajax_htmldata.php:1570 ajax_processing.php:1333 ajax_forms.php:1325
 msgid "Action "
 msgstr ""
 
-#: ajax_htmldata.php:1570 ajax_processing.php:1330 ajax_forms.php:1325
+#: ajax_htmldata.php:1570 ajax_processing.php:1333 ajax_forms.php:1325
 msgid " not set up!"
 msgstr ""
 
@@ -441,70 +449,86 @@ msgid ""
 "Both license name and organization must be filled out.  Please try again."
 msgstr ""
 
-#: templates/header.php:85
+#: templates/header.php:89
 msgid ""
 "JavaScript must be enabled in order for you to use CORAL. However, it seems "
 "JavaScript is either disabled or not supported by your browser. To use "
 "CORAL, enable JavaScript by changing your browser options, then "
 msgstr ""
 
-#: templates/header.php:85
+#: templates/header.php:89
 msgid "try again"
 msgstr ""
 
-#: templates/header.php:105
+#: templates/header.php:109
 msgid "Management"
 msgstr ""
 
-#: templates/header.php:106
+#: templates/header.php:110
 msgid "Powered by"
 msgstr ""
 
-#: templates/header.php:112
+#: templates/header.php:116
 msgid "Hello"
 msgstr ""
 
-#: templates/header.php:122
+#: templates/header.php:126
 msgid "logout"
 msgstr ""
 
-#: templates/header.php:122
+#: templates/header.php:126
 msgid "Help"
 msgstr ""
 
-#: templates/header.php:140
+#: templates/header.php:144
 msgid "Invalid translation route!"
 msgstr ""
 
-#: templates/header.php:218 templates/header.php:241 templates/header.php:257
+#: templates/header.php:222 templates/header.php:245 templates/header.php:261
 msgid "New Document"
 msgstr ""
 
-#: templates/header.php:225
+#: templates/header.php:229
 msgid "Admin"
 msgstr ""
 
-#: templates/header.php:278
+#: templates/header.php:282
 msgid "Change Module"
 msgstr ""
 
-#: templates/header.php:281
+#: templates/header.php:285
 msgid "Main Menu"
 msgstr ""
 
-#: templates/header.php:286
+#: templates/header.php:290
+msgid "Resources module"
+msgstr ""
+
+#: templates/header.php:290
 msgid "Resources"
 msgstr ""
 
-#: templates/header.php:291
+#: templates/header.php:295
+msgid "Organizations module"
+msgstr ""
+
+#: templates/header.php:295
 msgid "Organizations"
 msgstr ""
 
-#: templates/header.php:296
+#: templates/header.php:300
+msgid "Licensing module"
+msgstr ""
+
+#: templates/header.php:300
 msgid "Licensing"
 msgstr ""
 
-#: templates/header.php:301
+#: templates/header.php:305
+msgid "Usage Statistics module"
+msgstr ""
+
+#: templates/header.php:305
 msgid "Usage Statistics"
 msgstr ""
 
@@ -520,32 +544,21 @@ msgstr ""
 msgid "Users"
 msgstr ""
 
-#: admin.php:36
-msgid "add new user"
+#: admin.php:35 admin.php:49 admin.php:63 admin.php:151 ajax_forms.php:1139
+#: ajax_forms.php:1222 ajax_forms.php:1267
+msgid "Add"
 msgstr ""
 
 #: admin.php:49
 msgid "Document Types"
 msgstr ""
 
-#: admin.php:50
-msgid "add new document type"
-msgstr ""
-
 #: admin.php:63
 msgid "Note Types"
 msgstr ""
 
-#: admin.php:64
-msgid "add new note type"
-msgstr ""
-
 #: admin.php:151
 msgid "Categories"
-msgstr ""
-
-#: admin.php:152
-msgid "add new category"
 msgstr ""
 
 #: admin.php:183
@@ -556,11 +569,11 @@ msgstr ""
 msgid "License successfully deleted."
 msgstr ""
 
-#: ajax_processing.php:177
+#: ajax_processing.php:177 ajax_processing.php:1076
 msgid "success uploading!"
 msgstr ""
 
-#: ajax_processing.php:180 ajax_processing.php:1078
+#: ajax_processing.php:180 ajax_processing.php:1079
 msgid "There was a problem saving your file to "
 msgstr ""
 
@@ -653,19 +666,19 @@ msgid ""
 "information."
 msgstr ""
 
-#: ajax_processing.php:1145
+#: ajax_processing.php:1148
 msgid "Attachment successfully deleted"
 msgstr ""
 
-#: ajax_processing.php:1159
+#: ajax_processing.php:1162
 msgid "Attachment file successfully deleted"
 msgstr ""
 
-#: ajax_processing.php:1172
+#: ajax_processing.php:1175
 msgid "Note successfully deleted"
 msgstr ""
 
-#: ajax_processing.php:1220
+#: ajax_processing.php:1223
 msgid "Status has been updated"
 msgstr ""
 
@@ -731,8 +744,7 @@ msgid "submit"
 msgstr ""
 
 #: ajax_forms.php:253 ajax_forms.php:426 ajax_forms.php:524 ajax_forms.php:794
-#: ajax_forms.php:983 ajax_forms.php:1065 ajax_forms.php:1200
-#: ajax_forms.php:1246 ajax_forms.php:1302
+#: ajax_forms.php:983 ajax_forms.php:1065 ajax_forms.php:1302
 msgid "cancel"
 msgstr ""
 
@@ -776,15 +788,16 @@ msgstr ""
 msgid "commit update"
 msgstr ""
 
-#: ajax_forms.php:634 ajax_forms.php:896 js/forms/licenseForm.js:196
-#: js/forms/licenseForm.js:234 js/forms/licenseForm.js:270
-#: js/forms/licenseForm.js:306 js/forms/noteForm.js:37
+#: ajax_forms.php:634 ajax_forms.php:896 js/forms/licenseForm.js:200
+#: js/forms/licenseForm.js:238 js/forms/licenseForm.js:274
+#: js/forms/licenseForm.js:310 js/forms/noteForm.js:37
 #: js/forms/signatureForm.js:104 js/forms/expressionForm.js:78
-#: js/forms/documentForm.js:189 js/admin.js:332
+#: js/forms/documentForm.js:195 js/admin.js:332
 msgid "add"
 msgstr ""
 
-#: ajax_forms.php:644 ajax_forms.php:906
+#: ajax_forms.php:644 ajax_forms.php:906 ajax_forms.php:1107
+#: ajax_forms.php:1200
 msgid "Close"
 msgstr ""
 
@@ -833,19 +846,6 @@ msgstr ""
 msgid "All Documents"
 msgstr ""
 
-#: ajax_forms.php:1093 ajax_forms.php:1136 ajax_forms.php:1219
-#: ajax_forms.php:1264
-msgid "Update"
-msgstr ""
-
-#: ajax_forms.php:1107
-msgid "close"
-msgstr ""
-
-#: ajax_forms.php:1139 ajax_forms.php:1222 ajax_forms.php:1267
-msgid "Add New"
-msgstr ""
-
 #: ajax_forms.php:1147
 msgid "User"
 msgstr ""
@@ -887,6 +887,10 @@ msgstr ""
 
 #: ajax_forms.php:1241
 msgid "* Note type of display allows for terms tool use"
+msgstr ""
+
+#: ajax_forms.php:1246
+msgid "close"
 msgstr ""
 
 #: ajax_forms.php:1275
@@ -945,76 +949,77 @@ msgstr ""
 msgid "Terms Tool Resource must be entered to continue."
 msgstr ""
 
-#: js/forms/licenseForm.js:39 js/forms/documentForm.js:38
+#: js/forms/licenseForm.js:43 js/forms/documentForm.js:38
 msgid "This name is already being used!"
 msgstr ""
 
-#: js/forms/licenseForm.js:62 js/forms/licenseForm.js:124
+#: js/forms/licenseForm.js:66 js/forms/licenseForm.js:128
 msgid "Warning!  This organization will be added new."
 msgstr ""
 
-#: js/forms/licenseForm.js:222
+#: js/forms/licenseForm.js:226
 msgid "Category has been added"
 msgstr ""
 
-#: js/forms/licenseForm.js:225
+#: js/forms/licenseForm.js:229
 msgid "That Category is already in use."
 msgstr ""
 
-#: js/forms/licenseForm.js:260 js/forms/documentForm.js:216
+#: js/forms/licenseForm.js:264 js/forms/documentForm.js:222
 msgid "DocumentType has been added"
 msgstr ""
 
-#: js/forms/licenseForm.js:263 js/forms/documentForm.js:219
+#: js/forms/licenseForm.js:267 js/forms/documentForm.js:225
 msgid "That type is already in use."
 msgstr ""
 
-#: js/forms/licenseForm.js:295 js/forms/noteForm.js:62
+#: js/forms/licenseForm.js:299 js/forms/noteForm.js:62
 msgid "Note Type has been added"
 msgstr ""
 
-#: js/forms/licenseForm.js:298 js/forms/noteForm.js:65
+#: js/forms/licenseForm.js:302 js/forms/noteForm.js:65
 msgid "That Note Type is already in use."
 msgstr ""
 
-#: js/forms/licenseForm.js:322
+#: js/forms/licenseForm.js:326
 msgid "Document Name is required."
 msgstr ""
 
-#: js/forms/licenseForm.js:323
+#: js/forms/licenseForm.js:327
 msgid "A Category is required."
 msgstr ""
 
-#: js/forms/licenseForm.js:326
-msgid "Edit"
-msgstr ""
-
-#: js/forms/licenseForm.js:327
+#: js/forms/licenseForm.js:331
 msgid "successfully uploaded"
 msgstr ""
 
-#: js/forms/licenseForm.js:330
+#: js/forms/licenseForm.js:334
 msgid "File is required"
 msgstr ""
 
-#: js/forms/licenseForm.js:358 js/forms/attachmentForm.js:41
-#: js/forms/attachmentForm.js:54 js/forms/documentForm.js:102
+#: js/forms/licenseForm.js:362 js/forms/attachmentForm.js:42
+#: js/forms/attachmentForm.js:55 js/forms/documentForm.js:102
 msgid "File name is already being used..."
 msgstr ""
 
-#: js/forms/licenseForm.js:362 js/forms/documentForm.js:106
+#: js/forms/licenseForm.js:366 js/forms/documentForm.js:106
 msgid ""
 "File name may not contain special characters - ampersand, single quote, "
 "double quote or less than/greater than characters"
 msgstr ""
 
-#: js/forms/licenseForm.js:366 js/forms/documentForm.js:110
+#: js/forms/licenseForm.js:370 js/forms/documentForm.js:110
 msgid "The documents directory is not writable."
 msgstr ""
 
-#: js/forms/licenseForm.js:390 js/forms/attachmentForm.js:84
-#: js/forms/documentForm.js:134 js/license.js:482
+#: js/forms/licenseForm.js:398 js/forms/attachmentForm.js:88
+#: js/forms/documentForm.js:138
 msgid " successfully uploaded."
+msgstr ""
+
+#: js/forms/licenseForm.js:404 js/forms/attachmentForm.js:92
+#: js/forms/documentForm.js:143
+msgid "The file upload failed for the following reason: "
 msgstr ""
 
 #: js/forms/signatureForm.js:42
@@ -1033,7 +1038,7 @@ msgstr ""
 msgid "SignatureType has been added"
 msgstr ""
 
-#: js/forms/attachmentForm.js:46
+#: js/forms/attachmentForm.js:47
 msgid "The attachments directory is not writable."
 msgstr ""
 
@@ -1045,11 +1050,11 @@ msgstr ""
 msgid "ExpressionType has been added"
 msgstr ""
 
-#: js/forms/documentForm.js:177
+#: js/forms/documentForm.js:183
 msgid "Document Type is required."
 msgstr ""
 
-#: js/forms/documentForm.js:178
+#: js/forms/documentForm.js:184
 msgid "Short Name is required."
 msgstr ""
 
@@ -1121,6 +1126,6 @@ msgstr ""
 msgid "Do you really want to delete this terms tool resource link?"
 msgstr ""
 
-#: js/license.js:450 js/license.js:480
+#: js/license.js:450
 msgid "File name is already being used."
 msgstr ""

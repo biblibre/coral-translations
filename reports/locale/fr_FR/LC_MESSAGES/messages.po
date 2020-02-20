@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-24 16:34+0100\n"
+"POT-Creation-Date: 2020-02-20 10:57+0100\n"
 "PO-Revision-Date: 2018-03-13 12:00+0100\n"
 "Last-Translator: Paul Poulain <paul.poulain@biblibre.com>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -122,7 +122,7 @@ msgstr ""
 msgid "Color Background Key"
 msgstr "Légende des couleurs en arrière-plan"
 
-#: templates/header.php:72
+#: templates/header.php:74
 msgid ""
 "JavaScript must be enabled in order for you to use CORAL. However, it seems "
 "JavaScript is either disabled or not supported by your browser. To use "
@@ -133,15 +133,15 @@ msgstr ""
 "Pour utiliser CORAL, activez JavaScript en modifiant les options de votre "
 "navigateur, puis"
 
-#: templates/header.php:72
+#: templates/header.php:74
 msgid "try again"
 msgstr "réessayez"
 
-#: popup.php:66
+#: popup.php:65
 msgid "Frequently Asked Questions"
 msgstr "Foire aux Questions"
 
-#: popup.php:67
+#: popup.php:66
 msgid ""
 "Q. Why isn't the HTML number double the PDF number for interfaces that "
 "automatically download HTML?"
@@ -150,7 +150,7 @@ msgstr ""
 "pourquoi est-ce que le nombre de fichiers HTML n'est-il pas le double du "
 "nombre de fichiers PDF ?"
 
-#: popup.php:69
+#: popup.php:68
 msgid ""
 "A. Frequently these sites do NOT automatically download HTML from the Table "
 "of Contents browse interface, so even platforms such as ScienceDirect "
@@ -161,7 +161,7 @@ msgstr ""
 "plateformes comme ScienceDirect ont parfois un nombre supérieur de fichiers "
 "PDF plutôt que de fichiers HTML."
 
-#: popup.php:71
+#: popup.php:70
 msgid ""
 "Q. I thought COUNTER standards prevented double-counting of article "
 "downloads."
@@ -169,7 +169,7 @@ msgstr ""
 "Q. Je pensais que les normes COUNTER empêcheraient de compter deux fois le "
 "téléchargement des articles."
 
-#: popup.php:73
+#: popup.php:72
 msgid ""
 "A. COUNTER does require that duplicate clicks on HTML or PDF within a short "
 "period of time be counted once. But COUNTER specifically does not deny "
@@ -186,7 +186,7 @@ msgstr ""
 "enregistrer/imprimer la version PDF, cette interface augmente "
 "considérablement la comptabilisation totale de l'utilisation des articles."
 
-#: popup.php:75
+#: popup.php:74
 msgid ""
 "Q. Why do some Highwire Press publishers have high HTML ratios to PDFs, but "
 "some appear to have a very low ratio?"
@@ -195,7 +195,7 @@ msgstr ""
 "fichiers HTML très élevés par rapport aux fichiers PDF, mais que certains "
 "éditeurs semblent avoir un ratio très bas ?"
 
-#: popup.php:77
+#: popup.php:76
 msgid ""
 "A. Some publishers have automatic HTML display on Highwire, and some do not. "
 "This is because the publisher is able to indicate a preferred linking page "
@@ -208,7 +208,7 @@ msgstr ""
 "cette plateforme comprend de nombreux éditeurs, l'impact sur l'interface "
 "n'est pas uniforme."
 
-#: popup.php:85
+#: popup.php:84
 msgid "Invalid type!!"
 msgstr "Type non-valide !!"
 

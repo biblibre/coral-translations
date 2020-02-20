@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-24 16:34+0100\n"
+"POT-Creation-Date: 2020-02-20 10:57+0100\n"
 "PO-Revision-Date: 2019-02-11 08:42+0000\n"
 "Last-Translator: lrault <laurence.rault@biblibre.com>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -28,7 +28,7 @@ msgid "Organizations Database"
 msgstr "Base de données Organisations"
 
 #: ajax_htmldata.php:194 ajax_htmldata.php:350 ajax_htmldata.php:438
-#: ajax_htmldata.php:573 ajax_htmldata.php:806 ajax_forms.php:991
+#: ajax_htmldata.php:573 ajax_htmldata.php:806
 msgid "edit"
 msgstr "Modifier"
 
@@ -56,20 +56,20 @@ msgstr "Voir"
 msgid "Child Organizations:"
 msgstr "Organisations subsidiaires&nbsp;:"
 
-#: ajax_htmldata.php:232 ajax_forms.php:107 summary.php:161
+#: ajax_htmldata.php:232 ajax_forms.php:100 summary.php:161
 msgid "Company URL:"
 msgstr "URL de l'organisation&nbsp;:"
 
-#: ajax_htmldata.php:242 ajax_forms.php:113 ajax_forms.php:386 summary.php:169
+#: ajax_htmldata.php:242 ajax_forms.php:106 ajax_forms.php:379 summary.php:169
 msgid "Role(s):"
 msgstr "Rôle(s)&nbsp;:"
 
-#: ajax_htmldata.php:250 ajax_forms.php:146 summary.php:177
+#: ajax_htmldata.php:250 ajax_forms.php:139 summary.php:177
 msgid "Account Details:"
 msgstr "Détails du compte&nbsp;:"
 
 #: ajax_htmldata.php:258 ajax_htmldata.php:505 ajax_htmldata.php:627
-#: ajax_forms.php:151 ajax_forms.php:423 ajax_forms.php:526 ajax_forms.php:941
+#: ajax_forms.php:144 ajax_forms.php:416 ajax_forms.php:519 ajax_forms.php:934
 #: summary.php:185 summary.php:393 summary.php:497
 msgid "Notes:"
 msgstr "Remarques&nbsp;:"
@@ -94,7 +94,7 @@ msgstr "Dernière mise à jour le&nbsp;:"
 msgid "Alias"
 msgstr "Alias"
 
-#: ajax_htmldata.php:341 admin.php:77 ajax_forms.php:209
+#: ajax_htmldata.php:341 admin.php:77 ajax_forms.php:202
 msgid "Alias Type"
 msgstr "Type d'alias"
 
@@ -130,27 +130,27 @@ msgstr "Supprimer un contact"
 msgid "No longer valid:"
 msgstr "N'est plus valide&nbsp;:"
 
-#: ajax_htmldata.php:457 ajax_forms.php:336 summary.php:345
+#: ajax_htmldata.php:457 ajax_forms.php:329 summary.php:345
 msgid "Title:"
 msgstr "Titre&nbsp;:"
 
-#: ajax_htmldata.php:465 ajax_forms.php:379 summary.php:353
+#: ajax_htmldata.php:465 ajax_forms.php:372 summary.php:353
 msgid "Address:"
 msgstr "Adresse&nbsp;:"
 
-#: ajax_htmldata.php:473 ajax_forms.php:343 summary.php:361
+#: ajax_htmldata.php:473 ajax_forms.php:336 summary.php:361
 msgid "Phone:"
 msgstr "Téléphone&nbsp;:"
 
-#: ajax_htmldata.php:481 ajax_forms.php:350 summary.php:369
+#: ajax_htmldata.php:481 ajax_forms.php:343 summary.php:369
 msgid "Alt Phone:"
 msgstr "Autre téléphone&nbsp;:"
 
-#: ajax_htmldata.php:489 ajax_forms.php:357 summary.php:377
+#: ajax_htmldata.php:489 ajax_forms.php:350 summary.php:377
 msgid "Fax:"
 msgstr "Fax&nbsp;:"
 
-#: ajax_htmldata.php:497 ajax_forms.php:364 summary.php:385
+#: ajax_htmldata.php:497 ajax_forms.php:357 summary.php:385
 msgid "Email:"
 msgstr "Email&nbsp;:"
 
@@ -198,7 +198,7 @@ msgstr "Email du compte&nbsp;:"
 msgid "User Name:"
 msgstr "Nom d'utilisateur&nbsp;:"
 
-#: ajax_htmldata.php:611 ajax_forms.php:519 summary.php:481
+#: ajax_htmldata.php:611 ajax_forms.php:512 summary.php:481
 msgid "Password:"
 msgstr "Mot de passe&nbsp;:"
 
@@ -254,8 +254,8 @@ msgstr "Il n'y aucun temps d'indisponibilité au niveau organisationnel."
 msgid "Added"
 msgstr "Ajoutée"
 
-#: ajax_htmldata.php:772 ajax_forms.php:725 ajax_forms.php:792
-#: ajax_forms.php:809
+#: ajax_htmldata.php:772 ajax_forms.php:718 ajax_forms.php:785
+#: ajax_forms.php:802
 msgid "Date"
 msgstr "Date"
 
@@ -377,11 +377,11 @@ msgstr "Rôle(s)"
 msgid "records per page"
 msgstr "résultats par page"
 
-#: ajax_htmldata.php:1091 ajax_processing.php:582 ajax_forms.php:1176
+#: ajax_htmldata.php:1091 ajax_processing.php:591 ajax_forms.php:1169
 msgid "Action "
 msgstr "Action "
 
-#: ajax_htmldata.php:1091 ajax_processing.php:582 ajax_forms.php:1176
+#: ajax_htmldata.php:1091 ajax_processing.php:591 ajax_forms.php:1169
 msgid " not set up!"
 msgstr " Non défini !"
 
@@ -447,7 +447,7 @@ msgstr " fiche"
 msgid " records"
 msgstr " fiches"
 
-#: orgDetail.php:206 ajax_forms.php:627
+#: orgDetail.php:206 ajax_forms.php:620
 msgid "add contact"
 msgstr "Ajouter un contact"
 
@@ -455,7 +455,7 @@ msgstr "Ajouter un contact"
 msgid "invalid organization"
 msgstr "Organisation invalide"
 
-#: templates/header.php:79
+#: templates/header.php:83
 msgid ""
 "JavaScript must be enabled in order for you to use CORAL. However, it seems "
 "JavaScript is either disabled or not supported by your browser. To use "
@@ -465,72 +465,72 @@ msgstr ""
 "ou n'est pas supporté par votre navigateur web. Pour utiliser CORAL, activez "
 "le JavaScript en modifiant les options de votre navigateur web, puis "
 
-#: templates/header.php:79
+#: templates/header.php:83
 msgid "try again"
 msgstr "réessayez"
 
-#: templates/header.php:99
+#: templates/header.php:103
 msgid "Organizations"
 msgstr "Organisations"
 
-#: templates/header.php:100
+#: templates/header.php:104
 msgid "Powered by"
 msgstr "Alimenté par"
 
-#: templates/header.php:106
+#: templates/header.php:110
 msgid "Hello"
 msgstr "Bonjour"
 
-#: templates/header.php:116
+#: templates/header.php:120
 msgid "logout"
 msgstr "Se déconnecter"
 
-#: templates/header.php:116
+#: templates/header.php:120
 msgid "Help"
 msgstr "Aide"
 
-#: templates/header.php:134
+#: templates/header.php:138
 msgid "Invalid translation route!"
 msgstr "Chemin d'accès aux traductions invalide !"
 
-#: templates/header.php:173 templates/header.php:197 templates/header.php:213
+#: templates/header.php:177 templates/header.php:201 templates/header.php:217
 #: index.php:25
 msgid "Home"
 msgstr "Accueil"
 
-#: templates/header.php:180 templates/header.php:204 templates/header.php:220
+#: templates/header.php:184 templates/header.php:208 templates/header.php:224
 msgid "New Organization"
 msgstr "Nouvelle organisation"
 
-#: templates/header.php:188 templates/header.php:228
+#: templates/header.php:192 templates/header.php:232
 msgid "Admin"
 msgstr "Administration"
 
-#: templates/header.php:246
+#: templates/header.php:250
 msgid "Change Module"
 msgstr "Changer de module"
 
-#: templates/header.php:249
+#: templates/header.php:253
 msgid "Main Menu"
 msgstr "Menu principal"
 
-#: templates/header.php:254
+#: templates/header.php:258
 msgid "Licensing"
 msgstr "Licences"
 
-#: templates/header.php:259
+#: templates/header.php:263
 msgid "Resources"
 msgstr "Ressources"
 
-#: templates/header.php:264
+#: templates/header.php:268
 msgid "Cancel"
 msgstr "Annuler"
 
-#: templates/header.php:269
+#: templates/header.php:273
 msgid "Usage Statistics"
 msgstr "Statistiques d'utilisation"
 
-#: templates/header.php:274
+#: templates/header.php:278
 msgid "Management"
 msgstr "Gestion"
 
@@ -542,12 +542,13 @@ msgstr "Administration"
 msgid "Users"
 msgstr "Utilisateurs/usagers"
 
-#: admin.php:34
-msgid "add new user"
-msgstr "Ajouter utilisateur"
+#: admin.php:33
+#, fuzzy
+msgid "Add user"
+msgstr "Ajouter un incident"
 
 #: admin.php:37 admin.php:52 admin.php:66 admin.php:81 admin.php:95
-#: admin.php:106
+#: admin.php:107
 msgid "Loading..."
 msgstr "Chargement en cours..."
 
@@ -555,39 +556,44 @@ msgstr "Chargement en cours..."
 msgid "Organization Role"
 msgstr "Rôle d'organisation"
 
-#: admin.php:49
-msgid "add new organization role"
+#: admin.php:48
+#, fuzzy
+msgid "Add organization role"
 msgstr "Ajouter un nouveau rôle d'organisation"
 
 #: admin.php:62
 msgid "Contact Role"
 msgstr "Rôle de contact"
 
-#: admin.php:63
-msgid "add new contact role"
+#: admin.php:62
+#, fuzzy
+msgid "Add contact role"
 msgstr "Ajouter un nouveau rôle de contact"
 
-#: admin.php:78
-msgid "add new alias type"
+#: admin.php:77
+#, fuzzy
+msgid "Add alias type"
 msgstr "Ajouter un nouveau type d'alias"
 
 #: admin.php:91
 msgid "External Login Type"
 msgstr "Type de login d'accès"
 
-#: admin.php:92
-msgid "add new external login type"
+#: admin.php:91
+#, fuzzy
+msgid "Add external login type"
 msgstr "Ajouter un nouveau type de login d'accès"
 
-#: admin.php:102
+#: admin.php:103
 msgid "Issue Type"
 msgstr "Type d'incident"
 
 #: admin.php:103
-msgid "add new issue type"
+#, fuzzy
+msgid "Add issue type"
 msgstr "Ajouter un nouveau type d'incident"
 
-#: admin.php:118
+#: admin.php:119
 msgid "You do not have permissions to access this screen."
 msgstr ""
 "Vous n'avez pas les autorisations nécessaires pour accéder à cette page."
@@ -621,237 +627,233 @@ msgid "User successfully saved."
 msgstr "Utilisateur enregistré avec succès."
 
 #: ajax_forms.php:67
-msgid "Update Organization"
+#, fuzzy
+msgid "Edit Organization"
 msgstr "Modifier l'organisation"
 
 #: ajax_forms.php:67
 msgid "Add New Organization"
 msgstr "Ajouter une nouvelle organisation"
 
-#: ajax_forms.php:72 ajax_forms.php:329
+#: ajax_forms.php:72 ajax_forms.php:322
 msgid "Name:"
 msgstr "Nom&nbsp;:"
 
-#: ajax_forms.php:78
-msgid "Check if this vendor already exists in"
-msgstr "Vérifie si ce fournisseur existe déjà dans"
-
-#: ajax_forms.php:84 ajax_forms.php:98
+#: ajax_forms.php:77 ajax_forms.php:91
 msgid "Parent:"
 msgstr "Organisation parente&nbsp;:"
 
-#: ajax_forms.php:161 ajax_forms.php:238 ajax_forms.php:432 ajax_forms.php:536
-#: ajax_forms.php:695 ajax_forms.php:863 ajax_forms.php:950
+#: ajax_forms.php:154 ajax_forms.php:231 ajax_forms.php:425 ajax_forms.php:529
+#: ajax_forms.php:688 ajax_forms.php:856 ajax_forms.php:943
 msgid "submit"
 msgstr "Valider"
 
-#: ajax_forms.php:162 ajax_forms.php:239 ajax_forms.php:433 ajax_forms.php:537
-#: ajax_forms.php:696 ajax_forms.php:864 ajax_forms.php:951 ajax_forms.php:1161
+#: ajax_forms.php:155 ajax_forms.php:232 ajax_forms.php:426 ajax_forms.php:530
+#: ajax_forms.php:689 ajax_forms.php:857 ajax_forms.php:944
 msgid "cancel"
 msgstr "annuler"
 
-#: ajax_forms.php:203
-msgid "Update Alias"
+#: ajax_forms.php:196
+#, fuzzy
+msgid "Edit Alias"
 msgstr "Modifier l'alias"
 
-#: ajax_forms.php:203
+#: ajax_forms.php:196
 msgid "Add Alias"
 msgstr "Ajouter un alias"
 
-#: ajax_forms.php:226
+#: ajax_forms.php:219
 msgid "Name"
 msgstr "Nom"
 
-#: ajax_forms.php:323
-msgid "Update Contact"
-msgstr "Modifier un contact"
+#: ajax_forms.php:316
+#, fuzzy
+msgid "Edit Contact"
+msgstr "Modifier le contact"
 
-#: ajax_forms.php:323
+#: ajax_forms.php:316
 msgid "Add Contact"
 msgstr "Ajouter un contact"
 
-#: ajax_forms.php:371
+#: ajax_forms.php:364
 msgid "Archived:"
 msgstr "Archivé&nbsp;:"
 
-#: ajax_forms.php:475
-msgid "Update Login"
-msgstr "Modifier la connexion"
+#: ajax_forms.php:468
+#, fuzzy
+msgid "Edit Login"
+msgstr "Ajouter une connexion"
 
-#: ajax_forms.php:475
+#: ajax_forms.php:468
 msgid "Add Login"
 msgstr "Ajouter une connexion"
 
-#: ajax_forms.php:481
+#: ajax_forms.php:474
 msgid "Login Type:"
 msgstr "Type de connexion&nbsp;:"
 
-#: ajax_forms.php:498
+#: ajax_forms.php:491
 msgid "URL:"
 msgstr "URL:"
 
-#: ajax_forms.php:505
+#: ajax_forms.php:498
 msgid "Local Account Email:"
 msgstr "Email du compte local&nbsp;:"
 
-#: ajax_forms.php:512
+#: ajax_forms.php:505
 msgid "Username:"
 msgstr "Identifiant&nbsp;:"
 
-#: ajax_forms.php:598
+#: ajax_forms.php:591
 msgid "Report New Problem"
 msgstr "Signaler un problème"
 
-#: ajax_forms.php:599
+#: ajax_forms.php:592
 msgid "* required fields"
 msgstr "* champs obligatoires"
 
-#: ajax_forms.php:603
+#: ajax_forms.php:596
 msgid "Organization:"
 msgstr "Organisation&nbsp;:"
 
-#: ajax_forms.php:610
+#: ajax_forms.php:603
 msgid "Contact:"
 msgstr "Contact&nbsp;:"
 
-#: ajax_forms.php:632
+#: ajax_forms.php:625
 msgid "CC myself:"
 msgstr "Me copier dans l'email&nbsp;:"
 
-#: ajax_forms.php:639
+#: ajax_forms.php:632
 msgid "CC:"
 msgstr "CC&nbsp;:"
 
-#: ajax_forms.php:642
+#: ajax_forms.php:635 ajax_forms.php:1113
 msgid "Add"
 msgstr "Ajouter"
 
-#: ajax_forms.php:644
+#: ajax_forms.php:637
 msgid "Current CCs: "
 msgstr "Adresses emails en CC&nbsp;:"
 
-#: ajax_forms.php:651
+#: ajax_forms.php:644
 msgid "Subject:"
 msgstr "Objet&nbsp;:"
 
-#: ajax_forms.php:658
+#: ajax_forms.php:651
 msgid "Body:"
 msgstr "Contenu du message&nbsp;:"
 
-#: ajax_forms.php:665
+#: ajax_forms.php:658
 msgid "Applies to:"
 msgstr "S'applique à&nbsp;:"
 
-#: ajax_forms.php:668
+#: ajax_forms.php:661
 msgid "Applies to all "
 msgstr "S'applique à tous "
 
-#: ajax_forms.php:668 ajax_forms.php:671
+#: ajax_forms.php:661 ajax_forms.php:664
 msgid "resources"
 msgstr "ressources"
 
-#: ajax_forms.php:671
+#: ajax_forms.php:664
 msgid "Applies to selected "
 msgstr "S'applique à la sélection"
 
-#: ajax_forms.php:687
+#: ajax_forms.php:680
 msgid "Send me a reminder every"
 msgstr "Envoyer-moi un rappel tous les"
 
-#: ajax_forms.php:690
+#: ajax_forms.php:683
 msgid "day(s)"
 msgstr "jour(s)"
 
-#: ajax_forms.php:730 ajax_forms.php:797 ajax_forms.php:814
+#: ajax_forms.php:723 ajax_forms.php:790 ajax_forms.php:807
 msgid "Time"
 msgstr "Heure"
 
-#: ajax_forms.php:785
+#: ajax_forms.php:778
 msgid "Resource Downtime Report"
 msgstr "Rapport Indisponibilité de la ressource"
 
-#: ajax_forms.php:789
+#: ajax_forms.php:782
 msgid "Downtime Start:"
 msgstr "Début du temps d'indisponibilité&nbsp;:"
 
-#: ajax_forms.php:806
+#: ajax_forms.php:799
 msgid "Downtime Resolution:"
 msgstr "Résolution de l'indisponibilité&nbsp;:"
 
-#: ajax_forms.php:823
+#: ajax_forms.php:816
 msgid "Problem Type:"
 msgstr "Type de problème&nbsp;:"
 
-#: ajax_forms.php:838
+#: ajax_forms.php:831
 msgid "Link to open issue:"
 msgstr "Lien pour ouvrir l'incident&nbsp;:"
 
-#: ajax_forms.php:854
+#: ajax_forms.php:847
 msgid "Note:"
 msgstr "Remarque&nbsp;:"
 
-#: ajax_forms.php:902
-msgid "Update Issue"
-msgstr "Modifier l'incident"
+#: ajax_forms.php:895
+#, fuzzy
+msgid "Edit Issue"
+msgstr "Modifier cet incident"
 
-#: ajax_forms.php:902
+#: ajax_forms.php:895
 msgid "Add Issue"
 msgstr "Ajouter un incident"
 
-#: ajax_forms.php:908
+#: ajax_forms.php:901
 msgid "Type:"
 msgstr "Type&nbsp;:"
 
-#: ajax_forms.php:926
+#: ajax_forms.php:919
 msgid "Start date:"
 msgstr "Date de début&nbsp;:"
 
-#: ajax_forms.php:933
+#: ajax_forms.php:926
 msgid "End date:"
 msgstr "Date de fin&nbsp;:"
 
-#: ajax_forms.php:992 ajax_forms.php:1098
-msgid "remove"
+#: ajax_forms.php:984 ajax_forms.php:1012 ajax_forms.php:1022
+#: ajax_forms.php:1090 ajax_forms.php:1111
+msgid "Edit"
+msgstr ""
+
+#: ajax_forms.php:985 ajax_forms.php:1091
+#, fuzzy
+msgid "Remove"
 msgstr "Supprimer"
 
-#: ajax_forms.php:1001 ajax_forms.php:1107
+#: ajax_forms.php:994 ajax_forms.php:1100
 msgid "(none found)"
 msgstr "(aucun trouvé)"
 
-#: ajax_forms.php:1019 ajax_forms.php:1118
-msgid "Update"
-msgstr "Modifier"
+#: ajax_forms.php:1028 ajax_forms.php:1154
+msgid "Close"
+msgstr "Fermer"
 
-#: ajax_forms.php:1029 ajax_forms.php:1097
-msgid "update"
-msgstr "modifier"
-
-#: ajax_forms.php:1035
-msgid "close"
-msgstr "fermer"
-
-#: ajax_forms.php:1082 ajax_forms.php:1135
+#: ajax_forms.php:1075 ajax_forms.php:1128
 msgid "Login ID"
 msgstr "Identifiant de connexion"
 
-#: ajax_forms.php:1083 ajax_forms.php:1136
+#: ajax_forms.php:1076 ajax_forms.php:1129
 msgid "First Name"
 msgstr "Prénom"
 
-#: ajax_forms.php:1084 ajax_forms.php:1137
+#: ajax_forms.php:1077 ajax_forms.php:1130
 msgid "Last Name"
 msgstr "Nom"
 
-#: ajax_forms.php:1085 ajax_forms.php:1138
+#: ajax_forms.php:1078 ajax_forms.php:1131
 msgid "Privilege"
 msgstr "Privilège"
 
-#: ajax_forms.php:1120
-msgid "Add New"
-msgstr "Ajouter"
-
-#: ajax_forms.php:1134
-msgid "User"
+#: ajax_forms.php:1127
+#, fuzzy
+msgid " User"
 msgstr "Utilisateur/usager"
 
 #: user.php:106
@@ -965,7 +967,7 @@ msgid "Do you really want to delete this issue?"
 msgstr "Voulez-vous vraiment supprimer cet incident&nbsp;?"
 
 #: js/forms/aliasSubmitForm.js:43 js/forms/contactSubmitForm.js:125
-#: js/forms/organizationSubmitForm.js:151
+#: js/forms/organizationSubmitForm.js:156
 msgid "Name must be entered to continue."
 msgstr "Le nom doit être entré avant de continuer."
 
@@ -973,21 +975,9 @@ msgstr "Le nom doit être entré avant de continuer."
 msgid "Please choose at least one role."
 msgstr "Sélectionnez au moins un rôle."
 
-#: js/forms/organizationSubmitForm.js:56
+#: js/forms/organizationSubmitForm.js:144
 msgid "This organization already exists!"
 msgstr "Cette organisation existe déjà !"
-
-#: js/forms/organizationSubmitForm.js:72
-msgid "This vendor does not exist in the ILS."
-msgstr "Ce fournisseur n'existe pas dans le SIGB."
-
-#: js/forms/organizationSubmitForm.js:76
-msgid "This vendor exists in the ILS."
-msgstr "Ce fournisseur existe dans le SIGB."
-
-#: js/forms/organizationSubmitForm.js:79
-msgid "Something went wrong: "
-msgstr "Quelque chose s'est mal passé&nbsp;:"
 
 #: js/common.js:63
 msgid "No match!"
@@ -1021,6 +1011,45 @@ msgid ""
 msgstr ""
 "La connexion LDAP ne fonctionne pas ou a expiré. Merci de vérifier les "
 "paramètres du fichier configuration.ini."
+
+#~ msgid "add new user"
+#~ msgstr "Ajouter utilisateur"
+
+#~ msgid "Check if this vendor already exists in"
+#~ msgstr "Vérifie si ce fournisseur existe déjà dans"
+
+#~ msgid "Update Alias"
+#~ msgstr "Modifier l'alias"
+
+#~ msgid "Update Contact"
+#~ msgstr "Modifier un contact"
+
+#~ msgid "Update Login"
+#~ msgstr "Modifier la connexion"
+
+#~ msgid "Update Issue"
+#~ msgstr "Modifier l'incident"
+
+#~ msgid "Update"
+#~ msgstr "Modifier"
+
+#~ msgid "update"
+#~ msgstr "modifier"
+
+#~ msgid "close"
+#~ msgstr "fermer"
+
+#~ msgid "Add New"
+#~ msgstr "Ajouter"
+
+#~ msgid "This vendor does not exist in the ILS."
+#~ msgstr "Ce fournisseur n'existe pas dans le SIGB."
+
+#~ msgid "This vendor exists in the ILS."
+#~ msgstr "Ce fournisseur existe dans le SIGB."
+
+#~ msgid "Something went wrong: "
+#~ msgstr "Quelque chose s'est mal passé&nbsp;:"
 
 #~ msgid "There was a problem with the database: "
 #~ msgstr "Problème avec la base de données&nbsp;: "
@@ -1153,9 +1182,6 @@ msgstr ""
 
 #~ msgid "Next month"
 #~ msgstr "Mois suivant"
-
-#~ msgid "Close"
-#~ msgstr "Fermer"
 
 #~ msgid "Choose date"
 #~ msgstr "Sélectionnez une date"

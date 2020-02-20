@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-24 16:34+0100\n"
+"POT-Creation-Date: 2020-02-20 10:57+0100\n"
 "PO-Revision-Date: 2019-02-05 17:16+0000\n"
 "Last-Translator: Xiaoyan Song <xsong9@ncsu.edu>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -115,7 +115,7 @@ msgstr ""
 msgid "Color Background Key"
 msgstr "颜色背景键"
 
-#: templates/header.php:72
+#: templates/header.php:74
 msgid ""
 "JavaScript must be enabled in order for you to use CORAL. However, it seems "
 "JavaScript is either disabled or not supported by your browser. To use "
@@ -124,22 +124,22 @@ msgstr ""
 "必须启用 JavaScript 才能使用 CORAL。但是，或者您已禁用 JavaScript，或者您的浏"
 "览器不支持。若要使用 CORAL，则请更改您的浏览器选项以启用 JavaScript，并"
 
-#: templates/header.php:72
+#: templates/header.php:74
 msgid "try again"
 msgstr "重试"
 
-#: popup.php:66
+#: popup.php:65
 msgid "Frequently Asked Questions"
 msgstr "常见问题"
 
-#: popup.php:67
+#: popup.php:66
 msgid ""
 "Q. Why isn't the HTML number double the PDF number for interfaces that "
 "automatically download HTML?"
 msgstr ""
 "问：为什么在自动下载 HTML 的界面上，HTML 点击率并不是 PDF 点击率的双倍？"
 
-#: popup.php:69
+#: popup.php:68
 msgid ""
 "A. Frequently these sites do NOT automatically download HTML from the Table "
 "of Contents browse interface, so even platforms such as ScienceDirect "
@@ -148,13 +148,13 @@ msgstr ""
 "答：经常性的，这些站点不会从目录浏览界面自动下载 HTML，因此即便是诸如 "
 "ScienceDirect 的平台，也会偶尔有高于 HTML 计数的 PDF。"
 
-#: popup.php:71
+#: popup.php:70
 msgid ""
 "Q. I thought COUNTER standards prevented double-counting of article "
 "downloads."
 msgstr "问：我以为 COUNTER 标准可阻止双计数文章下载。"
 
-#: popup.php:73
+#: popup.php:72
 msgid ""
 "A. COUNTER does require that duplicate clicks on HTML or PDF within a short "
 "period of time be counted once. But COUNTER specifically does not deny "
@@ -167,7 +167,7 @@ msgstr ""
 "认不同格式(HTML 和 PDF)的双计数。由于一些供应商自动为用户选择 HTML，且很多用"
 "户会选择保存和/或打印 PDF 版本，该界面可显著地增加文章使用总计数。"
 
-#: popup.php:75
+#: popup.php:74
 msgid ""
 "Q. Why do some Highwire Press publishers have high HTML ratios to PDFs, but "
 "some appear to have a very low ratio?"
@@ -175,7 +175,7 @@ msgstr ""
 "问：为什么一些 Highwire Press 出版商的 HTML 对 PDF 的点击率比值更高，而另一些"
 "则非常低？"
 
-#: popup.php:77
+#: popup.php:76
 msgid ""
 "A. Some publishers have automatic HTML display on Highwire, and some do not. "
 "This is because the publisher is able to indicate a preferred linking page "
@@ -186,7 +186,7 @@ msgstr ""
 "过 DOI 注册表指定一个首选的链接页面。由于平台包括多个出版商，所以对界面的影响"
 "是不一致的。"
 
-#: popup.php:85
+#: popup.php:84
 msgid "Invalid type!!"
 msgstr "无效的类型!!"
 
