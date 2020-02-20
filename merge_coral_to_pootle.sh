@@ -12,5 +12,5 @@ done
 echo 'root directory';
 for locale in $languages; do
 echo "updating $locale"
-msgmerge $module/locale/$locale/LC_MESSAGES/messages.po $dest/$module/$locale/LC_MESSAGES/messages.po -o $dest/root/$locale/LC_MESSAGES/messages.po
+msgmerge locale/$locale/LC_MESSAGES/messages.po $dest/root/$locale/LC_MESSAGES/messages.po -o $dest/root/$locale/LC_MESSAGES/messages.po
 done
