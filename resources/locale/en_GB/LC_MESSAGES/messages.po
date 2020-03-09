@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-20 09:32+0100\n"
-"PO-Revision-Date: 2019-02-01 16:22+0000\n"
-"Last-Translator: Jon <jon.mcgowan@ptfs-europe.com>\n"
+"PO-Revision-Date: 2019-11-28 15:50+0000\n"
+"Last-Translator: Andronikos Panayiotou <andy.panayiotou@sirsidynix.com>\n"
 "Language-Team: English (British)\n"
 "Language: en_GB\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1549038154.944114\n"
+"X-POOTLE-MTIME: 1574956220.151878\n"
 
 #: install/resources.php:9 install/resources.php:30 install/resources.php:160
 #: install/resources.php:194 install/resources.php:241
@@ -952,14 +952,16 @@ msgstr ""
 "columns can be configured on the Admin page."
 
 #: ajax_forms/getEbscoKbRemoveConfirmation.php:32
+#, fuzzy
 msgid ""
 "You are about to deselect the following resource from Ebsco and delete it "
 "from Coral"
-msgstr ""
+msgstr "Do you really want to delete this resource?"
 
 #: ajax_forms/getEbscoKbRemoveConfirmation.php:33
+#, fuzzy
 msgid "deselect & delete"
-msgstr ""
+msgstr "Select File"
 
 #: ajax_forms/getEbscoKbRemoveConfirmation.php:37
 #, fuzzy
@@ -1213,19 +1215,19 @@ msgstr "Add Currency"
 
 #: ajax_forms/getLicenseForm.php:52
 msgid "Edit Licenses"
-msgstr "Edit Licenses"
+msgstr "Edit Licences"
 
 #: ajax_forms/getLicenseForm.php:62
 msgid "License Records"
-msgstr "License Records"
+msgstr "Licence Records"
 
 #: ajax_forms/getLicenseForm.php:78
 msgid "add license"
-msgstr "add license"
+msgstr "add licence"
 
 #: ajax_forms/getLicenseForm.php:105
 msgid "remove license link"
-msgstr "remove license link"
+msgstr "remove licence link"
 
 #: ajax_forms/getLicenseForm.php:105
 msgid "remove "
@@ -1233,7 +1235,7 @@ msgstr "remove "
 
 #: ajax_forms/getLicenseForm.php:105
 msgid " license"
-msgstr " license"
+msgstr " licence"
 
 #: ajax_forms/getLicenseForm.php:130
 msgid "Licensing Status"
@@ -1272,7 +1274,7 @@ msgstr " by "
 #: ajax_forms/getLicenseForm.php:171 summary.php:588
 #: ajax_htmldata/getAcquisitionsDetails.php:222
 msgid "No license status information available."
-msgstr "No license status information available."
+msgstr "No licence status information available."
 
 #: ajax_forms/getUpdateProductForm.php:72
 msgid "Edit Resource"
@@ -1567,8 +1569,9 @@ msgid "Deselect Package"
 msgstr "View Packages"
 
 #: templates/ebscoKbPackageDropdown.php:79
+#, fuzzy
 msgid "Deselect Package & Delete from Coral"
-msgstr ""
+msgstr "View Packages"
 
 #: templates/ebscoKbPackageDropdown.php:85
 #, fuzzy
@@ -1621,8 +1624,9 @@ msgid "Delete from Coral"
 msgstr ""
 
 #: templates/ebscoKbPackageList.php:55
+#, fuzzy
 msgid "Selected but not Imported"
-msgstr ""
+msgstr "Delimited File Import"
 
 #: templates/ebscoKbPackageList.php:58
 #, fuzzy
@@ -2088,7 +2092,7 @@ msgstr "Import Configuration"
 
 #: admin.php:76 export.php:92
 msgid "License Status"
-msgstr "License Status"
+msgstr "Licence Status"
 
 #: admin.php:90
 msgid "Purchasing Site"
@@ -2209,7 +2213,7 @@ msgstr "Subscription Alert Enabled"
 
 #: export.php:91
 msgid "License Names"
-msgstr "License Names"
+msgstr "Licence Names"
 
 #: export.php:93
 msgid "Authorized Sites"
@@ -2329,7 +2333,7 @@ msgstr "Authorised Sites:"
 
 #: summary.php:482 ajax_htmldata/getOrdersDetails.php:108
 msgid "Expiration Alert Enabled"
-msgstr "Expiration Alert Enabled"
+msgstr "Expiry Alert Enabled"
 
 #: summary.php:503
 msgid "Year:"
@@ -2377,7 +2381,7 @@ msgstr "No payment information available."
 
 #: summary.php:574 ajax_htmldata/getAcquisitionsDetails.php:205
 msgid "License"
-msgstr "License"
+msgstr "Licence"
 
 #: summary.php:585 ajax_htmldata/getAcquisitionsDetails.php:219
 msgid " on "
@@ -2385,11 +2389,11 @@ msgstr " on "
 
 #: summary.php:596 ajax_htmldata/getAcquisitionsDetails.php:232
 msgid "Licenses:"
-msgstr "Licenses:"
+msgstr "Licences:"
 
 #: summary.php:605 ajax_htmldata/getAcquisitionsDetails.php:241
 msgid "No associated licenses available."
-msgstr "No associated licenses available."
+msgstr "No associated licences available."
 
 #: summary.php:652
 msgid "Additional Acquisitions Notes"
@@ -2578,8 +2582,9 @@ msgid "Role"
 msgstr "Role:"
 
 #: dashboard_yearly_costs.php:64 dashboard.php:63
+#, fuzzy
 msgid "Filter on payments:"
-msgstr ""
+msgstr " organisations "
 
 #: dashboard_yearly_costs.php:84
 msgid "Year (start)"
@@ -2777,11 +2782,11 @@ msgstr "Short Name must be entered to continue."
 
 #: js/forms/licenseForm.js:140 js/forms/licenseForm.js:251
 msgid "Error - Please choose a valid license"
-msgstr "Error - Please choose a valid license"
+msgstr "Error - Please choose a valid licence"
 
 #: js/forms/licenseForm.js:153
 msgid "remove this license"
-msgstr "remove this license"
+msgstr "remove this licence"
 
 #: js/forms/resourceNoteForm.js:34
 msgid "Note must be entered to continue."
@@ -3419,8 +3424,9 @@ msgid "Show all packages"
 msgstr "Show all packages"
 
 #: ajax_htmldata/getEbscoKbTitleDetails.php:130
+#, fuzzy
 msgid "Package is Selected & Imported"
-msgstr ""
+msgstr "Delimited File Import"
 
 #: ajax_htmldata/getEbscoKbTitleDetails.php:133
 #, fuzzy
@@ -3433,8 +3439,9 @@ msgid "Package is NOT selected in EBSCOhost"
 msgstr "Not selected in EBSCO Kb"
 
 #: ajax_htmldata/getEbscoKbTitleDetails.php:146
+#, fuzzy
 msgid "Package is Selected but not Imported "
-msgstr ""
+msgstr "Delimited File Import"
 
 #: ajax_htmldata/getEbscoKbTitleDetails.php:150
 msgid "import package"
@@ -3537,8 +3544,9 @@ msgid "add subject"
 msgstr "add new subject"
 
 #: ajax_htmldata/getAdminAlertDisplay.php:12
+#, fuzzy
 msgid "Add an email:"
-msgstr ""
+msgstr "add days"
 
 #: ajax_htmldata/getAdminAlertDisplay.php:12
 #, fuzzy
@@ -3557,7 +3565,7 @@ msgstr "add days"
 
 #: ajax_htmldata/getAdminAlertDisplay.php:54
 msgid "Days in advance of expiration"
-msgstr "Days in advance of expiration"
+msgstr "Days in advance of expiry"
 
 #: ajax_htmldata/getAdminUserDisplay.php:50
 msgid "edit user"
@@ -3588,8 +3596,9 @@ msgid "Selected & Imported"
 msgstr "Delimited File Import"
 
 #: ajax_htmldata/getEbscoKbTitleStatus.php:29
+#, fuzzy
 msgid "Imported but Not Selected"
-msgstr ""
+msgstr "Applies to selected"
 
 #: ajax_htmldata/getDashboard.php:29
 msgid "Library number"
@@ -3844,19 +3853,19 @@ msgstr "No payment information available"
 
 #: ajax_htmldata/getAcquisitionsDetails.php:207
 msgid "edit license"
-msgstr "edit license"
+msgstr "edit licence"
 
 #: ajax_htmldata/getAcquisitionsDetails.php:238
 msgid "View License"
-msgstr "View License"
+msgstr "View Licence"
 
 #: ajax_htmldata/getAcquisitionsDetails.php:255
 msgid "edit license and status"
-msgstr "edit license and status"
+msgstr "edit licence and status"
 
 #: ajax_htmldata/getAcquisitionsDetails.php:257
 msgid "edit license status"
-msgstr "edit license status"
+msgstr "edit licence status"
 
 #: ajax_htmldata/getIssues.php:18
 msgid "Issues/Problems"
@@ -3916,3 +3925,15 @@ msgstr ""
 
 #~ msgid "add email address"
 #~ msgstr "add email address"
+
+#, fuzzy
+#~ msgid "add new note"
+#~ msgstr "add new "
+
+#, fuzzy
+#~ msgid "Not selected in EBSCO Kb"
+#~ msgstr "Selected in EBSCO Kb"
+
+#, fuzzy
+#~ msgid "add new fund"
+#~ msgstr "add new "

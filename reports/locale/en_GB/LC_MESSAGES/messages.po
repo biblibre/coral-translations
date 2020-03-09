@@ -8,14 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-20 10:57+0100\n"
-"PO-Revision-Date: 2019-01-30 10:24+0100\n"
-"Last-Translator: Admin User Coral <help@coral-erm.org>\n"
+"PO-Revision-Date: 2019-11-28 15:31+0000\n"
+"Last-Translator: Andronikos Panayiotou <andy.panayiotou@sirsidynix.com>\n"
 "Language-Team: English (British)\n"
 "Language: en_GB\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ASCII\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.8\n"
+"X-POOTLE-MTIME: 1574955085.832722\n"
 
 #: install/reports.php:9 install/reports.php:30 install/reports.php:94
 #: install/reports.php:105 install/reports.php:115
@@ -119,7 +121,7 @@ msgstr ""
 
 #: report.php:305 report.php:327
 msgid "Color Background Key"
-msgstr "Color Background Key"
+msgstr "Colour Background Key"
 
 #: templates/header.php:74
 msgid ""

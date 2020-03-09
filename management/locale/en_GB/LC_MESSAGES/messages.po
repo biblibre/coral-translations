@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-20 10:57+0100\n"
-"PO-Revision-Date: 2019-02-06 16:44+0000\n"
-"Last-Translator: Jon <jon.mcgowan@ptfs-europe.com>\n"
+"PO-Revision-Date: 2019-11-28 15:35+0000\n"
+"Last-Translator: Andronikos Panayiotou <andy.panayiotou@sirsidynix.com>\n"
 "Language-Team: English (British)\n"
 "Language: en_GB\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1549471489.161512\n"
+"X-POOTLE-MTIME: 1574955356.706167\n"
 
 #: install/management.php:9 install/management.php:30 install/management.php:82
 #: install/management.php:108 install/management.php:118 not_available.php:29
@@ -47,7 +47,7 @@ msgstr "Home"
 
 #: in_progress.php:33
 msgid "Licenses In Progress"
-msgstr "Licenses In Progress"
+msgstr "Licences In Progress"
 
 #: in_progress.php:33
 msgid "Browse All"
@@ -87,7 +87,7 @@ msgstr "Last Update: "
 
 #: ajax_htmldata.php:93
 msgid "License Status:"
-msgstr "License Status:"
+msgstr "Licence Status:"
 
 #: ajax_htmldata.php:146
 msgid "For Document"
@@ -238,7 +238,7 @@ msgstr ""
 
 #: ajax_htmldata.php:630
 msgid "view / edit license"
-msgstr "view / edit license"
+msgstr "view / edit licence"
 
 #: ajax_htmldata.php:630
 msgid "view / edit "
@@ -255,7 +255,7 @@ msgstr "view document"
 
 #: ajax_htmldata.php:632 ajax_htmldata.php:734
 msgid "view license"
-msgstr "view license"
+msgstr "view licence"
 
 #: ajax_htmldata.php:638 ajax_forms.php:789
 msgid "Document Text:"
@@ -271,7 +271,7 @@ msgstr "Qualifiers:"
 
 #: ajax_htmldata.php:725
 msgid "License"
-msgstr "License"
+msgstr "Licence"
 
 #: ajax_htmldata.php:726
 msgid " Notes"
@@ -456,7 +456,7 @@ msgstr " not set up!"
 msgid ""
 "Both license name and organization must be filled out.  Please try again."
 msgstr ""
-"Both license name and organization must be filled out.  Please try again."
+"Both licence name and organisation must be filled out.  Please try again."
 
 #: templates/header.php:89
 msgid ""
@@ -528,7 +528,7 @@ msgstr "Organizations"
 
 #: templates/header.php:295
 msgid "Organizations"
-msgstr "Organizations"
+msgstr "Organisations"
 
 #: templates/header.php:300
 #, fuzzy
@@ -584,7 +584,7 @@ msgstr "You don't have permission to access this page"
 
 #: ajax_processing.php:101
 msgid "License successfully deleted."
-msgstr "License successfully deleted."
+msgstr "Licence successfully deleted."
 
 #: ajax_processing.php:177 ajax_processing.php:1076
 msgid "success uploading!"
@@ -614,11 +614,11 @@ msgstr ""
 
 #: ajax_processing.php:341
 msgid "License: "
-msgstr "License: "
+msgstr "Licence: "
 
 #: ajax_processing.php:342
 msgid "View License Record: "
-msgstr "View License Record: "
+msgstr "View Licence Record: "
 
 #: ajax_processing.php:346
 msgid "Licensing - expression set to production use"
@@ -873,17 +873,17 @@ msgstr "User"
 
 #: ajax_forms.php:1154 ajax_forms.php:1157
 msgid "Add/Edit users can add, edit, or remove licenses and associated fields"
-msgstr "Add/Edit users can add, edit, or remove licenses and associated fields"
+msgstr "Add/Edit users can add, edit, or remove licences and associated fields"
 
 #: ajax_forms.php:1154 ajax_forms.php:1157
 msgid "Admin users have access to the Admin page and the SFX tab."
-msgstr "Admin users have access to the Admin page and the SFX tab."
+msgstr "Admin users have access to the Admin page and the Terms Tool tab."
 
 #: ajax_forms.php:1154 ajax_forms.php:1157
 msgid ""
 "View only users can view all license information, including the license pdf"
 msgstr ""
-"View only users can view all license information, including the license pdf"
+"View only users can view all licence information, including the licence pdf"
 
 #: ajax_forms.php:1186
 msgid "Terms Tool Email"
@@ -979,7 +979,7 @@ msgstr "This name is already being used!"
 
 #: js/forms/licenseForm.js:66 js/forms/licenseForm.js:128
 msgid "Warning!  This organization will be added new."
-msgstr "Warning!  This organization will be added new."
+msgstr "Warning!  This organisation will be added new."
 
 #: js/forms/licenseForm.js:226
 msgid "Category has been added"
@@ -1180,3 +1180,7 @@ msgstr "File name is already being used."
 
 #~ msgid "Add New"
 #~ msgstr "Add New"
+
+#, fuzzy
+#~ msgid "add new note"
+#~ msgstr "add new note type"

@@ -3,41 +3,40 @@ msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-20 10:57+0100\n"
-"PO-Revision-Date: 2016-10-23 00:27-0600\n"
-"Last-Translator: <>\n"
+"PO-Revision-Date: 2019-05-08 15:24+0000\n"
+"Last-Translator: claire.chen <claire.chen@sirsidynix.com>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.8\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.8.11\n"
 "X-Poedit-KeywordsList: watchString\n"
 "X-Poedit-SearchPath-0: .\n"
+"X-POOTLE-MTIME: 1557329075.019780\n"
 
 #: install/usage.php:9 install/usage.php:30 install/usage.php:113
 #: install/usage.php:124 install/usage.php:134
-#, fuzzy
 msgid "Usage Module"
-msgstr "更改模組"
+msgstr "使用統計模組"
 
 #: install/usage.php:19
-#, fuzzy
 msgid "Usage Database"
-msgstr "使用統計資訊"
+msgstr "使用統計資料"
 
 #: install/usage.php:58
 msgid "Link Resolver Base URL (optional)"
-msgstr ""
+msgstr "連結解析器基本 URL (可選)"
 
 #: install/usage.php:63
 msgid "Use Outlier Flagging Feature"
-msgstr ""
+msgstr "使用異常值標記功能"
 
 #: install/usage.php:71
 msgid "Please set up the following options for the Usage module."
-msgstr ""
+msgstr "請為使用統計模組設定如下選項。"
 
 #: ajax_htmldata.php:47
 msgid "Import History for "
@@ -132,7 +131,7 @@ msgstr "登入類型"
 
 #: ajax_htmldata.php:241
 msgid "Username"
-msgstr "使用者名"
+msgstr "用戶名"
 
 #: ajax_htmldata.php:244 ajax_htmldata.php:338 ajax_htmldata.php:473
 msgid "Notes"
@@ -854,7 +853,7 @@ msgstr "十二月"
 
 #: spreadsheet.php:101
 msgid "User Activity"
-msgstr "使用者活動"
+msgstr "用戶活動"
 
 #: spreadsheet.php:124
 msgid "Total for all Journals"
@@ -869,22 +868,18 @@ msgid "Total for all Databases"
 msgstr "所有資料庫總計"
 
 #: directory.php:34
-#, fuzzy
 msgid "Imports"
 msgstr "輸入"
 
 #: directory.php:36
-#, fuzzy
 msgid "Statistics"
-msgstr "統計資料"
+msgstr "統計資訊"
 
 #: directory.php:37
-#, fuzzy
 msgid "Logins"
 msgstr "登入"
 
 #: directory.php:38
-#, fuzzy
 msgid "Sushi"
 msgstr "SUSHI"
 
@@ -894,12 +889,12 @@ msgstr "管理"
 
 #: admin.php:12
 msgid "Users"
-msgstr "使用者"
+msgstr "用戶"
 
 #: admin.php:13
 #, fuzzy
 msgid "Add user"
-msgstr "新增使用者"
+msgstr "新增用戶"
 
 #: admin.php:16 admin.php:31 admin.php:46 js/publisherPlatform.js:139
 #: js/import.js:38
@@ -1043,7 +1038,7 @@ msgstr "出版商備註："
 
 #: ajax_forms.php:440
 msgid "Username:"
-msgstr "使用者名："
+msgstr "用戶名："
 
 #: ajax_forms.php:444 ajax_forms.php:548
 msgid "Password:"
@@ -1172,15 +1167,15 @@ msgstr "關聯的題名和識別碼"
 
 #: ajax_forms.php:987
 msgid " User"
-msgstr "使用者"
+msgstr "用戶"
 
 #: ajax_forms.php:995
 msgid "Add/Edit users have access to everything"
-msgstr "添加/編輯有全部存取權限的使用者"
+msgstr "添加/編輯有全部存取權限的用戶"
 
 #: ajax_forms.php:995
 msgid "except the Admin tab and admin users"
-msgstr "除了「管理」選項卡和管理員使用者"
+msgstr "除了「管理」選項卡和管理員用戶"
 
 #: ajax_forms.php:995
 msgid "have access to everything"
@@ -1476,7 +1471,7 @@ msgstr "錯誤 - 請輸入一個值。"
 
 #: js/forms/externalLoginSubmitForm.js:54
 msgid "Please enter a username to continue"
-msgstr "請輸入一個使用者名以繼續"
+msgstr "請輸入一個用戶名以繼續"
 
 #: js/forms/externalLoginSubmitForm.js:58
 msgid "For security, please enter a password"
@@ -1530,7 +1525,7 @@ msgstr "隱藏出版商清單"
 
 #: js/admin.js:62
 msgid "Do you really want to delete this user?"
-msgstr "您確認要刪除該使用者嗎？"
+msgstr "您確認要刪除該用戶嗎？"
 
 #: js/admin.js:125
 msgid "Error - Please enter a valid email address."

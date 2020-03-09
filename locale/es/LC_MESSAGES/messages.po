@@ -8,51 +8,53 @@ msgstr ""
 "Project-Id-Version: Coral\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-03 14:24+0100\n"
-"PO-Revision-Date: 2019-12-03 14:37+0100\n"
-"Last-Translator: Admin User Coral <coral@coral.local>\n"
+"PO-Revision-Date: 2020-03-04 18:02+0000\n"
+"Last-Translator: iluminar <Julio.Arciniega@sirsidynix.com>\n"
 "Language-Team: Spanish\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.8\n"
+"X-POOTLE-MTIME: 1583344928.672879\n"
 
 #: index.php:54
 msgid "eRM"
-msgstr ""
+msgstr "eRM"
 
 #: index.php:54
 msgid "eResource Management"
-msgstr ""
+msgstr "gestión de recursos electrónicos"
 
 #: index.php:55
 msgid "Change language:"
-msgstr ""
+msgstr "Cambiar idioma:"
 
 #: index.php:71
 msgid "Invalid translation route!"
-msgstr ""
+msgstr "Ruta de traducción no válida!"
 
 #: index.php:101
 msgid "Resources"
-msgstr ""
+msgstr "Recursos"
 
 #: index.php:101
 msgid "Licensing"
-msgstr ""
+msgstr "Licenciando"
 
 #: index.php:101
 msgid "Organizations"
-msgstr ""
+msgstr "Organizaciones"
 
 #: index.php:101
 msgid "Usage Statistics"
-msgstr ""
+msgstr "Uso de las estadísticas"
 
 #: index.php:101
 msgid "Management"
-msgstr ""
+msgstr "Administración"
 
 #: index.php:132
 msgid "Powered by"
-msgstr ""
+msgstr "Desarrollado por"

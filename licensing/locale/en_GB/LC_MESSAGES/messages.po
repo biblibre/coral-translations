@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-20 10:57+0100\n"
-"PO-Revision-Date: 2019-02-06 15:04+0000\n"
-"Last-Translator: Jon <jon.mcgowan@ptfs-europe.com>\n"
+"PO-Revision-Date: 2019-11-28 15:35+0000\n"
+"Last-Translator: Andronikos Panayiotou <andy.panayiotou@sirsidynix.com>\n"
 "Language-Team: English (British)\n"
 "Language: en_GB\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1549465471.631730\n"
+"X-POOTLE-MTIME: 1574955343.153842\n"
 
 #: install/licensing.php:9 install/licensing.php:31 install/licensing.php:112
 #: install/licensing.php:138 install/licensing.php:148
@@ -49,7 +49,7 @@ msgstr "Home"
 
 #: in_progress.php:33
 msgid "Licenses In Progress"
-msgstr "Licenses In Progress"
+msgstr "Licences In Progress"
 
 #: in_progress.php:33
 msgid "Browse All"
@@ -63,11 +63,11 @@ msgstr "Loading..."
 
 #: ajax_htmldata.php:50
 msgid "edit license"
-msgstr "edit license"
+msgstr "edit licence"
 
 #: ajax_htmldata.php:50
 msgid "remove license"
-msgstr "remove license"
+msgstr "remove licence"
 
 #: ajax_htmldata.php:61
 msgid "edit organization"
@@ -75,7 +75,7 @@ msgstr "edit organisation"
 
 #: ajax_htmldata.php:78
 msgid "License Status:"
-msgstr "License Status:"
+msgstr "Licence Status:"
 
 #: ajax_htmldata.php:131
 msgid "For Document"
@@ -143,7 +143,7 @@ msgstr "add new attachment"
 
 #: ajax_htmldata.php:322
 msgid "Sorry, no licenses fit your query"
-msgstr "Sorry, no licenses fit your query"
+msgstr "Sorry, no licences fit your query"
 
 #: ajax_htmldata.php:329
 msgid "Displaying "
@@ -159,7 +159,7 @@ msgstr " of "
 
 #: ajax_htmldata.php:329
 msgid " License Records"
-msgstr " License Records"
+msgstr " Licence Records"
 
 #: ajax_htmldata.php:383 ajax_htmldata.php:463 ajax_htmldata.php:770
 #: ajax_htmldata.php:775 ajax_htmldata.php:900 ajax_htmldata.php:905
@@ -194,7 +194,7 @@ msgstr ""
 
 #: ajax_htmldata.php:535
 msgid "view / edit license"
-msgstr "view / edit license"
+msgstr "view / edit licence"
 
 #: ajax_htmldata.php:535
 msgid "view / edit "
@@ -210,7 +210,7 @@ msgstr "view document"
 
 #: ajax_htmldata.php:537 ajax_htmldata.php:639
 msgid "view license"
-msgstr "view license"
+msgstr "view licence"
 
 #: ajax_htmldata.php:543 ajax_forms.php:635
 msgid "Document Text:"
@@ -227,7 +227,7 @@ msgstr "Qualifiers:"
 
 #: ajax_htmldata.php:630 ajax_forms.php:47
 msgid "License"
-msgstr "License"
+msgstr "Licence"
 
 #: ajax_htmldata.php:631 ajax_forms.php:673 ajax_forms.php:684
 msgid "Notes"
@@ -438,7 +438,7 @@ msgstr " not set up!"
 msgid ""
 "Both license name and organization must be filled out.  Please try again."
 msgstr ""
-"Both license name and organisation must be filled out.  Please try again."
+"Both licence name and organisation must be filled out.  Please try again."
 
 #: templates/header.php:93
 msgid ""
@@ -480,11 +480,11 @@ msgstr "Invalid translation route!"
 
 #: templates/header.php:196 templates/header.php:251 templates/header.php:299
 msgid "New License"
-msgstr "New License"
+msgstr "New Licence"
 
 #: templates/header.php:203 templates/header.php:258 templates/header.php:306
 msgid "License In Progress"
-msgstr "License In Progress"
+msgstr "Licence In Progress"
 
 #: templates/header.php:218 templates/header.php:273 templates/header.php:321
 #: calendar.php:34 calendar2.php:34
@@ -523,7 +523,7 @@ msgstr "Organizations"
 
 #: templates/header.php:363
 msgid "Organizations"
-msgstr "Organizations"
+msgstr "Organisations"
 
 #: templates/header.php:368
 #, fuzzy
@@ -553,7 +553,7 @@ msgstr "Could not connect to host."
 
 #: calendar.php:42
 msgid "Could not find License database."
-msgstr "Could not find License database."
+msgstr "Could not find Licence database."
 
 #: calendar.php:43
 msgid "Could not find Resource database."
@@ -577,7 +577,7 @@ msgstr "Bad Query Failure: "
 
 #: calendar.php:116 calendar2.php:112
 msgid "Upcoming License Renewals"
-msgstr "Upcoming License Renewals"
+msgstr "Upcoming Licence Renewals"
 
 #: calendar.php:148
 #, fuzzy
@@ -586,7 +586,7 @@ msgstr "Bad Query Failure"
 
 #: calendar.php:205 calendar2.php:208
 msgid "No associated licenses available."
-msgstr "No associated licenses available."
+msgstr "No associated licences available."
 
 #: calendar.php:211 calendar2.php:214
 msgid "Expired "
@@ -622,7 +622,7 @@ msgstr "The file has been successfully uploaded."
 
 #: onix_import.php:51
 msgid "Unable to create file for license."
-msgstr "Unable to create file for license."
+msgstr "Unable to create file for licence."
 
 #: onix_import.php:284
 msgid " Expression Type(s) Created"
@@ -734,7 +734,7 @@ msgstr "add signatures"
 
 #: admin.php:108
 msgid "License Statuses"
-msgstr "License Statuses"
+msgstr "Licence Statuses"
 
 #: admin.php:108
 #, fuzzy
@@ -773,7 +773,7 @@ msgstr "You don't have permission to access this page"
 
 #: ajax_processing.php:96
 msgid "License successfully deleted."
-msgstr "License successfully deleted."
+msgstr "Licence successfully deleted."
 
 #: ajax_processing.php:168 ajax_processing.php:956
 msgid "success uploading!"
@@ -804,11 +804,11 @@ msgstr ""
 
 #: ajax_processing.php:334
 msgid "License:  "
-msgstr "License:  "
+msgstr "Licence:  "
 
 #: ajax_processing.php:335
 msgid "View License Record:  "
-msgstr "View License Record:  "
+msgstr "View Licence Record:  "
 
 #: ajax_processing.php:339
 msgid "Licensing - expression set to production use"
@@ -840,11 +840,11 @@ msgstr "Terms Tool Resource Link successfully deleted"
 
 #: ajax_processing.php:466
 msgid "License Updated Successfully."
-msgstr "License Updated Successfully."
+msgstr "Licence Updated Successfully."
 
 #: ajax_processing.php:475
 msgid "License Added Successfully."
-msgstr "License Added Successfully."
+msgstr "Licence Added Successfully."
 
 #: ajax_processing.php:475
 msgid "Please continue to upload documents and add expressions or emails."
@@ -871,14 +871,14 @@ msgstr "Unable to delete  - this "
 msgid ""
 " is in use.  Please make sure no licenses are set up with this information."
 msgstr ""
-" is in use.  Please make sure no licenses are set up with this information."
+" is in use.  Please make sure no licences are set up with this information."
 
 #: ajax_processing.php:776
 msgid ""
 "Unable to delete.  Please make sure no licenses are set up with this "
 "information."
 msgstr ""
-"Unable to delete.  Please make sure no licenses are set up with this "
+"Unable to delete.  Please make sure no licences are set up with this "
 "information."
 
 #: ajax_processing.php:1028
@@ -895,7 +895,7 @@ msgstr "Status has been updated"
 
 #: ajax_forms.php:51
 msgid "License Name:"
-msgstr "License Name:"
+msgstr "Licence Name:"
 
 #: ajax_forms.php:66
 msgid "Consortium:"
@@ -1032,11 +1032,11 @@ msgstr "User"
 
 #: ajax_forms.php:917 ajax_forms.php:920
 msgid "Add/Edit users can add, edit, or remove licenses and associated fields"
-msgstr "Add/Edit users can add, edit, or remove licenses and associated fields"
+msgstr "Add/Edit users can add, edit, or remove licences and associated fields"
 
 #: ajax_forms.php:917 ajax_forms.php:920
 msgid "Admin users have access to the Admin page and the SFX tab."
-msgstr "Admin users have access to the Admin page and the SFX tab."
+msgstr "Admin users have access to the Admin page and the Terms Tool tab."
 
 #: ajax_forms.php:917 ajax_forms.php:920
 msgid "Restricted users do not have the ability to view documents"
@@ -1046,7 +1046,7 @@ msgstr "Restricted users do not have the ability to view documents"
 msgid ""
 "View only users can view all license information, including the license pdf"
 msgstr ""
-"View only users can view all license information, including the license pdf"
+"View only users can view all licence information, including the licence pdf"
 
 #: ajax_forms.php:949
 msgid "Terms Tool Email"
@@ -1208,7 +1208,7 @@ msgstr "Consortium has been added"
 
 #: js/forms/licenseForm.js:200
 msgid "License Name is required."
-msgstr "License Name is required."
+msgstr "Licence Name is required."
 
 #: js/forms/licenseForm.js:201
 msgid "Provider is required."
@@ -1302,7 +1302,7 @@ msgstr ""
 
 #: js/license.js:103
 msgid "Do you really want to delete this license?"
-msgstr "Do you really want to delete this license?"
+msgstr "Do you really want to delete this licence?"
 
 #: js/license.js:159
 msgid "Refreshing Contents..."
@@ -1367,7 +1367,7 @@ msgstr "File name is already being used."
 #~ msgstr "add new signature type"
 
 #~ msgid "add new license status"
-#~ msgstr "add new license status"
+#~ msgstr "add new licence status"
 
 #~ msgid "add new consortium"
 #~ msgstr "add new consortium"

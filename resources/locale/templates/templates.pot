@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-20 11:04+0100\n"
+"POT-Creation-Date: 2019-01-24 17:17+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -56,13 +56,13 @@ msgid "Add New Resource"
 msgstr ""
 
 #: ajax_forms/getNewResourceForm.php:77
-#: ajax_forms/getEbscoKbTitleImportForm.php:38
-#: ajax_forms/getEbscoKbPackageImportForm.php:92
+#: ajax_forms/getEbscoKbTitleImportForm.php:31
+#: ajax_forms/getEbscoKbPackageImportForm.php:85
 msgid "required fields"
 msgstr ""
 
 #: ajax_forms/getNewResourceForm.php:83 ajax_forms/getUpdateProductForm.php:81
-#: directory.php:74
+#: directory.php:87
 msgid "Product"
 msgstr ""
 
@@ -94,49 +94,49 @@ msgid "Alt URL:"
 msgstr ""
 
 #: ajax_forms/getNewResourceForm.php:123
-#: ajax_forms/getEbscoKbTitleImportForm.php:70
-#: ajax_forms/getEbscoKbPackageImportForm.php:259 export.php:59
+#: ajax_forms/getEbscoKbTitleImportForm.php:60
+#: ajax_forms/getEbscoKbPackageImportForm.php:249 export.php:59
 msgid "Format"
 msgstr ""
 
 #: ajax_forms/getNewResourceForm.php:168 ajax_forms/getImportConfigForm.php:56
-#: ajax_forms/getEbscoKbTitleImportForm.php:98
-#: ajax_forms/getEbscoKbPackageImportForm.php:284
-#: dashboard_yearly_costs_exports.php:55 import.php:127 dashboard_export.php:48
-#: admin.php:55 export.php:84 dashboard_yearly_costs.php:95 index.php:153
+#: ajax_forms/getEbscoKbTitleImportForm.php:88
+#: ajax_forms/getEbscoKbPackageImportForm.php:274
+#: dashboard_yearly_costs_exports.php:55 import.php:127 dashboard_export.php:49
+#: admin.php:55 export.php:84 dashboard_yearly_costs.php:69 index.php:146
 #: ajax_htmldata/getOutstandingQueue.php:22
-#: ajax_htmldata/getAdminWorkflowDisplay.php:32
-#: ajax_htmldata/getDashboardYearlyCosts.php:34
-#: ajax_htmldata/getDashboard.php:27 ajax_htmldata/getSearchResources.php:117
-#: dashboard.php:93
+#: ajax_htmldata/getAdminWorkflowDisplay.php:16
+#: ajax_htmldata/getDashboardYearlyCosts.php:31
+#: ajax_htmldata/getDashboard.php:24 ajax_htmldata/getSearchResources.php:117
+#: dashboard.php:69
 msgid "Acquisition Type"
 msgstr ""
 
 #: ajax_forms/getNewResourceForm.php:215 ajax_forms/getImportConfigForm.php:55
-#: dashboard_yearly_costs_exports.php:53 templates/ebscoKbTitleList.php:11
-#: import.php:123 dashboard_export.php:46 admin.php:92
-#: dashboard_yearly_costs.php:93 index.php:263 ebsco_kb.php:157
-#: ajax_htmldata/getAdminWorkflowDisplay.php:34
-#: ajax_htmldata/getDashboardYearlyCosts.php:32
-#: ajax_htmldata/getDashboard.php:25 dashboard.php:91
+#: dashboard_yearly_costs_exports.php:53 templates/ebscoKbTitleList.php:6
+#: import.php:123 dashboard_export.php:47 admin.php:92
+#: dashboard_yearly_costs.php:67 index.php:256 ebsco_kb.php:156
+#: ajax_htmldata/getAdminWorkflowDisplay.php:18
+#: ajax_htmldata/getDashboardYearlyCosts.php:29
+#: ajax_htmldata/getDashboard.php:22 dashboard.php:67
 msgid "Resource Type"
 msgstr ""
 
 #: ajax_forms/getNewResourceForm.php:261
-#: ajax_forms/getEbscoKbTitleImportForm.php:122
-#: ajax_forms/getEbscoKbPackageImportForm.php:339
-#: ajax_htmldata/getAcquisitionsDetails.php:126
+#: ajax_forms/getEbscoKbTitleImportForm.php:112
+#: ajax_forms/getEbscoKbPackageImportForm.php:329
+#: ajax_htmldata/getAcquisitionsDetails.php:120
 msgid "Notes"
 msgstr ""
 
 #: ajax_forms/getNewResourceForm.php:270
-#: ajax_forms/getEbscoKbTitleImportForm.php:125
-#: ajax_forms/getEbscoKbPackageImportForm.php:342
+#: ajax_forms/getEbscoKbTitleImportForm.php:115
+#: ajax_forms/getEbscoKbPackageImportForm.php:332
 msgid "Include any additional information"
 msgstr ""
 
 #: ajax_forms/getNewResourceForm.php:286
-#: ajax_forms/getEbscoKbTitleImportForm.php:137
+#: ajax_forms/getEbscoKbTitleImportForm.php:127
 #: ajax_forms/getImportSaveCfgForm.php:27
 msgid "save"
 msgstr ""
@@ -156,7 +156,7 @@ msgstr ""
 #: ajax_forms/getAdminUserUpdateForm.php:66 ajax_forms/getAccessForm.php:254
 #: ajax_forms/getAdminImportConfigUpdateForm.php:40
 #: ajax_forms/getAccountForm.php:86
-#: ajax_forms/getEbscoKbTitleImportForm.php:140
+#: ajax_forms/getEbscoKbTitleImportForm.php:130
 #: ajax_forms/getNewIssueForm.php:135 ajax_forms/getAdminWorkflowForm.php:268
 #: ajax_forms/getNewDowntimeForm.php:135
 #: ajax_forms/getAdminCurrencyUpdateForm.php:38
@@ -180,18 +180,17 @@ msgstr ""
 #: ajax_forms/getAdminUserGroupForm.php:149
 #: ajax_forms/getAdminUserUpdateForm.php:67 ajax_forms/getAccessForm.php:255
 #: ajax_forms/getAdminImportConfigUpdateForm.php:41
-#: ajax_forms/getEbscoKbRemoveConfirmation.php:67
 #: ajax_forms/getAccountForm.php:87
-#: ajax_forms/getEbscoKbTitleImportForm.php:142
+#: ajax_forms/getEbscoKbTitleImportForm.php:132
 #: ajax_forms/getNewIssueForm.php:136 ajax_forms/getNewIssueForm.php:145
 #: ajax_forms/getAdminWorkflowForm.php:269
-#: ajax_forms/getEbscoKbPackageImportForm.php:355
+#: ajax_forms/getEbscoKbPackageImportForm.php:345
 #: ajax_forms/getNewDowntimeForm.php:136 ajax_forms/getNewDowntimeForm.php:145
 #: ajax_forms/getImportSaveCfgForm.php:28
 #: ajax_forms/getAdminCurrencyUpdateForm.php:39
 #: ajax_forms/getLicenseForm.php:194 ajax_forms/getUpdateProductForm.php:430
 #: resources/cataloging_edit.php:106 importFunds.php:64
-#: ajax_htmldata/getEbscoKbTitleDetails.php:239
+#: ajax_htmldata/getEbscoKbTitleDetails.php:159
 msgid "cancel"
 msgstr ""
 
@@ -209,8 +208,6 @@ msgstr ""
 
 #: ajax_forms/getResourceSubjectForm.php:26
 #: ajax_forms/getResourceSubjectForm.php:33
-#: ajax_htmldata/getAdminUserDisplay.php:21
-#: ajax_htmldata/getAdminDisplay.php:15
 msgid "add"
 msgstr ""
 
@@ -222,24 +219,21 @@ msgstr ""
 #: ajax_forms/getUpdateProductForm.php:124
 #: ajax_forms/getUpdateProductForm.php:153
 #: ajax_forms/getUpdateProductForm.php:266
-#: ajax_forms/getUpdateProductForm.php:359 resources/cataloging.php:213
-#: ajax_htmldata/getProductDetails.php:439
-#: ajax_htmldata/getAccessDetails.php:165
-#: ajax_htmldata/getAcquisitionsDetails.php:303
+#: ajax_forms/getUpdateProductForm.php:359
 msgid "Add"
 msgstr ""
 
 #: ajax_forms/getResourceSubjectForm.php:44
-#: ajax_htmldata/getAdminWorkflowDisplay.php:78
-#: ajax_htmldata/getAdminWorkflowDisplay.php:134
-#: ajax_htmldata/getAdminAlertDisplay.php:38
-#: ajax_htmldata/getAdminAlertDisplay.php:73
-#: ajax_htmldata/getAdminUserDisplay.php:61
-#: ajax_htmldata/getAdminFundDisplay.php:51
-#: ajax_htmldata/getAdminSubjectDisplay.php:44
-#: ajax_htmldata/getAdminSubjectDisplay.php:86
-#: ajax_htmldata/getAdminSubjectDisplay.php:127
-#: ajax_htmldata/getAdminDisplay.php:41
+#: ajax_htmldata/getAdminWorkflowDisplay.php:62
+#: ajax_htmldata/getAdminWorkflowDisplay.php:113
+#: ajax_htmldata/getAdminAlertDisplay.php:35
+#: ajax_htmldata/getAdminAlertDisplay.php:65
+#: ajax_htmldata/getAdminUserDisplay.php:58
+#: ajax_htmldata/getAdminFundDisplay.php:44
+#: ajax_htmldata/getAdminSubjectDisplay.php:41
+#: ajax_htmldata/getAdminSubjectDisplay.php:81
+#: ajax_htmldata/getAdminSubjectDisplay.php:123
+#: ajax_htmldata/getAdminDisplay.php:38
 #: ajax_htmldata/getGeneralSubjectDisplay.php:35
 msgid "(none found)"
 msgstr ""
@@ -274,23 +268,23 @@ msgstr ""
 
 #: ajax_forms/getAdminFundUpdateForm.php:25
 #: ajax_forms/getAdminCurrencyUpdateForm.php:24
-#: ajax_htmldata/getAdminCurrencyDisplay.php:18
-#: ajax_htmldata/getAdminFundDisplay.php:21
+#: ajax_htmldata/getAdminCurrencyDisplay.php:14
+#: ajax_htmldata/getAdminFundDisplay.php:14
 msgid "Code"
 msgstr ""
 
 #: ajax_forms/getAdminFundUpdateForm.php:28
 #: ajax_forms/getAdminCurrencyUpdateForm.php:27
 #: ajax_forms/getCurrentWorkflowForm.php:36
-#: dashboard_yearly_costs_exports.php:52 templates/ebscoKbPackageList.php:10
-#: templates/ebscoKbVendorList.php:4 dashboard_export.php:45 export.php:57
+#: dashboard_yearly_costs_exports.php:52 templates/ebscoKbPackageList.php:4
+#: templates/ebscoKbVendorList.php:4 dashboard_export.php:46 export.php:57
 #: ajax_htmldata/getOutstandingQueue.php:20
-#: ajax_htmldata/getAdminImportConfigDisplay.php:16
-#: ajax_htmldata/getAdminCurrencyDisplay.php:19
+#: ajax_htmldata/getAdminImportConfigDisplay.php:13
+#: ajax_htmldata/getAdminCurrencyDisplay.php:15
 #: ajax_htmldata/getSavedQueue.php:18 ajax_htmldata/getSubmittedQueue.php:15
-#: ajax_htmldata/getAdminFundDisplay.php:22
-#: ajax_htmldata/getDashboardYearlyCosts.php:31
-#: ajax_htmldata/getDashboard.php:24 ajax_htmldata/getSearchResources.php:113
+#: ajax_htmldata/getAdminFundDisplay.php:15
+#: ajax_htmldata/getDashboardYearlyCosts.php:28
+#: ajax_htmldata/getDashboard.php:21 ajax_htmldata/getSearchResources.php:113
 msgid "Name"
 msgstr ""
 
@@ -335,7 +329,7 @@ msgid "Edit Order"
 msgstr ""
 
 #: ajax_forms/getOrderForm.php:49 ajax_forms/getCurrentWorkflowForm.php:34
-#: resource.php:93 summary.php:430 ajax_htmldata/getOutstandingQueue.php:21
+#: resource.php:80 summary.php:430 ajax_htmldata/getOutstandingQueue.php:21
 #: ajax_htmldata/getOrdersDetails.php:29
 msgid "Order"
 msgstr ""
@@ -371,8 +365,6 @@ msgstr ""
 #: ajax_forms/getOrderForm.php:99 ajax_forms/getImportConfigForm.php:190
 #: ajax_forms/getImportConfigForm.php:202
 #: ajax_forms/getImportConfigForm.php:329 import.php:126
-#: dashboard_yearly_costs.php:49 dashboard_yearly_costs.php:98 dashboard.php:49
-#: dashboard.php:96
 msgid "Organization"
 msgstr ""
 
@@ -435,9 +427,9 @@ msgstr ""
 msgid "Add / Edit Subject Relationships"
 msgstr ""
 
-#: ajax_forms/getGeneralDetailSubjectForm.php:27 index.php:295
-#: ajax_htmldata/getAdminSubjectDisplay.php:10
-#: ajax_htmldata/getAdminSubjectDisplay.php:102
+#: ajax_forms/getGeneralDetailSubjectForm.php:27 index.php:288
+#: ajax_htmldata/getAdminSubjectDisplay.php:9
+#: ajax_htmldata/getAdminSubjectDisplay.php:98
 msgid "General Subject"
 msgstr ""
 
@@ -455,8 +447,8 @@ msgid "remove detailed subject"
 msgstr ""
 
 #: ajax_forms/getGeneralDetailSubjectForm.php:109
-#: ajax_htmldata/getAdminSubjectDisplay.php:33
-#: ajax_htmldata/getAdminSubjectDisplay.php:76
+#: ajax_htmldata/getAdminSubjectDisplay.php:30
+#: ajax_htmldata/getAdminSubjectDisplay.php:71
 msgid "subject in use"
 msgstr ""
 
@@ -469,63 +461,59 @@ msgid "Edit Cost Information"
 msgstr ""
 
 #: ajax_forms/getCostForm.php:64 summary.php:493
-#: ajax_htmldata/getAcquisitionsDetails.php:99
+#: ajax_htmldata/getAcquisitionsDetails.php:93
 msgid "Cost History"
 msgstr ""
 
 #: ajax_forms/getCostForm.php:72 export.php:69
-#: ajax_htmldata/getAcquisitionsDetails.php:108 dashboard.php:83
+#: ajax_htmldata/getAcquisitionsDetails.php:102 dashboard.php:59
 msgid "Year"
 msgstr ""
 
 #: ajax_forms/getCostForm.php:73 export.php:88
-#: ajax_htmldata/getAcquisitionsDetails.php:109
+#: ajax_htmldata/getAcquisitionsDetails.php:103
 msgid "Sub Start"
 msgstr ""
 
-#: ajax_forms/getCostForm.php:74 ajax_htmldata/getAcquisitionsDetails.php:110
+#: ajax_forms/getCostForm.php:74 ajax_htmldata/getAcquisitionsDetails.php:104
 msgid "Sub End"
 msgstr ""
 
-#: ajax_forms/getCostForm.php:76 dashboard_yearly_costs.php:71
-#: dashboard_yearly_costs.php:96 index.php:121
-#: ajax_htmldata/getAdminFundDisplay.php:9
-#: ajax_htmldata/getDashboardYearlyCosts.php:35
-#: ajax_htmldata/getDashboard.php:28
-#: ajax_htmldata/getAcquisitionsDetails.php:112 dashboard.php:70
-#: dashboard.php:94
+#: ajax_forms/getCostForm.php:76 index.php:118
+#: ajax_htmldata/getAdminFundDisplay.php:8
+#: ajax_htmldata/getAcquisitionsDetails.php:106
 msgid "Fund"
 msgstr ""
 
-#: ajax_forms/getCostForm.php:78 ajax_htmldata/getAcquisitionsDetails.php:114
+#: ajax_forms/getCostForm.php:78 ajax_htmldata/getAcquisitionsDetails.php:108
 msgid "Tax Excl."
 msgstr ""
 
-#: ajax_forms/getCostForm.php:79 ajax_htmldata/getAcquisitionsDetails.php:115
+#: ajax_forms/getCostForm.php:79 ajax_htmldata/getAcquisitionsDetails.php:109
 msgid "Tax Rate"
 msgstr ""
 
-#: ajax_forms/getCostForm.php:80 ajax_htmldata/getAcquisitionsDetails.php:116
+#: ajax_forms/getCostForm.php:80 ajax_htmldata/getAcquisitionsDetails.php:110
 msgid "Tax Incl."
 msgstr ""
 
 #: ajax_forms/getCostForm.php:82 export.php:75
-#: ajax_htmldata/getAcquisitionsDetails.php:118
+#: ajax_htmldata/getAcquisitionsDetails.php:112
 msgid "Payment"
 msgstr ""
 
 #: ajax_forms/getCostForm.php:83 ajax_forms/getImportConfigForm.php:264
-#: admin.php:70 export.php:76 ajax_htmldata/getAdminCurrencyDisplay.php:9
+#: admin.php:70 export.php:76 ajax_htmldata/getAdminCurrencyDisplay.php:8
 msgid "Currency"
 msgstr ""
 
 #: ajax_forms/getCostForm.php:84 export.php:58
-#: ajax_htmldata/getAcquisitionsDetails.php:122
+#: ajax_htmldata/getAcquisitionsDetails.php:116
 msgid "Type"
 msgstr ""
 
-#: ajax_forms/getCostForm.php:86 admin.php:68 dashboard_yearly_costs.php:77
-#: dashboard.php:76
+#: ajax_forms/getCostForm.php:86 admin.php:68 dashboard_yearly_costs.php:51
+#: dashboard.php:52
 msgid "Cost Details"
 msgstr ""
 
@@ -536,7 +524,7 @@ msgid "Note"
 msgstr ""
 
 #: ajax_forms/getCostForm.php:90 export.php:80
-#: ajax_htmldata/getAcquisitionsDetails.php:128
+#: ajax_htmldata/getAcquisitionsDetails.php:122
 msgid "Invoice"
 msgstr ""
 
@@ -565,7 +553,7 @@ msgid "Alternate URL"
 msgstr ""
 
 #: ajax_forms/getImportConfigForm.php:54 import.php:122 admin.php:91
-#: index.php:239 ajax_htmldata/getAdminWorkflowDisplay.php:33
+#: index.php:232 ajax_htmldata/getAdminWorkflowDisplay.php:17
 msgid "Resource Format"
 msgstr ""
 
@@ -580,7 +568,7 @@ msgstr ""
 
 #: ajax_forms/getImportConfigForm.php:63 ajax_forms/getImportConfigForm.php:77
 #: ajax_forms/getImportConfigForm.php:299
-#: ajax_forms/getEbscoKbPackageImportForm.php:153 admin.php:60
+#: ajax_forms/getEbscoKbPackageImportForm.php:143 admin.php:60
 msgid "Alias Type"
 msgstr ""
 
@@ -642,9 +630,9 @@ msgstr ""
 #: ajax_forms/getImportConfigForm.php:133
 #: ajax_forms/getImportConfigForm.php:138
 #: ajax_forms/getImportConfigForm.php:317 dashboard_yearly_costs_exports.php:54
-#: import.php:124 dashboard_export.php:47 dashboard_yearly_costs.php:34
-#: dashboard_yearly_costs.php:94 ajax_htmldata/getDashboardYearlyCosts.php:33
-#: ajax_htmldata/getDashboard.php:26 dashboard.php:34 dashboard.php:92
+#: import.php:124 dashboard_export.php:48 dashboard_yearly_costs.php:30
+#: dashboard_yearly_costs.php:68 ajax_htmldata/getDashboardYearlyCosts.php:30
+#: ajax_htmldata/getDashboard.php:23 dashboard.php:31 dashboard.php:68
 msgid "Subject"
 msgstr ""
 
@@ -658,7 +646,7 @@ msgstr ""
 
 #: ajax_forms/getImportConfigForm.php:155
 #: ajax_forms/getImportConfigForm.php:169
-#: ajax_forms/getImportConfigForm.php:323 admin.php:77 index.php:388
+#: ajax_forms/getImportConfigForm.php:323 admin.php:77 index.php:381
 msgid "Note Type"
 msgstr ""
 
@@ -715,7 +703,7 @@ msgstr ""
 msgid "+ Add another mapping"
 msgstr ""
 
-#: ajax_forms/getImportConfigForm.php:249 directory.php:76
+#: ajax_forms/getImportConfigForm.php:249 directory.php:89
 msgid "Acquisitions"
 msgstr ""
 
@@ -728,7 +716,7 @@ msgid "Cost"
 msgstr ""
 
 #: ajax_forms/getImportConfigForm.php:252 admin.php:78 export.php:78
-#: dashboard_yearly_costs.php:65 dashboard.php:64
+#: dashboard_yearly_costs.php:45 dashboard.php:46
 msgid "Order Type"
 msgstr ""
 
@@ -825,34 +813,34 @@ msgid "Add New User"
 msgstr ""
 
 #: ajax_forms/getAdminUserUpdateForm.php:32
-#: ajax_htmldata/getAdminUserDisplay.php:25
+#: ajax_htmldata/getAdminUserDisplay.php:22
 msgid "Login ID"
 msgstr ""
 
 #: ajax_forms/getAdminUserUpdateForm.php:33
-#: ajax_htmldata/getAdminUserDisplay.php:26
+#: ajax_htmldata/getAdminUserDisplay.php:23
 msgid "First Name"
 msgstr ""
 
 #: ajax_forms/getAdminUserUpdateForm.php:34
-#: ajax_htmldata/getAdminUserDisplay.php:27
+#: ajax_htmldata/getAdminUserDisplay.php:24
 msgid "Last Name"
 msgstr ""
 
 #: ajax_forms/getAdminUserUpdateForm.php:35
-#: ajax_htmldata/getAdminWorkflowDisplay.php:107
-#: ajax_htmldata/getAdminAlertDisplay.php:19
-#: ajax_htmldata/getAdminUserDisplay.php:30
+#: ajax_htmldata/getAdminWorkflowDisplay.php:86
+#: ajax_htmldata/getAdminAlertDisplay.php:16
+#: ajax_htmldata/getAdminUserDisplay.php:27
 msgid "Email Address"
 msgstr ""
 
 #: ajax_forms/getAdminUserUpdateForm.php:36
-#: ajax_htmldata/getAdminUserDisplay.php:28
+#: ajax_htmldata/getAdminUserDisplay.php:25
 msgid "Privilege"
 msgstr ""
 
 #: ajax_forms/getAdminUserUpdateForm.php:54
-#: ajax_htmldata/getAdminUserDisplay.php:29
+#: ajax_htmldata/getAdminUserDisplay.php:26
 msgid "View Accounts"
 msgstr ""
 
@@ -860,7 +848,7 @@ msgstr ""
 msgid "Edit Access"
 msgstr ""
 
-#: ajax_forms/getAccessForm.php:71 directory.php:77
+#: ajax_forms/getAccessForm.php:71 directory.php:90
 msgid "Access"
 msgstr ""
 
@@ -932,24 +920,6 @@ msgid ""
 "columns can be configured on the Admin page."
 msgstr ""
 
-#: ajax_forms/getEbscoKbRemoveConfirmation.php:32
-msgid ""
-"You are about to deselect the following resource from Ebsco and delete it "
-"from Coral"
-msgstr ""
-
-#: ajax_forms/getEbscoKbRemoveConfirmation.php:33
-msgid "deselect & delete"
-msgstr ""
-
-#: ajax_forms/getEbscoKbRemoveConfirmation.php:37
-msgid "Are you sure you want to delete the following resource from Coral?"
-msgstr ""
-
-#: ajax_forms/getEbscoKbRemoveConfirmation.php:38
-msgid "yes, delete resource"
-msgstr ""
-
 #: ajax_forms/getAccountForm.php:17
 msgid "Edit Account"
 msgstr ""
@@ -966,24 +936,25 @@ msgstr ""
 msgid "Registered Email:"
 msgstr ""
 
-#: ajax_forms/getEbscoKbTitleImportForm.php:34
-#: ajax_forms/getEbscoKbPackageImportForm.php:87 templates/header.php:202
+#: ajax_forms/getEbscoKbTitleImportForm.php:27
+#: ajax_forms/getEbscoKbPackageImportForm.php:80 templates/header.php:188
+#: templates/ebscoKbTitleList.php:8
 msgid "Import"
 msgstr ""
 
-#: ajax_forms/getEbscoKbTitleImportForm.php:34
-#: ajax_forms/getEbscoKbPackageImportForm.php:87
+#: ajax_forms/getEbscoKbTitleImportForm.php:27
+#: ajax_forms/getEbscoKbPackageImportForm.php:80
 msgid " from EBSCO Kb"
 msgstr ""
 
-#: ajax_forms/getEbscoKbTitleImportForm.php:41
-#: ajax_forms/getEbscoKbPackageImportForm.php:95
+#: ajax_forms/getEbscoKbTitleImportForm.php:34
+#: ajax_forms/getEbscoKbPackageImportForm.php:88
 msgid "There was a problem importing this resource"
 msgstr ""
 
-#: ajax_forms/getEbscoKbTitleImportForm.php:57
-#: ajax_forms/getEbscoKbTitleImportForm.php:60
-#: ajax_forms/getEbscoKbPackageImportForm.php:113
+#: ajax_forms/getEbscoKbTitleImportForm.php:47
+#: ajax_forms/getEbscoKbTitleImportForm.php:50
+#: ajax_forms/getEbscoKbPackageImportForm.php:103
 msgid "Provider"
 msgstr ""
 
@@ -1094,42 +1065,43 @@ msgstr ""
 msgid "remove this step"
 msgstr ""
 
-#: ajax_forms/getEbscoKbPackageImportForm.php:38
+#: ajax_forms/getEbscoKbPackageImportForm.php:30
 msgid ""
 "The EBSCO Kb API only allows importing a maximum of 10,000 records. Only "
 "package information will be imported."
 msgstr ""
 
-#: ajax_forms/getEbscoKbPackageImportForm.php:40
+#: ajax_forms/getEbscoKbPackageImportForm.php:32
 msgid ""
 "Alternatively, you may import titles individually or via a manual import."
 msgstr ""
 
-#: ajax_forms/getEbscoKbPackageImportForm.php:187
+#: ajax_forms/getEbscoKbPackageImportForm.php:177
 msgid "Package Titles"
 msgstr ""
 
-#: ajax_forms/getEbscoKbPackageImportForm.php:198
+#: ajax_forms/getEbscoKbPackageImportForm.php:188
 #, php-format
 msgid "You have %d of %d title selected in EBSCO Kb"
 msgid_plural "You have %d of %d titles selected in EBSCO Kb"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ajax_forms/getEbscoKbPackageImportForm.php:204
+#: ajax_forms/getEbscoKbPackageImportForm.php:194
 msgid "All titles not available"
 msgstr ""
 
-#: ajax_forms/getEbscoKbPackageImportForm.php:230
+#: ajax_forms/getEbscoKbPackageImportForm.php:220
 msgid "Workflow Options"
 msgstr ""
 
-#: ajax_forms/getEbscoKbPackageImportForm.php:308
+#: ajax_forms/getEbscoKbPackageImportForm.php:298
 msgid "Package Resource Type"
 msgstr ""
 
-#: ajax_forms/getEbscoKbPackageImportForm.php:353 importFunds.php:63
-#: ajax_htmldata/getEbscoKbTitleDetails.php:237
+#: ajax_forms/getEbscoKbPackageImportForm.php:343
+#: templates/ebscoKbTitleList.php:57 templates/ebscoKbPackageList.php:52
+#: importFunds.php:63 ajax_htmldata/getEbscoKbTitleDetails.php:157
 msgid "import"
 msgstr ""
 
@@ -1214,7 +1186,7 @@ msgstr ""
 
 #: ajax_forms/getLicenseForm.php:138 summary.php:220 summary.php:579
 #: ajax_htmldata/getProductDetails.php:101
-#: ajax_htmldata/getAcquisitionsDetails.php:213
+#: ajax_htmldata/getAcquisitionsDetails.php:207
 msgid "Status:"
 msgstr ""
 
@@ -1224,26 +1196,26 @@ msgstr ""
 
 #: ajax_forms/getLicenseForm.php:168 summary.php:234 summary.php:260
 #: summary.php:415 summary.php:585 summary.php:660 summary.php:782
-#: summary.php:895 resources/cataloging.php:225
+#: summary.php:895 resources/cataloging.php:223
 #: ajax_htmldata/getProductDetails.php:120
 #: ajax_htmldata/getProductDetails.php:122
 #: ajax_htmldata/getProductDetails.php:145
 #: ajax_htmldata/getProductDetails.php:147
 #: ajax_htmldata/getProductDetails.php:169
 #: ajax_htmldata/getProductDetails.php:171
-#: ajax_htmldata/getProductDetails.php:453
+#: ajax_htmldata/getProductDetails.php:449
 #: ajax_htmldata/getWorkflowDetails.php:71
 #: ajax_htmldata/getWorkflowDetails.php:73
 #: ajax_htmldata/getWorkflowDetails.php:106
 #: ajax_htmldata/getWorkflowDetails.php:108
 #: ajax_htmldata/getAccessDetails.php:175
-#: ajax_htmldata/getAcquisitionsDetails.php:219
-#: ajax_htmldata/getAcquisitionsDetails.php:318
+#: ajax_htmldata/getAcquisitionsDetails.php:213
+#: ajax_htmldata/getAcquisitionsDetails.php:307
 msgid " by "
 msgstr ""
 
 #: ajax_forms/getLicenseForm.php:171 summary.php:588
-#: ajax_htmldata/getAcquisitionsDetails.php:222
+#: ajax_htmldata/getAcquisitionsDetails.php:216
 msgid "No license status information available."
 msgstr ""
 
@@ -1276,9 +1248,8 @@ msgstr ""
 msgid "remove Issn/Isbn"
 msgstr ""
 
-#: ajax_forms/getUpdateProductForm.php:235 templates/header.php:258
-#: admin.php:86 export.php:68 ajax_htmldata/getDashboardYearlyCosts.php:37
-#: ajax_htmldata/getDashboard.php:30
+#: ajax_forms/getUpdateProductForm.php:235 templates/header.php:244
+#: admin.php:86 export.php:68
 msgid "Organizations"
 msgstr ""
 
@@ -1322,27 +1293,27 @@ msgstr ""
 msgid "Action"
 msgstr ""
 
-#: resource.php:89
+#: resource.php:76
 msgid "Start date"
 msgstr ""
 
-#: resource.php:91
+#: resource.php:78
 msgid "End date"
 msgstr ""
 
-#: resource.php:110
+#: resource.php:97
 msgid "Success!"
 msgstr ""
 
-#: resource.php:111
+#: resource.php:98
 msgid "New resource added"
 msgstr ""
 
-#: resource.php:335
+#: resource.php:322
 msgid "Helpful Links"
 msgstr ""
 
-#: resource.php:345
+#: resource.php:332
 msgid "Send feedback on this resource"
 msgstr ""
 
@@ -1358,19 +1329,19 @@ msgstr ""
 msgid "Dashboard Yearly Costs Export"
 msgstr ""
 
-#: dashboard_yearly_costs_exports.php:51 dashboard_export.php:44 export.php:56
+#: dashboard_yearly_costs_exports.php:51 dashboard_export.php:45 export.php:56
 msgid "Record ID"
 msgstr ""
 
-#: dashboard_yearly_costs_exports.php:81 dashboard_export.php:70
-#: ajax_htmldata/getDashboardYearlyCosts.php:73
-#: ajax_htmldata/getDashboard.php:54
+#: dashboard_yearly_costs_exports.php:81 dashboard_export.php:71
+#: ajax_htmldata/getDashboardYearlyCosts.php:63
+#: ajax_htmldata/getDashboard.php:46
 msgid "Total"
 msgstr ""
 
-#: dashboard_yearly_costs_exports.php:81 dashboard_export.php:70
-#: ajax_htmldata/getDashboardYearlyCosts.php:76
-#: ajax_htmldata/getDashboard.php:57
+#: dashboard_yearly_costs_exports.php:81 dashboard_export.php:71
+#: ajax_htmldata/getDashboardYearlyCosts.php:63
+#: ajax_htmldata/getDashboard.php:46
 msgid "Sub-Total:"
 msgstr ""
 
@@ -1394,196 +1365,139 @@ msgstr ""
 msgid "Alerts not enabled in configuration.ini file"
 msgstr ""
 
-#: templates/header.php:91 templates/pig_header.php:72
+#: templates/header.php:77 templates/pig_header.php:73
 msgid ""
 "JavaScript must be enabled in order for you to use CORAL. However, it seems "
 "JavaScript is either disabled or not supported by your browser. To use "
 "CORAL, enable JavaScript by changing your browser options, then "
 msgstr ""
 
-#: templates/header.php:91 templates/pig_header.php:72
+#: templates/header.php:77 templates/pig_header.php:73
 msgid "try again"
 msgstr ""
 
-#: templates/header.php:111 templates/pig_header.php:91
+#: templates/header.php:97 templates/pig_header.php:92
 #: ajax_htmldata/getDowntimeList.php:81 ajax_htmldata/getIssuesList.php:98
 msgid "Resources"
 msgstr ""
 
-#: templates/header.php:112 templates/pig_header.php:92
+#: templates/header.php:98 templates/pig_header.php:93
 msgid "Powered by"
 msgstr ""
 
-#: templates/header.php:118
+#: templates/header.php:104
 msgid "Hello"
 msgstr ""
 
-#: templates/header.php:128
+#: templates/header.php:114
 msgid "logout"
 msgstr ""
 
-#: templates/header.php:128
+#: templates/header.php:114
 msgid "Help"
 msgstr ""
 
-#: templates/header.php:146 templates/pig_header.php:115
+#: templates/header.php:132 templates/pig_header.php:116
 msgid "Invalid translation route!"
 msgstr ""
 
-#: templates/header.php:180 templates/header.php:183
-#: templates/pig_header.php:149 templates/pig_header.php:152 index.php:39
+#: templates/header.php:166 templates/header.php:169
+#: templates/pig_header.php:150 templates/pig_header.php:153 index.php:36
 msgid "Home"
 msgstr ""
 
-#: templates/header.php:188 templates/header.php:191
+#: templates/header.php:174 templates/header.php:177
 msgid "New Resource"
 msgstr ""
 
-#: templates/header.php:195 templates/header.php:198 queue.php:26 queue.php:42
+#: templates/header.php:181 templates/header.php:184 queue.php:26 queue.php:42
 msgid "My Queue"
 msgstr ""
 
-#: templates/header.php:205
+#: templates/header.php:191
 msgid "File Import"
 msgstr ""
 
-#: templates/header.php:209 templates/header.php:212
+#: templates/header.php:195 templates/header.php:198
 msgid "EBSCO Kb"
 msgstr ""
 
-#: templates/header.php:219 templates/header.php:222 dashboard_menu.php:3
+#: templates/header.php:205 templates/header.php:208 dashboard_menu.php:3
 #: dashboard_menu.php:7
 msgid "Dashboards"
 msgstr ""
 
-#: templates/header.php:228 templates/header.php:231
+#: templates/header.php:214 templates/header.php:217
 msgid "Admin"
 msgstr ""
 
-#: templates/header.php:250
+#: templates/header.php:236
 msgid "Change Module"
 msgstr ""
 
-#: templates/header.php:253
+#: templates/header.php:239
 msgid "Main Menu"
 msgstr ""
 
-#: templates/header.php:258
+#: templates/header.php:244
 msgid "Organizations module"
 msgstr ""
 
-#: templates/header.php:263
+#: templates/header.php:249
 msgid "Licensing module"
 msgstr ""
 
-#: templates/header.php:263
+#: templates/header.php:249
 msgid "Licensing"
 msgstr ""
 
-#: templates/header.php:268
+#: templates/header.php:254
 msgid "Usage Statistics module"
 msgstr ""
 
-#: templates/header.php:268
+#: templates/header.php:254
 msgid "Usage Statistics"
 msgstr ""
 
-#: templates/header.php:273
+#: templates/header.php:259
 msgid "Management module"
 msgstr ""
 
-#: templates/header.php:273
+#: templates/header.php:259
 msgid "Management"
 msgstr ""
 
-#: templates/ebscoKbTitleList.php:10
+#: templates/ebscoKbTitleList.php:4
 msgid "Title"
 msgstr ""
 
-#: templates/ebscoKbTitleList.php:12
-#: ajax_htmldata/getEbscoKbTitleDetails.php:61
+#: templates/ebscoKbTitleList.php:5 templates/ebscoKbPackageList.php:5
+msgid "Imported?"
+msgstr ""
+
+#: templates/ebscoKbTitleList.php:7 ajax_htmldata/getEbscoKbTitleDetails.php:60
 msgid "ISXNs"
 msgstr ""
 
-#: templates/ebscoKbTitleList.php:13 templates/ebscoKbPackageList.php:13
-msgid "Current Status"
-msgstr ""
-
-#: templates/ebscoKbTitleList.php:53
-msgid "Processing"
-msgstr ""
-
-#: templates/ebscoKbTitleList.php:59
-msgid "manage"
-msgstr ""
-
-#: templates/ebscoKbPackageDropdown.php:59
-msgid "Not Selected"
-msgstr ""
-
-#: templates/ebscoKbPackageDropdown.php:62
-#: ajax_htmldata/getEbscoKbTitleStatus.php:22
-msgid "Selected"
-msgstr ""
-
-#: templates/ebscoKbPackageDropdown.php:74
-msgid "Deselect Package"
-msgstr ""
-
-#: templates/ebscoKbPackageDropdown.php:79
-msgid "Deselect Package & Delete from Coral"
-msgstr ""
-
-#: templates/ebscoKbPackageDropdown.php:85
-msgid "Select Package"
-msgstr ""
-
-#: templates/ebscoKbPackageDropdown.php:90
-msgid "Select & Import Package"
-msgstr ""
-
-#: templates/ebscoKbPackageList.php:11
-msgid "Title Count"
-msgstr ""
-
-#: templates/ebscoKbPackageList.php:12 ebsco_kb.php:176
-msgid "Content Type"
-msgstr ""
-
-#: templates/ebscoKbPackageList.php:14
-msgid "Current Holdings"
-msgstr ""
-
-#: templates/ebscoKbPackageList.php:31
-msgid "view"
-msgstr ""
-
-#: templates/ebscoKbPackageList.php:34
-msgid "selected"
-msgstr ""
-
-#: templates/ebscoKbPackageList.php:44
+#: templates/ebscoKbTitleList.php:25 templates/ebscoKbPackageList.php:24
 msgid "imported in Coral"
 msgstr ""
 
+#: templates/ebscoKbPackageList.php:6
+msgid "Title Count"
+msgstr ""
+
+#: templates/ebscoKbPackageList.php:7 ebsco_kb.php:175
+msgid "Content Type"
+msgstr ""
+
+#: templates/ebscoKbPackageList.php:32
+msgid "selected"
+msgstr ""
+
 #: templates/ebscoKbPackageList.php:45
-msgid "View in Coral"
-msgstr ""
-
-#: templates/ebscoKbPackageList.php:48
-msgid "Not selected in EBSCOhost"
-msgstr ""
-
-#: templates/ebscoKbPackageList.php:51
-msgid "Delete from Coral"
-msgstr ""
-
-#: templates/ebscoKbPackageList.php:55
-msgid "Selected but not Imported"
-msgstr ""
-
-#: templates/ebscoKbPackageList.php:58
-msgid "Import Package"
+#: ajax_htmldata/getEbscoKbTitleDetails.php:123
+msgid "View Titles"
 msgstr ""
 
 #: templates/ebscoKbVendorList.php:5
@@ -1650,11 +1564,11 @@ msgid ""
 " is in use.  Please make sure no resources are set up with this information."
 msgstr ""
 
-#: ajax_processing/uploadAttachment.php:30
+#: ajax_processing/uploadAttachment.php:29
 msgid "There was a problem saving your file to "
 msgstr ""
 
-#: ajax_processing/uploadAttachment.php:30
+#: ajax_processing/uploadAttachment.php:29
 msgid ".  Please ensure your attachments directory is writable."
 msgstr ""
 
@@ -1911,39 +1825,39 @@ msgid ""
 "installation. Please install and activate mbstring to use the import tool."
 msgstr ""
 
-#: dashboard_export.php:39
+#: dashboard_export.php:40
 msgid "Dashboard Statistics Export"
 msgstr ""
 
-#: dashboard_export.php:49 ajax_htmldata/getDashboard.php:31
+#: dashboard_export.php:50 ajax_htmldata/getDashboard.php:25
 msgid "Payment amount"
 msgstr ""
 
-#: directory.php:75
+#: directory.php:88
 msgid "Orders"
 msgstr ""
 
-#: directory.php:78 summary.php:793 resources/cataloging.php:103
+#: directory.php:91 summary.php:793 resources/cataloging.php:103
 msgid "Cataloging"
 msgstr ""
 
-#: directory.php:79
+#: directory.php:92
 msgid "Contacts"
 msgstr ""
 
-#: directory.php:80
+#: directory.php:93
 msgid "Accounts"
 msgstr ""
 
-#: directory.php:81
+#: directory.php:94
 msgid "Issues"
 msgstr ""
 
-#: directory.php:82
+#: directory.php:95
 msgid "Attachments"
 msgstr ""
 
-#: directory.php:83
+#: directory.php:96
 msgid "Workflow"
 msgstr ""
 
@@ -1957,8 +1871,8 @@ msgstr ""
 msgid "Administration"
 msgstr ""
 
-#: admin.php:52 ajax_htmldata/getAdminWorkflowDisplay.php:108
-#: ajax_htmldata/getAdminUserDisplay.php:20
+#: admin.php:52 ajax_htmldata/getAdminWorkflowDisplay.php:87
+#: ajax_htmldata/getAdminUserDisplay.php:19
 msgid "Users"
 msgstr ""
 
@@ -1970,11 +1884,11 @@ msgstr ""
 msgid "Access Method"
 msgstr ""
 
-#: admin.php:56 index.php:510
+#: admin.php:56 index.php:503
 msgid "Administering Site"
 msgstr ""
 
-#: admin.php:58 ajax_htmldata/getAdminAlertDisplay.php:11
+#: admin.php:58 ajax_htmldata/getAdminAlertDisplay.php:10
 msgid "Alert Settings"
 msgstr ""
 
@@ -1982,15 +1896,15 @@ msgstr ""
 msgid "Attachment Type"
 msgstr ""
 
-#: admin.php:62 export.php:95 index.php:540
+#: admin.php:62 export.php:95 index.php:533
 msgid "Authentication Type"
 msgstr ""
 
-#: admin.php:63 index.php:478
+#: admin.php:63 index.php:471
 msgid "Authorized Site"
 msgstr ""
 
-#: admin.php:64 export.php:103 resources/cataloging_edit.php:58 index.php:570
+#: admin.php:64 export.php:103 resources/cataloging_edit.php:58 index.php:563
 msgid "Cataloging Status"
 msgstr ""
 
@@ -2018,7 +1932,7 @@ msgstr ""
 msgid "Funds"
 msgstr ""
 
-#: admin.php:75 ajax_htmldata/getAdminImportConfigDisplay.php:8
+#: admin.php:75 ajax_htmldata/getAdminImportConfigDisplay.php:7
 msgid "Import Configuration"
 msgstr ""
 
@@ -2034,7 +1948,7 @@ msgstr ""
 msgid "Storage Location"
 msgstr ""
 
-#: admin.php:94 ajax_htmldata/getEbscoKbTitleDetails.php:52
+#: admin.php:94 ajax_htmldata/getEbscoKbTitleDetails.php:51
 #: ajax_htmldata/getProductDetails.php:322
 msgid "Subjects"
 msgstr ""
@@ -2077,7 +1991,7 @@ msgstr ""
 msgid "User Updated"
 msgstr ""
 
-#: export.php:64 index.php:176 ajax_htmldata/getSavedQueue.php:20
+#: export.php:64 index.php:169 ajax_htmldata/getSavedQueue.php:20
 #: ajax_htmldata/getSubmittedQueue.php:17
 #: ajax_htmldata/getSearchResources.php:118
 msgid "Status"
@@ -2107,7 +2021,7 @@ msgstr ""
 msgid "Tax included"
 msgstr ""
 
-#: export.php:77 ajax_htmldata/getAcquisitionsDetails.php:124
+#: export.php:77 ajax_htmldata/getAcquisitionsDetails.php:118
 msgid "Details"
 msgstr ""
 
@@ -2309,19 +2223,19 @@ msgstr ""
 msgid "No payment information available."
 msgstr ""
 
-#: summary.php:574 ajax_htmldata/getAcquisitionsDetails.php:205
+#: summary.php:574 ajax_htmldata/getAcquisitionsDetails.php:199
 msgid "License"
 msgstr ""
 
-#: summary.php:585 ajax_htmldata/getAcquisitionsDetails.php:219
+#: summary.php:585 ajax_htmldata/getAcquisitionsDetails.php:213
 msgid " on "
 msgstr ""
 
-#: summary.php:596 ajax_htmldata/getAcquisitionsDetails.php:232
+#: summary.php:596 ajax_htmldata/getAcquisitionsDetails.php:226
 msgid "Licenses:"
 msgstr ""
 
-#: summary.php:605 ajax_htmldata/getAcquisitionsDetails.php:241
+#: summary.php:605 ajax_htmldata/getAcquisitionsDetails.php:235
 msgid "No associated licenses available."
 msgstr ""
 
@@ -2448,27 +2362,31 @@ msgstr ""
 
 #: resources/cataloging.php:209 ajax_htmldata/getProductDetails.php:435
 #: ajax_htmldata/getAccessDetails.php:161
-#: ajax_htmldata/getAcquisitionsDetails.php:299
+#: ajax_htmldata/getAcquisitionsDetails.php:293
 msgid "Additional Notes"
 msgstr ""
 
-#: resources/cataloging.php:221 ajax_htmldata/getProductDetails.php:449
-#: ajax_htmldata/getAccessDetails.php:172
+#: resources/cataloging.php:212 resources/cataloging.php:231
+#: ajax_htmldata/getProductDetails.php:438
+#: ajax_htmldata/getProductDetails.php:457
+#: ajax_htmldata/getAccessDetails.php:164
+#: ajax_htmldata/getAccessDetails.php:183
+#: ajax_htmldata/getAcquisitionsDetails.php:296
 #: ajax_htmldata/getAcquisitionsDetails.php:315
+msgid "add new note"
+msgstr ""
+
+#: resources/cataloging.php:220 ajax_htmldata/getProductDetails.php:446
+#: ajax_htmldata/getAccessDetails.php:172
+#: ajax_htmldata/getAcquisitionsDetails.php:304
 msgid "edit note"
 msgstr ""
 
-#: resources/cataloging.php:222 ajax_htmldata/getProductDetails.php:450
+#: resources/cataloging.php:220 ajax_htmldata/getProductDetails.php:446
 #: ajax_htmldata/getContactDetails.php:71
-#: ajax_htmldata/getAccessDetails.php:173
-#: ajax_htmldata/getAcquisitionsDetails.php:316
+#: ajax_htmldata/getAccessDetails.php:172
+#: ajax_htmldata/getAcquisitionsDetails.php:304
 msgid "remove note"
-msgstr ""
-
-#: resources/cataloging.php:233 ajax_htmldata/getProductDetails.php:461
-#: ajax_htmldata/getAccessDetails.php:183
-#: ajax_htmldata/getAcquisitionsDetails.php:326
-msgid "add note"
 msgstr ""
 
 #: importHistory.php:9
@@ -2483,65 +2401,45 @@ msgstr ""
 msgid "Dashboard"
 msgstr ""
 
-#: dashboard_yearly_costs.php:12
+#: dashboard_yearly_costs.php:9
 msgid "Dashboard: yearly costs"
 msgstr ""
 
-#: dashboard_yearly_costs.php:27 dashboard.php:27
-msgid "Filter on resources:"
-msgstr ""
-
-#: dashboard_yearly_costs.php:28 dashboard.php:28
+#: dashboard_yearly_costs.php:24 dashboard.php:25
 msgid "Resource type"
 msgstr ""
 
-#: dashboard_yearly_costs.php:40 dashboard.php:40
+#: dashboard_yearly_costs.php:36 dashboard.php:37
 msgid "Acquisition type"
 msgstr ""
 
-#: dashboard_yearly_costs.php:48 dashboard.php:48
-msgid "Filter on organizations:"
-msgstr ""
-
-#: dashboard_yearly_costs.php:55 dashboard.php:55
-msgid "Role"
-msgstr ""
-
-#: dashboard_yearly_costs.php:64 dashboard.php:63
-msgid "Filter on payments:"
-msgstr ""
-
-#: dashboard_yearly_costs.php:84
+#: dashboard_yearly_costs.php:58
 msgid "Year (start)"
 msgstr ""
 
-#: dashboard_yearly_costs.php:85
+#: dashboard_yearly_costs.php:59
 msgid "Year (end)"
 msgstr ""
 
-#: dashboard_yearly_costs.php:90 dashboard.php:88
+#: dashboard_yearly_costs.php:64 dashboard.php:64
 msgid "Group By"
 msgstr ""
 
-#: dashboard_yearly_costs.php:92 dashboard.php:90
+#: dashboard_yearly_costs.php:66 dashboard.php:66
 msgid "Resource"
 msgstr ""
 
-#: dashboard_yearly_costs.php:97 ajax_htmldata/getDashboardYearlyCosts.php:36
-#: dashboard.php:95
+#: dashboard_yearly_costs.php:70 ajax_htmldata/getDashboardYearlyCosts.php:32
+#: dashboard.php:70
 msgid "Library Number"
 msgstr ""
 
-#: dashboard_yearly_costs.php:104 dashboard.php:102
+#: dashboard_yearly_costs.php:76 dashboard.php:76
 msgid "Display"
 msgstr ""
 
-#: dashboard_yearly_costs.php:106 dashboard.php:104
+#: dashboard_yearly_costs.php:78 dashboard.php:78
 msgid "Export"
-msgstr ""
-
-#: dashboard_yearly_costs.php:107 dashboard.php:105
-msgid "Reset"
 msgstr ""
 
 #: importFunds.php:53
@@ -2556,119 +2454,115 @@ msgstr ""
 msgid "Select File"
 msgstr ""
 
-#: index.php:58
+#: index.php:55
 msgid "Search"
 msgstr ""
 
-#: index.php:59 ebsco_kb.php:73
+#: index.php:56 ebsco_kb.php:72
 msgid "new search"
 msgstr ""
 
-#: index.php:68 ebsco_kb.php:127
+#: index.php:65 ebsco_kb.php:126
 msgid "Name (contains)"
 msgstr ""
 
-#: index.php:72 index.php:82 index.php:92 index.php:102 index.php:114
-#: index.php:422 index.php:439 ebsco_kb.php:198
+#: index.php:69 index.php:79 index.php:89 index.php:99 index.php:111
+#: index.php:415 index.php:432 ebsco_kb.php:197
 msgid "go!"
 msgstr ""
 
-#: index.php:79
+#: index.php:76
 msgid "Publisher (contains)"
 msgstr ""
 
-#: index.php:89
+#: index.php:86
 msgid "Platform (contains)"
 msgstr ""
 
-#: index.php:99
+#: index.php:96
 msgid "Provider (contains)"
 msgstr ""
 
-#: index.php:110
+#: index.php:107
 msgid "ISBN/ISSN"
 msgstr ""
 
-#: index.php:124 index.php:156 index.php:179 index.php:210 index.php:242
-#: index.php:266 index.php:298 index.php:329 index.php:391 index.php:449
-#: index.php:481 index.php:513 index.php:543 index.php:573 index.php:600
-#: index.php:621
+#: index.php:121 index.php:149 index.php:172 index.php:203 index.php:235
+#: index.php:259 index.php:291 index.php:322 index.php:384 index.php:442
+#: index.php:474 index.php:506 index.php:536 index.php:566 index.php:593
+#: index.php:614
 msgid "All"
 msgstr ""
 
-#: index.php:127 index.php:129 index.php:271 index.php:273 index.php:303
-#: index.php:305 index.php:334 index.php:336 index.php:395 index.php:397
-#: index.php:453 index.php:455 index.php:485 index.php:487 index.php:517
-#: index.php:519 index.php:547 index.php:549 index.php:576 index.php:578
+#: index.php:124 index.php:126 index.php:264 index.php:266 index.php:296
+#: index.php:298 index.php:327 index.php:329 index.php:388 index.php:390
+#: index.php:446 index.php:448 index.php:478 index.php:480 index.php:510
+#: index.php:512 index.php:540 index.php:542 index.php:569 index.php:571
 msgid "(none)"
 msgstr ""
 
-#: index.php:207 ajax_htmldata/getSearchResources.php:115
+#: index.php:200 ajax_htmldata/getSearchResources.php:115
 msgid "Creator"
 msgstr ""
 
-#: index.php:326 ajax_htmldata/getAdminSubjectDisplay.php:52
-#: ajax_htmldata/getAdminSubjectDisplay.php:103
+#: index.php:319 ajax_htmldata/getAdminSubjectDisplay.php:51
+#: ajax_htmldata/getAdminSubjectDisplay.php:99
 msgid "Detailed Subject"
 msgstr ""
 
-#: index.php:357
+#: index.php:350
 msgid "Starts with"
 msgstr ""
 
-#: index.php:383 js/index.js:232
+#: index.php:376 js/index.js:232
 msgid "more options..."
 msgstr ""
 
-#: index.php:418
+#: index.php:411
 msgid "Note (contains)"
 msgstr ""
 
-#: index.php:430
+#: index.php:423
 msgid "Date Created Between"
 msgstr ""
 
-#: index.php:432
+#: index.php:425
 msgid "and"
 msgstr ""
 
-#: index.php:446
+#: index.php:439
 msgid "Purchase Site"
 msgstr ""
 
-#: index.php:597 ajax_htmldata/getOutstandingQueue.php:23
+#: index.php:590 ajax_htmldata/getOutstandingQueue.php:23
 msgid "Workflow Step"
 msgstr ""
 
-#: index.php:622
+#: index.php:615
 msgid "Parent"
 msgstr ""
 
-#: index.php:623
+#: index.php:616
 msgid "Child"
-msgstr ""
-
-#: index.php:624
-msgid "None"
 msgstr ""
 
 #: ebsco_kb.php:49
 msgid "EBSCO Knowledge Base"
 msgstr ""
 
-#: ebsco_kb.php:72
+#: ebsco_kb.php:71
 msgid "EBSCO Knowledge Base Search"
 msgstr ""
 
-#: ebsco_kb.php:81
+#: ebsco_kb.php:80
 msgid "Search For"
 msgstr ""
 
-#: ebsco_kb.php:122
+#: ebsco_kb.php:121
 msgid "contains"
 msgstr ""
 
-#: ebsco_kb.php:138
+#: ebsco_kb.php:137
 msgid "Selection"
 msgstr ""
 
@@ -2745,25 +2639,25 @@ msgstr ""
 msgid "Group name must be entered to continue."
 msgstr ""
 
-#: js/forms/costForm.js:149 js/forms/acquisitionsForm.js:170
+#: js/forms/costForm.js:147 js/forms/acquisitionsForm.js:170
 #: js/forms/acquisitionsForm.js:171
 msgid "remove this payment"
 msgstr ""
 
-#: js/forms/costForm.js:307
+#: js/forms/costForm.js:305
 msgid "Validation Failed"
 msgstr ""
 
-#: js/forms/costForm.js:341 js/forms/acquisitionsForm.js:146
+#: js/forms/costForm.js:333 js/forms/acquisitionsForm.js:146
 msgid "Error - Either amount or fund is required"
 msgstr ""
 
-#: js/forms/costForm.js:346 js/forms/acquisitionsForm.js:149
+#: js/forms/costForm.js:338 js/forms/acquisitionsForm.js:149
 msgid "Error - order type is a required field"
 msgstr ""
 
-#: js/forms/costForm.js:351
-msgid "Error - Price (payment) is not numeric"
+#: js/forms/costForm.js:343 js/forms/acquisitionsForm.js:152
+msgid "Error - price is not numeric"
 msgstr ""
 
 #: js/forms/workflowForm.js:185
@@ -2784,42 +2678,34 @@ msgstr ""
 msgid "Please choose at least one role."
 msgstr ""
 
-#: js/forms/attachmentForm.js:100
+#: js/forms/attachmentForm.js:94
 msgid "File name is already being used..."
 msgstr ""
 
-#: js/forms/attachmentForm.js:104
+#: js/forms/attachmentForm.js:98
 msgid ""
 "File name may not contain special characters - ampersand, single quote, "
 "double quote or less than/greater than characters"
 msgstr ""
 
-#: js/forms/attachmentForm.js:108
+#: js/forms/attachmentForm.js:102
 msgid "The attachments directory is not writable."
 msgstr ""
 
-#: js/forms/attachmentForm.js:134
+#: js/forms/attachmentForm.js:124 js/forms/attachmentForm.js:146
 msgid " successfully uploaded."
 msgstr ""
 
-#: js/forms/attachmentForm.js:138
-msgid "The file upload failed for the following reason: "
-msgstr ""
-
-#: js/forms/attachmentForm.js:154 js/forms/resourceUpdateForm.js:379
+#: js/forms/attachmentForm.js:159 js/forms/resourceUpdateForm.js:379
 msgid "Name must be entered to continue."
 msgstr ""
 
-#: js/forms/attachmentForm.js:155
+#: js/forms/attachmentForm.js:160
 msgid "Attachment Type must be selected to continue."
 msgstr ""
 
-#: js/forms/attachmentForm.js:173
+#: js/forms/attachmentForm.js:178
 msgid "A file must be uploaded"
-msgstr ""
-
-#: js/forms/acquisitionsForm.js:152
-msgid "Error - price is not numeric"
 msgstr ""
 
 #: js/forms/acquisitionsForm.js:272
@@ -2859,7 +2745,7 @@ msgstr ""
 msgid "Selected: "
 msgstr ""
 
-#: js/index.js:121 js/ebsco_kb.js:98
+#: js/index.js:121 js/ebsco_kb.js:90
 msgid "Processing..."
 msgstr ""
 
@@ -3010,8 +2896,8 @@ msgstr ""
 msgid "Start Date"
 msgstr ""
 
-#: ajax_htmldata/getAdminImportConfigDisplay.php:9
-msgid "add import configuration"
+#: ajax_htmldata/getAdminImportConfigDisplay.php:34
+msgid "add new import configuration"
 msgstr ""
 
 #: ajax_htmldata/getDowntimeList.php:24
@@ -3034,71 +2920,71 @@ msgstr ""
 msgid "There are no order level downtimes."
 msgstr ""
 
-#: ajax_htmldata/getAdminCurrencyDisplay.php:10
-msgid "add Currency"
-msgstr ""
-
-#: ajax_htmldata/getAdminCurrencyDisplay.php:29
-#: ajax_htmldata/getAdminWorkflowDisplay.php:67
-#: ajax_htmldata/getAdminWorkflowDisplay.php:124
+#: ajax_htmldata/getAdminCurrencyDisplay.php:25
+#: ajax_htmldata/getAdminWorkflowDisplay.php:51
+#: ajax_htmldata/getAdminWorkflowDisplay.php:103
 #: ajax_htmldata/getSavedQueue.php:46 ajax_htmldata/getAttachmentDetails.php:37
 #: ajax_htmldata/getOrdersDetails.php:32 ajax_htmldata/getAccountDetails.php:46
 #: ajax_htmldata/getProductDetails.php:75
-#: ajax_htmldata/getProductDetails.php:449
-#: ajax_htmldata/getAdminAlertDisplay.php:28
-#: ajax_htmldata/getAdminAlertDisplay.php:63
-#: ajax_htmldata/getAdminUserDisplay.php:50
+#: ajax_htmldata/getProductDetails.php:446
+#: ajax_htmldata/getAdminAlertDisplay.php:25
+#: ajax_htmldata/getAdminAlertDisplay.php:55
+#: ajax_htmldata/getAdminUserDisplay.php:47
 #: ajax_htmldata/getContactDetails.php:70 ajax_htmldata/getAccessDetails.php:37
 #: ajax_htmldata/getAccessDetails.php:172
-#: ajax_htmldata/getAdminSubjectDisplay.php:71
-#: ajax_htmldata/getAdminSubjectDisplay.php:118
-#: ajax_htmldata/getAdminDisplay.php:31
+#: ajax_htmldata/getAdminSubjectDisplay.php:66
+#: ajax_htmldata/getAdminSubjectDisplay.php:114
+#: ajax_htmldata/getAdminDisplay.php:28
 #: ajax_htmldata/getGeneralSubjectDisplay.php:25
-#: ajax_htmldata/getAcquisitionsDetails.php:101
-#: ajax_htmldata/getAcquisitionsDetails.php:207
-#: ajax_htmldata/getAcquisitionsDetails.php:315
+#: ajax_htmldata/getAcquisitionsDetails.php:95
+#: ajax_htmldata/getAcquisitionsDetails.php:201
+#: ajax_htmldata/getAcquisitionsDetails.php:304
 msgid "edit"
 msgstr ""
 
-#: ajax_htmldata/getAdminCurrencyDisplay.php:30
-#: ajax_htmldata/getAdminWorkflowDisplay.php:69
-#: ajax_htmldata/getAdminWorkflowDisplay.php:125
-#: ajax_htmldata/getAdminAlertDisplay.php:29
-#: ajax_htmldata/getAdminAlertDisplay.php:64
-#: ajax_htmldata/getAdminUserDisplay.php:51
-#: ajax_htmldata/getAdminSubjectDisplay.php:31
-#: ajax_htmldata/getAdminSubjectDisplay.php:74
-#: ajax_htmldata/getAdminDisplay.php:32
+#: ajax_htmldata/getAdminCurrencyDisplay.php:26
+#: ajax_htmldata/getAdminWorkflowDisplay.php:53
+#: ajax_htmldata/getAdminWorkflowDisplay.php:104
+#: ajax_htmldata/getAdminAlertDisplay.php:26
+#: ajax_htmldata/getAdminAlertDisplay.php:56
+#: ajax_htmldata/getAdminUserDisplay.php:48
+#: ajax_htmldata/getAdminSubjectDisplay.php:28
+#: ajax_htmldata/getAdminSubjectDisplay.php:69
+#: ajax_htmldata/getAdminDisplay.php:29
 #: ajax_htmldata/getGeneralSubjectDisplay.php:26
 msgid "remove"
 msgstr ""
 
-#: ajax_htmldata/getAdminWorkflowDisplay.php:13
+#: ajax_htmldata/getAdminCurrencyDisplay.php:38
+msgid "add new currency"
+msgstr ""
+
+#: ajax_htmldata/getAdminWorkflowDisplay.php:10
 msgid "Workflow Setup"
 msgstr ""
 
-#: ajax_htmldata/getAdminWorkflowDisplay.php:20
-msgid "add workflow"
-msgstr ""
-
-#: ajax_htmldata/getAdminWorkflowDisplay.php:22
-msgid "You must set up at least one user group before you can add workflows"
-msgstr ""
-
-#: ajax_htmldata/getAdminWorkflowDisplay.php:68
+#: ajax_htmldata/getAdminWorkflowDisplay.php:52
 msgid "duplicate"
 msgstr ""
 
-#: ajax_htmldata/getAdminWorkflowDisplay.php:92
+#: ajax_htmldata/getAdminWorkflowDisplay.php:67
+msgid "add workflow"
+msgstr ""
+
+#: ajax_htmldata/getAdminWorkflowDisplay.php:69
+msgid "You must set up at least one user group before you can add workflows"
+msgstr ""
+
+#: ajax_htmldata/getAdminWorkflowDisplay.php:79
 msgid "User Group Setup"
 msgstr ""
 
-#: ajax_htmldata/getAdminWorkflowDisplay.php:97
-msgid "add user group"
+#: ajax_htmldata/getAdminWorkflowDisplay.php:85
+msgid "Group Name"
 msgstr ""
 
-#: ajax_htmldata/getAdminWorkflowDisplay.php:106
-msgid "Group Name"
+#: ajax_htmldata/getAdminWorkflowDisplay.php:117
+msgid "add user group"
 msgstr ""
 
 #: ajax_htmldata/getSavedQueue.php:6
@@ -3134,7 +3020,7 @@ msgid "No attachments available"
 msgstr ""
 
 #: ajax_htmldata/getAttachmentDetails.php:74
-msgid "add attachment"
+msgid "add new attachment"
 msgstr ""
 
 #: ajax_htmldata/getOrdersDetails.php:41 ajax_htmldata/getOrdersDetails.php:42
@@ -3285,105 +3171,68 @@ msgstr ""
 msgid "There are no order level issues."
 msgstr ""
 
-#: ajax_htmldata/getEbscoKbTitleDetails.php:17
+#: ajax_htmldata/getEbscoKbTitleDetails.php:16
 msgid "EBSCO Kb Title Details"
 msgstr ""
 
-#: ajax_htmldata/getEbscoKbTitleDetails.php:35
+#: ajax_htmldata/getEbscoKbTitleDetails.php:34
 msgid "Publication Type"
 msgstr ""
 
-#: ajax_htmldata/getEbscoKbTitleDetails.php:39
+#: ajax_htmldata/getEbscoKbTitleDetails.php:38
 msgid "Edition"
 msgstr ""
 
-#: ajax_htmldata/getEbscoKbTitleDetails.php:43
+#: ajax_htmldata/getEbscoKbTitleDetails.php:42
 msgid "Peer Reviewed"
 msgstr ""
 
-#: ajax_htmldata/getEbscoKbTitleDetails.php:46
+#: ajax_htmldata/getEbscoKbTitleDetails.php:45
 msgid "Publisher"
 msgstr ""
 
-#: ajax_htmldata/getEbscoKbTitleDetails.php:69
+#: ajax_htmldata/getEbscoKbTitleDetails.php:68
 msgid " (Print)"
 msgstr ""
 
-#: ajax_htmldata/getEbscoKbTitleDetails.php:72
+#: ajax_htmldata/getEbscoKbTitleDetails.php:71
 msgid " (Electronic)"
 msgstr ""
 
-#: ajax_htmldata/getEbscoKbTitleDetails.php:85
+#: ajax_htmldata/getEbscoKbTitleDetails.php:84
 msgid "Contributors"
 msgstr ""
 
-#: ajax_htmldata/getEbscoKbTitleDetails.php:93
-msgid "This title has been imported into Coral"
-msgstr ""
-
-#: ajax_htmldata/getEbscoKbTitleDetails.php:98
-#: ajax_htmldata/getEbscoKbTitleDetails.php:141
-msgid "delete from Coral"
-msgstr ""
-
-#: ajax_htmldata/getEbscoKbTitleDetails.php:108
+#: ajax_htmldata/getEbscoKbTitleDetails.php:96
 msgid "Show all packages"
 msgstr ""
 
-#: ajax_htmldata/getEbscoKbTitleDetails.php:130
-msgid "Package is Selected & Imported"
+#: ajax_htmldata/getEbscoKbTitleDetails.php:109
+msgid "Selected in EBSCO Kb"
 msgstr ""
 
-#: ajax_htmldata/getEbscoKbTitleDetails.php:133
-msgid "view in Coral"
+#: ajax_htmldata/getEbscoKbTitleDetails.php:111
+msgid "Not selected in EBSCO Kb"
 msgstr ""
 
-#: ajax_htmldata/getEbscoKbTitleDetails.php:137
-msgid "Package is NOT selected in EBSCOhost"
-msgstr ""
-
-#: ajax_htmldata/getEbscoKbTitleDetails.php:146
-msgid "Package is Selected but not Imported "
-msgstr ""
-
-#: ajax_htmldata/getEbscoKbTitleDetails.php:150
+#: ajax_htmldata/getEbscoKbTitleDetails.php:128
 msgid "import package"
 msgstr ""
 
-#: ajax_htmldata/getEbscoKbTitleDetails.php:162
-msgid "view package titles"
-msgstr ""
-
-#: ajax_htmldata/getEbscoKbTitleDetails.php:177
+#: ajax_htmldata/getEbscoKbTitleDetails.php:134
 msgid "Vendor"
 msgstr ""
 
-#: ajax_htmldata/getEbscoKbTitleDetails.php:179
+#: ajax_htmldata/getEbscoKbTitleDetails.php:136
 msgid "Coverage Statement"
 msgstr ""
 
-#: ajax_htmldata/getEbscoKbTitleDetails.php:181
+#: ajax_htmldata/getEbscoKbTitleDetails.php:138
 msgid "Embargo"
 msgstr ""
 
-#: ajax_htmldata/getEbscoKbTitleDetails.php:183
+#: ajax_htmldata/getEbscoKbTitleDetails.php:140
 msgid "Resource Url"
-msgstr ""
-
-#: ajax_htmldata/getEbscoKbTitleDetails.php:191
-msgid "Title Selected"
-msgstr ""
-
-#: ajax_htmldata/getEbscoKbTitleDetails.php:193
-msgid "Title Not Selected"
-msgstr ""
-
-#: ajax_htmldata/getEbscoKbTitleDetails.php:200
-msgid "Deselect Title"
-msgstr ""
-
-#: ajax_htmldata/getEbscoKbTitleDetails.php:205
-msgid "Package Options"
 msgstr ""
 
 #: ajax_htmldata/getSubmittedQueue.php:5
@@ -3437,58 +3286,39 @@ msgid "remove subject"
 msgstr ""
 
 #: ajax_htmldata/getProductDetails.php:388
-msgid "add subject"
+msgid "add new subject"
 msgstr ""
 
-#: ajax_htmldata/getAdminAlertDisplay.php:12
-msgid "Add an email:"
-msgstr ""
-
-#: ajax_htmldata/getAdminAlertDisplay.php:12
-msgid "add Email"
+#: ajax_htmldata/getAdminAlertDisplay.php:38
+msgid "add email address"
 msgstr ""
 
 #: ajax_htmldata/getAdminAlertDisplay.php:46
-msgid "Add a day:"
-msgstr ""
-
-#: ajax_htmldata/getAdminAlertDisplay.php:46
-msgid "add day"
-msgstr ""
-
-#: ajax_htmldata/getAdminAlertDisplay.php:54
 msgid "Days in advance of expiration"
 msgstr ""
 
-#: ajax_htmldata/getAdminUserDisplay.php:50
+#: ajax_htmldata/getAdminAlertDisplay.php:71
+msgid "add days"
+msgstr ""
+
+#: ajax_htmldata/getAdminUserDisplay.php:47
 msgid "edit user"
 msgstr ""
 
-#: ajax_htmldata/getAdminUserDisplay.php:61
+#: ajax_htmldata/getAdminUserDisplay.php:54
+#: ajax_htmldata/getAdminUserDisplay.php:58
 msgid "add new user"
 msgstr ""
 
-#: ajax_htmldata/getAdminFundDisplay.php:10
-msgid "add fund"
+#: ajax_htmldata/getAdminFundDisplay.php:46
+msgid "add new fund"
 msgstr ""
 
-#: ajax_htmldata/getAdminFundDisplay.php:11
-msgid "import fund"
+#: ajax_htmldata/getAdminFundDisplay.php:47
+msgid "import funds"
 msgstr ""
 
-#: ajax_htmldata/getDashboardYearlyCosts.php:44
-msgid "All cost details"
-msgstr ""
-
-#: ajax_htmldata/getEbscoKbTitleStatus.php:20
-msgid "Selected & Imported"
-msgstr ""
-
-#: ajax_htmldata/getEbscoKbTitleStatus.php:29
-msgid "Imported but Not Selected"
-msgstr ""
-
-#: ajax_htmldata/getDashboard.php:29
+#: ajax_htmldata/getDashboard.php:26
 msgid "Library number"
 msgstr ""
 
@@ -3661,22 +3491,21 @@ msgstr ""
 msgid "edit access information"
 msgstr ""
 
-#: ajax_htmldata/getAdminSubjectDisplay.php:11
-msgid "add new general subject"
-msgstr ""
-
-#: ajax_htmldata/getAdminSubjectDisplay.php:18
-#: ajax_htmldata/getAdminSubjectDisplay.php:62
-#: ajax_htmldata/getAdminDisplay.php:22
+#: ajax_htmldata/getAdminSubjectDisplay.php:15
+#: ajax_htmldata/getAdminSubjectDisplay.php:57
+#: ajax_htmldata/getAdminDisplay.php:19
 #: ajax_htmldata/getGeneralSubjectDisplay.php:16
 msgid "Value"
 msgstr ""
 
-#: ajax_htmldata/getAdminSubjectDisplay.php:53
-msgid "add new detailed subject"
+#: ajax_htmldata/getAdminSubjectDisplay.php:44
+#: ajax_htmldata/getAdminSubjectDisplay.php:84
+#: ajax_htmldata/getAdminDisplay.php:41
+#: ajax_htmldata/getGeneralSubjectDisplay.php:38
+msgid "add new "
 msgstr ""
 
-#: ajax_htmldata/getAdminSubjectDisplay.php:96
+#: ajax_htmldata/getAdminSubjectDisplay.php:92
 msgid "Subject Relationships"
 msgstr ""
 
@@ -3712,38 +3541,28 @@ msgstr ""
 msgid "Get Statistics"
 msgstr ""
 
-#: ajax_htmldata/getGeneralSubjectDisplay.php:38
-msgid "add new "
-msgstr ""
-
-#: ajax_htmldata/getAcquisitionsDetails.php:5
-msgid ""
-"PHP's extension php-intl doesn't seem to be installed or activated on your "
-"installation. Please install and activate php-intl to use cost history."
-msgstr ""
-
-#: ajax_htmldata/getAcquisitionsDetails.php:101
-#: ajax_htmldata/getAcquisitionsDetails.php:196
+#: ajax_htmldata/getAcquisitionsDetails.php:95
+#: ajax_htmldata/getAcquisitionsDetails.php:190
 msgid "edit cost history"
 msgstr ""
 
-#: ajax_htmldata/getAcquisitionsDetails.php:190
+#: ajax_htmldata/getAcquisitionsDetails.php:184
 msgid "No payment information available"
 msgstr ""
 
-#: ajax_htmldata/getAcquisitionsDetails.php:207
+#: ajax_htmldata/getAcquisitionsDetails.php:201
 msgid "edit license"
 msgstr ""
 
-#: ajax_htmldata/getAcquisitionsDetails.php:238
+#: ajax_htmldata/getAcquisitionsDetails.php:232
 msgid "View License"
 msgstr ""
 
-#: ajax_htmldata/getAcquisitionsDetails.php:255
+#: ajax_htmldata/getAcquisitionsDetails.php:249
 msgid "edit license and status"
 msgstr ""
 
-#: ajax_htmldata/getAcquisitionsDetails.php:257
+#: ajax_htmldata/getAcquisitionsDetails.php:251
 msgid "edit license status"
 msgstr ""
 
@@ -3779,7 +3598,7 @@ msgstr ""
 msgid "view archived downtime"
 msgstr ""
 
-#: dashboard.php:12
+#: dashboard.php:10
 msgid "Dashboard: Statistics"
 msgstr ""
 

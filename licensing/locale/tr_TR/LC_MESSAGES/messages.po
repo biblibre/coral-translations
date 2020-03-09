@@ -1088,8 +1088,9 @@ msgid "Variable Name"
 msgstr "Değişken Ad"
 
 #: ajax_forms.php:1199
+#, fuzzy
 msgid "Update Terms Tool Settings"
-msgstr ""
+msgstr "Terimler Aracı"
 
 #: ajax_forms.php:1220
 msgid "Open URL"

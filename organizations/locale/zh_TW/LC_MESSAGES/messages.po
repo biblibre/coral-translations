@@ -3,30 +3,29 @@ msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-20 10:57+0100\n"
-"PO-Revision-Date: 2016-11-21 11:21-0700\n"
-"Last-Translator: <>\n"
+"PO-Revision-Date: 2019-05-08 15:26+0000\n"
+"Last-Translator: claire.chen <claire.chen@sirsidynix.com>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.8\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.8.11\n"
 "X-Poedit-Basepath: ../../..\n"
 "X-Poedit-SearchPath-0: .\n"
+"X-POOTLE-MTIME: 1557329195.772225\n"
 
 #: install/organizations.php:9 install/organizations.php:36
 #: install/organizations.php:100 install/organizations.php:119
 #: install/organizations.php:144
-#, fuzzy
 msgid "Organizations Module"
-msgstr "組織角色"
+msgstr "組織模組"
 
 #: install/organizations.php:25
-#, fuzzy
 msgid "Organizations Database"
-msgstr "組織名稱"
+msgstr "組織資料庫"
 
 #: ajax_htmldata.php:194 ajax_htmldata.php:350 ajax_htmldata.php:438
 #: ajax_htmldata.php:573 ajax_htmldata.php:806
@@ -77,7 +76,7 @@ msgstr "備註："
 
 #: ajax_htmldata.php:268
 msgid "ILS:"
-msgstr ""
+msgstr "ILS："
 
 #: ajax_htmldata.php:279
 msgid "Created:"
@@ -1175,3 +1174,27 @@ msgstr "LDAP 連線故障或已逾時。 請檢查 configuration.ini 驗證設�
 
 #~ msgid "Report an issue"
 #~ msgstr "報告問題"
+
+#, fuzzy
+#~ msgid "add new external login type"
+#~ msgstr "新增外部登入"
+
+#, fuzzy
+#~ msgid "add new issue type"
+#~ msgstr "新增問題"
+
+#~ msgid "Check if this vendor already exists in"
+#~ msgstr "檢查該書商是否已存在於"
+
+#, fuzzy
+#~ msgid "User"
+#~ msgstr "使用者"
+
+#~ msgid "This vendor does not exist in the ILS."
+#~ msgstr "ILS 中沒有該書商"
+
+#~ msgid "This vendor exists in the ILS."
+#~ msgstr "ILS 中已存在該書商。"
+
+#~ msgid "Something went wrong: "
+#~ msgstr "發生了錯誤："

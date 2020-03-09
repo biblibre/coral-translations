@@ -3,34 +3,33 @@ msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-20 10:57+0100\n"
-"PO-Revision-Date: 2016-10-23 00:30-0600\n"
-"Last-Translator: <>\n"
+"PO-Revision-Date: 2019-05-08 15:05+0000\n"
+"Last-Translator: claire.chen <claire.chen@sirsidynix.com>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.8\n"
 "X-Poedit-Basepath: ../../..\n"
-"X-Generator: Poedit 1.8.11\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: .\n"
+"X-POOTLE-MTIME: 1557327945.466763\n"
 
 #: install/licensing.php:9 install/licensing.php:31 install/licensing.php:112
 #: install/licensing.php:138 install/licensing.php:148
 #: install/licensing.php:167
-#, fuzzy
 msgid "Licensing Module"
-msgstr "授權模組版本"
+msgstr "授權模組"
 
 #: install/licensing.php:20
-#, fuzzy
 msgid "Licensing Database"
-msgstr "授權"
+msgstr "授權資料庫"
 
 #: install/licensing.php:53
 msgid "Use Terms Tool Functionality"
-msgstr ""
+msgstr "使用條款工具功能"
 
 #: compare.php:22 templates/header.php:210 templates/header.php:265
 #: templates/header.php:313
@@ -109,7 +108,7 @@ msgstr "(未找到)"
 #: ajax_htmldata.php:159
 #, fuzzy
 msgid "add terms tool resource link"
-msgstr "添加新的條款工具資源連結"
+msgstr "增加新的條款工具資源連結"
 
 #: ajax_htmldata.php:182 ajax_forms.php:408
 msgid "Date"
@@ -138,7 +137,7 @@ msgstr "查看附件"
 #: ajax_htmldata.php:249
 #, fuzzy
 msgid "add attachment"
-msgstr "添加新附件"
+msgstr "增加新附件"
 
 #: ajax_htmldata.php:322
 msgid "Sorry, no licenses fit your query"
@@ -179,7 +178,7 @@ msgstr "狀態"
 
 #: ajax_htmldata.php:432
 msgid "records per page"
-msgstr "條紀錄/頁"
+msgstr "筆紀錄/頁"
 
 #: ajax_htmldata.php:496 ajax_forms.php:94 index.php:92
 msgid ""
@@ -276,7 +275,7 @@ msgstr "(無日期)"
 
 #: ajax_htmldata.php:847 ajax_htmldata.php:965
 msgid "add/view details"
-msgstr "添加/查看詳細資訊"
+msgstr "增加/查看詳細資訊"
 
 #: ajax_htmldata.php:854
 #, fuzzy
@@ -323,7 +322,7 @@ msgstr "歸檔文件"
 
 #: ajax_htmldata.php:972
 msgid "add signatures"
-msgstr "添加簽名"
+msgstr "增加簽名"
 
 #: ajax_htmldata.php:993
 msgid "edit document"
@@ -364,11 +363,11 @@ msgstr "(無)"
 
 #: ajax_htmldata.php:1176
 msgid "add/view "
-msgstr "添加/查看"
+msgstr "增加/查看"
 
 #: ajax_htmldata.php:1200 ajax_forms.php:592
 msgid "add expression"
-msgstr "添加運算式"
+msgstr "增加運算式"
 
 #: ajax_htmldata.php:1258 ajax_forms.php:911
 msgid "Login ID"
@@ -456,7 +455,7 @@ msgstr "授權"
 
 #: templates/header.php:116
 msgid "Powered by"
-msgstr "技術支持："
+msgstr "技術提供："
 
 #: templates/header.php:122
 msgid "Hello"
@@ -501,7 +500,7 @@ msgstr "更改模組"
 
 #: templates/header.php:353
 msgid "Main Menu"
-msgstr "主菜單"
+msgstr "主功能選單"
 
 #: templates/header.php:358
 #, fuzzy
@@ -566,9 +565,8 @@ msgid "There was an error with the CalendarSettings Configuration."
 msgstr "CalendarSettings 設定出錯。"
 
 #: calendar.php:109 calendar2.php:105
-#, fuzzy
 msgid "Bad Query Failure: "
-msgstr "錯誤的查詢失敗"
+msgstr "錯誤的查詢失敗："
 
 #: calendar.php:116 calendar2.php:112
 msgid "Upcoming License Renewals"
@@ -685,12 +683,12 @@ msgstr "管理"
 
 #: admin.php:37
 msgid "Users"
-msgstr "使用者"
+msgstr "用戶"
 
 #: admin.php:37
 #, fuzzy
 msgid "add User"
-msgstr "新增使用者"
+msgstr "新增用戶"
 
 #: admin.php:54
 msgid "Document Types"
@@ -698,7 +696,7 @@ msgstr "文件類型"
 
 #: admin.php:54 ajax_forms.php:195
 msgid "add document type"
-msgstr "添加文件類型"
+msgstr "增加文件類型"
 
 #: admin.php:67
 msgid "Expression Types"
@@ -707,7 +705,7 @@ msgstr "運算式類型"
 #: admin.php:67
 #, fuzzy
 msgid "add expression type"
-msgstr "添加新運算式類型"
+msgstr "增加新運算式類型"
 
 #: admin.php:80
 msgid "Qualifiers"
@@ -716,7 +714,7 @@ msgstr "限定詞"
 #: admin.php:80
 #, fuzzy
 msgid "add qualifier"
-msgstr "添加新限定詞"
+msgstr "增加新限定詞"
 
 #: admin.php:94
 msgid "Signature Types"
@@ -746,7 +744,7 @@ msgstr "館際聯盟"
 
 #: admin.php:149 ajax_forms.php:106
 msgid "add consortium"
-msgstr "添加館際聯盟"
+msgstr "增加館際聯盟"
 
 #: admin.php:162
 msgid "Providers"
@@ -755,7 +753,7 @@ msgstr "供應商"
 #: admin.php:163
 #, fuzzy
 msgid "add provider"
-msgstr "添加新供應商"
+msgstr "增加新供應商"
 
 #: admin.php:183
 #, fuzzy
@@ -777,11 +775,11 @@ msgstr "成功上傳！"
 #: ajax_processing.php:171 ajax_processing.php:959
 #, fuzzy
 msgid "There was a problem saving your file to "
-msgstr "保存您的檔時出錯"
+msgstr "存檔至該位置時出錯"
 
 #: ajax_processing.php:234
 msgid "Document Saved Successfully."
-msgstr "已成功保存文件。"
+msgstr "已成功存檔。"
 
 #: ajax_processing.php:248
 msgid "Signature Deleted Successfully."
@@ -822,7 +820,7 @@ msgstr "已成功更新運算式備註。"
 
 #: ajax_processing.php:389
 msgid "Expression Note Added Successfully."
-msgstr "已成功添加運算式備註。"
+msgstr "已成功增加運算式備註。"
 
 #: ajax_processing.php:413
 msgid "Note Removed Successfully."
@@ -838,11 +836,11 @@ msgstr "已成功更新授權。"
 
 #: ajax_processing.php:475
 msgid "License Added Successfully."
-msgstr "已成功添加授權。"
+msgstr "已成功增加授權。"
 
 #: ajax_processing.php:475
 msgid "Please continue to upload documents and add expressions or emails."
-msgstr "請繼續上傳文件和添加運算式或電子郵件。"
+msgstr "請繼續上傳文件和增加運算式或電子郵件。"
 
 #: ajax_processing.php:503 ajax_processing.php:515 ajax_processing.php:528
 #: ajax_forms.php:305
@@ -967,7 +965,7 @@ msgstr "移除"
 #: js/forms/signatureForm.js:115 js/forms/expressionForm.js:78
 #: js/forms/documentForm.js:197 js/admin.js:385
 msgid "add"
-msgstr "添加"
+msgstr "增加"
 
 #: ajax_forms.php:490 ajax_forms.php:753 ajax_forms.php:870 ajax_forms.php:963
 #: ajax_forms.php:1009 ajax_forms.php:1117 ajax_forms.php:1171
@@ -1019,24 +1017,24 @@ msgstr "添加"
 
 #: ajax_forms.php:910
 msgid "User"
-msgstr "使用者"
+msgstr "用戶"
 
 #: ajax_forms.php:917 ajax_forms.php:920
 msgid "Add/Edit users can add, edit, or remove licenses and associated fields"
-msgstr "添加/編輯使用者可以添加、編輯或移除授權和關聯的欄位"
+msgstr "增加/編輯用戶可以增加、編輯或移除授權和關聯的欄位"
 
 #: ajax_forms.php:917 ajax_forms.php:920
 msgid "Admin users have access to the Admin page and the SFX tab."
-msgstr "管理員使用者可以訪問管理頁面和 SFX 選項卡。"
+msgstr "管理員用戶可以訪問管理頁面和 SFX 選項卡。"
 
 #: ajax_forms.php:917 ajax_forms.php:920
 msgid "Restricted users do not have the ability to view documents"
-msgstr "受限使用者不能查看文件"
+msgstr "受限用戶不能查看文件"
 
 #: ajax_forms.php:917 ajax_forms.php:920
 msgid ""
 "View only users can view all license information, including the license pdf"
-msgstr "僅可查看使用者可以查看所有的授權資訊，包括授權 PDF 條款工具電子郵件"
+msgstr "僅可查看用戶可以查看所有的授權資訊，包括授權 PDF 條款工具電子郵件"
 
 #: ajax_forms.php:949
 msgid "Terms Tool Email"
@@ -1047,12 +1045,12 @@ msgid ""
 "Enter email address if you wish this user to receive email notifications "
 "when the terms tool box is checked on the Expressions tab."
 msgstr ""
-"如果您希望該使用者在「運算式」選項卡上勾選了條款工具框時可以接收電子郵件通"
-"知，則請輸入電子郵件地址。"
+"如果您希望該用戶在「運算式」選項卡上勾選了條款工具框時可以接收電子郵件通知，"
+"則請輸入電子郵件地址。"
 
 #: ajax_forms.php:952
 msgid "Leave this field blank if the user shouldn't receive emails."
-msgstr "如果使用者不應接收電子郵件，則將該欄位留空。"
+msgstr "如果用戶不應接收電子郵件，則將該欄位留空。"
 
 #: ajax_forms.php:998
 msgid "Internal"
@@ -1071,8 +1069,9 @@ msgid "Variable Name"
 msgstr "變數名稱"
 
 #: ajax_forms.php:1199
+#, fuzzy
 msgid "Update Terms Tool Settings"
-msgstr ""
+msgstr "條款工具"
 
 #: ajax_forms.php:1220
 msgid "Open URL"
@@ -1157,7 +1156,7 @@ msgstr "開始字母"
 #: js/onix_import.js:11 js/onix_import.js:68 js/forms/licenseForm.js:57
 #: js/forms/licenseForm.js:118
 msgid "Warning!  This organization will be added new."
-msgstr "提醒！該組織將被添加為新組織。"
+msgstr "提醒！該組織將被增加為新組織。"
 
 #: js/onix_import.js:99
 msgid "Please select a file to upload."
@@ -1193,7 +1192,7 @@ msgstr "該名稱已被使用！"
 
 #: js/forms/licenseForm.js:191
 msgid "Consortium has been added"
-msgstr "已添加館際聯盟"
+msgstr "已增加館際聯盟"
 
 #: js/forms/licenseForm.js:200
 msgid "License Name is required."
@@ -1217,7 +1216,7 @@ msgstr "您確認要刪除此簽名嗎？"
 
 #: js/forms/signatureForm.js:126
 msgid "SignatureType has been added"
-msgstr "已添加 SignatureType"
+msgstr "已增加 SignatureType"
 
 #: js/forms/attachmentForm.js:39 js/forms/attachmentForm.js:52
 #: js/forms/documentForm.js:105
@@ -1242,7 +1241,7 @@ msgstr "您確認要刪除該附件嗎？"
 
 #: js/forms/expressionForm.js:89
 msgid "ExpressionType has been added"
-msgstr "已添加 ExpressionType"
+msgstr "已增加 ExpressionType"
 
 #: js/forms/documentForm.js:109
 msgid ""
@@ -1264,7 +1263,7 @@ msgstr "短名稱是必需的。"
 
 #: js/forms/documentForm.js:216
 msgid "DocumentType has been added"
-msgstr "已添加 DocumentType"
+msgstr "已增加 DocumentType"
 
 #: js/index.js:43 js/admin.js:132 js/admin.js:285 js/admin.js:310
 #: js/admin.js:336 js/admin.js:363
@@ -1277,7 +1276,7 @@ msgstr "您確認要刪除這筆資料嗎？"
 
 #: js/admin.js:308
 msgid "Do you really want to delete this user?"
-msgstr "您確認要刪除該使用者嗎？"
+msgstr "您確認要刪除該用戶嗎？"
 
 #: js/admin.js:334
 msgid ""
@@ -1337,22 +1336,22 @@ msgid "File name is already being used."
 msgstr "文檔名稱已被使用。"
 
 #~ msgid "add new expression"
-#~ msgstr "添加新的運算式"
+#~ msgstr "增加新的運算式"
 
 #~ msgid "update"
 #~ msgstr "更新"
 
 #~ msgid "add new document type"
-#~ msgstr "添加新的文件類型"
+#~ msgstr "增加新的文件類型"
 
 #~ msgid "add new signature type"
-#~ msgstr "添加新簽名類型"
+#~ msgstr "增加新簽名類型"
 
 #~ msgid "add new license status"
-#~ msgstr "添加新授權狀態"
+#~ msgstr "增加新授權狀態"
 
 #~ msgid "add new consortium"
-#~ msgstr "添加新館際聯盟"
+#~ msgstr "增加新館際聯盟"
 
 #~ msgid "Update"
 #~ msgstr "更新"

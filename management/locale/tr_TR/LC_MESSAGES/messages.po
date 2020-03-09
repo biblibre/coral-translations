@@ -1328,3 +1328,7 @@ msgstr "Dosya adı kullanımda..."
 
 #~ msgid "Report an issue"
 #~ msgstr "Sorun bildir"
+
+#, fuzzy
+#~ msgid "add new note"
+#~ msgstr "yeni not türü ekle"

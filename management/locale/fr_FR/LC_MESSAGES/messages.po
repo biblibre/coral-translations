@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-20 10:57+0100\n"
-"PO-Revision-Date: 2019-01-25 14:19+0000\n"
-"Last-Translator: Matthias Meusburger <matthias.meusburger@biblibre.com>\n"
+"PO-Revision-Date: 2020-03-09 09:38+0000\n"
+"Last-Translator: Pootle Admin <sysop@biblibre.com>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "Language: fr_FR\n"
 "MIME-Version: 1.0\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Poedit-Basepath: ../../..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: .\n"
-"X-POOTLE-MTIME: 1548425999.879176\n"
+"X-POOTLE-MTIME: 1583746689.825230\n"
 
 #: install/management.php:9 install/management.php:30 install/management.php:82
 #: install/management.php:108 install/management.php:118 not_available.php:29
@@ -32,11 +32,11 @@ msgstr "Comparaison des expressions"
 
 #: compare.php:39 terms_report.php:35
 msgid "Limit by Expression Type:"
-msgstr "Restreindre par type d'expression :"
+msgstr "Limiter par type d'expression :"
 
 #: compare.php:73 ajax_htmldata.php:1503
 msgid "Limit by Qualifier:"
-msgstr "Restreindre par qualificateur :"
+msgstr "Limiter par qualificateur :"
 
 #: in_progress.php:23 templates/header.php:215 templates/header.php:238
 #: templates/header.php:254 index.php:23
@@ -45,7 +45,7 @@ msgstr "Accueil"
 
 #: in_progress.php:33
 msgid "Licenses In Progress"
-msgstr "Licences en cours"
+msgstr "Licences à compléter"
 
 #: in_progress.php:33
 msgid "Browse All"
@@ -59,13 +59,13 @@ msgstr "Chargement en cours..."
 #: ajax_htmldata.php:48 ajax_htmldata.php:156 ajax_htmldata.php:1258
 #: ajax_forms.php:611 ajax_forms.php:880
 msgid "edit"
-msgstr "Modifier"
+msgstr "modifier"
 
 #: ajax_htmldata.php:48 ajax_htmldata.php:157 ajax_htmldata.php:1258
 #: ajax_htmldata.php:1424 ajax_htmldata.php:1467 ajax_forms.php:612
 #: ajax_forms.php:881 ajax_forms.php:966 js/forms/attachmentForm.js:88
 msgid "remove"
-msgstr "Supprimer"
+msgstr "supprimer"
 
 #: ajax_htmldata.php:59 ajax_htmldata.php:72
 msgid "Description: "
@@ -81,7 +81,7 @@ msgstr "Date de création : "
 
 #: ajax_htmldata.php:86
 msgid "Last Update: "
-msgstr "Dernière mise à jour :"
+msgstr "Dernière mise à jour : "
 
 #: ajax_htmldata.php:93
 msgid "License Status:"
@@ -103,7 +103,7 @@ msgstr "(aucun trouvé)"
 
 #: ajax_htmldata.php:175
 msgid "add new terms tool resource link"
-msgstr "Ajouter un nouveau lien vers l'Outil-ressource des termes"
+msgstr "ajouter un nouveau lien vers l'Outil-ressource des termes"
 
 #: ajax_htmldata.php:186 ajax_forms.php:827 ajax_forms.php:837
 #: ajax_forms.php:1018
@@ -111,9 +111,8 @@ msgid "Notes"
 msgstr "Remarques"
 
 #: ajax_htmldata.php:189
-#, fuzzy
 msgid "add note"
-msgstr "Ajouter une nouvelle remarque"
+msgstr "Ajouter une remarque"
 
 #: ajax_htmldata.php:198 ajax_htmldata.php:267 ajax_forms.php:562
 msgid "Date"
@@ -121,7 +120,7 @@ msgstr "Date"
 
 #: ajax_htmldata.php:199
 msgid "Note"
-msgstr "Remarque"
+msgstr "Note"
 
 #: ajax_htmldata.php:200 ajax_forms.php:59
 msgid "Document"
@@ -129,7 +128,7 @@ msgstr "Document"
 
 #: ajax_htmldata.php:201 ajax_htmldata.php:1414 ajax_forms.php:1232
 msgid "Note Type"
-msgstr "Type de remarque"
+msgstr "Type de note"
 
 #: ajax_htmldata.php:223 ajax_htmldata.php:291 ajax_htmldata.php:770
 msgid "more"
@@ -148,9 +147,8 @@ msgstr "Modifier"
 
 #: ajax_htmldata.php:236 ajax_htmldata.php:319 ajax_htmldata.php:977
 #: ajax_htmldata.php:1329 ajax_htmldata.php:1383
-#, fuzzy
 msgid "Remove"
-msgstr "Supprimer"
+msgstr "Retirer"
 
 #: ajax_htmldata.php:268
 msgid "Details"
@@ -162,16 +160,15 @@ msgstr "(aucun téléchargé)"
 
 #: ajax_htmldata.php:313
 msgid "view attachment "
-msgstr "Voir pièce jointe "
+msgstr "voir pièce jointe "
 
 #: ajax_htmldata.php:334
-#, fuzzy
 msgid "add attachment"
-msgstr "Ajouter une pièce jointe"
+msgstr "ajouter une pièce jointe"
 
 #: ajax_htmldata.php:418
 msgid "Sorry, no documents fit your query"
-msgstr "Désolé, aucun document ne correspond à votre requête."
+msgstr "Désolé, aucun document ne correspond à votre requête"
 
 #: ajax_htmldata.php:425
 msgid "Displaying "
@@ -236,24 +233,24 @@ msgstr ""
 
 #: ajax_htmldata.php:630
 msgid "view / edit license"
-msgstr "Voir / modifier la licence"
+msgstr "voir / modifier la licence"
 
 #: ajax_htmldata.php:630
 msgid "view / edit "
-msgstr "Voir / modifier "
+msgstr "voir / modifier "
 
 #: ajax_htmldata.php:630 ajax_htmldata.php:1284
 msgid " notes"
-msgstr " notes"
+msgstr " remarques"
 
 #: ajax_htmldata.php:630 ajax_htmldata.php:632 ajax_htmldata.php:964
 #: ajax_htmldata.php:1082
 msgid "view document"
-msgstr "Voir document"
+msgstr "voir document"
 
 #: ajax_htmldata.php:632 ajax_htmldata.php:734
 msgid "view license"
-msgstr "Voir la licence"
+msgstr "voir la licence"
 
 #: ajax_htmldata.php:638 ajax_forms.php:789
 msgid "Document Text:"
@@ -261,7 +258,7 @@ msgstr "Texte du document :"
 
 #: ajax_htmldata.php:642
 msgid " Notes:  "
-msgstr " Notes :  "
+msgstr " Remarques :  "
 
 #: ajax_htmldata.php:668
 msgid "Qualifiers:"
@@ -285,7 +282,7 @@ msgstr "(aucun texte dans le document)"
 
 #: ajax_htmldata.php:747 ajax_htmldata.php:1263 ajax_htmldata.php:1265
 msgid " Notes:"
-msgstr " Notes :"
+msgstr " Remarques :"
 
 #: ajax_htmldata.php:787
 msgid "none for "
@@ -297,15 +294,15 @@ msgstr "Documents archivés"
 
 #: ajax_htmldata.php:837
 msgid "hide archives"
-msgstr "Masquer les archives"
+msgstr "masquer les archives"
 
 #: ajax_htmldata.php:914 ajax_htmldata.php:1034
 msgid "archived on: "
-msgstr "Archivé le : "
+msgstr "archivé le : "
 
 #: ajax_htmldata.php:971 ajax_htmldata.php:1088
 msgid "view expressions"
-msgstr "Voir les expressions"
+msgstr "voir les expressions"
 
 #: ajax_htmldata.php:987 ajax_htmldata.php:989
 msgid "This document has "
@@ -317,21 +314,21 @@ msgstr " le(s) document(s) subsidiaire(s) ne sont pas affichés.  "
 
 #: ajax_htmldata.php:987 ajax_htmldata.php:989
 msgid "show all documents for this parent"
-msgstr "Afficher tous les documents de cet élément principal"
+msgstr "afficher tous les documents de cet élément principal"
 
 #: ajax_htmldata.php:993 ajax_htmldata.php:995 ajax_htmldata.php:1103
 #: ajax_htmldata.php:1105
 msgid "The following "
-msgstr "Le/les document(s) suivant(s)"
+msgstr "Le/les document(s) suivant(s) "
 
 #: ajax_htmldata.php:993 ajax_htmldata.php:995 ajax_htmldata.php:1103
 #: ajax_htmldata.php:1105
 msgid " document(s) belong to "
-msgstr "appartient(nent) à "
+msgstr " appartient(nent) à "
 
 #: ajax_htmldata.php:993 ajax_htmldata.php:995
 msgid "hide children documents for this parent"
-msgstr "Masquer les documents subsidiaires de cet élément principal"
+msgstr "masquer les documents subsidiaires de cet élément principal"
 
 #: ajax_htmldata.php:1003 ajax_htmldata.php:1008
 msgid "Effective Date"
@@ -343,7 +340,7 @@ msgstr "Signatures"
 
 #: ajax_htmldata.php:1032
 msgid "archive document"
-msgstr "Archiver le document"
+msgstr "archiver le document"
 
 #: ajax_htmldata.php:1055
 msgid "(no date)"
@@ -351,19 +348,19 @@ msgstr "(aucune date)"
 
 #: ajax_htmldata.php:1066
 msgid "add/view details"
-msgstr "Ajouter/voir les détails"
+msgstr "ajouter/voir les détails"
 
 #: ajax_htmldata.php:1073
 msgid "add signatures"
-msgstr "Ajouter des signatures"
+msgstr "ajouter des signatures"
 
 #: ajax_htmldata.php:1094
 msgid "edit document"
-msgstr "Modifier un document"
+msgstr "modifier un document"
 
 #: ajax_htmldata.php:1094
 msgid "remove document"
-msgstr "Supprimer le document"
+msgstr "supprimer le document"
 
 #: ajax_htmldata.php:1132
 msgid " archive(s) available."
@@ -371,11 +368,11 @@ msgstr " archive(s) disponible(s)."
 
 #: ajax_htmldata.php:1132
 msgid "show archives"
-msgstr "Afficher les archives"
+msgstr "afficher les archives"
 
 #: ajax_htmldata.php:1141
 msgid "upload new document"
-msgstr "Télécharger un nouveau document"
+msgstr "télécharger un nouveau document"
 
 #: ajax_htmldata.php:1143
 msgid "Only one active document is allowed."
@@ -383,7 +380,7 @@ msgstr "Un seul document actif est autorisé."
 
 #: ajax_htmldata.php:1143
 msgid "upload archived document"
-msgstr "Télécharger un document archivé"
+msgstr "télécharger un document archivé"
 
 #: ajax_htmldata.php:1187 ajax_forms.php:495
 msgid "For Document:"
@@ -404,11 +401,11 @@ msgstr "(aucun)"
 
 #: ajax_htmldata.php:1284
 msgid "add/view "
-msgstr "Ajouter/voir "
+msgstr "ajouter/voir "
 
 #: ajax_htmldata.php:1308
 msgid "add new expression"
-msgstr "Ajouter une nouvelle expression"
+msgstr "ajouter une nouvelle expression"
 
 #: ajax_htmldata.php:1356 ajax_forms.php:1148
 msgid "Login ID"
@@ -420,7 +417,7 @@ msgstr "Prénom"
 
 #: ajax_htmldata.php:1358 ajax_forms.php:1150
 msgid "Last Name"
-msgstr "Nom"
+msgstr "Nom de famille"
 
 #: ajax_htmldata.php:1359 ajax_forms.php:1151
 msgid "Privilege"
@@ -485,7 +482,7 @@ msgstr "Bonjour"
 
 #: templates/header.php:126
 msgid "logout"
-msgstr "Se déconnecter"
+msgstr "déconnexion"
 
 #: templates/header.php:126
 msgid "Help"
@@ -512,7 +509,6 @@ msgid "Main Menu"
 msgstr "Menu principal"
 
 #: templates/header.php:290
-#, fuzzy
 msgid "Resources module"
 msgstr "Ressources"
 
@@ -521,7 +517,6 @@ msgid "Resources"
 msgstr "Ressources"
 
 #: templates/header.php:295
-#, fuzzy
 msgid "Organizations module"
 msgstr "Organisations"
 
@@ -530,7 +525,6 @@ msgid "Organizations"
 msgstr "Organisations"
 
 #: templates/header.php:300
-#, fuzzy
 msgid "Licensing module"
 msgstr "Licences"
 
@@ -539,7 +533,6 @@ msgid "Licensing"
 msgstr "Licences"
 
 #: templates/header.php:305
-#, fuzzy
 msgid "Usage Statistics module"
 msgstr "Statistiques d'utilisation"
 
@@ -557,11 +550,10 @@ msgstr "Administration"
 
 #: admin.php:35
 msgid "Users"
-msgstr "Utilisateurs/usagers"
+msgstr "Utilisateurs"
 
 #: admin.php:35 admin.php:49 admin.php:63 admin.php:151 ajax_forms.php:1139
 #: ajax_forms.php:1222 ajax_forms.php:1267
-#, fuzzy
 msgid "Add"
 msgstr "Ajouter"
 
@@ -571,7 +563,7 @@ msgstr "Types de document"
 
 #: admin.php:63
 msgid "Note Types"
-msgstr "Types de notes"
+msgstr "Types de remarques"
 
 #: admin.php:151
 msgid "Categories"
@@ -579,7 +571,7 @@ msgstr "Catégories"
 
 #: admin.php:183
 msgid "You don't have permission to access this page"
-msgstr "Vous n'avez pas les autorisations requises pour accéder à cette page"
+msgstr "Vous n'avez pas l'autorisation d'accéder à cette page"
 
 #: ajax_processing.php:101
 msgid "License successfully deleted."
@@ -587,7 +579,7 @@ msgstr "Licence supprimée avec succès."
 
 #: ajax_processing.php:177 ajax_processing.php:1076
 msgid "success uploading!"
-msgstr "Téléchargement réussi !"
+msgstr "téléchargement réussi !"
 
 #: ajax_processing.php:180 ajax_processing.php:1079
 msgid "There was a problem saving your file to "
@@ -599,7 +591,7 @@ msgstr "Document enregistré avec succès."
 
 #: ajax_processing.php:255
 msgid "Signature Deleted Successfully."
-msgstr "Signature effacée avec succès."
+msgstr "Signature supprimée avec succès."
 
 #: ajax_processing.php:317
 msgid "Expression Removed Successfully."
@@ -618,7 +610,7 @@ msgstr "Licence : "
 
 #: ajax_processing.php:342
 msgid "View License Record: "
-msgstr "Voir la fiche de la licence : "
+msgstr "Voir la fiche de licence : "
 
 #: ajax_processing.php:346
 msgid "Licensing - expression set to production use"
@@ -626,11 +618,11 @@ msgstr "Licence - expression définie pour l'utilisation en production"
 
 #: ajax_processing.php:351
 msgid "Approved for terms tool display."
-msgstr "Validée pour l'affichage dans l'outil des termes."
+msgstr "Validé pour l'affichage de l'outil des termes."
 
 #: ajax_processing.php:353
 msgid "Removed from terms tool display."
-msgstr "Retirée de l'affichage de l'outil des termes."
+msgstr "Supprimé de l'affichage de l'outil des termes."
 
 #: ajax_processing.php:380
 msgid "Expression Note Updated Successfully."
@@ -650,11 +642,11 @@ msgstr "Lien de la ressource Outil des termes supprimé avec succès"
 
 #: ajax_processing.php:472
 msgid "Document Updated Successfully."
-msgstr "Licence mise à jour avec succès."
+msgstr "Document mis à jour avec succès."
 
 #: ajax_processing.php:482
 msgid "Document Added Successfully."
-msgstr "Licence ajoutée avec succès."
+msgstr "Document  ajouté avec succès."
 
 #: ajax_processing.php:561 ajax_processing.php:573 ajax_processing.php:586
 #: ajax_forms.php:460
@@ -667,7 +659,7 @@ msgstr "L'insertion SQL a échoué."
 
 #: ajax_processing.php:570 ajax_processing.php:583
 msgid " Please make sure everything is filled out correctly."
-msgstr " Merci de vous assurer que tout est rempli correctement."
+msgstr " Merci de vérifier que tout est rempli correctement."
 
 #: ajax_processing.php:911
 msgid "Unable to delete  - this "
@@ -690,15 +682,15 @@ msgstr ""
 
 #: ajax_processing.php:1148
 msgid "Attachment successfully deleted"
-msgstr "Pièce jointe supprimée avec succès."
+msgstr "Pièce jointe supprimée avec succès"
 
 #: ajax_processing.php:1162
 msgid "Attachment file successfully deleted"
-msgstr "Fichier de la pièce jointe supprimé avec succès."
+msgstr "Fichier de la pièce jointe supprimé avec succès"
 
 #: ajax_processing.php:1175
 msgid "Note successfully deleted"
-msgstr "Note supprimée avec succès."
+msgstr "Note supprimée avec succès"
 
 #: ajax_processing.php:1223
 msgid "Status has been updated"
@@ -726,7 +718,7 @@ msgstr "Type :"
 
 #: ajax_forms.php:114
 msgid "add type"
-msgstr "Ajouter un type"
+msgstr "ajouter un type"
 
 #: ajax_forms.php:120 ajax_forms.php:307
 msgid "Last Document Revision:"
@@ -734,7 +726,7 @@ msgstr "Dernière date de révision du document :"
 
 #: ajax_forms.php:175
 msgid "add category"
-msgstr "Ajouter une catégorie"
+msgstr "ajouter une catégorie"
 
 #: ajax_forms.php:192 ajax_forms.php:384
 msgid "File:"
@@ -746,24 +738,24 @@ msgstr "Archivé :"
 
 #: ajax_forms.php:211
 msgid "Add Optional Note"
-msgstr "Ajouter une note (en option)"
+msgstr "Ajouter une note (facultatif)"
 
 #: ajax_forms.php:221 ajax_forms.php:1021
 msgid "Note:"
-msgstr "Remarque :"
+msgstr "Note :"
 
 #: ajax_forms.php:226 ajax_forms.php:1025
 msgid "Note Type:"
-msgstr "Type de remarque :"
+msgstr "Type de note :"
 
 #: ajax_forms.php:238 ajax_forms.php:1041
 msgid "add note type"
-msgstr "Ajouter un type de remarque"
+msgstr "ajouter un type de note"
 
 #: ajax_forms.php:252 ajax_forms.php:425 ajax_forms.php:523 ajax_forms.php:793
 #: ajax_forms.php:982 ajax_forms.php:1064
 msgid "submit"
-msgstr "Valider"
+msgstr "envoyer"
 
 #: ajax_forms.php:253 ajax_forms.php:426 ajax_forms.php:524 ajax_forms.php:794
 #: ajax_forms.php:983 ajax_forms.php:1065 ajax_forms.php:1302
@@ -784,7 +776,7 @@ msgstr "Ajouter un type de document"
 
 #: ajax_forms.php:390
 msgid "replace with new file"
-msgstr "Remplacer par un nouveau fichier"
+msgstr "remplacer par un nouveau fichier"
 
 #: ajax_forms.php:452
 msgid "Archive Document Date"
@@ -808,7 +800,7 @@ msgstr "Nom du signataire"
 
 #: ajax_forms.php:598 ajax_forms.php:858
 msgid "commit update"
-msgstr "Valider la modification"
+msgstr "valider la modification"
 
 #: ajax_forms.php:634 ajax_forms.php:896 js/forms/licenseForm.js:200
 #: js/forms/licenseForm.js:238 js/forms/licenseForm.js:274
@@ -816,7 +808,7 @@ msgstr "Valider la modification"
 #: js/forms/signatureForm.js:104 js/forms/expressionForm.js:78
 #: js/forms/documentForm.js:195 js/admin.js:332
 msgid "add"
-msgstr "Ajouter"
+msgstr "ajouter"
 
 #: ajax_forms.php:644 ajax_forms.php:906 ajax_forms.php:1107
 #: ajax_forms.php:1200
@@ -837,7 +829,7 @@ msgstr "Type d'expression :"
 
 #: ajax_forms.php:746
 msgid "add expression type"
-msgstr "Ajouter un type d'expression"
+msgstr "ajouter un type d'expression"
 
 #: ajax_forms.php:753
 msgid "Qualifier:"
@@ -870,25 +862,25 @@ msgstr "Tous les documents"
 
 #: ajax_forms.php:1147
 msgid "User"
-msgstr "Utilisateur/usager"
+msgstr "Utilisateur"
 
 #: ajax_forms.php:1154 ajax_forms.php:1157
 msgid "Add/Edit users can add, edit, or remove licenses and associated fields"
 msgstr ""
-"Les utilisateurs 'Add/Edit' peuvent ajouter, modifier ou supprimer les "
-"licences et les champs associés."
+"Les utilisateurs \"Ajouter/Modifier\" peuvent ajouter, modifier ou supprimer "
+"des licences et les champs associés"
 
 #: ajax_forms.php:1154 ajax_forms.php:1157
 msgid "Admin users have access to the Admin page and the SFX tab."
 msgstr ""
-"Les utilisateurs 'Admin' peuvent accéder à la page Admin et à l'onglet SFX."
+"Les utilisateurs \"Admin'\"peuvent accéder à la page Admin et à l'onglet SFX."
 
 #: ajax_forms.php:1154 ajax_forms.php:1157
 msgid ""
 "View only users can view all license information, including the license pdf"
 msgstr ""
-"Les utilisateurs 'View only' peuvent consulter tous les détails des "
-"licences, y compris le fichier PDF de la licence."
+"Les utilisateurs \"Afficher uniquement\" peuvent consulter tous les détails "
+"des licences, y compris le fichier PDF de la licence"
 
 #: ajax_forms.php:1186
 msgid "Terms Tool Email"
@@ -899,8 +891,8 @@ msgid ""
 "Enter email address if you wish this user to receive email notifications "
 "when the terms tool box is checked on the Expressions tab."
 msgstr ""
-"Entrez une adresse email si vous voulez que cet utilisateur reçoive des "
-"notifications par email lorsque la boîte d'outils des termes est activée "
+"Entrez une adresse email si vous souhaitez que cet utilisateur reçoive des "
+"notifications par email lorsque la case de l'outil des termes est cochée "
 "dans l'onglet Expressions."
 
 #: ajax_forms.php:1189
@@ -918,7 +910,7 @@ msgstr "Afficher"
 
 #: ajax_forms.php:1241
 msgid "* Note type of display allows for terms tool use"
-msgstr "* L'affichage du type de note permet d'utiliser l'outil des termes."
+msgstr "* L'affichage du type de note permet d'utiliser l'outil des termes"
 
 #: ajax_forms.php:1246
 msgid "close"
@@ -951,7 +943,7 @@ msgstr "Rechercher"
 
 #: index.php:49 index.php:246
 msgid "new search"
-msgstr "Nouvelle recherche"
+msgstr "nouvelle recherche"
 
 #: index.php:58
 msgid "Name (contains)"
@@ -1007,7 +999,7 @@ msgstr "Ce type est déjà en cours d'utilisation."
 
 #: js/forms/licenseForm.js:299 js/forms/noteForm.js:62
 msgid "Note Type has been added"
-msgstr "Type de note a été ajouté"
+msgstr "Type de note ajouté"
 
 #: js/forms/licenseForm.js:302 js/forms/noteForm.js:65
 msgid "That Note Type is already in use."
@@ -1032,7 +1024,7 @@ msgstr "Un fichier est obligatoire"
 #: js/forms/licenseForm.js:362 js/forms/attachmentForm.js:42
 #: js/forms/attachmentForm.js:55 js/forms/documentForm.js:102
 msgid "File name is already being used..."
-msgstr "Ce nom de fichier est déjà utilisé."
+msgstr "Ce nom de fichier est déjà utilisé..."
 
 #: js/forms/licenseForm.js:366 js/forms/documentForm.js:106
 msgid ""
@@ -1040,7 +1032,7 @@ msgid ""
 "double quote or less than/greater than characters"
 msgstr ""
 "Le nom du fichier ne peut contenir de caractères spéciaux (\"et\" "
-"commercial, apostrophe, guillemets ou de signes plus grand que/moins que)."
+"commercial, apostrophe, guillemets ou signes plus grand que/moins que)"
 
 #: js/forms/licenseForm.js:370 js/forms/documentForm.js:110
 msgid "The documents directory is not writable."
@@ -1054,7 +1046,7 @@ msgstr " téléchargé avec succès."
 #: js/forms/licenseForm.js:404 js/forms/attachmentForm.js:92
 #: js/forms/documentForm.js:143
 msgid "The file upload failed for the following reason: "
-msgstr ""
+msgstr "L'envoi du fichier a échoué pour la raison suivante: "
 
 #: js/forms/signatureForm.js:42
 msgid "No match!"
@@ -1161,7 +1153,7 @@ msgstr ""
 
 #: js/license.js:381
 msgid "Do you really want to delete this note?"
-msgstr "Voulez-vous vraiment supprimer cette remarque ?"
+msgstr "Voulez-vous vraiment supprimer cette note ?"
 
 #: js/license.js:398
 msgid "Do you really want to delete this terms tool resource link?"
@@ -1170,19 +1162,19 @@ msgstr ""
 
 #: js/license.js:450
 msgid "File name is already being used."
-msgstr "Ce nom de fichier est utilisé"
+msgstr "Ce nom de fichier est déjà utilisé."
 
 #~ msgid "add new user"
-#~ msgstr "Ajouter utilisateur"
+#~ msgstr "ajouter un nouvel utilisateur"
 
 #~ msgid "add new document type"
-#~ msgstr "Ajouter un type de document"
+#~ msgstr "ajouter un nouveau type de document"
 
 #~ msgid "add new note type"
-#~ msgstr "Ajouter une nouvelle type de note"
+#~ msgstr "ajouter un nouveau type de note"
 
 #~ msgid "add new category"
-#~ msgstr "Ajouter une nouvelle catégorie"
+#~ msgstr "ajouter une nouvelle catégorie"
 
 #~ msgid "Update"
 #~ msgstr "Mettre à jour"
@@ -1333,3 +1325,6 @@ msgstr "Ce nom de fichier est utilisé"
 
 #~ msgid "Report an issue"
 #~ msgstr "Signaler un incident"
+
+#~ msgid "add new note"
+#~ msgstr "ajouter une nouvelle note"

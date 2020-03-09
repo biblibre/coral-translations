@@ -8,24 +8,26 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-20 10:57+0100\n"
-"PO-Revision-Date: 2019-01-30 10:23+0100\n"
-"Last-Translator: Admin User Coral <help@coral-erm.org>\n"
+"PO-Revision-Date: 2019-11-28 15:29+0000\n"
+"Last-Translator: Andronikos Panayiotou <andy.panayiotou@sirsidynix.com>\n"
 "Language-Team: English (British)\n"
 "Language: en_GB\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ASCII\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.8\n"
+"X-POOTLE-MTIME: 1574954957.287975\n"
 
 #: install/organizations.php:9 install/organizations.php:36
 #: install/organizations.php:100 install/organizations.php:119
 #: install/organizations.php:144
 msgid "Organizations Module"
-msgstr "Organizations Module"
+msgstr "Organisations Module"
 
 #: install/organizations.php:25
 msgid "Organizations Database"
-msgstr "Organizations Database"
+msgstr "Organisations Database"
 
 #: ajax_htmldata.php:194 ajax_htmldata.php:350 ajax_htmldata.php:438
 #: ajax_htmldata.php:573 ajax_htmldata.php:806
@@ -42,11 +44,11 @@ msgstr "remove resource"
 
 #: ajax_htmldata.php:200 summary.php:129
 msgid "Parent Organization:"
-msgstr "Parent Organization:"
+msgstr "Parent Organisation:"
 
 #: ajax_htmldata.php:205 summary.php:134 summary.php:150
 msgid "view organization"
-msgstr "view organization"
+msgstr "view organisation"
 
 #: ajax_htmldata.php:205 summary.php:134 summary.php:150
 msgid "View"
@@ -54,7 +56,7 @@ msgstr "View"
 
 #: ajax_htmldata.php:216 summary.php:145
 msgid "Child Organizations:"
-msgstr "Child Organizations:"
+msgstr "Child Organisations:"
 
 #: ajax_htmldata.php:232 ajax_forms.php:100 summary.php:161
 msgid "Company URL:"
@@ -244,11 +246,11 @@ msgstr "view archived downtime"
 
 #: ajax_htmldata.php:718
 msgid "There are no organization level issues."
-msgstr "There are no organization level issues."
+msgstr "There are no organisation level issues."
 
 #: ajax_htmldata.php:733
 msgid "There are no organization level downtimes."
-msgstr "There are no organization level downtimes."
+msgstr "There are no organisation level downtimes."
 
 #: ajax_htmldata.php:771
 msgid "Added"
@@ -309,7 +311,7 @@ msgstr "export all issues"
 
 #: ajax_htmldata.php:854
 msgid "License"
-msgstr "License"
+msgstr "Licence"
 
 #: ajax_htmldata.php:855 summary.php:598
 msgid "Consortium"
@@ -321,7 +323,7 @@ msgstr "Status"
 
 #: ajax_htmldata.php:875 summary.php:618
 msgid "No licenses set up for this organization"
-msgstr "No licenses set up for this organization"
+msgstr "No licences set up for this organisation"
 
 #: ajax_htmldata.php:879 summary.php:624
 msgid ""
@@ -347,7 +349,7 @@ msgstr " of "
 
 #: ajax_htmldata.php:925
 msgid " Organization Records"
-msgstr " Organization Records"
+msgstr " Organisation Records"
 
 #: ajax_htmldata.php:970
 msgid "Contact Name(s)"
@@ -359,15 +361,15 @@ msgstr "Contact Role(s)"
 
 #: ajax_htmldata.php:972 ajax_htmldata.php:977
 msgid "Organization Name"
-msgstr "Organization Name"
+msgstr "Organisation Name"
 
 #: ajax_htmldata.php:973 ajax_htmldata.php:979
 msgid "Parent Organization"
-msgstr "Parent Organization"
+msgstr "Parent Organisation"
 
 #: ajax_htmldata.php:974
 msgid "Organization Role(s)"
-msgstr "Organization Role(s)"
+msgstr "Organisation Role(s)"
 
 #: ajax_htmldata.php:980
 msgid "Role(s)"
@@ -387,7 +389,7 @@ msgstr " not set up!"
 
 #: orgDetail.php:66
 msgid "Organization Search"
-msgstr "Organization Search"
+msgstr "Organisation Search"
 
 #: orgDetail.php:80
 msgid "Helpful Links"
@@ -408,7 +410,7 @@ msgstr "(archived)"
 #: orgDetail.php:119 orgDetail.php:150 orgDetail.php:187 orgDetail.php:224
 #: orgDetail.php:277 orgDetail.php:303
 msgid "Organization"
-msgstr "Organization"
+msgstr "Organisation"
 
 #: orgDetail.php:120 orgDetail.php:151 orgDetail.php:188 orgDetail.php:225
 #: orgDetail.php:278 orgDetail.php:304 summary.php:248
@@ -435,7 +437,7 @@ msgstr "Issues"
 #: orgDetail.php:130 orgDetail.php:161 orgDetail.php:198 orgDetail.php:235
 #: orgDetail.php:282 orgDetail.php:314 summary.php:590
 msgid "Licenses"
-msgstr "Licenses"
+msgstr "Licences"
 
 #: orgDetail.php:130 orgDetail.php:161 orgDetail.php:198 orgDetail.php:235
 #: orgDetail.php:282 orgDetail.php:314
@@ -453,7 +455,7 @@ msgstr "add contact"
 
 #: orgDetail.php:337 summary.php:643
 msgid "invalid organization"
-msgstr "invalid organization"
+msgstr "invalid organisation"
 
 #: templates/header.php:83
 msgid ""
@@ -471,7 +473,7 @@ msgstr "try again"
 
 #: templates/header.php:103
 msgid "Organizations"
-msgstr "Organizations"
+msgstr "Organisations"
 
 #: templates/header.php:104
 msgid "Powered by"
@@ -500,7 +502,7 @@ msgstr "Home"
 
 #: templates/header.php:184 templates/header.php:208 templates/header.php:224
 msgid "New Organization"
-msgstr "New Organization"
+msgstr "New Organisation"
 
 #: templates/header.php:192 templates/header.php:232
 msgid "Admin"
@@ -554,12 +556,12 @@ msgstr "Loading..."
 
 #: admin.php:48
 msgid "Organization Role"
-msgstr "Organization Role"
+msgstr "Organisation Role"
 
 #: admin.php:48
 #, fuzzy
 msgid "Add organization role"
-msgstr "add new organization role"
+msgstr "add new organisation role"
 
 #: admin.php:62
 msgid "Contact Role"
@@ -606,7 +608,7 @@ msgid ""
 " is in use.  Please make sure no organizations are set up with this "
 "information."
 msgstr ""
-" is in use.  Please make sure no organizations are set up with this "
+" is in use.  Please make sure no organisations are set up with this "
 "information."
 
 #: ajax_processing.php:443
@@ -614,12 +616,12 @@ msgid ""
 "Unable to delete.  Please make sure no organizations are set up with this "
 "information."
 msgstr ""
-"Unable to delete.  Please make sure no organizations are set up with this "
+"Unable to delete.  Please make sure no organisations are set up with this "
 "information."
 
 #: ajax_processing.php:456
 msgid "Organization successfully deleted."
-msgstr "Organization successfully deleted."
+msgstr "Organisation successfully deleted."
 
 #: ajax_processing.php:500
 msgid "User successfully saved."
@@ -628,11 +630,11 @@ msgstr "User successfully saved."
 #: ajax_forms.php:67
 #, fuzzy
 msgid "Edit Organization"
-msgstr "Update Organization"
+msgstr "Update Organisation"
 
 #: ajax_forms.php:67
 msgid "Add New Organization"
-msgstr "Add New Organization"
+msgstr "Add New Organisation"
 
 #: ajax_forms.php:72 ajax_forms.php:322
 msgid "Name:"
@@ -713,7 +715,7 @@ msgstr "* required fields"
 
 #: ajax_forms.php:596
 msgid "Organization:"
-msgstr "Organization:"
+msgstr "Organisation:"
 
 #: ajax_forms.php:603
 msgid "Contact:"
@@ -940,14 +942,14 @@ msgstr "CC must be a valid email."
 
 #: js/orgDetail.js:578
 msgid "Do you really want to delete this organization?"
-msgstr "Do you really want to delete this organization?"
+msgstr "Do you really want to delete this organisation?"
 
 #: js/orgDetail.js:591
 msgid ""
 "This Organization cannot be deleted because it has at least one License "
 "Record associated."
 msgstr ""
-"This Organization cannot be deleted because it has at least one License "
+"This Organisation cannot be deleted because it has at least one Licence "
 "Record associated."
 
 #: js/orgDetail.js:655
@@ -977,7 +979,7 @@ msgstr "Please choose at least one role."
 
 #: js/forms/organizationSubmitForm.js:144
 msgid "This organization already exists!"
-msgstr "This organization already exists!"
+msgstr "This organisation already exists!"
 
 #: js/common.js:63
 msgid "No match!"
@@ -1047,3 +1049,15 @@ msgstr ""
 
 #~ msgid "Something went wrong: "
 #~ msgstr "Something went wrong: "
+
+#, fuzzy
+#~ msgid "add new external login type"
+#~ msgstr "add new external login"
+
+#, fuzzy
+#~ msgid "add new issue type"
+#~ msgstr "add new issue"
+
+#, fuzzy
+#~ msgid "User"
+#~ msgstr "Users"

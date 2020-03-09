@@ -3,16 +3,18 @@ msgstr ""
 "Project-Id-Version: Coral\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-20 10:57+0100\n"
-"PO-Revision-Date: \n"
-"Last-Translator: BSZ - Abteilung Bibliothekssysteme\n"
+"PO-Revision-Date: 2020-02-28 10:02+0000\n"
+"Last-Translator: CS <christian.stelzenmueller@bsz-bw.de>\n"
 "Language-Team: \n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.8\n"
 "Language-Abteilung: BSZ - Abteilung Bibliothekssysteme\n"
-"X-Generator: Poedit 1.8.11\n"
 "X-Poedit-SourceCharset: UTF-8\n"
+"X-POOTLE-MTIME: 1582884166.943798\n"
 
 #: install/management.php:9 install/management.php:30 install/management.php:82
 #: install/management.php:108 install/management.php:118 not_available.php:29
@@ -108,7 +110,6 @@ msgid "Notes"
 msgstr "Notizen"
 
 #: ajax_htmldata.php:189
-#, fuzzy
 msgid "add note"
 msgstr "neue Notiz hinzufügen"
 
@@ -145,9 +146,8 @@ msgstr "Ändern"
 
 #: ajax_htmldata.php:236 ajax_htmldata.php:319 ajax_htmldata.php:977
 #: ajax_htmldata.php:1329 ajax_htmldata.php:1383
-#, fuzzy
 msgid "Remove"
-msgstr "entfernen"
+msgstr "Entfernen"
 
 #: ajax_htmldata.php:268
 msgid "Details"
@@ -162,7 +162,6 @@ msgid "view attachment "
 msgstr "siehe Anhang "
 
 #: ajax_htmldata.php:334
-#, fuzzy
 msgid "add attachment"
 msgstr "neuen Anhang hinzufügen"
 
@@ -507,7 +506,6 @@ msgid "Main Menu"
 msgstr "Hauptmenü"
 
 #: templates/header.php:290
-#, fuzzy
 msgid "Resources module"
 msgstr "Ressourcen"
 
@@ -516,7 +514,6 @@ msgid "Resources"
 msgstr "Ressourcen"
 
 #: templates/header.php:295
-#, fuzzy
 msgid "Organizations module"
 msgstr "Organisationen"
 
@@ -525,7 +522,6 @@ msgid "Organizations"
 msgstr "Organisationen"
 
 #: templates/header.php:300
-#, fuzzy
 msgid "Licensing module"
 msgstr "Lizenzen"
 
@@ -534,7 +530,6 @@ msgid "Licensing"
 msgstr "Lizenzen"
 
 #: templates/header.php:305
-#, fuzzy
 msgid "Usage Statistics module"
 msgstr "Nutzungsstatistik"
 
@@ -556,9 +551,8 @@ msgstr "Benutzer"
 
 #: admin.php:35 admin.php:49 admin.php:63 admin.php:151 ajax_forms.php:1139
 #: ajax_forms.php:1222 ajax_forms.php:1267
-#, fuzzy
 msgid "Add"
-msgstr "hinzufügen"
+msgstr "Hinzufügen"
 
 #: admin.php:49
 msgid "Document Types"
@@ -1048,7 +1042,7 @@ msgstr " erfolgreich hochgeladen."
 #: js/forms/licenseForm.js:404 js/forms/attachmentForm.js:92
 #: js/forms/documentForm.js:143
 msgid "The file upload failed for the following reason: "
-msgstr ""
+msgstr "Der Dateiupload schlug aus folgendem Grund fehl:"
 
 #: js/forms/signatureForm.js:42
 msgid "No match!"
@@ -1188,3 +1182,7 @@ msgstr "Dateiname wird bereits verwendet."
 
 #~ msgid "Cannot set value for undefined key ("
 #~ msgstr "Kann keinen Wert für undefinierten Schlüssel setzen ("
+
+#, fuzzy
+#~ msgid "add new note"
+#~ msgstr "neue Bemerkungsart hinzufügen"

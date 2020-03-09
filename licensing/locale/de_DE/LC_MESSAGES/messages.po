@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Coral\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-20 10:57+0100\n"
-"PO-Revision-Date: 2019-01-29 10:14+0000\n"
-"Last-Translator: ClaireGravely <claire.gravely@bsz-bw.de>\n"
+"PO-Revision-Date: 2020-02-28 11:57+0000\n"
+"Last-Translator: CS <christian.stelzenmueller@bsz-bw.de>\n"
 "Language-Team: \n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
@@ -14,7 +14,7 @@ msgstr ""
 "X-Generator: Pootle 2.8\n"
 "Language-Abteilung: BSZ - Abteilung Bibliothekssysteme\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-POOTLE-MTIME: 1548756877.710730\n"
+"X-POOTLE-MTIME: 1582891079.574146\n"
 
 #: install/licensing.php:9 install/licensing.php:31 install/licensing.php:112
 #: install/licensing.php:138 install/licensing.php:148
@@ -93,7 +93,6 @@ msgstr "Bearbeite"
 #: ajax_htmldata.php:142 ajax_htmldata.php:234 ajax_htmldata.php:876
 #: ajax_htmldata.php:1150 ajax_htmldata.php:1230 ajax_htmldata.php:1287
 #: ajax_htmldata.php:1335 ajax_htmldata.php:1477
-#, fuzzy
 msgid "Remove"
 msgstr "Entfernen"
 
@@ -105,7 +104,6 @@ msgid "(none found)"
 msgstr "(keine Treffer)"
 
 #: ajax_htmldata.php:159
-#, fuzzy
 msgid "add terms tool resource link"
 msgstr "Neuen Link zur Ressource im Terms Tool"
 
@@ -134,7 +132,6 @@ msgid "view attachment "
 msgstr "Anhang anzeigen "
 
 #: ajax_htmldata.php:249
-#, fuzzy
 msgid "add attachment"
 msgstr "Neuer Anhang hinzufügen"
 
@@ -278,13 +275,12 @@ msgid "add/view details"
 msgstr "Details hinzufügen/anzeigen"
 
 #: ajax_htmldata.php:854
-#, fuzzy
 msgid "Add signatures"
 msgstr "Signaturen hinzufügen"
 
 #: ajax_htmldata.php:863
 msgid "View"
-msgstr ""
+msgstr "Zeige"
 
 #: ajax_htmldata.php:870 ajax_htmldata.php:987
 msgid "view expressions"
@@ -505,7 +501,6 @@ msgid "Main Menu"
 msgstr "Hauptmenü"
 
 #: templates/header.php:358
-#, fuzzy
 msgid "Resources module"
 msgstr "Ressourcen"
 
@@ -514,7 +509,6 @@ msgid "Resources"
 msgstr "Ressourcen"
 
 #: templates/header.php:363
-#, fuzzy
 msgid "Organizations module"
 msgstr "Organisationen"
 
@@ -523,7 +517,6 @@ msgid "Organizations"
 msgstr "Organisationen"
 
 #: templates/header.php:368
-#, fuzzy
 msgid "Usage Statistics module"
 msgstr "Nutzungsstatistik"
 
@@ -532,7 +525,6 @@ msgid "Usage Statistics"
 msgstr "Nutzungsstatistik"
 
 #: templates/header.php:373
-#, fuzzy
 msgid "Management module"
 msgstr "Management"
 
@@ -577,7 +569,6 @@ msgid "Upcoming License Renewals"
 msgstr "Anstehende Lizenzverlängerungen"
 
 #: calendar.php:148
-#, fuzzy
 msgid "Bad Query2 Failure"
 msgstr "Fehlerhafte Abfrage"
 
@@ -690,7 +681,6 @@ msgid "Users"
 msgstr "Nutzer"
 
 #: admin.php:37
-#, fuzzy
 msgid "add User"
 msgstr "Neuer Nutzer hinzufügen"
 
@@ -707,7 +697,6 @@ msgid "Expression Types"
 msgstr "Lizenzbedingungstypen"
 
 #: admin.php:67
-#, fuzzy
 msgid "add expression type"
 msgstr "Neuer Lizenzbedingungstyp hinzufügen"
 
@@ -716,7 +705,6 @@ msgid "Qualifiers"
 msgstr "Kennzeichner"
 
 #: admin.php:80
-#, fuzzy
 msgid "add qualifier"
 msgstr "Neuen Kennzeichner hinzufügen"
 
@@ -725,18 +713,16 @@ msgid "Signature Types"
 msgstr "Unterschriftart"
 
 #: admin.php:94
-#, fuzzy
 msgid "add signature"
-msgstr "Signaturen hinzufügen"
+msgstr "Signatur hinzufügen"
 
 #: admin.php:108
 msgid "License Statuses"
 msgstr "Lizentstatus"
 
 #: admin.php:108
-#, fuzzy
 msgid "add License statuses"
-msgstr "Lizentstatus"
+msgstr "Lizenzstatus hinzufügen"
 
 #: admin.php:128 ajax_forms.php:1033
 msgid "Calendar Settings"
@@ -755,14 +741,12 @@ msgid "Providers"
 msgstr "Anbieter"
 
 #: admin.php:163
-#, fuzzy
 msgid "add provider"
 msgstr "Neuen Anbieter hinzufügen"
 
 #: admin.php:183
-#, fuzzy
 msgid "Terms Tool Settings"
-msgstr "Terms Tool"
+msgstr "Terms Tool Einstellungen"
 
 #: admin.php:201
 msgid "You don't have permission to access this page"
@@ -777,7 +761,6 @@ msgid "success uploading!"
 msgstr "erfolgreich hochgeladen!"
 
 #: ajax_processing.php:171 ajax_processing.php:959
-#, fuzzy
 msgid "There was a problem saving your file to "
 msgstr "Es trat ein Problem auf beim Speichern Ihrer Datei nach"
 
@@ -1023,7 +1006,6 @@ msgid "Attachments:"
 msgstr "Anhänge:"
 
 #: ajax_forms.php:902 ajax_forms.php:985 ajax_forms.php:1136
-#, fuzzy
 msgid "Add"
 msgstr "Hinzufügen"
 
@@ -1086,29 +1068,28 @@ msgid "Variable Name"
 msgstr "Name der Variable"
 
 #: ajax_forms.php:1199
-#, fuzzy
 msgid "Update Terms Tool Settings"
-msgstr "Verwende das Terms Tool"
+msgstr "Aktualisiere die Terms Tool Einstellungen"
 
 #: ajax_forms.php:1220
 msgid "Open URL"
-msgstr ""
+msgstr "Open URL"
 
 #: ajax_forms.php:1232
 msgid "Save"
-msgstr ""
+msgstr "Speichern"
 
 #: ajax_forms.php:1242
 msgid "Api Key"
-msgstr ""
+msgstr "Api Key"
 
 #: ajax_forms.php:1243
 msgid "Customer ID"
-msgstr ""
+msgstr "Kunden ID"
 
 #: ajax_forms.php:1243
 msgid "Client ID"
-msgstr ""
+msgstr "Client ID"
 
 #: license.php:72 license.php:114 license.php:134 license.php:153
 msgid "Documents"
@@ -1251,7 +1232,7 @@ msgstr " wurde erfolgreich hochgeladen."
 
 #: js/forms/attachmentForm.js:89 js/forms/documentForm.js:146
 msgid "The file upload failed for the following reason: "
-msgstr ""
+msgstr "Der Dateiupload schlug aus folgendem Grund fehl: "
 
 #: js/forms/attachmentForm.js:95 js/forms/attachmentForm.js:103
 msgid "Do you really want to delete this attachment?"

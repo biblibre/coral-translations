@@ -3,24 +3,25 @@ msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-20 10:57+0100\n"
-"PO-Revision-Date: 2018-03-13 12:00+0100\n"
-"Last-Translator: Paul Poulain <paul.poulain@biblibre.com>\n"
+"PO-Revision-Date: 2019-04-30 14:53+0000\n"
+"Last-Translator: camoroso <claire.amoroso@sirsidynix.com>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Pootle 2.8\n"
 "X-Poedit-Basepath: ../../..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.8.7.1\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: js/plugins/jquery.js\n"
+"X-POOTLE-MTIME: 1556636025.793451\n"
 
 #: install/reports.php:9 install/reports.php:30 install/reports.php:94
 #: install/reports.php:105 install/reports.php:115
 msgid "Reports Module"
-msgstr "Module rapports"
+msgstr "Module des Rapports"
 
 #: install/reports.php:19
 msgid "Reports Database"
@@ -52,7 +53,7 @@ msgstr "Créer un nouveau rapport"
 
 #: report.php:187
 msgid "By Month and Resource"
-msgstr "Par mois et par ressource"
+msgstr "Par Mois et par ressource"
 
 #: report.php:190
 msgid "from an Archive"
@@ -61,7 +62,7 @@ msgstr "d'une Archive"
 #: report.php:195
 #, php-format
 msgid "Number of Successful Full-Text Article Requests %s"
-msgstr "Nombre de demandes réussies d'articles en texte intégral %s"
+msgstr "Nombre de demandes d'articles en texte intégral réussies %s"
 
 #: report.php:240 report.php:297
 msgid ""
@@ -146,7 +147,7 @@ msgid ""
 "Q. Why isn't the HTML number double the PDF number for interfaces that "
 "automatically download HTML?"
 msgstr ""
-"Q. Pour les interfaces téléchargeant automatiquement les fichiers HTML, "
+"Q. Pour les interfaces téléchargeant automatiquement au format HTML, "
 "pourquoi est-ce que le nombre de fichiers HTML n'est-il pas le double du "
 "nombre de fichiers PDF ?"
 
@@ -158,8 +159,8 @@ msgid ""
 msgstr ""
 "R. Souvent ces sites NE téléchargent PAS automatiquement les fichiers HTML "
 "de l'interface de la Table des matières du navigateur, donc même les "
-"plateformes comme ScienceDirect ont parfois un nombre supérieur de fichiers "
-"PDF plutôt que de fichiers HTML."
+"plateformes comme ScienceDirect ont parfois un nombre supérieur "
+"d'utilisations au format PDF plutôt qu'au format HTML."
 
 #: popup.php:70
 msgid ""
@@ -178,13 +179,14 @@ msgid ""
 "and/or print the PDF version, this interface significantly inflates total "
 "article usage."
 msgstr ""
-"R. COUNTER requiert effectivement que les clics dupliqués sur les fichiers "
-"HTML ou les PDF dans une courte période de temps ne soient comptés qu'une "
-"seule fois. Mais la norme COUNTER en elle-même n'empêche pas de compter deux "
-"les différents formats--HTML et PDF. Comme certains éditeurs choisissent le "
-"HTML pour les utilisateurs, et comme de nombreux utilisateurs préfèrent "
-"enregistrer/imprimer la version PDF, cette interface augmente "
-"considérablement la comptabilisation totale de l'utilisation des articles."
+"R. COUNTER requiert effectivement que les clics dupliqués sur des fichiers "
+"HTML ou PDF dans une courte période de temps ne soient comptés qu'une seule "
+"fois. Mais la norme COUNTER en elle-même n'empêche pas de compter deux fois "
+"les différents formats--HTML et PDF. Etant donné que certains éditeurs "
+"choisissent automatiquement le HTML pour les utilisateurs, et comme de "
+"nombreux utilisateurs préfèrent enregistrer/imprimer la version PDF, cette "
+"interface augmente considérablement le nombre total des utilisations des "
+"articles."
 
 #: popup.php:74
 msgid ""

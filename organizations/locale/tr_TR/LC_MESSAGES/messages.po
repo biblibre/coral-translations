@@ -1185,3 +1185,15 @@ msgstr ""
 
 #~ msgid "Report an issue"
 #~ msgstr "Sorun bildir"
+
+#, fuzzy
+#~ msgid "add new external login type"
+#~ msgstr "Yeni harici giriş ekle"
+
+#, fuzzy
+#~ msgid "add new issue type"
+#~ msgstr "yeni sorun ekle"
+
+#, fuzzy
+#~ msgid "User"
+#~ msgstr "Kullanıcılar"

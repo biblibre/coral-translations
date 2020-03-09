@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-24 17:17+0100\n"
-"PO-Revision-Date: 2019-02-06 16:42+0000\n"
-"Last-Translator: Jon <jon.mcgowan@ptfs-europe.com>\n"
+"PO-Revision-Date: 2019-11-28 15:50+0000\n"
+"Last-Translator: Andronikos Panayiotou <andy.panayiotou@sirsidynix.com>\n"
 "Language-Team: English (British)\n"
 "Language: en_GB\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1549471370.891288\n"
+"X-POOTLE-MTIME: 1574956202.263678\n"
 
 #: providers/upgrade_helper.php:19
 msgid "Incremental Upgrade"
@@ -586,7 +586,7 @@ msgstr "Continue Installing"
 
 #: templates/auth_module_template.php:7
 msgid "Session Timeout (cookie expiration for logged in users)"
-msgstr "Session Timeout (cookie expiration for logged in users)"
+msgstr "Session Timeout (cookie expiry for logged in users)"
 
 #: templates/auth_module_template.php:8
 msgid "Use LDAP for authentication instead of Auth Module"

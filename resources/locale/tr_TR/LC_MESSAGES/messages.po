@@ -961,14 +961,16 @@ msgstr ""
 "eşleştirilmiş sütun ayarlarından atanabilir."
 
 #: ajax_forms/getEbscoKbRemoveConfirmation.php:32
+#, fuzzy
 msgid ""
 "You are about to deselect the following resource from Ebsco and delete it "
 "from Coral"
-msgstr ""
+msgstr "Bu kaynağı silmek istediğinizden emin misiniz?"
 
 #: ajax_forms/getEbscoKbRemoveConfirmation.php:33
+#, fuzzy
 msgid "deselect & delete"
-msgstr ""
+msgstr "Dosya Seç"
 
 #: ajax_forms/getEbscoKbRemoveConfirmation.php:37
 #, fuzzy
@@ -1586,8 +1588,9 @@ msgid "Deselect Package"
 msgstr "Lisansı İncele"
 
 #: templates/ebscoKbPackageDropdown.php:79
+#, fuzzy
 msgid "Deselect Package & Delete from Coral"
-msgstr ""
+msgstr "Lisansı İncele"
 
 #: templates/ebscoKbPackageDropdown.php:85
 #, fuzzy
@@ -1642,8 +1645,9 @@ msgid "Delete from Coral"
 msgstr ""
 
 #: templates/ebscoKbPackageList.php:55
+#, fuzzy
 msgid "Selected but not Imported"
-msgstr ""
+msgstr "Sınırlandırılmış dosyaları içe aktarma"
 
 #: templates/ebscoKbPackageList.php:58
 #, fuzzy
@@ -2662,8 +2666,9 @@ msgid "Role"
 msgstr "Rol:"
 
 #: dashboard_yearly_costs.php:64 dashboard.php:63
+#, fuzzy
 msgid "Filter on payments:"
-msgstr ""
+msgstr "yayıncı"
 
 #: dashboard_yearly_costs.php:84
 msgid "Year (start)"
@@ -3524,20 +3529,23 @@ msgid "Show all packages"
 msgstr ""
 
 #: ajax_htmldata/getEbscoKbTitleDetails.php:130
+#, fuzzy
 msgid "Package is Selected & Imported"
-msgstr ""
+msgstr "Sınırlandırılmış dosyaları içe aktarma"
 
 #: ajax_htmldata/getEbscoKbTitleDetails.php:133
 msgid "view in Coral"
 msgstr ""
 
 #: ajax_htmldata/getEbscoKbTitleDetails.php:137
+#, fuzzy
 msgid "Package is NOT selected in EBSCOhost"
-msgstr ""
+msgstr "Seçildi:"
 
 #: ajax_htmldata/getEbscoKbTitleDetails.php:146
+#, fuzzy
 msgid "Package is Selected but not Imported "
-msgstr ""
+msgstr "Sınırlandırılmış dosyaları içe aktarma"
 
 #: ajax_htmldata/getEbscoKbTitleDetails.php:150
 #, fuzzy
@@ -3641,8 +3649,9 @@ msgid "add subject"
 msgstr "yeni konu ekle"
 
 #: ajax_htmldata/getAdminAlertDisplay.php:12
+#, fuzzy
 msgid "Add an email:"
-msgstr ""
+msgstr "gün ekle"
 
 #: ajax_htmldata/getAdminAlertDisplay.php:12
 #, fuzzy
@@ -3692,8 +3701,9 @@ msgid "Selected & Imported"
 msgstr "Sınırlandırılmış dosyaları içe aktarma"
 
 #: ajax_htmldata/getEbscoKbTitleStatus.php:29
+#, fuzzy
 msgid "Imported but Not Selected"
-msgstr ""
+msgstr "Seçilenlere uygula"
 
 #: ajax_htmldata/getDashboard.php:29
 msgid "Library number"
@@ -4288,3 +4298,15 @@ msgstr ""
 
 #~ msgid "Report an issue"
 #~ msgstr "Sorun bildir"
+
+#, fuzzy
+#~ msgid "add new note"
+#~ msgstr "yeni ekle"
+
+#, fuzzy
+#~ msgid "Selected in EBSCO Kb"
+#~ msgstr "Seçildi:"
+
+#, fuzzy
+#~ msgid "add new fund"
+#~ msgstr "yeni ekle"

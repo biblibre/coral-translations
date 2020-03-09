@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Coral\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-20 10:57+0100\n"
-"PO-Revision-Date: 2019-01-29 09:44+0000\n"
-"Last-Translator: kfischer <katrin.fischer@bsz-bw.de>\n"
+"PO-Revision-Date: 2020-02-28 10:01+0000\n"
+"Last-Translator: CS <christian.stelzenmueller@bsz-bw.de>\n"
 "Language-Team: \n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
@@ -14,7 +14,7 @@ msgstr ""
 "X-Generator: Pootle 2.8\n"
 "Language-Abteilung: BSZ - Abteilung Bibliothekssysteme\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-POOTLE-MTIME: 1548755095.168186\n"
+"X-POOTLE-MTIME: 1582884079.253124\n"
 
 #: install/organizations.php:9 install/organizations.php:36
 #: install/organizations.php:100 install/organizations.php:119
@@ -541,9 +541,8 @@ msgid "Users"
 msgstr "Nutzer"
 
 #: admin.php:33
-#, fuzzy
 msgid "Add user"
-msgstr "Problem hinzufügen"
+msgstr "Nutzer hinzufügen"
 
 #: admin.php:37 admin.php:52 admin.php:66 admin.php:81 admin.php:95
 #: admin.php:107
@@ -555,7 +554,6 @@ msgid "Organization Role"
 msgstr "Rolle der Organisation"
 
 #: admin.php:48
-#, fuzzy
 msgid "Add organization role"
 msgstr "Neue Rolle für Organisation anlegen"
 
@@ -564,12 +562,10 @@ msgid "Contact Role"
 msgstr "Rolle des Kontakts"
 
 #: admin.php:62
-#, fuzzy
 msgid "Add contact role"
 msgstr "Neue Rolle für Kontakt anlegen"
 
 #: admin.php:77
-#, fuzzy
 msgid "Add alias type"
 msgstr "Neuen Typ für Alias anlegen"
 
@@ -578,7 +574,6 @@ msgid "External Login Type"
 msgstr "Art des Externen Logins"
 
 #: admin.php:91
-#, fuzzy
 msgid "Add external login type"
 msgstr "Neuer Typ für Externes Login anlegen"
 
@@ -587,7 +582,6 @@ msgid "Issue Type"
 msgstr "Art des Problems"
 
 #: admin.php:103
-#, fuzzy
 msgid "Add issue type"
 msgstr "Neue Art des Problems anlegen"
 
@@ -624,9 +618,8 @@ msgid "User successfully saved."
 msgstr "Nutzer erfolgreich gespeichert."
 
 #: ajax_forms.php:67
-#, fuzzy
 msgid "Edit Organization"
-msgstr "Aktualisiere Organisation"
+msgstr "Organisation bearbeiten"
 
 #: ajax_forms.php:67
 msgid "Add New Organization"
@@ -651,7 +644,6 @@ msgid "cancel"
 msgstr "Abbrechen"
 
 #: ajax_forms.php:196
-#, fuzzy
 msgid "Edit Alias"
 msgstr "Alias bearbeiten"
 
@@ -664,7 +656,6 @@ msgid "Name"
 msgstr "Name"
 
 #: ajax_forms.php:316
-#, fuzzy
 msgid "Edit Contact"
 msgstr "Kontakt bearbeiten"
 
@@ -677,9 +668,8 @@ msgid "Archived:"
 msgstr "Archiviert:"
 
 #: ajax_forms.php:468
-#, fuzzy
 msgid "Edit Login"
-msgstr "Neues Login hinzufügen"
+msgstr "Login bearbeiten"
 
 #: ajax_forms.php:468
 msgid "Add Login"
@@ -794,7 +784,6 @@ msgid "Note:"
 msgstr "Notiz:"
 
 #: ajax_forms.php:895
-#, fuzzy
 msgid "Edit Issue"
 msgstr "Problem bearbeiten"
 
@@ -817,10 +806,9 @@ msgstr "Enddatum:"
 #: ajax_forms.php:984 ajax_forms.php:1012 ajax_forms.php:1022
 #: ajax_forms.php:1090 ajax_forms.php:1111
 msgid "Edit"
-msgstr ""
+msgstr "Bearbeiten"
 
 #: ajax_forms.php:985 ajax_forms.php:1091
-#, fuzzy
 msgid "Remove"
 msgstr "Entfernen"
 
@@ -829,7 +817,6 @@ msgid "(none found)"
 msgstr "(keine Treffer)"
 
 #: ajax_forms.php:1028 ajax_forms.php:1154
-#, fuzzy
 msgid "Close"
 msgstr "schließen"
 
@@ -850,9 +837,8 @@ msgid "Privilege"
 msgstr "Berechtigung"
 
 #: ajax_forms.php:1127
-#, fuzzy
 msgid " User"
-msgstr "Nutzer"
+msgstr " Nutzer"
 
 #: user.php:106
 msgid ""
@@ -1056,3 +1042,15 @@ msgstr ""
 #~ msgid "Cannot get value for undefined key ("
 #~ msgstr ""
 #~ "Der Wert des nicht definierten Schlüssels konnte nicht ermittelt werden ("
+
+#, fuzzy
+#~ msgid "add new external login type"
+#~ msgstr "neuer externer Login hinzufügen"
+
+#, fuzzy
+#~ msgid "add new issue type"
+#~ msgstr "neues Problem hinzufügen"
+
+#, fuzzy
+#~ msgid "User"
+#~ msgstr "Nutzer"

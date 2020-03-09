@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-20 11:04+0100\n"
+"POT-Creation-Date: 2019-01-24 17:17+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: install/licensing.php:9 install/licensing.php:31 install/licensing.php:112
-#: install/licensing.php:138 install/licensing.php:148
-#: install/licensing.php:167
+#: install/licensing.php:9 install/licensing.php:31 install/licensing.php:104
+#: install/licensing.php:130 install/licensing.php:140
 msgid "Licensing Module"
 msgstr ""
 
@@ -31,8 +30,8 @@ msgstr ""
 msgid "Use Terms Tool Functionality"
 msgstr ""
 
-#: compare.php:22 templates/header.php:210 templates/header.php:265
-#: templates/header.php:313
+#: compare.php:22 templates/header.php:203 templates/header.php:258
+#: templates/header.php:306
 msgid "Expression Comparison"
 msgstr ""
 
@@ -40,8 +39,8 @@ msgstr ""
 msgid "Limit by Expression Type:"
 msgstr ""
 
-#: in_progress.php:23 templates/header.php:189 templates/header.php:244
-#: templates/header.php:292 calendar.php:21 calendar2.php:21 index.php:23
+#: in_progress.php:23 templates/header.php:182 templates/header.php:237
+#: templates/header.php:285 calendar.php:21 index.php:23
 msgid "Home"
 msgstr ""
 
@@ -53,9 +52,9 @@ msgstr ""
 msgid "Browse All"
 msgstr ""
 
-#: in_progress.php:38 admin.php:41 admin.php:57 admin.php:71 admin.php:84
-#: admin.php:97 admin.php:111 admin.php:131 admin.php:152 admin.php:166
-#: admin.php:188 license.php:80 license.php:122 license.php:141 license.php:161
+#: in_progress.php:38 admin.php:39 admin.php:56 admin.php:70 admin.php:83
+#: admin.php:97 admin.php:112 admin.php:132 admin.php:153 admin.php:167
+#: license.php:70 license.php:112 license.php:131 license.php:151
 msgid "Loading..."
 msgstr ""
 
@@ -83,18 +82,17 @@ msgstr ""
 msgid "Resource"
 msgstr ""
 
-#: ajax_htmldata.php:141 ajax_htmldata.php:234 ajax_htmldata.php:876
-#: ajax_htmldata.php:1150 ajax_htmldata.php:1229 ajax_htmldata.php:1334
-#: ajax_htmldata.php:1412 ajax_forms.php:860 ajax_forms.php:865
-#: ajax_forms.php:899 ajax_forms.php:982 ajax_forms.php:1024
-#: ajax_forms.php:1133
-msgid "Edit"
+#: ajax_htmldata.php:141 ajax_htmldata.php:234 ajax_htmldata.php:1150
+#: ajax_htmldata.php:1229 ajax_htmldata.php:1412 ajax_forms.php:457
+#: ajax_forms.php:727
+msgid "edit"
 msgstr ""
 
-#: ajax_htmldata.php:142 ajax_htmldata.php:234 ajax_htmldata.php:876
-#: ajax_htmldata.php:1150 ajax_htmldata.php:1230 ajax_htmldata.php:1287
-#: ajax_htmldata.php:1335 ajax_htmldata.php:1477
-msgid "Remove"
+#: ajax_htmldata.php:142 ajax_htmldata.php:234 ajax_htmldata.php:1150
+#: ajax_htmldata.php:1230 ajax_htmldata.php:1287 ajax_htmldata.php:1335
+#: ajax_htmldata.php:1452 ajax_forms.php:458 ajax_forms.php:728
+#: ajax_forms.php:815 js/forms/attachmentForm.js:84
+msgid "remove"
 msgstr ""
 
 #: ajax_htmldata.php:155 ajax_htmldata.php:245 ajax_htmldata.php:852
@@ -105,7 +103,7 @@ msgid "(none found)"
 msgstr ""
 
 #: ajax_htmldata.php:159
-msgid "add terms tool resource link"
+msgid "add new terms tool resource link"
 msgstr ""
 
 #: ajax_htmldata.php:182 ajax_forms.php:408
@@ -133,7 +131,7 @@ msgid "view attachment "
 msgstr ""
 
 #: ajax_htmldata.php:249
-msgid "add attachment"
+msgid "add new attachment"
 msgstr ""
 
 #: ajax_htmldata.php:322
@@ -196,7 +194,8 @@ msgstr ""
 msgid " notes"
 msgstr ""
 
-#: ajax_htmldata.php:535 ajax_htmldata.php:537 ajax_htmldata.php:981
+#: ajax_htmldata.php:535 ajax_htmldata.php:537 ajax_htmldata.php:863
+#: ajax_htmldata.php:981
 msgid "view document"
 msgstr ""
 
@@ -272,16 +271,20 @@ msgstr ""
 msgid "add/view details"
 msgstr ""
 
-#: ajax_htmldata.php:854
-msgid "Add signatures"
-msgstr ""
-
-#: ajax_htmldata.php:863
-msgid "View"
+#: ajax_htmldata.php:854 ajax_htmldata.php:972
+msgid "add signatures"
 msgstr ""
 
 #: ajax_htmldata.php:870 ajax_htmldata.php:987
 msgid "view expressions"
+msgstr ""
+
+#: ajax_htmldata.php:876 ajax_htmldata.php:993
+msgid "edit document"
+msgstr ""
+
+#: ajax_htmldata.php:876 ajax_htmldata.php:993
+msgid "remove document"
 msgstr ""
 
 #: ajax_htmldata.php:886 ajax_htmldata.php:888
@@ -314,18 +317,6 @@ msgstr ""
 msgid "archive document"
 msgstr ""
 
-#: ajax_htmldata.php:972
-msgid "add signatures"
-msgstr ""
-
-#: ajax_htmldata.php:993
-msgid "edit document"
-msgstr ""
-
-#: ajax_htmldata.php:993
-msgid "remove document"
-msgstr ""
-
 #: ajax_htmldata.php:1031
 msgid " archive(s) available."
 msgstr ""
@@ -342,7 +333,7 @@ msgstr ""
 msgid "For Document:"
 msgstr ""
 
-#: ajax_htmldata.php:1086 ajax_htmldata.php:1464 ajax_forms.php:1144
+#: ajax_htmldata.php:1086 ajax_htmldata.php:1439 ajax_forms.php:1144
 #: ajax_forms.php:1167 index.php:205
 msgid "Qualifier"
 msgstr ""
@@ -359,8 +350,8 @@ msgstr ""
 msgid "add/view "
 msgstr ""
 
-#: ajax_htmldata.php:1200 ajax_forms.php:592
-msgid "add expression"
+#: ajax_htmldata.php:1200
+msgid "add new expression"
 msgstr ""
 
 #: ajax_htmldata.php:1258 ajax_forms.php:911
@@ -383,9 +374,9 @@ msgstr ""
 msgid "Terms Tool Update Email"
 msgstr ""
 
-#: ajax_htmldata.php:1286 ajax_htmldata.php:1476 admin.php:184
-#: ajax_forms.php:457 ajax_forms.php:727
-msgid "edit"
+#: ajax_htmldata.php:1286 ajax_htmldata.php:1334 ajax_htmldata.php:1451
+#: ajax_forms.php:865
+msgid "update"
 msgstr ""
 
 #: ajax_htmldata.php:1324 ajax_forms.php:993 ajax_forms.php:994 index.php:180
@@ -405,23 +396,23 @@ msgstr ""
 msgid "Value"
 msgstr ""
 
-#: ajax_htmldata.php:1463 ajax_forms.php:1146
+#: ajax_htmldata.php:1438 ajax_forms.php:1146
 msgid "For Expression Type"
 msgstr ""
 
-#: ajax_htmldata.php:1513
+#: ajax_htmldata.php:1488
 msgid "Limit by Qualifier:"
 msgstr ""
 
-#: ajax_htmldata.php:1597
+#: ajax_htmldata.php:1572
 msgid "Resources Module"
 msgstr ""
 
-#: ajax_htmldata.php:1615 ajax_processing.php:1200 ajax_forms.php:1256
+#: ajax_htmldata.php:1590 ajax_processing.php:1172 ajax_forms.php:1194
 msgid "Action "
 msgstr ""
 
-#: ajax_htmldata.php:1615 ajax_processing.php:1200 ajax_forms.php:1256
+#: ajax_htmldata.php:1590 ajax_processing.php:1172 ajax_forms.php:1194
 msgid " not set up!"
 msgstr ""
 
@@ -430,99 +421,83 @@ msgid ""
 "Both license name and organization must be filled out.  Please try again."
 msgstr ""
 
-#: templates/header.php:93
+#: templates/header.php:86
 msgid ""
 "JavaScript must be enabled in order for you to use CORAL. However, it seems "
 "JavaScript is either disabled or not supported by your browser. To use "
 "CORAL, enable JavaScript by changing your browser options, then "
 msgstr ""
 
-#: templates/header.php:93
+#: templates/header.php:86
 msgid "try again"
 msgstr ""
 
-#: templates/header.php:115
+#: templates/header.php:108
 msgid "Licensing"
 msgstr ""
 
-#: templates/header.php:116
+#: templates/header.php:109
 msgid "Powered by"
 msgstr ""
 
-#: templates/header.php:122
+#: templates/header.php:115
 msgid "Hello"
 msgstr ""
 
-#: templates/header.php:132
+#: templates/header.php:125
 msgid "logout"
 msgstr ""
 
-#: templates/header.php:132
+#: templates/header.php:125
 msgid "Help"
 msgstr ""
 
-#: templates/header.php:150
+#: templates/header.php:143
 msgid "Invalid translation route!"
 msgstr ""
 
-#: templates/header.php:196 templates/header.php:251 templates/header.php:299
+#: templates/header.php:189 templates/header.php:244 templates/header.php:292
 msgid "New License"
 msgstr ""
 
-#: templates/header.php:203 templates/header.php:258 templates/header.php:306
+#: templates/header.php:196 templates/header.php:251 templates/header.php:299
 msgid "License In Progress"
 msgstr ""
 
-#: templates/header.php:218 templates/header.php:273 templates/header.php:321
-#: calendar.php:34 calendar2.php:34
+#: templates/header.php:211 templates/header.php:266 templates/header.php:314
+#: calendar.php:34
 msgid "Calendar"
 msgstr ""
 
-#: templates/header.php:226 templates/header.php:281 templates/header.php:329
+#: templates/header.php:219 templates/header.php:274 templates/header.php:322
 msgid "ONIX-PL File Import"
 msgstr ""
 
-#: templates/header.php:233
+#: templates/header.php:226
 msgid "Admin"
 msgstr ""
 
-#: templates/header.php:350
+#: templates/header.php:343
 msgid "Change Module"
 msgstr ""
 
-#: templates/header.php:353
+#: templates/header.php:346
 msgid "Main Menu"
 msgstr ""
 
-#: templates/header.php:358
-msgid "Resources module"
-msgstr ""
-
-#: templates/header.php:358
+#: templates/header.php:351
 msgid "Resources"
 msgstr ""
 
-#: templates/header.php:363
-msgid "Organizations module"
-msgstr ""
-
-#: templates/header.php:363
+#: templates/header.php:356
 msgid "Organizations"
 msgstr ""
 
-#: templates/header.php:368
-msgid "Usage Statistics module"
-msgstr ""
-
-#: templates/header.php:368
+#: templates/header.php:361
 msgid "Usage Statistics"
 msgstr ""
 
-#: templates/header.php:373
-msgid "Management module"
-msgstr ""
-
-#: templates/header.php:373
+#: templates/header.php:366
 msgid "Management"
 msgstr ""
 
@@ -542,53 +517,53 @@ msgstr ""
 msgid "Could not find Resource database."
 msgstr ""
 
-#: calendar.php:49 calendar2.php:44
+#: calendar.php:49
 msgid ""
 "There was an error with the CalendarSettings Table please verify the table "
 "has been created."
 msgstr ""
 
-#: calendar.php:83 calendar2.php:78
+#: calendar.php:83
 msgid "There was an error with the CalendarSettings Configuration."
 msgstr ""
 
-#: calendar.php:109 calendar2.php:105
+#: calendar.php:109
 msgid "Bad Query Failure: "
 msgstr ""
 
-#: calendar.php:116 calendar2.php:112
+#: calendar.php:116
 msgid "Upcoming License Renewals"
 msgstr ""
 
-#: calendar.php:148
-msgid "Bad Query2 Failure"
+#: calendar.php:146
+msgid "Bad Query Failure"
 msgstr ""
 
-#: calendar.php:205 calendar2.php:208
+#: calendar.php:204
 msgid "No associated licenses available."
 msgstr ""
 
-#: calendar.php:211 calendar2.php:214
+#: calendar.php:210
 msgid "Expired "
 msgstr ""
 
-#: calendar.php:211 calendar2.php:214
+#: calendar.php:210
 msgid " days ago"
 msgstr ""
 
-#: calendar.php:213 calendar2.php:216
+#: calendar.php:212
 msgid "- Expires in "
 msgstr ""
 
-#: calendar.php:216 calendar2.php:219
+#: calendar.php:215
 msgid " days)"
 msgstr ""
 
-#: calendar.php:218 calendar2.php:221
+#: calendar.php:217
 msgid " days "
 msgstr ""
 
-#: calendar.php:229 calendar2.php:232
+#: calendar.php:228
 msgid "Participants:  "
 msgstr ""
 
@@ -668,79 +643,75 @@ msgstr ""
 msgid "Administration"
 msgstr ""
 
-#: admin.php:37
+#: admin.php:35
 msgid "Users"
 msgstr ""
 
-#: admin.php:37
-msgid "add User"
+#: admin.php:36
+msgid "add new user"
 msgstr ""
 
-#: admin.php:54
+#: admin.php:52
 msgid "Document Types"
 msgstr ""
 
-#: admin.php:54 ajax_forms.php:195
-msgid "add document type"
+#: admin.php:53
+msgid "add new document type"
 msgstr ""
 
-#: admin.php:67
+#: admin.php:66
 msgid "Expression Types"
 msgstr ""
 
 #: admin.php:67
-msgid "add expression type"
+msgid "add new expression type"
 msgstr ""
 
-#: admin.php:80
+#: admin.php:79
 msgid "Qualifiers"
 msgstr ""
 
 #: admin.php:80
-msgid "add qualifier"
+msgid "add new qualifier"
 msgstr ""
 
-#: admin.php:94
+#: admin.php:93
 msgid "Signature Types"
 msgstr ""
 
 #: admin.php:94
-msgid "add signature"
+msgid "add new signature type"
 msgstr ""
 
 #: admin.php:108
 msgid "License Statuses"
 msgstr ""
 
-#: admin.php:108
-msgid "add License statuses"
+#: admin.php:109
+msgid "add new license status"
 msgstr ""
 
-#: admin.php:128 ajax_forms.php:1033
+#: admin.php:129 ajax_forms.php:1033
 msgid "Calendar Settings"
 msgstr ""
 
-#: admin.php:148
+#: admin.php:149
 msgid "Consortia"
 msgstr ""
 
-#: admin.php:149 ajax_forms.php:106
-msgid "add consortium"
-msgstr ""
-
-#: admin.php:162
-msgid "Providers"
+#: admin.php:150
+msgid "add new consortium"
 msgstr ""
 
 #: admin.php:163
-msgid "add provider"
+msgid "Providers"
 msgstr ""
 
-#: admin.php:183
-msgid "Terms Tool Settings"
+#: admin.php:164
+msgid "add new provider"
 msgstr ""
 
-#: admin.php:201
+#: admin.php:180
 msgid "You don't have permission to access this page"
 msgstr ""
 
@@ -748,116 +719,116 @@ msgstr ""
 msgid "License successfully deleted."
 msgstr ""
 
-#: ajax_processing.php:168 ajax_processing.php:956
+#: ajax_processing.php:172 ajax_processing.php:957
 msgid "success uploading!"
 msgstr ""
 
-#: ajax_processing.php:171 ajax_processing.php:959
-msgid "There was a problem saving your file to "
+#: ajax_processing.php:175 ajax_processing.php:960
+msgid "There was a problem saving your file to"
 msgstr ""
 
-#: ajax_processing.php:234
+#: ajax_processing.php:236
 msgid "Document Saved Successfully."
 msgstr ""
 
-#: ajax_processing.php:248
+#: ajax_processing.php:250
 msgid "Signature Deleted Successfully."
 msgstr ""
 
-#: ajax_processing.php:310
+#: ajax_processing.php:312
 msgid "Expression Removed Successfully."
 msgstr ""
 
-#: ajax_processing.php:333
+#: ajax_processing.php:335
 msgid ""
 "An expression in the licensing module has been approved for terms tool use."
 msgstr ""
 
-#: ajax_processing.php:334
+#: ajax_processing.php:336
 msgid "License:  "
 msgstr ""
 
-#: ajax_processing.php:335
+#: ajax_processing.php:337
 msgid "View License Record:  "
 msgstr ""
 
-#: ajax_processing.php:339
+#: ajax_processing.php:341
 msgid "Licensing - expression set to production use"
 msgstr ""
 
-#: ajax_processing.php:344
+#: ajax_processing.php:346
 msgid "Approved for terms tool display."
 msgstr ""
 
-#: ajax_processing.php:346
+#: ajax_processing.php:348
 msgid "Removed from terms tool display."
 msgstr ""
 
-#: ajax_processing.php:373
+#: ajax_processing.php:375
 msgid "Expression Note Updated Successfully."
 msgstr ""
 
-#: ajax_processing.php:389
+#: ajax_processing.php:391
 msgid "Expression Note Added Successfully."
 msgstr ""
 
-#: ajax_processing.php:413
+#: ajax_processing.php:415
 msgid "Note Removed Successfully."
 msgstr ""
 
-#: ajax_processing.php:450
+#: ajax_processing.php:452
 msgid "Terms Tool Resource Link successfully deleted"
 msgstr ""
 
-#: ajax_processing.php:466
+#: ajax_processing.php:468
 msgid "License Updated Successfully."
 msgstr ""
 
-#: ajax_processing.php:475
+#: ajax_processing.php:477
 msgid "License Added Successfully."
 msgstr ""
 
-#: ajax_processing.php:475
+#: ajax_processing.php:477
 msgid "Please continue to upload documents and add expressions or emails."
 msgstr ""
 
-#: ajax_processing.php:503 ajax_processing.php:515 ajax_processing.php:528
+#: ajax_processing.php:505 ajax_processing.php:517 ajax_processing.php:530
 #: ajax_forms.php:305
 msgid "Continue"
 msgstr ""
 
-#: ajax_processing.php:512 ajax_processing.php:525
+#: ajax_processing.php:514 ajax_processing.php:527
 msgid "SQL Insert Failed."
 msgstr ""
 
-#: ajax_processing.php:512 ajax_processing.php:525
+#: ajax_processing.php:514 ajax_processing.php:527
 msgid "Please make sure everything is filled out correctly."
 msgstr ""
 
-#: ajax_processing.php:770
+#: ajax_processing.php:772
 msgid "Unable to delete  - this "
 msgstr ""
 
-#: ajax_processing.php:770
+#: ajax_processing.php:772
 msgid ""
 " is in use.  Please make sure no licenses are set up with this information."
 msgstr ""
 
-#: ajax_processing.php:776
+#: ajax_processing.php:778
 msgid ""
 "Unable to delete.  Please make sure no licenses are set up with this "
 "information."
 msgstr ""
 
-#: ajax_processing.php:1028
+#: ajax_processing.php:1027
 msgid "Attachment successfully deleted"
 msgstr ""
 
-#: ajax_processing.php:1042
+#: ajax_processing.php:1041
 msgid "Attachment file successfully deleted"
 msgstr ""
 
-#: ajax_processing.php:1063
+#: ajax_processing.php:1062
 msgid "Status has been updated"
 msgstr ""
 
@@ -869,13 +840,18 @@ msgstr ""
 msgid "Consortium:"
 msgstr ""
 
+#: ajax_forms.php:106
+msgid "add consortium"
+msgstr ""
+
 #: ajax_forms.php:113 ajax_forms.php:270 ajax_forms.php:369 ajax_forms.php:639
 #: ajax_forms.php:831
 msgid "submit"
 msgstr ""
 
 #: ajax_forms.php:114 ajax_forms.php:271 ajax_forms.php:370 ajax_forms.php:640
-#: ajax_forms.php:832 ajax_forms.php:1233
+#: ajax_forms.php:832 ajax_forms.php:963 ajax_forms.php:1009
+#: ajax_forms.php:1117 ajax_forms.php:1171
 msgid "cancel"
 msgstr ""
 
@@ -889,6 +865,10 @@ msgstr ""
 
 #: ajax_forms.php:174
 msgid "Document Type:"
+msgstr ""
+
+#: ajax_forms.php:195
+msgid "add document type"
 msgstr ""
 
 #: ajax_forms.php:203
@@ -935,24 +915,18 @@ msgstr ""
 msgid "commit update"
 msgstr ""
 
-#: ajax_forms.php:458 ajax_forms.php:728 ajax_forms.php:815
-#: js/forms/attachmentForm.js:85
-msgid "remove"
-msgstr ""
-
 #: ajax_forms.php:480 ajax_forms.php:743 js/forms/licenseForm.js:172
 #: js/forms/signatureForm.js:115 js/forms/expressionForm.js:78
-#: js/forms/documentForm.js:197 js/admin.js:385
+#: js/forms/documentForm.js:188 js/admin.js:357
 msgid "add"
 msgstr ""
 
-#: ajax_forms.php:490 ajax_forms.php:753 ajax_forms.php:870 ajax_forms.php:963
-#: ajax_forms.php:1009 ajax_forms.php:1117 ajax_forms.php:1171
+#: ajax_forms.php:490 ajax_forms.php:753
 msgid "Close"
 msgstr ""
 
-#: ajax_forms.php:546 license.php:73 license.php:115 license.php:135
-#: license.php:154
+#: ajax_forms.php:546 license.php:63 license.php:105 license.php:125
+#: license.php:144
 msgid "Expressions"
 msgstr ""
 
@@ -964,6 +938,10 @@ msgstr ""
 msgid "Expression Type:"
 msgstr ""
 
+#: ajax_forms.php:592
+msgid "add expression"
+msgstr ""
+
 #: ajax_forms.php:599
 msgid "Qualifier:"
 msgstr ""
@@ -972,8 +950,8 @@ msgstr ""
 msgid "For Document Text:"
 msgstr ""
 
-#: ajax_forms.php:789 license.php:75 license.php:117 license.php:137
-#: license.php:156
+#: ajax_forms.php:789 license.php:65 license.php:107 license.php:127
+#: license.php:146
 msgid "Attachments"
 msgstr ""
 
@@ -989,8 +967,16 @@ msgstr ""
 msgid "Attachments:"
 msgstr ""
 
+#: ajax_forms.php:860 ajax_forms.php:899 ajax_forms.php:982 ajax_forms.php:1133
+msgid "Update"
+msgstr ""
+
+#: ajax_forms.php:870
+msgid "close"
+msgstr ""
+
 #: ajax_forms.php:902 ajax_forms.php:985 ajax_forms.php:1136
-msgid "Add"
+msgid "Add New"
 msgstr ""
 
 #: ajax_forms.php:910
@@ -1040,52 +1026,28 @@ msgstr ""
 msgid "Note type of display allows for terms tool use"
 msgstr ""
 
+#: ajax_forms.php:1024
+msgid "Edit"
+msgstr ""
+
 #: ajax_forms.php:1038 ajax_forms.php:1068 ajax_forms.php:1101
 msgid "Variable Name"
 msgstr ""
 
-#: ajax_forms.php:1199
-msgid "Update Terms Tool Settings"
-msgstr ""
-
-#: ajax_forms.php:1220
-msgid "Open URL"
-msgstr ""
-
-#: ajax_forms.php:1232
-msgid "Save"
-msgstr ""
-
-#: ajax_forms.php:1242
-msgid "Api Key"
-msgstr ""
-
-#: ajax_forms.php:1243
-msgid "Customer ID"
-msgstr ""
-
-#: ajax_forms.php:1243
-msgid "Client ID"
-msgstr ""
-
-#: license.php:72 license.php:114 license.php:134 license.php:153
+#: license.php:62 license.php:104 license.php:124 license.php:143
 msgid "Documents"
 msgstr ""
 
-#: license.php:74 license.php:116 license.php:136 license.php:155
+#: license.php:64 license.php:106 license.php:126 license.php:145
 msgid "Terms Tool"
 msgstr ""
 
-#: license.php:89
+#: license.php:79
 msgid "Helpful Links"
 msgstr ""
 
-#: license.php:97
+#: license.php:87
 msgid "Send feedback on this resource"
-msgstr ""
-
-#: calendar2.php:150
-msgid "Bad Query Failure"
 msgstr ""
 
 #: not_available.php:21
@@ -1159,7 +1121,7 @@ msgstr ""
 msgid "Terms Tool Resource must be entered to continue."
 msgstr ""
 
-#: js/forms/licenseForm.js:34 js/forms/documentForm.js:41
+#: js/forms/licenseForm.js:34 js/forms/documentForm.js:38
 msgid "This name is already being used!"
 msgstr ""
 
@@ -1191,24 +1153,20 @@ msgstr ""
 msgid "SignatureType has been added"
 msgstr ""
 
-#: js/forms/attachmentForm.js:39 js/forms/attachmentForm.js:52
-#: js/forms/documentForm.js:105
+#: js/forms/attachmentForm.js:41 js/forms/attachmentForm.js:54
+#: js/forms/documentForm.js:102
 msgid "File name is already being used..."
 msgstr ""
 
-#: js/forms/attachmentForm.js:44
+#: js/forms/attachmentForm.js:46
 msgid "The attachments directory is not writable."
 msgstr ""
 
-#: js/forms/attachmentForm.js:85 js/forms/documentForm.js:141
+#: js/forms/attachmentForm.js:84 js/forms/documentForm.js:134 js/license.js:457
 msgid " successfully uploaded."
 msgstr ""
 
-#: js/forms/attachmentForm.js:89 js/forms/documentForm.js:146
-msgid "The file upload failed for the following reason: "
-msgstr ""
-
-#: js/forms/attachmentForm.js:95 js/forms/attachmentForm.js:103
+#: js/forms/attachmentForm.js:101 js/forms/attachmentForm.js:109
 msgid "Do you really want to delete this attachment?"
 msgstr ""
 
@@ -1216,42 +1174,42 @@ msgstr ""
 msgid "ExpressionType has been added"
 msgstr ""
 
-#: js/forms/documentForm.js:109
+#: js/forms/documentForm.js:106
 msgid ""
 "File name may not contain special characters - ampersand, single quote, "
 "double quote or less than/greater than characters"
 msgstr ""
 
-#: js/forms/documentForm.js:113
+#: js/forms/documentForm.js:110
 msgid "The documents directory is not writable."
 msgstr ""
 
-#: js/forms/documentForm.js:185
+#: js/forms/documentForm.js:176
 msgid "Document Type is required."
 msgstr ""
 
-#: js/forms/documentForm.js:186
+#: js/forms/documentForm.js:177
 msgid "Short Name is required."
 msgstr ""
 
-#: js/forms/documentForm.js:216
+#: js/forms/documentForm.js:207
 msgid "DocumentType has been added"
 msgstr ""
 
-#: js/index.js:43 js/admin.js:132 js/admin.js:285 js/admin.js:310
-#: js/admin.js:336 js/admin.js:363
+#: js/index.js:43 js/admin.js:122 js/admin.js:257 js/admin.js:282
+#: js/admin.js:308 js/admin.js:335
 msgid "Processing..."
 msgstr ""
 
-#: js/admin.js:283 js/admin.js:361
+#: js/admin.js:255 js/admin.js:333
 msgid "Do you really want to delete this data?"
 msgstr ""
 
-#: js/admin.js:308
+#: js/admin.js:280
 msgid "Do you really want to delete this user?"
 msgstr ""
 
-#: js/admin.js:334
+#: js/admin.js:306
 msgid ""
 "Do you really want to delete this expression type?  Any associated "
 "Qualifiers will be deleted as well."
@@ -1302,6 +1260,6 @@ msgstr ""
 msgid "Do you really want to delete this terms tool resource link?"
 msgstr ""
 
-#: js/license.js:425
+#: js/license.js:425 js/license.js:455
 msgid "File name is already being used."
 msgstr ""

@@ -3,17 +3,18 @@ msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-20 10:57+0100\n"
-"PO-Revision-Date: 2016-10-23 00:29-0600\n"
-"Last-Translator: <>\n"
+"PO-Revision-Date: 2019-05-08 15:20+0000\n"
+"Last-Translator: claire.chen <claire.chen@sirsidynix.com>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.8\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.8.11\n"
 "X-Poedit-SearchPath-0: .\n"
+"X-POOTLE-MTIME: 1557328802.217528\n"
 
 #: install/management.php:9 install/management.php:30 install/management.php:82
 #: install/management.php:108 install/management.php:118 not_available.php:29
@@ -21,9 +22,8 @@ msgid "Management Module"
 msgstr "管理模組"
 
 #: install/management.php:19
-#, fuzzy
 msgid "Management Database"
-msgstr "管理"
+msgstr "管理資料庫"
 
 #: compare.php:22
 msgid "Expression Comparison"
@@ -102,7 +102,7 @@ msgstr "(未找到)"
 
 #: ajax_htmldata.php:175
 msgid "add new terms tool resource link"
-msgstr "添加新的條款工具資源連結"
+msgstr "增加新的條款工具資源連結"
 
 #: ajax_htmldata.php:186 ajax_forms.php:827 ajax_forms.php:837
 #: ajax_forms.php:1018
@@ -166,7 +166,7 @@ msgstr "查看附件"
 #: ajax_htmldata.php:334
 #, fuzzy
 msgid "add attachment"
-msgstr "添加新附件"
+msgstr "增加新附件"
 
 #: ajax_htmldata.php:418
 msgid "Sorry, no documents fit your query"
@@ -209,7 +209,7 @@ msgstr "上次文件修改"
 
 #: ajax_htmldata.php:527
 msgid "records per page"
-msgstr "條紀錄/頁"
+msgstr "筆紀錄/頁"
 
 #: ajax_htmldata.php:559
 msgid "Publisher / Provider"
@@ -349,11 +349,11 @@ msgstr "(無日期)"
 
 #: ajax_htmldata.php:1066
 msgid "add/view details"
-msgstr "添加/查看詳細資訊"
+msgstr "增加/查看詳細資訊"
 
 #: ajax_htmldata.php:1073
 msgid "add signatures"
-msgstr "添加簽名"
+msgstr "增加簽名"
 
 #: ajax_htmldata.php:1094
 msgid "edit document"
@@ -402,11 +402,11 @@ msgstr "(無)"
 
 #: ajax_htmldata.php:1284
 msgid "add/view "
-msgstr "添加/查看"
+msgstr "增加/查看"
 
 #: ajax_htmldata.php:1308
 msgid "add new expression"
-msgstr "添加新運算式"
+msgstr "增加新運算式"
 
 #: ajax_htmldata.php:1356 ajax_forms.php:1148
 msgid "Login ID"
@@ -552,7 +552,7 @@ msgstr "管理"
 
 #: admin.php:35
 msgid "Users"
-msgstr "使用者"
+msgstr "用戶"
 
 #: admin.php:35 admin.php:49 admin.php:63 admin.php:151 ajax_forms.php:1139
 #: ajax_forms.php:1222 ajax_forms.php:1267
@@ -586,11 +586,11 @@ msgstr "成功上傳！"
 
 #: ajax_processing.php:180 ajax_processing.php:1079
 msgid "There was a problem saving your file to "
-msgstr "保存您的檔時出錯"
+msgstr "存儲您的檔時出錯"
 
 #: ajax_processing.php:241
 msgid "Document Saved Successfully."
-msgstr "已成功保存文件。"
+msgstr "已成功存儲文件。"
 
 #: ajax_processing.php:255
 msgid "Signature Deleted Successfully."
@@ -631,7 +631,7 @@ msgstr "已成功更新運算式備註。"
 
 #: ajax_processing.php:396
 msgid "Expression Note Added Successfully."
-msgstr "已成功添加運算式備註。"
+msgstr "已成功增加運算式備註。"
 
 #: ajax_processing.php:420
 msgid "Note Removed Successfully."
@@ -647,7 +647,7 @@ msgstr "已成功更新文件。"
 
 #: ajax_processing.php:482
 msgid "Document Added Successfully."
-msgstr "已成功添加文件。"
+msgstr "已成功增加文件。"
 
 #: ajax_processing.php:561 ajax_processing.php:573 ajax_processing.php:586
 #: ajax_forms.php:460
@@ -715,7 +715,7 @@ msgstr "類型："
 
 #: ajax_forms.php:114
 msgid "add type"
-msgstr "添加類型"
+msgstr "增加類型"
 
 #: ajax_forms.php:120 ajax_forms.php:307
 msgid "Last Document Revision:"
@@ -723,7 +723,7 @@ msgstr "上次文件修改："
 
 #: ajax_forms.php:175
 msgid "add category"
-msgstr "添加類別"
+msgstr "增加類別"
 
 #: ajax_forms.php:192 ajax_forms.php:384
 msgid "File:"
@@ -735,7 +735,7 @@ msgstr "已歸檔："
 
 #: ajax_forms.php:211
 msgid "Add Optional Note"
-msgstr "添加可選的備註"
+msgstr "增加可選的備註"
 
 #: ajax_forms.php:221 ajax_forms.php:1021
 msgid "Note:"
@@ -747,7 +747,7 @@ msgstr "備註類型："
 
 #: ajax_forms.php:238 ajax_forms.php:1041
 msgid "add note type"
-msgstr "添加備註類型"
+msgstr "增加備註類型"
 
 #: ajax_forms.php:252 ajax_forms.php:425 ajax_forms.php:523 ajax_forms.php:793
 #: ajax_forms.php:982 ajax_forms.php:1064
@@ -769,7 +769,7 @@ msgstr "文件類型："
 
 #: ajax_forms.php:336
 msgid "add document type"
-msgstr "添加文件類型"
+msgstr "增加文件類型"
 
 #: ajax_forms.php:390
 msgid "replace with new file"
@@ -805,7 +805,7 @@ msgstr "提交更新"
 #: js/forms/signatureForm.js:104 js/forms/expressionForm.js:78
 #: js/forms/documentForm.js:195 js/admin.js:332
 msgid "add"
-msgstr "添加"
+msgstr "增加"
 
 #: ajax_forms.php:644 ajax_forms.php:906 ajax_forms.php:1107
 #: ajax_forms.php:1200
@@ -826,7 +826,7 @@ msgstr "運算式類型："
 
 #: ajax_forms.php:746
 msgid "add expression type"
-msgstr "添加運算式類型"
+msgstr "增加運算式類型"
 
 #: ajax_forms.php:753
 msgid "Qualifier:"
@@ -859,20 +859,20 @@ msgstr "所有文件"
 
 #: ajax_forms.php:1147
 msgid "User"
-msgstr "使用者"
+msgstr "用戶"
 
 #: ajax_forms.php:1154 ajax_forms.php:1157
 msgid "Add/Edit users can add, edit, or remove licenses and associated fields"
-msgstr "添加/編輯使用者可以添加、編輯或移除授權和關聯的欄位"
+msgstr "增加/編輯用戶可以增加、編輯或移除授權和關聯的欄位"
 
 #: ajax_forms.php:1154 ajax_forms.php:1157
 msgid "Admin users have access to the Admin page and the SFX tab."
-msgstr "管理員使用者可以訪問管理頁面和 SFX 選項卡。"
+msgstr "管理員用戶可以訪問管理頁面和 SFX 選項卡。"
 
 #: ajax_forms.php:1154 ajax_forms.php:1157
 msgid ""
 "View only users can view all license information, including the license pdf"
-msgstr "僅可查看使用者可以查看所有的授權資訊，包括授權 PDF 條款工具電子郵件"
+msgstr "僅可查看用戶可以查看所有的授權資訊，包括授權 PDF 條款工具電子郵件"
 
 #: ajax_forms.php:1186
 msgid "Terms Tool Email"
@@ -883,12 +883,12 @@ msgid ""
 "Enter email address if you wish this user to receive email notifications "
 "when the terms tool box is checked on the Expressions tab."
 msgstr ""
-"如果您希望該使用者在「運算式」選項卡上勾選了條款工具框時可以接收電子郵件通"
-"知，則請輸入電子郵件地址。"
+"如果您希望該用戶在「運算式」選項卡上勾選了條款工具框時可以接收電子郵件通知，"
+"則請輸入電子郵件地址。"
 
 #: ajax_forms.php:1189
 msgid "Leave this field blank if the user shouldn't receive emails."
-msgstr "如果使用者不應接收電子郵件，則將該欄位留空。"
+msgstr "如果用戶不應接收電子郵件，則將該欄位留空。"
 
 #: ajax_forms.php:1235
 msgid "Internal"
@@ -968,11 +968,11 @@ msgstr "該名稱已被使用！"
 
 #: js/forms/licenseForm.js:66 js/forms/licenseForm.js:128
 msgid "Warning!  This organization will be added new."
-msgstr "提醒！該組織將被添加為新組織。"
+msgstr "提醒！該組織將被增加為新組織。"
 
 #: js/forms/licenseForm.js:226
 msgid "Category has been added"
-msgstr "已添加類別"
+msgstr "已增加類別"
 
 #: js/forms/licenseForm.js:229
 msgid "That Category is already in use."
@@ -980,7 +980,7 @@ msgstr "該類別已在使用。"
 
 #: js/forms/licenseForm.js:264 js/forms/documentForm.js:222
 msgid "DocumentType has been added"
-msgstr "已添加 DocumentType"
+msgstr "已增加 DocumentType"
 
 #: js/forms/licenseForm.js:267 js/forms/documentForm.js:225
 msgid "That type is already in use."
@@ -988,7 +988,7 @@ msgstr "該類型已在使用。"
 
 #: js/forms/licenseForm.js:299 js/forms/noteForm.js:62
 msgid "Note Type has been added"
-msgstr "已添加「備註類型」"
+msgstr "已增加「備註類型」"
 
 #: js/forms/licenseForm.js:302 js/forms/noteForm.js:65
 msgid "That Note Type is already in use."
@@ -1037,7 +1037,7 @@ msgstr ""
 
 #: js/forms/signatureForm.js:42
 msgid "No match!"
-msgstr "沒有對應！"
+msgstr "沒有吻合！"
 
 #: js/forms/signatureForm.js:42
 msgid "Selected: "
@@ -1049,7 +1049,7 @@ msgstr "您確認要刪除此簽名嗎？"
 
 #: js/forms/signatureForm.js:115
 msgid "SignatureType has been added"
-msgstr "已添加 SignatureType"
+msgstr "已增加 SignatureType"
 
 #: js/forms/attachmentForm.js:47
 msgid "The attachments directory is not writable."
@@ -1061,7 +1061,7 @@ msgstr "您確認要刪除該附件嗎？"
 
 #: js/forms/expressionForm.js:89
 msgid "ExpressionType has been added"
-msgstr "已添加 ExpressionType"
+msgstr "已增加 ExpressionType"
 
 #: js/forms/documentForm.js:183
 msgid "Document Type is required."
@@ -1090,7 +1090,7 @@ msgstr "您確認要刪除這筆資料嗎？"
 
 #: js/admin.js:255
 msgid "Do you really want to delete this user?"
-msgstr "您確認要刪除該使用者嗎？"
+msgstr "您確認要刪除該用戶嗎？"
 
 #: js/admin.js:281
 msgid ""
@@ -1146,16 +1146,16 @@ msgid "File name is already being used."
 msgstr "文檔名稱已被使用。"
 
 #~ msgid "add new user"
-#~ msgstr "新增使用者"
+#~ msgstr "新增用戶"
 
 #~ msgid "add new document type"
-#~ msgstr "添加新文件類型"
+#~ msgstr "增加新文件類型"
 
 #~ msgid "add new note type"
-#~ msgstr "添加新備註類型"
+#~ msgstr "增加新備註類型"
 
 #~ msgid "add new category"
-#~ msgstr "添加新類別"
+#~ msgstr "增加新類別"
 
 #~ msgid "Update"
 #~ msgstr "更新"
@@ -1306,3 +1306,6 @@ msgstr "文檔名稱已被使用。"
 
 #~ msgid "Report an issue"
 #~ msgstr "報告問題"
+
+#~ msgid "add new note"
+#~ msgstr "增加新備註"
